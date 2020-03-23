@@ -13,7 +13,7 @@ namespace CalendarBack.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Lodowato", "Rzeźko", "Przyjemnie", "Chłodno", "Umiarkowanie", "Ciepło", "Bardzo Ciepło", "Gorąco", "Upalnie", "Bardzo Upalnie"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;

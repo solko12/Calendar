@@ -4,6 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <Version>0.0.1</Version>
+    <Authors>Jakub Solecki Oskar Więckowicz</Authors>
   </PropertyGroup>
 
 </Project>
