@@ -6,6 +6,11 @@
     <UseWPF>true</UseWPF>
     <Version>0.0.1</Version>
     <Authors>Jakub Solecki Oskar Więckowicz</Authors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>CalendarApp.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
