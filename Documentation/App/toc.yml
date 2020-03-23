@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: Calendar
+  name: Calendar
+  items:
+  - uid: Calendar.App
+    name: App
+  - uid: Calendar.MainWindow
+    name: MainWindow

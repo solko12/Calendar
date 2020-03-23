@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Calendar
+  commentId: N:Calendar
+  id: Calendar
+  children:
+  - Calendar.App
+  - Calendar.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: Calendar
+  nameWithType: Calendar
+  fullName: Calendar
+  type: Namespace
+  assemblies:
+  - CalendarApp
+references:
+- uid: Calendar.App
+  commentId: T:Calendar.App
+  name: App
+  nameWithType: App
+  fullName: Calendar.App
+- uid: Calendar.MainWindow
+  commentId: T:Calendar.MainWindow
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: Calendar.MainWindow

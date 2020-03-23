@@ -1,0 +1,9 @@
+{
+  "Calendar": "Calendar.yml",
+  "Calendar.App": "Calendar.App.yml",
+  "Calendar.App.InitializeComponent": "Calendar.App.yml",
+  "Calendar.App.Main": "Calendar.App.yml",
+  "Calendar.MainWindow": "Calendar.MainWindow.yml",
+  "Calendar.MainWindow.#ctor": "Calendar.MainWindow.yml",
+  "Calendar.MainWindow.InitializeComponent": "Calendar.MainWindow.yml"
+}

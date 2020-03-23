@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalendarBack</name>
+    </assembly>
+    <members>
+        <member name="T:CalendarBack.Controllers.WeatherController">
+            <summary>
+             Class controls downloading weather info from api and make endpoints which sending wanted data
+             </summary>
+        </member>
+    </members>
+</doc>

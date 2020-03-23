@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack
+  commentId: N:CalendarBack
+  id: CalendarBack
+  children:
+  - CalendarBack.Program
+  - CalendarBack.Startup
+  langs:
+  - csharp
+  - vb
+  name: CalendarBack
+  nameWithType: CalendarBack
+  fullName: CalendarBack
+  type: Namespace
+  assemblies:
+  - CalendarBack
+references:
+- uid: CalendarBack.Program
+  commentId: T:CalendarBack.Program
+  name: Program
+  nameWithType: Program
+  fullName: CalendarBack.Program
+- uid: CalendarBack.Startup
+  commentId: T:CalendarBack.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: CalendarBack.Startup

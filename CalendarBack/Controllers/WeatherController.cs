@@ -1,26 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using System.Collections.Generic;
+using CalendarBack.Entities;
 using Microsoft.AspNetCore.Mvc;
-using unirest_net.http;
 using Newtonsoft.Json;
+using unirest_net.http;
 
 namespace CalendarBack.Controllers
 {
+
+    ///<summary>
+    /// Class controls downloading weather info from api and make endpoints which sending wanted data
+    /// </summary>
     [Route("[controller]")]
     [ApiController]
     public class WeatherController : ControllerBase
     {
         
-        HttpResponse<string> response = Unirest.get("http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=2a0aa79c92d95fff84d4a19951ba6eaf")
-.asJson<string>();
+        Weather weather = JsonConvert.DeserializeObject<Weather>(Unirest.get("http://api.openweathermap.org/data/2.5/weather?q=Zwoleń&APPID=2a0aa79c92d95fff84d4a19951ba6eaf").asJson<string>().Body.ToString());
+
         
-        [HttpGet]
+        [HttpGet("location")]
         public IEnumerable<string> Get()
         {
-            return new string[] { response.Body.ToString() };
+            return new string[] { weather.name };
         }
 
         // GET: api/Weather/5
@@ -29,5 +30,7 @@ namespace CalendarBack.Controllers
         {
             return id.ToString();
         }
+
+
     }
 }

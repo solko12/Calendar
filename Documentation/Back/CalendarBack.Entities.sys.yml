@@ -1,0 +1,561 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Entities.sys
+  commentId: T:CalendarBack.Entities.sys
+  id: sys
+  parent: CalendarBack.Entities
+  children:
+  - CalendarBack.Entities.sys.country
+  - CalendarBack.Entities.sys.id
+  - CalendarBack.Entities.sys.sunrise
+  - CalendarBack.Entities.sys.sunset
+  - CalendarBack.Entities.sys.type
+  langs:
+  - csharp
+  - vb
+  name: sys
+  nameWithType: sys
+  fullName: CalendarBack.Entities.sys
+  type: Class
+  source:
+    remote:
+      path: CalendarBack/Entities/Weather.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: sys
+    path: Entities/Weather.cs
+    startLine: 36
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public class sys
+    content.vb: Public Class sys
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CalendarBack.Entities.sys.type
+  commentId: P:CalendarBack.Entities.sys.type
+  id: type
+  parent: CalendarBack.Entities.sys
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: sys.type
+  fullName: CalendarBack.Entities.sys.type
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Weather.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: type
+    path: Entities/Weather.cs
+    startLine: 37
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public int type { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property type As Integer
+  overload: CalendarBack.Entities.sys.type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.sys.id
+  commentId: P:CalendarBack.Entities.sys.id
+  id: id
+  parent: CalendarBack.Entities.sys
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: sys.id
+  fullName: CalendarBack.Entities.sys.id
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Weather.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: id
+    path: Entities/Weather.cs
+    startLine: 38
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public int id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property id As Integer
+  overload: CalendarBack.Entities.sys.id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.sys.country
+  commentId: P:CalendarBack.Entities.sys.country
+  id: country
+  parent: CalendarBack.Entities.sys
+  langs:
+  - csharp
+  - vb
+  name: country
+  nameWithType: sys.country
+  fullName: CalendarBack.Entities.sys.country
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Weather.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: country
+    path: Entities/Weather.cs
+    startLine: 39
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public string country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property country As String
+  overload: CalendarBack.Entities.sys.country*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.sys.sunrise
+  commentId: P:CalendarBack.Entities.sys.sunrise
+  id: sunrise
+  parent: CalendarBack.Entities.sys
+  langs:
+  - csharp
+  - vb
+  name: sunrise
+  nameWithType: sys.sunrise
+  fullName: CalendarBack.Entities.sys.sunrise
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Weather.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: sunrise
+    path: Entities/Weather.cs
+    startLine: 40
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public int sunrise { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property sunrise As Integer
+  overload: CalendarBack.Entities.sys.sunrise*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.sys.sunset
+  commentId: P:CalendarBack.Entities.sys.sunset
+  id: sunset
+  parent: CalendarBack.Entities.sys
+  langs:
+  - csharp
+  - vb
+  name: sunset
+  nameWithType: sys.sunset
+  fullName: CalendarBack.Entities.sys.sunset
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Weather.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: sunset
+    path: Entities/Weather.cs
+    startLine: 41
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public int sunset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property sunset As Integer
+  overload: CalendarBack.Entities.sys.sunset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CalendarBack.Entities.sys.type*
+  commentId: Overload:CalendarBack.Entities.sys.type
+  name: type
+  nameWithType: sys.type
+  fullName: CalendarBack.Entities.sys.type
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CalendarBack.Entities.sys.id*
+  commentId: Overload:CalendarBack.Entities.sys.id
+  name: id
+  nameWithType: sys.id
+  fullName: CalendarBack.Entities.sys.id
+- uid: CalendarBack.Entities.sys.country*
+  commentId: Overload:CalendarBack.Entities.sys.country
+  name: country
+  nameWithType: sys.country
+  fullName: CalendarBack.Entities.sys.country
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CalendarBack.Entities.sys.sunrise*
+  commentId: Overload:CalendarBack.Entities.sys.sunrise
+  name: sunrise
+  nameWithType: sys.sunrise
+  fullName: CalendarBack.Entities.sys.sunrise
+- uid: CalendarBack.Entities.sys.sunset*
+  commentId: Overload:CalendarBack.Entities.sys.sunset
+  name: sunset
+  nameWithType: sys.sunset
+  fullName: CalendarBack.Entities.sys.sunset
