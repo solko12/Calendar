@@ -8,4 +8,9 @@
     <Authors>Jakub Solecki Oskar Więckowicz</Authors>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+  </ItemGroup>
+
 </Project>
