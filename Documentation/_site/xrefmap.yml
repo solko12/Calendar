@@ -45,19 +45,6 @@ references:
   commentId: T:Calendar.MainWindow
   fullName: Calendar.MainWindow
   nameWithType: MainWindow
-- uid: Calendar.MainWindow.#ctor
-  name: MainWindow()
-  href: App/Calendar.MainWindow.html#Calendar_MainWindow__ctor
-  commentId: M:Calendar.MainWindow.#ctor
-  fullName: Calendar.MainWindow.MainWindow()
-  nameWithType: MainWindow.MainWindow()
-- uid: Calendar.MainWindow.#ctor*
-  name: MainWindow
-  href: App/Calendar.MainWindow.html#Calendar_MainWindow__ctor_
-  commentId: Overload:Calendar.MainWindow.#ctor
-  isSpec: "True"
-  fullName: Calendar.MainWindow.MainWindow
-  nameWithType: MainWindow.MainWindow
 - uid: Calendar.MainWindow.InitializeComponent
   name: InitializeComponent()
   href: App/Calendar.MainWindow.html#Calendar_MainWindow_InitializeComponent
@@ -71,6 +58,82 @@ references:
   isSpec: "True"
   fullName: Calendar.MainWindow.InitializeComponent
   nameWithType: MainWindow.InitializeComponent
+- uid: CalendarApp
+  name: CalendarApp
+  href: App/CalendarApp.html
+  commentId: N:CalendarApp
+  fullName: CalendarApp
+  nameWithType: CalendarApp
+- uid: CalendarApp.CalendarPage
+  name: CalendarPage
+  href: App/CalendarApp.CalendarPage.html
+  commentId: T:CalendarApp.CalendarPage
+  fullName: CalendarApp.CalendarPage
+  nameWithType: CalendarPage
+- uid: CalendarApp.CalendarPage.#ctor
+  name: CalendarPage()
+  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage__ctor
+  commentId: M:CalendarApp.CalendarPage.#ctor
+  fullName: CalendarApp.CalendarPage.CalendarPage()
+  nameWithType: CalendarPage.CalendarPage()
+- uid: CalendarApp.CalendarPage.#ctor*
+  name: CalendarPage
+  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage__ctor_
+  commentId: Overload:CalendarApp.CalendarPage.#ctor
+  isSpec: "True"
+  fullName: CalendarApp.CalendarPage.CalendarPage
+  nameWithType: CalendarPage.CalendarPage
+- uid: CalendarApp.CalendarPage.InitializeComponent
+  name: InitializeComponent()
+  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_InitializeComponent
+  commentId: M:CalendarApp.CalendarPage.InitializeComponent
+  fullName: CalendarApp.CalendarPage.InitializeComponent()
+  nameWithType: CalendarPage.InitializeComponent()
+- uid: CalendarApp.CalendarPage.InitializeComponent*
+  name: InitializeComponent
+  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_InitializeComponent_
+  commentId: Overload:CalendarApp.CalendarPage.InitializeComponent
+  isSpec: "True"
+  fullName: CalendarApp.CalendarPage.InitializeComponent
+  nameWithType: CalendarPage.InitializeComponent
+- uid: CalendarApp.CalendarPage.selectedDate
+  name: selectedDate
+  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_selectedDate
+  commentId: F:CalendarApp.CalendarPage.selectedDate
+  fullName: CalendarApp.CalendarPage.selectedDate
+  nameWithType: CalendarPage.selectedDate
+- uid: CalendarApp.DayPage
+  name: DayPage
+  href: App/CalendarApp.DayPage.html
+  commentId: T:CalendarApp.DayPage
+  fullName: CalendarApp.DayPage
+  nameWithType: DayPage
+- uid: CalendarApp.DayPage.#ctor
+  name: DayPage()
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor
+  commentId: M:CalendarApp.DayPage.#ctor
+  fullName: CalendarApp.DayPage.DayPage()
+  nameWithType: DayPage.DayPage()
+- uid: CalendarApp.DayPage.#ctor*
+  name: DayPage
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_
+  commentId: Overload:CalendarApp.DayPage.#ctor
+  isSpec: "True"
+  fullName: CalendarApp.DayPage.DayPage
+  nameWithType: DayPage.DayPage
+- uid: CalendarApp.DayPage.InitializeComponent
+  name: InitializeComponent()
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_InitializeComponent
+  commentId: M:CalendarApp.DayPage.InitializeComponent
+  fullName: CalendarApp.DayPage.InitializeComponent()
+  nameWithType: DayPage.InitializeComponent()
+- uid: CalendarApp.DayPage.InitializeComponent*
+  name: InitializeComponent
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_InitializeComponent_
+  commentId: Overload:CalendarApp.DayPage.InitializeComponent
+  isSpec: "True"
+  fullName: CalendarApp.DayPage.InitializeComponent
+  nameWithType: DayPage.InitializeComponent
 - uid: CalendarBack
   name: CalendarBack
   href: Back/CalendarBack.html

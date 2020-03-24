@@ -6,3 +6,10 @@
     name: App
   - uid: Calendar.MainWindow
     name: MainWindow
+- uid: CalendarApp
+  name: CalendarApp
+  items:
+  - uid: CalendarApp.CalendarPage
+    name: CalendarPage
+  - uid: CalendarApp.DayPage
+    name: DayPage

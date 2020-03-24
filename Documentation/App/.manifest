@@ -4,6 +4,13 @@
   "Calendar.App.InitializeComponent": "Calendar.App.yml",
   "Calendar.App.Main": "Calendar.App.yml",
   "Calendar.MainWindow": "Calendar.MainWindow.yml",
-  "Calendar.MainWindow.#ctor": "Calendar.MainWindow.yml",
-  "Calendar.MainWindow.InitializeComponent": "Calendar.MainWindow.yml"
+  "Calendar.MainWindow.InitializeComponent": "Calendar.MainWindow.yml",
+  "CalendarApp": "CalendarApp.yml",
+  "CalendarApp.CalendarPage": "CalendarApp.CalendarPage.yml",
+  "CalendarApp.CalendarPage.#ctor": "CalendarApp.CalendarPage.yml",
+  "CalendarApp.CalendarPage.InitializeComponent": "CalendarApp.CalendarPage.yml",
+  "CalendarApp.CalendarPage.selectedDate": "CalendarApp.CalendarPage.yml",
+  "CalendarApp.DayPage": "CalendarApp.DayPage.yml",
+  "CalendarApp.DayPage.#ctor": "CalendarApp.DayPage.yml",
+  "CalendarApp.DayPage.InitializeComponent": "CalendarApp.DayPage.yml"
 }

@@ -1,13 +1,10 @@
-﻿<Window x:Class="Calendar.MainWindow"
+﻿<NavigationWindow x:Class="Calendar.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calendar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Calendar HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-    </Grid>
-</Window>
+        Title="MainWindow" Height="450" Width="800" Background="#FF9A8989" Source="CalendarPage.xaml">
+    
+</NavigationWindow>

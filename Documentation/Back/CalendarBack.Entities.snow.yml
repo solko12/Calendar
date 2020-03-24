@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Entities.snow
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: snow
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 48
   assemblies:
   - CalendarBack
@@ -56,12 +52,8 @@ items:
   fullName: CalendarBack.Entities.snow.snow1h
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: snow1h
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 50
   assemblies:
   - CalendarBack
@@ -91,12 +83,8 @@ items:
   fullName: CalendarBack.Entities.snow.snow3h
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: snow3h
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 51
   assemblies:
   - CalendarBack

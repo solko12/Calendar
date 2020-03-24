@@ -17,12 +17,8 @@ items:
   fullName: CalendarBack.Startup
   type: Class
   source:
-    remote:
-      path: CalendarBack/Startup.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Startup
-    path: Startup.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Startup.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -58,12 +54,8 @@ items:
   fullName: CalendarBack.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)
   type: Constructor
   source:
-    remote:
-      path: CalendarBack/Startup.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: .ctor
-    path: Startup.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Startup.cs
     startLine: 17
   assemblies:
   - CalendarBack
@@ -91,12 +83,8 @@ items:
   fullName: CalendarBack.Startup.Configuration
   type: Property
   source:
-    remote:
-      path: CalendarBack/Startup.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Configuration
-    path: Startup.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Startup.cs
     startLine: 22
   assemblies:
   - CalendarBack
@@ -126,12 +114,8 @@ items:
   fullName: CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Startup.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: ConfigureServices
-    path: Startup.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Startup.cs
     startLine: 25
   assemblies:
   - CalendarBack
@@ -159,12 +143,8 @@ items:
   fullName: CalendarBack.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Startup.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Configure
-    path: Startup.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Startup.cs
     startLine: 31
   assemblies:
   - CalendarBack

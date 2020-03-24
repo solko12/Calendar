@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController
   type: Class
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: WeatherController
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 12
   assemblies:
   - CalendarBack
@@ -246,12 +242,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.Get()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Get
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 20
   assemblies:
   - CalendarBack
@@ -290,12 +282,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.Get(System.Int32)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Get
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 27
   assemblies:
   - CalendarBack

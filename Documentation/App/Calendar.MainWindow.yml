@@ -5,7 +5,6 @@ items:
   id: MainWindow
   parent: Calendar
   children:
-  - Calendar.MainWindow.#ctor
   - Calendar.MainWindow.InitializeComponent
   langs:
   - csharp
@@ -15,12 +14,8 @@ items:
   fullName: Calendar.MainWindow
   type: Class
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: MainWindow
-    path: ../Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\MainWindow.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
@@ -28,11 +23,11 @@ items:
   summary: "\nInteraction logic for MainWindow.xaml\n"
   example: []
   syntax:
-    content: 'public class MainWindow : Window, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector'
+    content: 'public class MainWindow : NavigationWindow, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IUriContext, IComponentConnector'
     content.vb: >-
       Public Class MainWindow
-          Inherits Window
-          Implements IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+          Inherits NavigationWindow
+          Implements IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IUriContext, IComponentConnector
   inheritance:
   - System.Object
   - System.Windows.Threading.DispatcherObject
@@ -43,6 +38,7 @@ items:
   - System.Windows.Controls.Control
   - System.Windows.Controls.ContentControl
   - System.Windows.Window
+  - System.Windows.Navigation.NavigationWindow
   implements:
   - System.Windows.Media.Animation.IAnimatable
   - System.ComponentModel.ISupportInitialize
@@ -50,8 +46,48 @@ items:
   - System.Windows.IInputElement
   - System.Windows.Markup.IQueryAmbient
   - System.Windows.Markup.IAddChild
+  - System.Windows.Markup.IUriContext
   - System.Windows.Markup.IComponentConnector
   inheritedMembers:
+  - System.Windows.Navigation.NavigationWindow.BackStackProperty
+  - System.Windows.Navigation.NavigationWindow.CanGoBackProperty
+  - System.Windows.Navigation.NavigationWindow.CanGoForwardProperty
+  - System.Windows.Navigation.NavigationWindow.ForwardStackProperty
+  - System.Windows.Navigation.NavigationWindow.SandboxExternalContentProperty
+  - System.Windows.Navigation.NavigationWindow.ShowsNavigationUIProperty
+  - System.Windows.Navigation.NavigationWindow.SourceProperty
+  - System.Windows.Navigation.NavigationWindow.AddBackEntry(System.Windows.Navigation.CustomContentState)
+  - System.Windows.Navigation.NavigationWindow.AddChild(System.Object)
+  - System.Windows.Navigation.NavigationWindow.AddText(System.String)
+  - System.Windows.Navigation.NavigationWindow.GoBack
+  - System.Windows.Navigation.NavigationWindow.GoForward
+  - System.Windows.Navigation.NavigationWindow.Navigate(System.Object)
+  - System.Windows.Navigation.NavigationWindow.Navigate(System.Object,System.Object)
+  - System.Windows.Navigation.NavigationWindow.Navigate(System.Uri)
+  - System.Windows.Navigation.NavigationWindow.Navigate(System.Uri,System.Object)
+  - System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+  - System.Windows.Navigation.NavigationWindow.OnClosed(System.EventArgs)
+  - System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+  - System.Windows.Navigation.NavigationWindow.Refresh
+  - System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+  - System.Windows.Navigation.NavigationWindow.StopLoading
+  - System.Windows.Navigation.NavigationWindow.BackStack
+  - System.Windows.Navigation.NavigationWindow.CanGoBack
+  - System.Windows.Navigation.NavigationWindow.CanGoForward
+  - System.Windows.Navigation.NavigationWindow.CurrentSource
+  - System.Windows.Navigation.NavigationWindow.ForwardStack
+  - System.Windows.Navigation.NavigationWindow.NavigationService
+  - System.Windows.Navigation.NavigationWindow.SandboxExternalContent
+  - System.Windows.Navigation.NavigationWindow.ShowsNavigationUI
+  - System.Windows.Navigation.NavigationWindow.Source
+  - System.Windows.Navigation.NavigationWindow.System#Windows#Markup#IUriContext#BaseUri
+  - System.Windows.Navigation.NavigationWindow.FragmentNavigation
+  - System.Windows.Navigation.NavigationWindow.LoadCompleted
+  - System.Windows.Navigation.NavigationWindow.Navigated
+  - System.Windows.Navigation.NavigationWindow.Navigating
+  - System.Windows.Navigation.NavigationWindow.NavigationFailed
+  - System.Windows.Navigation.NavigationWindow.NavigationProgress
+  - System.Windows.Navigation.NavigationWindow.NavigationStopped
   - System.Windows.Window.AllowsTransparencyProperty
   - System.Windows.Window.DpiChangedEvent
   - System.Windows.Window.IconProperty
@@ -75,11 +111,9 @@ items:
   - System.Windows.Window.Hide
   - System.Windows.Window.MeasureOverride(System.Windows.Size)
   - System.Windows.Window.OnActivated(System.EventArgs)
-  - System.Windows.Window.OnClosed(System.EventArgs)
   - System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
   - System.Windows.Window.OnContentChanged(System.Object,System.Object)
   - System.Windows.Window.OnContentRendered(System.EventArgs)
-  - System.Windows.Window.OnCreateAutomationPeer
   - System.Windows.Window.OnDeactivated(System.EventArgs)
   - System.Windows.Window.OnDpiChanged(System.Windows.DpiScale,System.Windows.DpiScale)
   - System.Windows.Window.OnLocationChanged(System.EventArgs)
@@ -124,8 +158,6 @@ items:
   - System.Windows.Controls.ContentControl.ContentTemplateProperty
   - System.Windows.Controls.ContentControl.ContentTemplateSelectorProperty
   - System.Windows.Controls.ContentControl.HasContentProperty
-  - System.Windows.Controls.ContentControl.AddChild(System.Object)
-  - System.Windows.Controls.ContentControl.AddText(System.String)
   - System.Windows.Controls.ContentControl.OnContentStringFormatChanged(System.String,System.String)
   - System.Windows.Controls.ContentControl.OnContentTemplateChanged(System.Windows.DataTemplate,System.Windows.DataTemplate)
   - System.Windows.Controls.ContentControl.OnContentTemplateSelectorChanged(System.Windows.Controls.DataTemplateSelector,System.Windows.Controls.DataTemplateSelector)
@@ -231,7 +263,6 @@ items:
   - System.Windows.FrameworkElement.GetVisualChild(System.Int32)
   - System.Windows.FrameworkElement.MeasureCore(System.Windows.Size)
   - System.Windows.FrameworkElement.MoveFocus(System.Windows.Input.TraversalRequest)
-  - System.Windows.FrameworkElement.OnApplyTemplate
   - System.Windows.FrameworkElement.OnContextMenuClosing(System.Windows.Controls.ContextMenuEventArgs)
   - System.Windows.FrameworkElement.OnContextMenuOpening(System.Windows.Controls.ContextMenuEventArgs)
   - System.Windows.FrameworkElement.OnGotFocus(System.Windows.RoutedEventArgs)
@@ -739,36 +770,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Calendar.MainWindow.#ctor
-  commentId: M:Calendar.MainWindow.#ctor
-  id: '#ctor'
-  parent: Calendar.MainWindow
-  langs:
-  - csharp
-  - vb
-  name: MainWindow()
-  nameWithType: MainWindow.MainWindow()
-  fullName: Calendar.MainWindow.MainWindow()
-  type: Constructor
-  source:
-    remote:
-      path: Calendar/MainWindow.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
-    id: .ctor
-    path: ../Calendar/MainWindow.xaml.cs
-    startLine: 22
-  assemblies:
-  - CalendarApp
-  namespace: Calendar
-  syntax:
-    content: public MainWindow()
-    content.vb: Public Sub New
-  overload: Calendar.MainWindow.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: Calendar.MainWindow.InitializeComponent
   commentId: M:Calendar.MainWindow.InitializeComponent
   id: InitializeComponent
@@ -781,12 +782,8 @@ items:
   fullName: Calendar.MainWindow.InitializeComponent()
   type: Method
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: InitializeComponent
-    path: ../Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\MainWindow.g.cs
     startLine: 48
   assemblies:
   - CalendarApp
@@ -872,6 +869,13 @@ references:
   name: Window
   nameWithType: Window
   fullName: System.Windows.Window
+- uid: System.Windows.Navigation.NavigationWindow
+  commentId: T:System.Windows.Navigation.NavigationWindow
+  parent: System.Windows.Navigation
+  isExternal: true
+  name: NavigationWindow
+  nameWithType: NavigationWindow
+  fullName: System.Windows.Navigation.NavigationWindow
 - uid: System.Windows.Media.Animation.IAnimatable
   commentId: T:System.Windows.Media.Animation.IAnimatable
   parent: System.Windows.Media.Animation
@@ -914,6 +918,13 @@ references:
   name: IAddChild
   nameWithType: IAddChild
   fullName: System.Windows.Markup.IAddChild
+- uid: System.Windows.Markup.IUriContext
+  commentId: T:System.Windows.Markup.IUriContext
+  parent: System.Windows.Markup
+  isExternal: true
+  name: IUriContext
+  nameWithType: IUriContext
+  fullName: System.Windows.Markup.IUriContext
 - uid: System.Windows.Markup.IComponentConnector
   commentId: T:System.Windows.Markup.IComponentConnector
   parent: System.Windows.Markup
@@ -921,6 +932,753 @@ references:
   name: IComponentConnector
   nameWithType: IComponentConnector
   fullName: System.Windows.Markup.IComponentConnector
+- uid: System.Windows.Navigation.NavigationWindow.BackStackProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.BackStackProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: BackStackProperty
+  nameWithType: NavigationWindow.BackStackProperty
+  fullName: System.Windows.Navigation.NavigationWindow.BackStackProperty
+- uid: System.Windows.Navigation.NavigationWindow.CanGoBackProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.CanGoBackProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: CanGoBackProperty
+  nameWithType: NavigationWindow.CanGoBackProperty
+  fullName: System.Windows.Navigation.NavigationWindow.CanGoBackProperty
+- uid: System.Windows.Navigation.NavigationWindow.CanGoForwardProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.CanGoForwardProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: CanGoForwardProperty
+  nameWithType: NavigationWindow.CanGoForwardProperty
+  fullName: System.Windows.Navigation.NavigationWindow.CanGoForwardProperty
+- uid: System.Windows.Navigation.NavigationWindow.ForwardStackProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.ForwardStackProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: ForwardStackProperty
+  nameWithType: NavigationWindow.ForwardStackProperty
+  fullName: System.Windows.Navigation.NavigationWindow.ForwardStackProperty
+- uid: System.Windows.Navigation.NavigationWindow.SandboxExternalContentProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.SandboxExternalContentProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: SandboxExternalContentProperty
+  nameWithType: NavigationWindow.SandboxExternalContentProperty
+  fullName: System.Windows.Navigation.NavigationWindow.SandboxExternalContentProperty
+- uid: System.Windows.Navigation.NavigationWindow.ShowsNavigationUIProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.ShowsNavigationUIProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: ShowsNavigationUIProperty
+  nameWithType: NavigationWindow.ShowsNavigationUIProperty
+  fullName: System.Windows.Navigation.NavigationWindow.ShowsNavigationUIProperty
+- uid: System.Windows.Navigation.NavigationWindow.SourceProperty
+  commentId: F:System.Windows.Navigation.NavigationWindow.SourceProperty
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: SourceProperty
+  nameWithType: NavigationWindow.SourceProperty
+  fullName: System.Windows.Navigation.NavigationWindow.SourceProperty
+- uid: System.Windows.Navigation.NavigationWindow.AddBackEntry(System.Windows.Navigation.CustomContentState)
+  commentId: M:System.Windows.Navigation.NavigationWindow.AddBackEntry(System.Windows.Navigation.CustomContentState)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: AddBackEntry(CustomContentState)
+  nameWithType: NavigationWindow.AddBackEntry(CustomContentState)
+  fullName: System.Windows.Navigation.NavigationWindow.AddBackEntry(System.Windows.Navigation.CustomContentState)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.AddBackEntry(System.Windows.Navigation.CustomContentState)
+    name: AddBackEntry
+    nameWithType: NavigationWindow.AddBackEntry
+    fullName: System.Windows.Navigation.NavigationWindow.AddBackEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.Navigation.CustomContentState
+    name: CustomContentState
+    nameWithType: CustomContentState
+    fullName: System.Windows.Navigation.CustomContentState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.AddBackEntry(System.Windows.Navigation.CustomContentState)
+    name: AddBackEntry
+    nameWithType: NavigationWindow.AddBackEntry
+    fullName: System.Windows.Navigation.NavigationWindow.AddBackEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Windows.Navigation.CustomContentState
+    name: CustomContentState
+    nameWithType: CustomContentState
+    fullName: System.Windows.Navigation.CustomContentState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.AddChild(System.Object)
+  commentId: M:System.Windows.Navigation.NavigationWindow.AddChild(System.Object)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: AddChild(Object)
+  nameWithType: NavigationWindow.AddChild(Object)
+  fullName: System.Windows.Navigation.NavigationWindow.AddChild(System.Object)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.AddChild(System.Object)
+    name: AddChild
+    nameWithType: NavigationWindow.AddChild
+    fullName: System.Windows.Navigation.NavigationWindow.AddChild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.AddChild(System.Object)
+    name: AddChild
+    nameWithType: NavigationWindow.AddChild
+    fullName: System.Windows.Navigation.NavigationWindow.AddChild
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.AddText(System.String)
+  commentId: M:System.Windows.Navigation.NavigationWindow.AddText(System.String)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: AddText(String)
+  nameWithType: NavigationWindow.AddText(String)
+  fullName: System.Windows.Navigation.NavigationWindow.AddText(System.String)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.AddText(System.String)
+    name: AddText
+    nameWithType: NavigationWindow.AddText
+    fullName: System.Windows.Navigation.NavigationWindow.AddText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.AddText(System.String)
+    name: AddText
+    nameWithType: NavigationWindow.AddText
+    fullName: System.Windows.Navigation.NavigationWindow.AddText
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.GoBack
+  commentId: M:System.Windows.Navigation.NavigationWindow.GoBack
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: GoBack()
+  nameWithType: NavigationWindow.GoBack()
+  fullName: System.Windows.Navigation.NavigationWindow.GoBack()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.GoBack
+    name: GoBack
+    nameWithType: NavigationWindow.GoBack
+    fullName: System.Windows.Navigation.NavigationWindow.GoBack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.GoBack
+    name: GoBack
+    nameWithType: NavigationWindow.GoBack
+    fullName: System.Windows.Navigation.NavigationWindow.GoBack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.GoForward
+  commentId: M:System.Windows.Navigation.NavigationWindow.GoForward
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: GoForward()
+  nameWithType: NavigationWindow.GoForward()
+  fullName: System.Windows.Navigation.NavigationWindow.GoForward()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.GoForward
+    name: GoForward
+    nameWithType: NavigationWindow.GoForward
+    fullName: System.Windows.Navigation.NavigationWindow.GoForward
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.GoForward
+    name: GoForward
+    nameWithType: NavigationWindow.GoForward
+    fullName: System.Windows.Navigation.NavigationWindow.GoForward
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Object)
+  commentId: M:System.Windows.Navigation.NavigationWindow.Navigate(System.Object)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Navigate(Object)
+  nameWithType: NavigationWindow.Navigate(Object)
+  fullName: System.Windows.Navigation.NavigationWindow.Navigate(System.Object)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Object)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Object)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Object,System.Object)
+  commentId: M:System.Windows.Navigation.NavigationWindow.Navigate(System.Object,System.Object)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Navigate(Object, Object)
+  nameWithType: NavigationWindow.Navigate(Object, Object)
+  fullName: System.Windows.Navigation.NavigationWindow.Navigate(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Object,System.Object)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Object,System.Object)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri)
+  commentId: M:System.Windows.Navigation.NavigationWindow.Navigate(System.Uri)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Navigate(Uri)
+  nameWithType: NavigationWindow.Navigate(Uri)
+  fullName: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri,System.Object)
+  commentId: M:System.Windows.Navigation.NavigationWindow.Navigate(System.Uri,System.Object)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Navigate(Uri, Object)
+  nameWithType: NavigationWindow.Navigate(Uri, Object)
+  fullName: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri, System.Object)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri,System.Object)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.Navigate(System.Uri,System.Object)
+    name: Navigate
+    nameWithType: NavigationWindow.Navigate
+    fullName: System.Windows.Navigation.NavigationWindow.Navigate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: System.Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+  commentId: M:System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: OnApplyTemplate()
+  nameWithType: NavigationWindow.OnApplyTemplate()
+  fullName: System.Windows.Navigation.NavigationWindow.OnApplyTemplate()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+    name: OnApplyTemplate
+    nameWithType: NavigationWindow.OnApplyTemplate
+    fullName: System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+    name: OnApplyTemplate
+    nameWithType: NavigationWindow.OnApplyTemplate
+    fullName: System.Windows.Navigation.NavigationWindow.OnApplyTemplate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.OnClosed(System.EventArgs)
+  commentId: M:System.Windows.Navigation.NavigationWindow.OnClosed(System.EventArgs)
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: OnClosed(EventArgs)
+  nameWithType: NavigationWindow.OnClosed(EventArgs)
+  fullName: System.Windows.Navigation.NavigationWindow.OnClosed(System.EventArgs)
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.OnClosed(System.EventArgs)
+    name: OnClosed
+    nameWithType: NavigationWindow.OnClosed
+    fullName: System.Windows.Navigation.NavigationWindow.OnClosed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.OnClosed(System.EventArgs)
+    name: OnClosed
+    nameWithType: NavigationWindow.OnClosed
+    fullName: System.Windows.Navigation.NavigationWindow.OnClosed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.EventArgs
+    name: EventArgs
+    nameWithType: EventArgs
+    fullName: System.EventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+  commentId: M:System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: OnCreateAutomationPeer()
+  nameWithType: NavigationWindow.OnCreateAutomationPeer()
+  fullName: System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+    name: OnCreateAutomationPeer
+    nameWithType: NavigationWindow.OnCreateAutomationPeer
+    fullName: System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+    name: OnCreateAutomationPeer
+    nameWithType: NavigationWindow.OnCreateAutomationPeer
+    fullName: System.Windows.Navigation.NavigationWindow.OnCreateAutomationPeer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.Refresh
+  commentId: M:System.Windows.Navigation.NavigationWindow.Refresh
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Refresh()
+  nameWithType: NavigationWindow.Refresh()
+  fullName: System.Windows.Navigation.NavigationWindow.Refresh()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.Refresh
+    name: Refresh
+    nameWithType: NavigationWindow.Refresh
+    fullName: System.Windows.Navigation.NavigationWindow.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.Refresh
+    name: Refresh
+    nameWithType: NavigationWindow.Refresh
+    fullName: System.Windows.Navigation.NavigationWindow.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+  commentId: M:System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: RemoveBackEntry()
+  nameWithType: NavigationWindow.RemoveBackEntry()
+  fullName: System.Windows.Navigation.NavigationWindow.RemoveBackEntry()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+    name: RemoveBackEntry
+    nameWithType: NavigationWindow.RemoveBackEntry
+    fullName: System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+    name: RemoveBackEntry
+    nameWithType: NavigationWindow.RemoveBackEntry
+    fullName: System.Windows.Navigation.NavigationWindow.RemoveBackEntry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.StopLoading
+  commentId: M:System.Windows.Navigation.NavigationWindow.StopLoading
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: StopLoading()
+  nameWithType: NavigationWindow.StopLoading()
+  fullName: System.Windows.Navigation.NavigationWindow.StopLoading()
+  spec.csharp:
+  - uid: System.Windows.Navigation.NavigationWindow.StopLoading
+    name: StopLoading
+    nameWithType: NavigationWindow.StopLoading
+    fullName: System.Windows.Navigation.NavigationWindow.StopLoading
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Windows.Navigation.NavigationWindow.StopLoading
+    name: StopLoading
+    nameWithType: NavigationWindow.StopLoading
+    fullName: System.Windows.Navigation.NavigationWindow.StopLoading
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Windows.Navigation.NavigationWindow.BackStack
+  commentId: P:System.Windows.Navigation.NavigationWindow.BackStack
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: BackStack
+  nameWithType: NavigationWindow.BackStack
+  fullName: System.Windows.Navigation.NavigationWindow.BackStack
+- uid: System.Windows.Navigation.NavigationWindow.CanGoBack
+  commentId: P:System.Windows.Navigation.NavigationWindow.CanGoBack
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: CanGoBack
+  nameWithType: NavigationWindow.CanGoBack
+  fullName: System.Windows.Navigation.NavigationWindow.CanGoBack
+- uid: System.Windows.Navigation.NavigationWindow.CanGoForward
+  commentId: P:System.Windows.Navigation.NavigationWindow.CanGoForward
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: CanGoForward
+  nameWithType: NavigationWindow.CanGoForward
+  fullName: System.Windows.Navigation.NavigationWindow.CanGoForward
+- uid: System.Windows.Navigation.NavigationWindow.CurrentSource
+  commentId: P:System.Windows.Navigation.NavigationWindow.CurrentSource
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: CurrentSource
+  nameWithType: NavigationWindow.CurrentSource
+  fullName: System.Windows.Navigation.NavigationWindow.CurrentSource
+- uid: System.Windows.Navigation.NavigationWindow.ForwardStack
+  commentId: P:System.Windows.Navigation.NavigationWindow.ForwardStack
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: ForwardStack
+  nameWithType: NavigationWindow.ForwardStack
+  fullName: System.Windows.Navigation.NavigationWindow.ForwardStack
+- uid: System.Windows.Navigation.NavigationWindow.NavigationService
+  commentId: P:System.Windows.Navigation.NavigationWindow.NavigationService
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: NavigationService
+  nameWithType: NavigationWindow.NavigationService
+  fullName: System.Windows.Navigation.NavigationWindow.NavigationService
+- uid: System.Windows.Navigation.NavigationWindow.SandboxExternalContent
+  commentId: P:System.Windows.Navigation.NavigationWindow.SandboxExternalContent
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: SandboxExternalContent
+  nameWithType: NavigationWindow.SandboxExternalContent
+  fullName: System.Windows.Navigation.NavigationWindow.SandboxExternalContent
+- uid: System.Windows.Navigation.NavigationWindow.ShowsNavigationUI
+  commentId: P:System.Windows.Navigation.NavigationWindow.ShowsNavigationUI
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: ShowsNavigationUI
+  nameWithType: NavigationWindow.ShowsNavigationUI
+  fullName: System.Windows.Navigation.NavigationWindow.ShowsNavigationUI
+- uid: System.Windows.Navigation.NavigationWindow.Source
+  commentId: P:System.Windows.Navigation.NavigationWindow.Source
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Source
+  nameWithType: NavigationWindow.Source
+  fullName: System.Windows.Navigation.NavigationWindow.Source
+- uid: System.Windows.Navigation.NavigationWindow.System#Windows#Markup#IUriContext#BaseUri
+  commentId: P:System.Windows.Navigation.NavigationWindow.System#Windows#Markup#IUriContext#BaseUri
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: IUriContext.BaseUri
+  nameWithType: NavigationWindow.IUriContext.BaseUri
+  fullName: System.Windows.Navigation.NavigationWindow.System.Windows.Markup.IUriContext.BaseUri
+  nameWithType.vb: NavigationWindow.System.Windows.Markup.IUriContext.BaseUri
+  name.vb: System.Windows.Markup.IUriContext.BaseUri
+- uid: System.Windows.Navigation.NavigationWindow.FragmentNavigation
+  commentId: E:System.Windows.Navigation.NavigationWindow.FragmentNavigation
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: FragmentNavigation
+  nameWithType: NavigationWindow.FragmentNavigation
+  fullName: System.Windows.Navigation.NavigationWindow.FragmentNavigation
+- uid: System.Windows.Navigation.NavigationWindow.LoadCompleted
+  commentId: E:System.Windows.Navigation.NavigationWindow.LoadCompleted
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: LoadCompleted
+  nameWithType: NavigationWindow.LoadCompleted
+  fullName: System.Windows.Navigation.NavigationWindow.LoadCompleted
+- uid: System.Windows.Navigation.NavigationWindow.Navigated
+  commentId: E:System.Windows.Navigation.NavigationWindow.Navigated
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Navigated
+  nameWithType: NavigationWindow.Navigated
+  fullName: System.Windows.Navigation.NavigationWindow.Navigated
+- uid: System.Windows.Navigation.NavigationWindow.Navigating
+  commentId: E:System.Windows.Navigation.NavigationWindow.Navigating
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: Navigating
+  nameWithType: NavigationWindow.Navigating
+  fullName: System.Windows.Navigation.NavigationWindow.Navigating
+- uid: System.Windows.Navigation.NavigationWindow.NavigationFailed
+  commentId: E:System.Windows.Navigation.NavigationWindow.NavigationFailed
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: NavigationFailed
+  nameWithType: NavigationWindow.NavigationFailed
+  fullName: System.Windows.Navigation.NavigationWindow.NavigationFailed
+- uid: System.Windows.Navigation.NavigationWindow.NavigationProgress
+  commentId: E:System.Windows.Navigation.NavigationWindow.NavigationProgress
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: NavigationProgress
+  nameWithType: NavigationWindow.NavigationProgress
+  fullName: System.Windows.Navigation.NavigationWindow.NavigationProgress
+- uid: System.Windows.Navigation.NavigationWindow.NavigationStopped
+  commentId: E:System.Windows.Navigation.NavigationWindow.NavigationStopped
+  parent: System.Windows.Navigation.NavigationWindow
+  isExternal: true
+  name: NavigationStopped
+  nameWithType: NavigationWindow.NavigationStopped
+  fullName: System.Windows.Navigation.NavigationWindow.NavigationStopped
 - uid: System.Windows.Window.AllowsTransparencyProperty
   commentId: F:System.Windows.Window.AllowsTransparencyProperty
   parent: System.Windows.Window
@@ -1314,47 +2072,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Windows.Window.OnClosed(System.EventArgs)
-  commentId: M:System.Windows.Window.OnClosed(System.EventArgs)
-  parent: System.Windows.Window
-  isExternal: true
-  name: OnClosed(EventArgs)
-  nameWithType: Window.OnClosed(EventArgs)
-  fullName: System.Windows.Window.OnClosed(System.EventArgs)
-  spec.csharp:
-  - uid: System.Windows.Window.OnClosed(System.EventArgs)
-    name: OnClosed
-    nameWithType: Window.OnClosed
-    fullName: System.Windows.Window.OnClosed
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: System.EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Window.OnClosed(System.EventArgs)
-    name: OnClosed
-    nameWithType: Window.OnClosed
-    fullName: System.Windows.Window.OnClosed
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.EventArgs
-    name: EventArgs
-    nameWithType: EventArgs
-    fullName: System.EventArgs
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
   commentId: M:System.Windows.Window.OnClosing(System.ComponentModel.CancelEventArgs)
   parent: System.Windows.Window
@@ -1491,37 +2208,6 @@ references:
     nameWithType: EventArgs
     fullName: System.EventArgs
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Windows.Window.OnCreateAutomationPeer
-  commentId: M:System.Windows.Window.OnCreateAutomationPeer
-  parent: System.Windows.Window
-  isExternal: true
-  name: OnCreateAutomationPeer()
-  nameWithType: Window.OnCreateAutomationPeer()
-  fullName: System.Windows.Window.OnCreateAutomationPeer()
-  spec.csharp:
-  - uid: System.Windows.Window.OnCreateAutomationPeer
-    name: OnCreateAutomationPeer
-    nameWithType: Window.OnCreateAutomationPeer
-    fullName: System.Windows.Window.OnCreateAutomationPeer
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Window.OnCreateAutomationPeer
-    name: OnCreateAutomationPeer
-    nameWithType: Window.OnCreateAutomationPeer
-    fullName: System.Windows.Window.OnCreateAutomationPeer
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -2185,88 +2871,6 @@ references:
   name: HasContentProperty
   nameWithType: ContentControl.HasContentProperty
   fullName: System.Windows.Controls.ContentControl.HasContentProperty
-- uid: System.Windows.Controls.ContentControl.AddChild(System.Object)
-  commentId: M:System.Windows.Controls.ContentControl.AddChild(System.Object)
-  parent: System.Windows.Controls.ContentControl
-  isExternal: true
-  name: AddChild(Object)
-  nameWithType: ContentControl.AddChild(Object)
-  fullName: System.Windows.Controls.ContentControl.AddChild(System.Object)
-  spec.csharp:
-  - uid: System.Windows.Controls.ContentControl.AddChild(System.Object)
-    name: AddChild
-    nameWithType: ContentControl.AddChild
-    fullName: System.Windows.Controls.ContentControl.AddChild
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Controls.ContentControl.AddChild(System.Object)
-    name: AddChild
-    nameWithType: ContentControl.AddChild
-    fullName: System.Windows.Controls.ContentControl.AddChild
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Windows.Controls.ContentControl.AddText(System.String)
-  commentId: M:System.Windows.Controls.ContentControl.AddText(System.String)
-  parent: System.Windows.Controls.ContentControl
-  isExternal: true
-  name: AddText(String)
-  nameWithType: ContentControl.AddText(String)
-  fullName: System.Windows.Controls.ContentControl.AddText(System.String)
-  spec.csharp:
-  - uid: System.Windows.Controls.ContentControl.AddText(System.String)
-    name: AddText
-    nameWithType: ContentControl.AddText
-    fullName: System.Windows.Controls.ContentControl.AddText
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Controls.ContentControl.AddText(System.String)
-    name: AddText
-    nameWithType: ContentControl.AddText
-    fullName: System.Windows.Controls.ContentControl.AddText
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Windows.Controls.ContentControl.OnContentStringFormatChanged(System.String,System.String)
   commentId: M:System.Windows.Controls.ContentControl.OnContentStringFormatChanged(System.String,System.String)
   parent: System.Windows.Controls.ContentControl
@@ -4041,37 +4645,6 @@ references:
     nameWithType: TraversalRequest
     fullName: System.Windows.Input.TraversalRequest
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Windows.FrameworkElement.OnApplyTemplate
-  commentId: M:System.Windows.FrameworkElement.OnApplyTemplate
-  parent: System.Windows.FrameworkElement
-  isExternal: true
-  name: OnApplyTemplate()
-  nameWithType: FrameworkElement.OnApplyTemplate()
-  fullName: System.Windows.FrameworkElement.OnApplyTemplate()
-  spec.csharp:
-  - uid: System.Windows.FrameworkElement.OnApplyTemplate
-    name: OnApplyTemplate
-    nameWithType: FrameworkElement.OnApplyTemplate
-    fullName: System.Windows.FrameworkElement.OnApplyTemplate
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.FrameworkElement.OnApplyTemplate
-    name: OnApplyTemplate
-    nameWithType: FrameworkElement.OnApplyTemplate
-    fullName: System.Windows.FrameworkElement.OnApplyTemplate
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -13578,6 +14151,12 @@ references:
   name: System.Windows.Controls
   nameWithType: System.Windows.Controls
   fullName: System.Windows.Controls
+- uid: System.Windows.Navigation
+  commentId: N:System.Windows.Navigation
+  isExternal: true
+  name: System.Windows.Navigation
+  nameWithType: System.Windows.Navigation
+  fullName: System.Windows.Navigation
 - uid: System.Windows.Media.Animation
   commentId: N:System.Windows.Media.Animation
   isExternal: true
@@ -13596,11 +14175,6 @@ references:
   name: System.Windows.Markup
   nameWithType: System.Windows.Markup
   fullName: System.Windows.Markup
-- uid: Calendar.MainWindow.#ctor*
-  commentId: Overload:Calendar.MainWindow.#ctor
-  name: MainWindow
-  nameWithType: MainWindow.MainWindow
-  fullName: Calendar.MainWindow.MainWindow
 - uid: Calendar.MainWindow.InitializeComponent*
   commentId: Overload:Calendar.MainWindow.InitializeComponent
   name: InitializeComponent

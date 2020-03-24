@@ -21,12 +21,8 @@ items:
   fullName: CalendarBack.Entities.mainParams
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: mainParams
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 20
   assemblies:
   - CalendarBack
@@ -62,12 +58,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.temp
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: temp
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 22
   assemblies:
   - CalendarBack
@@ -97,12 +89,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.tempFeel
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: tempFeel
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 23
   assemblies:
   - CalendarBack
@@ -132,12 +120,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.tempMin
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: tempMin
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 24
   assemblies:
   - CalendarBack
@@ -167,12 +151,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.tempHigh
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: tempHigh
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 25
   assemblies:
   - CalendarBack
@@ -202,12 +182,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.pressure
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: pressure
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 26
   assemblies:
   - CalendarBack
@@ -237,12 +213,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.humidity
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: humidity
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 27
   assemblies:
   - CalendarBack
@@ -272,12 +244,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.seaLevel
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: seaLevel
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 28
   assemblies:
   - CalendarBack
@@ -307,12 +275,8 @@ items:
   fullName: CalendarBack.Entities.mainParams.groundLevel
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: groundLevel
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 29
   assemblies:
   - CalendarBack

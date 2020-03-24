@@ -18,12 +18,8 @@ items:
   fullName: CalendarBack.Entities.sys
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: sys
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 36
   assemblies:
   - CalendarBack
@@ -59,12 +55,8 @@ items:
   fullName: CalendarBack.Entities.sys.type
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: type
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 37
   assemblies:
   - CalendarBack
@@ -94,12 +86,8 @@ items:
   fullName: CalendarBack.Entities.sys.id
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: id
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 38
   assemblies:
   - CalendarBack
@@ -129,12 +117,8 @@ items:
   fullName: CalendarBack.Entities.sys.country
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: country
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 39
   assemblies:
   - CalendarBack
@@ -164,12 +148,8 @@ items:
   fullName: CalendarBack.Entities.sys.sunrise
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: sunrise
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 40
   assemblies:
   - CalendarBack
@@ -199,12 +179,8 @@ items:
   fullName: CalendarBack.Entities.sys.sunset
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: sunset
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 41
   assemblies:
   - CalendarBack

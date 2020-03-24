@@ -35,5 +35,31 @@
             InitializeComponent
             </summary>
         </member>
+        <member name="T:CalendarApp.CalendarPage">
+            <summary>
+            Logika interakcji dla klasy CalendarPage.xaml
+            </summary>
+            <summary>
+            CalendarPage
+            </summary>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:CalendarApp.DayPage">
+            <summary>
+            Logika interakcji dla klasy DayPage.xaml
+            </summary>
+            <summary>
+            DayPage
+            </summary>
+        </member>
+        <member name="M:CalendarApp.DayPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
     </members>
 </doc>

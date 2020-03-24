@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Entities.rain
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: rain
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 43
   assemblies:
   - CalendarBack
@@ -56,12 +52,8 @@ items:
   fullName: CalendarBack.Entities.rain.rain1h
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: rain1h
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 45
   assemblies:
   - CalendarBack
@@ -91,12 +83,8 @@ items:
   fullName: CalendarBack.Entities.rain.rain3h
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Weather.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: rain3h
-    path: Entities/Weather.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
     startLine: 46
   assemblies:
   - CalendarBack
