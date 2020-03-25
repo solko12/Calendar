@@ -9,5 +9,16 @@
              Class controls downloading weather info from api and make endpoints which sending wanted data
              </summary>
         </member>
+        <member name="F:CalendarBack.Controllers.WeatherController.location">
+            <summary>
+            Variable weather store data about current weather
+            </summary>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.Get">
+            <summary>
+            Endpoint for current location
+            </summary>
+            <returns></returns>
+        </member>
     </members>
 </doc>
