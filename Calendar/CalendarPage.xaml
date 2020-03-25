@@ -17,14 +17,29 @@
             </Grid.RowDefinitions>
 
             <Grid Grid.Row="0" >
+                <Grid.Background>
+                    <ImageBrush ImageSource="/ArrowRight.png"/>
+                </Grid.Background>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Button Content="Previous" Name="PrevButton" Grid.Column="0" Click="PrevButton_Click"/>
-                <TextBlock Name="currDateText" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <Button Content="Next" Name="NextButton" Grid.Column="2" Click="NextButton_Click"/>
+                <Button  Name="PrevButton" Grid.Column="0" Click="PrevButton_Click">
+                    
+                    <Image Source="ArrowLeft.png" />
+                </Button>
+                <TextBlock  Name="currDateText" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" Width="260" TextAlignment="Center">
+                    <TextBlock.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="White"/>
+                            <GradientStop Color="#FF8D8DF7" Offset="1"/>
+                        </RadialGradientBrush>
+                    </TextBlock.Background>
+                </TextBlock>
+                <Button  Name="NextButton" Grid.Column="2" Click="NextButton_Click">
+                    <Image Source="ArrowRight.png" />
+                </Button>
             </Grid>
 
             <Grid Name="GridDaysOfWeek" Grid.Row="1">

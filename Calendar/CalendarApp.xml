@@ -37,9 +37,6 @@
         </member>
         <member name="T:CalendarApp.CalendarPage">
             <summary>
-            Logika interakcji dla klasy CalendarPage.xaml
-            </summary>
-            <summary>
             CalendarPage
             </summary>
         </member>

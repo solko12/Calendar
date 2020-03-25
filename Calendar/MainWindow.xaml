@@ -5,6 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calendar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Background="#FF9A8989" Source="CalendarPage.xaml">
-    
+        Title="MainWindow" Height="450" Width="800" Source="CalendarPage.xaml" >
+    <NavigationWindow.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FF13389F" Offset="1"/>
+            <GradientStop Color="#FF6EAD1E" Offset="0"/>
+        </RadialGradientBrush>
+    </NavigationWindow.Background>
+
 </NavigationWindow>

@@ -13,9 +13,6 @@ using System.Windows.Shapes;
 
 namespace CalendarApp
 {
-    /// <summary>
-    /// Logika interakcji dla klasy CalendarPage.xaml
-    /// </summary>
     public partial class CalendarPage : Page
     {
         public DateTime selectedDate = DateTime.Now;
@@ -29,36 +26,28 @@ namespace CalendarApp
 
         private void RefreshCalendarGrid()
         {
-            currDateText.Text = selectedDate.Month + " " + selectedDate.Year;
+            currDateText.Text = selectedDate.ToString("MMMM") + " " + selectedDate.Year;
             GridCalendar.Children.Clear();
 
             int daysInMonth = System.DateTime.DaysInMonth(selectedDate.Year, selectedDate.Month);
 
-            //selectedDate = selectedDate.AddDays(-dayOfMonth + 1);
-
-            //int dayOfWeeek = ((int)selectedDate.DayOfWeek == 0) ? 7 : (int)selectedDate.DayOfWeek;
-
             int row = 0;
-            
-
+         
             DateTime day = new DateTime(selectedDate.Year, selectedDate.Month, selectedDate.Day);
             
             day = day.AddDays((-1 * (int)day.Day) +1);
-            //int column = day.DayOfWeek -1 ;
 
             for (int i = 1; i <= daysInMonth; i++)
             {
 
-                //if (column == 7)
-                //{
-                //    column = 0;
-                //    row++;
-                //}
-
                 var button = new Button();
                 if (day.Date.Equals(DateTime.Now.Date))
                 {
-                    button.Background = Brushes.Aqua;
+                    button.Background = Brushes.DeepSkyBlue;
+                }
+                else
+                {
+                    button.Background = Brushes.Lime;
                 }
                 button.Content = day.Day + "";
                 button.SetValue(Grid.RowProperty, row);
@@ -68,7 +57,6 @@ namespace CalendarApp
                 GridCalendar.Children.Add(button);
                 if (dayOfWeeek == 7) row++;
                 day = day.AddDays(1);
-                //column++;
             }
         }
 
@@ -76,7 +64,7 @@ namespace CalendarApp
         {
             Button button = sender as Button;
             if (button == null) return;
-            //MessageBox.Show(button.Content.ToString());
+            
             DayPage nextPage = new DayPage(new DateTime(selectedDate.Year, selectedDate.Month, int.Parse(button.Content.ToString())));
             this.NavigationService.Navigate(nextPage);
         }
