@@ -29,12 +29,18 @@ namespace CalendarBack.Controllers
         {
             return WeatherParser.parseWeather(forecast);
         }
+        [HttpGet("{zipCode}/{countryCode}")]
+        public String GetWeatherPostCode (string zipCode, string countryCode){
+            forecast = Unirest.get("http://api.openweathermap.org/data/2.5/forecast?zip=" + zipCode+","+countryCode + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString();
+            return WeatherParser.parseWeather(forecast);
+        }
 
-        // GET: api/Weather/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        [HttpGet("{city}", Name = "Get")]
+        public string Get(string city)
         {
-            return id.ToString();
+            location = city;
+            forecast = Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString();
+            return WeatherParser.parseWeather(forecast);
         }
 
         // GET: weather/reload

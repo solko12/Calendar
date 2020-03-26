@@ -94,7 +94,7 @@ namespace CalendarBack.Logic
                     flag = false;
                 }
             }
-            return "{\"Weather\":[" + string.Join(",", weathers) + "]}";
+            return "{\"City\":\""+ weather.SelectToken("city").SelectToken("name") + "\",\"Weather\":[" + string.Join(",", weathers) + "]}";
         }
 
         private static string getMeTheWindDirectionLetter(decimal degree)
