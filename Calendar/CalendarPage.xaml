@@ -10,25 +10,25 @@
 
     <Grid>
         <Grid>
+            <!-- Definicja duzej siatki -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="8*"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-
+            <!-- Siatka nawigacji -->
             <Grid Grid.Row="0" >
-                <Grid.Background>
-                    <ImageBrush ImageSource="/ArrowRight.png"/>
-                </Grid.Background>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
+                <!-- strzalka w lewo -->
                 <Button  Name="PrevButton" Grid.Column="0" Click="PrevButton_Click">
-                    
-                    <Image Source="ArrowLeft.png" />
+                    <Image Source="images/ArrowLeft.png" />
                 </Button>
+                <!-- miesiac i rok -->
                 <TextBlock  Name="currDateText" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" Width="260" TextAlignment="Center">
                     <TextBlock.Background>
                         <RadialGradientBrush>
@@ -37,11 +37,12 @@
                         </RadialGradientBrush>
                     </TextBlock.Background>
                 </TextBlock>
+                <!-- strzalka w prawo -->
                 <Button  Name="NextButton" Grid.Column="2" Click="NextButton_Click">
-                    <Image Source="ArrowRight.png" />
+                    <Image Source="images/ArrowRight.png" />
                 </Button>
             </Grid>
-
+            <!-- siatka nazw dni -->
             <Grid Name="GridDaysOfWeek" Grid.Row="1">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -63,7 +64,7 @@
             </Grid>
 
 
-
+            <!-- siatka dni -->
             <Grid Name="GridCalendar" Grid.Row="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -83,6 +84,28 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
             </Grid>
+            <!-- definicja siatki pogody-->
+            <Grid Name="WeatherBarGrid" Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- przycisk pogody-->
+                <Button Name="Weather"  Grid.Column="1" FontSize="18" Click="Weather_Click">
+                    <Button.Background>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFD2F700"/>
+                            <GradientStop Color="#FF1994DF" Offset="1"/>
+                        </RadialGradientBrush>
+                    </Button.Background>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="images/pogoda.png"/>
+                        <TextBlock Text="Pogoda" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+            </Grid>
+            
         </Grid>
     </Grid>
 </Page>

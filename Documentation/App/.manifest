@@ -11,6 +11,6 @@
   "CalendarApp.CalendarPage.InitializeComponent": "CalendarApp.CalendarPage.yml",
   "CalendarApp.CalendarPage.selectedDate": "CalendarApp.CalendarPage.yml",
   "CalendarApp.DayPage": "CalendarApp.DayPage.yml",
-  "CalendarApp.DayPage.#ctor": "CalendarApp.DayPage.yml",
+  "CalendarApp.DayPage.#ctor(System.DateTime)": "CalendarApp.DayPage.yml",
   "CalendarApp.DayPage.InitializeComponent": "CalendarApp.DayPage.yml"
 }

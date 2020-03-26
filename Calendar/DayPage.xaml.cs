@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 
 namespace CalendarApp
 {
@@ -19,16 +20,25 @@ namespace CalendarApp
     public partial class DayPage : Page
     {
         private DateTime _date;
+        private ObservableCollection<string> list = new ObservableCollection<string>();
         public DayPage(DateTime date)
         {
             InitializeComponent();
             _date = date;
-            newQuest.Text = date.ToShortDateString();
+            list.Add("chuj");
+            list.Add("Dupa");
+            list.Add("cipa");
+            Notes.ItemsSource = list;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            list.Add(newQuest.Text);
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            list.Remove(Notes.SelectedItem.ToString());
         }
     }
 }

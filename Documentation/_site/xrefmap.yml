@@ -108,12 +108,12 @@ references:
   commentId: T:CalendarApp.DayPage
   fullName: CalendarApp.DayPage
   nameWithType: DayPage
-- uid: CalendarApp.DayPage.#ctor
-  name: DayPage()
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor
-  commentId: M:CalendarApp.DayPage.#ctor
-  fullName: CalendarApp.DayPage.DayPage()
-  nameWithType: DayPage.DayPage()
+- uid: CalendarApp.DayPage.#ctor(System.DateTime)
+  name: DayPage(DateTime)
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_System_DateTime_
+  commentId: M:CalendarApp.DayPage.#ctor(System.DateTime)
+  fullName: CalendarApp.DayPage.DayPage(System.DateTime)
+  nameWithType: DayPage.DayPage(DateTime)
 - uid: CalendarApp.DayPage.#ctor*
   name: DayPage
   href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_
