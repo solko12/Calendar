@@ -80,5 +80,11 @@ namespace CalendarApp
             selectedDate = selectedDate.AddMonths(1);
             RefreshCalendarGrid();
         }
+
+        private void Weather_Click(object sender, RoutedEventArgs e)
+        {
+            WeatherPage nextPage = new WeatherPage();
+            this.NavigationService.Navigate(nextPage);
+        }
     }
 }

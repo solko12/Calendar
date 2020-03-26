@@ -5,7 +5,7 @@ items:
   id: DayPage
   parent: CalendarApp
   children:
-  - CalendarApp.DayPage.#ctor
+  - CalendarApp.DayPage.#ctor(System.DateTime)
   - CalendarApp.DayPage.InitializeComponent
   langs:
   - csharp
@@ -643,16 +643,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarApp.DayPage.#ctor
-  commentId: M:CalendarApp.DayPage.#ctor
-  id: '#ctor'
+- uid: CalendarApp.DayPage.#ctor(System.DateTime)
+  commentId: M:CalendarApp.DayPage.#ctor(System.DateTime)
+  id: '#ctor(System.DateTime)'
   parent: CalendarApp.DayPage
   langs:
   - csharp
   - vb
-  name: DayPage()
-  nameWithType: DayPage.DayPage()
-  fullName: CalendarApp.DayPage.DayPage()
+  name: DayPage(DateTime)
+  nameWithType: DayPage.DayPage(DateTime)
+  fullName: CalendarApp.DayPage.DayPage(System.DateTime)
   type: Constructor
   source:
     id: .ctor
@@ -662,8 +662,11 @@ items:
   - CalendarApp
   namespace: CalendarApp
   syntax:
-    content: public DayPage()
-    content.vb: Public Sub New
+    content: public DayPage(DateTime date)
+    parameters:
+    - id: date
+      type: System.DateTime
+    content.vb: Public Sub New(date As Date)
   overload: CalendarApp.DayPage.#ctor*
   modifiers.csharp:
   - public
@@ -683,7 +686,7 @@ items:
   source:
     id: InitializeComponent
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
-    startLine: 64
+    startLine: 80
   assemblies:
   - CalendarApp
   namespace: CalendarApp
@@ -12067,6 +12070,13 @@ references:
   name: DayPage
   nameWithType: DayPage.DayPage
   fullName: CalendarApp.DayPage.DayPage
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
 - uid: CalendarApp.DayPage.InitializeComponent*
   commentId: Overload:CalendarApp.DayPage.InitializeComponent
   name: InitializeComponent

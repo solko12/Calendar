@@ -58,5 +58,18 @@
             InitializeComponent
             </summary>
         </member>
+        <member name="T:CalendarApp.WeatherPage">
+            <summary>
+            Logika interakcji dla klasy WeatherPage.xaml
+            </summary>
+            <summary>
+            WeatherPage
+            </summary>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
     </members>
 </doc>

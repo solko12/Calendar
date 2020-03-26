@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="ArrowLeft.png" />
-    <Resource Include="ArrowRight.png" />
+    <Resource Include="images\ArrowLeft.png" />
+    <Resource Include="images\ArrowRight.png" />
   </ItemGroup>
 
 </Project>
