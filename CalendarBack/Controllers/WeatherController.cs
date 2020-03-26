@@ -25,7 +25,8 @@ namespace CalendarBack.Controllers
         String forecast = Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString();
 
         [HttpGet("")]
-        public String GetWeather() {
+        public String GetWeather()
+        {
             return WeatherParser.parseWeather(forecast);
         }
 
@@ -35,10 +36,11 @@ namespace CalendarBack.Controllers
         {
             return id.ToString();
         }
-        
+
         // GET: weather/reload
         [HttpGet("reload")]
-        public string reload() {
+        public string reload()
+        {
             //weather = JsonConvert.DeserializeObject<Weather>(Unirest.get("http://api.openweathermap.org/data/2.5/weather?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf").asJson<string>().Body.ToString());
             forecast = Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString();
 

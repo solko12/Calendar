@@ -14,17 +14,11 @@
             Variable weather store data about current weather
             </summary>
         </member>
-        <member name="T:CalendarBack.Logic.WeatherParser">
+        <member name="M:CalendarBack.Controllers.WeatherController.Get">
             <summary>
-            Class parse downloaded weatherInfo 5 days per 3 h to average for 5 days
+            Endpoint for current location
             </summary>
-        </member>
-        <member name="M:CalendarBack.Logic.WeatherParser.parseWeather(System.String)">
-            <summary>
-            Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
-            </summary>
-            <param name="json">Input JSON formated string</param>
-            <returns>Parsed Json formated string</returns>
+            <returns></returns>
         </member>
     </members>
 </doc>

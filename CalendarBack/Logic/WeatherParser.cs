@@ -18,7 +18,8 @@ namespace CalendarBack.Logic
         /// </summary>
         /// <param name="json">Input JSON formated string</param>
         /// <returns>Parsed Json formated string</returns>
-        public static String parseWeather(string json) {
+        public static String parseWeather(string json)
+        {
             //Helper var for single day weather
             String singleParsedWeather = "";
             //List of daily forecast
@@ -39,11 +40,13 @@ namespace CalendarBack.Logic
             //Weather JObject stores input json OBJ
             JObject weather = JObject.Parse(json);
             //We are looking at single forecast from api
-            foreach (JObject singleWeather in weather.SelectToken("list")) {
+            foreach (JObject singleWeather in weather.SelectToken("list"))
+            {
                 //String stores prepared current day nb from date in format "YYYY-MM-DD HH-MM-SS"
                 string currentDay = singleWeather.SelectToken("dt_txt").ToString().Split(" ")[0].Split("-")[2];
                 //When new day comes
-                if (flag == false) {
+                if (flag == false)
+                {
                     lastDay = currentDay;
                     flag = true;
                     singleParsedWeather = "{\"Day\":\"" + singleWeather.SelectToken("dt_txt").ToString().Split(" ")[0] + "\",";
@@ -54,15 +57,19 @@ namespace CalendarBack.Logic
                     currentHighSpeed = (decimal)singleWeather.SelectToken("wind").SelectToken("speed");
                     currentLowSpeed = currentHighSpeed;
                 }
-                if (lastDay.Equals(currentDay)) {
+                if (lastDay.Equals(currentDay))
+                {
                     lastDay = currentDay;
-                    if (currentHighTemp < (decimal)singleWeather.SelectToken("main").SelectToken("temp_max")) {
+                    if (currentHighTemp < (decimal)singleWeather.SelectToken("main").SelectToken("temp_max"))
+                    {
                         currentHighTemp = (decimal)singleWeather.SelectToken("main").SelectToken("temp_max");
                     }
-                    if (currentLowTemp > (decimal)singleWeather.SelectToken("main").SelectToken("temp_min")) {
+                    if (currentLowTemp > (decimal)singleWeather.SelectToken("main").SelectToken("temp_min"))
+                    {
                         currentLowTemp = (decimal)singleWeather.SelectToken("main").SelectToken("temp_min");
                     }
-                    if (currentHighSpeed < (decimal)singleWeather.SelectToken("wind").SelectToken("speed")) {
+                    if (currentHighSpeed < (decimal)singleWeather.SelectToken("wind").SelectToken("speed"))
+                    {
                         currentHighSpeed = (decimal)singleWeather.SelectToken("wind").SelectToken("speed");
                     }
                     if (currentLowSpeed > (decimal)singleWeather.SelectToken("wind").SelectToken("speed"))
@@ -78,8 +85,8 @@ namespace CalendarBack.Logic
                     //ToString(CultureInfo.InvariantCulture) give us a change from "," to "." decimal separator
                     singleParsedWeather += "\"TempMax\":" + currentHighTemp.ToString(CultureInfo.InvariantCulture) + ",";
                     singleParsedWeather += "\"TempMin\":" + currentLowTemp.ToString(CultureInfo.InvariantCulture) + "},";
-                    singleParsedWeather += "\"AvPressure\":" + Math.Round(sumPressure / pressureCount, 2).ToString(CultureInfo.InvariantCulture)+",";
-                    singleParsedWeather += "\"Wind\":"+"{"+"\"Direction\":\""+getMeTheWindDirectionLetter((decimal)singleWeather.SelectToken("wind").SelectToken("deg"))+"\",";
+                    singleParsedWeather += "\"AvPressure\":" + Math.Round(sumPressure / pressureCount, 2).ToString(CultureInfo.InvariantCulture) + ",";
+                    singleParsedWeather += "\"Wind\":" + "{" + "\"Direction\":\"" + getMeTheWindDirectionLetter((decimal)singleWeather.SelectToken("wind").SelectToken("deg")) + "\",";
                     singleParsedWeather += "\"SpeedMin\":" + (currentLowSpeed).ToString(CultureInfo.InvariantCulture) + ",";
                     singleParsedWeather += "\"SpeedMax\":" + (currentHighSpeed).ToString(CultureInfo.InvariantCulture) + "}";
                     singleParsedWeather += "}";
@@ -90,7 +97,8 @@ namespace CalendarBack.Logic
             return "{\"Weather\":[" + string.Join(",", weathers) + "]}";
         }
 
-        private static string getMeTheWindDirectionLetter(decimal degree){
+        private static string getMeTheWindDirectionLetter(decimal degree)
+        {
             if ((degree <= 20 && degree >= 0) || (degree <= 360 && degree > 340))
             {
                 return "N";
@@ -123,11 +131,12 @@ namespace CalendarBack.Logic
             {
                 return "NW";
             }
-            else {
+            else
+            {
                 return "ERROR";
             }
         }
-        
+
 
     }
 }
