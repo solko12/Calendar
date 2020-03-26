@@ -12,3 +12,5 @@ example
 https://localhost:5001/weather/26-706/PL
 
 https://localhost:5001/weather/reload - reloades forecast
+
+http://bulk.openweathermap.org/sample/city.list.json.gz - link for city list
