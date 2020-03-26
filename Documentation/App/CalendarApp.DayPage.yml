@@ -657,7 +657,7 @@ items:
   source:
     id: .ctor
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - CalendarApp
   namespace: CalendarApp

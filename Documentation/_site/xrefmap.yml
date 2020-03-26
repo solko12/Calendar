@@ -134,6 +134,50 @@ references:
   isSpec: "True"
   fullName: CalendarApp.DayPage.InitializeComponent
   nameWithType: DayPage.InitializeComponent
+- uid: CalendarApp.WeatherPage
+  name: WeatherPage
+  href: App/CalendarApp.WeatherPage.html
+  commentId: T:CalendarApp.WeatherPage
+  fullName: CalendarApp.WeatherPage
+  nameWithType: WeatherPage
+- uid: CalendarApp.WeatherPage.#ctor
+  name: WeatherPage()
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage__ctor
+  commentId: M:CalendarApp.WeatherPage.#ctor
+  fullName: CalendarApp.WeatherPage.WeatherPage()
+  nameWithType: WeatherPage.WeatherPage()
+- uid: CalendarApp.WeatherPage.#ctor*
+  name: WeatherPage
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage__ctor_
+  commentId: Overload:CalendarApp.WeatherPage.#ctor
+  isSpec: "True"
+  fullName: CalendarApp.WeatherPage.WeatherPage
+  nameWithType: WeatherPage.WeatherPage
+- uid: CalendarApp.WeatherPage.date
+  name: date
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_date
+  commentId: F:CalendarApp.WeatherPage.date
+  fullName: CalendarApp.WeatherPage.date
+  nameWithType: WeatherPage.date
+- uid: CalendarApp.WeatherPage.InitializeComponent
+  name: InitializeComponent()
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent
+  commentId: M:CalendarApp.WeatherPage.InitializeComponent
+  fullName: CalendarApp.WeatherPage.InitializeComponent()
+  nameWithType: WeatherPage.InitializeComponent()
+- uid: CalendarApp.WeatherPage.InitializeComponent*
+  name: InitializeComponent
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent_
+  commentId: Overload:CalendarApp.WeatherPage.InitializeComponent
+  isSpec: "True"
+  fullName: CalendarApp.WeatherPage.InitializeComponent
+  nameWithType: WeatherPage.InitializeComponent
+- uid: CalendarApp.WeatherPage.list
+  name: list
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_list
+  commentId: F:CalendarApp.WeatherPage.list
+  fullName: CalendarApp.WeatherPage.list
+  nameWithType: WeatherPage.list
 - uid: CalendarBack
   name: CalendarBack
   href: Back/CalendarBack.html
@@ -171,580 +215,354 @@ references:
   isSpec: "True"
   fullName: CalendarBack.Controllers.WeatherController.Get
   nameWithType: WeatherController.Get
+- uid: CalendarBack.Controllers.WeatherController.GetWeather
+  name: GetWeather()
+  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeather
+  commentId: M:CalendarBack.Controllers.WeatherController.GetWeather
+  fullName: CalendarBack.Controllers.WeatherController.GetWeather()
+  nameWithType: WeatherController.GetWeather()
+- uid: CalendarBack.Controllers.WeatherController.GetWeather*
+  name: GetWeather
+  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeather_
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeather
+  isSpec: "True"
+  fullName: CalendarBack.Controllers.WeatherController.GetWeather
+  nameWithType: WeatherController.GetWeather
+- uid: CalendarBack.Controllers.WeatherController.reload
+  name: reload()
+  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_reload
+  commentId: M:CalendarBack.Controllers.WeatherController.reload
+  fullName: CalendarBack.Controllers.WeatherController.reload()
+  nameWithType: WeatherController.reload()
+- uid: CalendarBack.Controllers.WeatherController.reload*
+  name: reload
+  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_reload_
+  commentId: Overload:CalendarBack.Controllers.WeatherController.reload
+  isSpec: "True"
+  fullName: CalendarBack.Controllers.WeatherController.reload
+  nameWithType: WeatherController.reload
 - uid: CalendarBack.Entities
   name: CalendarBack.Entities
   href: Back/CalendarBack.Entities.html
   commentId: N:CalendarBack.Entities
   fullName: CalendarBack.Entities
   nameWithType: CalendarBack.Entities
-- uid: CalendarBack.Entities.coord
-  name: coord
-  href: Back/CalendarBack.Entities.coord.html
-  commentId: T:CalendarBack.Entities.coord
-  fullName: CalendarBack.Entities.coord
-  nameWithType: coord
-- uid: CalendarBack.Entities.coord.lat
-  name: lat
-  href: Back/CalendarBack.Entities.coord.html#CalendarBack_Entities_coord_lat
-  commentId: P:CalendarBack.Entities.coord.lat
-  fullName: CalendarBack.Entities.coord.lat
-  nameWithType: coord.lat
-- uid: CalendarBack.Entities.coord.lat*
-  name: lat
-  href: Back/CalendarBack.Entities.coord.html#CalendarBack_Entities_coord_lat_
-  commentId: Overload:CalendarBack.Entities.coord.lat
-  isSpec: "True"
-  fullName: CalendarBack.Entities.coord.lat
-  nameWithType: coord.lat
-- uid: CalendarBack.Entities.coord.lon
-  name: lon
-  href: Back/CalendarBack.Entities.coord.html#CalendarBack_Entities_coord_lon
-  commentId: P:CalendarBack.Entities.coord.lon
-  fullName: CalendarBack.Entities.coord.lon
-  nameWithType: coord.lon
-- uid: CalendarBack.Entities.coord.lon*
-  name: lon
-  href: Back/CalendarBack.Entities.coord.html#CalendarBack_Entities_coord_lon_
-  commentId: Overload:CalendarBack.Entities.coord.lon
-  isSpec: "True"
-  fullName: CalendarBack.Entities.coord.lon
-  nameWithType: coord.lon
-- uid: CalendarBack.Entities.mainParams
-  name: mainParams
-  href: Back/CalendarBack.Entities.mainParams.html
-  commentId: T:CalendarBack.Entities.mainParams
-  fullName: CalendarBack.Entities.mainParams
-  nameWithType: mainParams
-- uid: CalendarBack.Entities.mainParams.groundLevel
-  name: groundLevel
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_groundLevel
-  commentId: P:CalendarBack.Entities.mainParams.groundLevel
-  fullName: CalendarBack.Entities.mainParams.groundLevel
-  nameWithType: mainParams.groundLevel
-- uid: CalendarBack.Entities.mainParams.groundLevel*
-  name: groundLevel
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_groundLevel_
-  commentId: Overload:CalendarBack.Entities.mainParams.groundLevel
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.groundLevel
-  nameWithType: mainParams.groundLevel
-- uid: CalendarBack.Entities.mainParams.humidity
-  name: humidity
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_humidity
-  commentId: P:CalendarBack.Entities.mainParams.humidity
-  fullName: CalendarBack.Entities.mainParams.humidity
-  nameWithType: mainParams.humidity
-- uid: CalendarBack.Entities.mainParams.humidity*
-  name: humidity
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_humidity_
-  commentId: Overload:CalendarBack.Entities.mainParams.humidity
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.humidity
-  nameWithType: mainParams.humidity
-- uid: CalendarBack.Entities.mainParams.pressure
-  name: pressure
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_pressure
-  commentId: P:CalendarBack.Entities.mainParams.pressure
-  fullName: CalendarBack.Entities.mainParams.pressure
-  nameWithType: mainParams.pressure
-- uid: CalendarBack.Entities.mainParams.pressure*
-  name: pressure
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_pressure_
-  commentId: Overload:CalendarBack.Entities.mainParams.pressure
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.pressure
-  nameWithType: mainParams.pressure
-- uid: CalendarBack.Entities.mainParams.seaLevel
-  name: seaLevel
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_seaLevel
-  commentId: P:CalendarBack.Entities.mainParams.seaLevel
-  fullName: CalendarBack.Entities.mainParams.seaLevel
-  nameWithType: mainParams.seaLevel
-- uid: CalendarBack.Entities.mainParams.seaLevel*
-  name: seaLevel
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_seaLevel_
-  commentId: Overload:CalendarBack.Entities.mainParams.seaLevel
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.seaLevel
-  nameWithType: mainParams.seaLevel
-- uid: CalendarBack.Entities.mainParams.temp
-  name: temp
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_temp
-  commentId: P:CalendarBack.Entities.mainParams.temp
-  fullName: CalendarBack.Entities.mainParams.temp
-  nameWithType: mainParams.temp
-- uid: CalendarBack.Entities.mainParams.temp*
-  name: temp
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_temp_
-  commentId: Overload:CalendarBack.Entities.mainParams.temp
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.temp
-  nameWithType: mainParams.temp
-- uid: CalendarBack.Entities.mainParams.tempFeel
-  name: tempFeel
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_tempFeel
-  commentId: P:CalendarBack.Entities.mainParams.tempFeel
-  fullName: CalendarBack.Entities.mainParams.tempFeel
-  nameWithType: mainParams.tempFeel
-- uid: CalendarBack.Entities.mainParams.tempFeel*
-  name: tempFeel
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_tempFeel_
-  commentId: Overload:CalendarBack.Entities.mainParams.tempFeel
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.tempFeel
-  nameWithType: mainParams.tempFeel
-- uid: CalendarBack.Entities.mainParams.tempHigh
-  name: tempHigh
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_tempHigh
-  commentId: P:CalendarBack.Entities.mainParams.tempHigh
-  fullName: CalendarBack.Entities.mainParams.tempHigh
-  nameWithType: mainParams.tempHigh
-- uid: CalendarBack.Entities.mainParams.tempHigh*
-  name: tempHigh
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_tempHigh_
-  commentId: Overload:CalendarBack.Entities.mainParams.tempHigh
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.tempHigh
-  nameWithType: mainParams.tempHigh
-- uid: CalendarBack.Entities.mainParams.tempMin
-  name: tempMin
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_tempMin
-  commentId: P:CalendarBack.Entities.mainParams.tempMin
-  fullName: CalendarBack.Entities.mainParams.tempMin
-  nameWithType: mainParams.tempMin
-- uid: CalendarBack.Entities.mainParams.tempMin*
-  name: tempMin
-  href: Back/CalendarBack.Entities.mainParams.html#CalendarBack_Entities_mainParams_tempMin_
-  commentId: Overload:CalendarBack.Entities.mainParams.tempMin
-  isSpec: "True"
-  fullName: CalendarBack.Entities.mainParams.tempMin
-  nameWithType: mainParams.tempMin
-- uid: CalendarBack.Entities.rain
-  name: rain
-  href: Back/CalendarBack.Entities.rain.html
-  commentId: T:CalendarBack.Entities.rain
-  fullName: CalendarBack.Entities.rain
-  nameWithType: rain
-- uid: CalendarBack.Entities.rain.rain1h
-  name: rain1h
-  href: Back/CalendarBack.Entities.rain.html#CalendarBack_Entities_rain_rain1h
-  commentId: P:CalendarBack.Entities.rain.rain1h
-  fullName: CalendarBack.Entities.rain.rain1h
-  nameWithType: rain.rain1h
-- uid: CalendarBack.Entities.rain.rain1h*
-  name: rain1h
-  href: Back/CalendarBack.Entities.rain.html#CalendarBack_Entities_rain_rain1h_
-  commentId: Overload:CalendarBack.Entities.rain.rain1h
-  isSpec: "True"
-  fullName: CalendarBack.Entities.rain.rain1h
-  nameWithType: rain.rain1h
-- uid: CalendarBack.Entities.rain.rain3h
-  name: rain3h
-  href: Back/CalendarBack.Entities.rain.html#CalendarBack_Entities_rain_rain3h
-  commentId: P:CalendarBack.Entities.rain.rain3h
-  fullName: CalendarBack.Entities.rain.rain3h
-  nameWithType: rain.rain3h
-- uid: CalendarBack.Entities.rain.rain3h*
-  name: rain3h
-  href: Back/CalendarBack.Entities.rain.html#CalendarBack_Entities_rain_rain3h_
-  commentId: Overload:CalendarBack.Entities.rain.rain3h
-  isSpec: "True"
-  fullName: CalendarBack.Entities.rain.rain3h
-  nameWithType: rain.rain3h
-- uid: CalendarBack.Entities.snow
-  name: snow
-  href: Back/CalendarBack.Entities.snow.html
-  commentId: T:CalendarBack.Entities.snow
-  fullName: CalendarBack.Entities.snow
-  nameWithType: snow
-- uid: CalendarBack.Entities.snow.snow1h
-  name: snow1h
-  href: Back/CalendarBack.Entities.snow.html#CalendarBack_Entities_snow_snow1h
-  commentId: P:CalendarBack.Entities.snow.snow1h
-  fullName: CalendarBack.Entities.snow.snow1h
-  nameWithType: snow.snow1h
-- uid: CalendarBack.Entities.snow.snow1h*
-  name: snow1h
-  href: Back/CalendarBack.Entities.snow.html#CalendarBack_Entities_snow_snow1h_
-  commentId: Overload:CalendarBack.Entities.snow.snow1h
-  isSpec: "True"
-  fullName: CalendarBack.Entities.snow.snow1h
-  nameWithType: snow.snow1h
-- uid: CalendarBack.Entities.snow.snow3h
-  name: snow3h
-  href: Back/CalendarBack.Entities.snow.html#CalendarBack_Entities_snow_snow3h
-  commentId: P:CalendarBack.Entities.snow.snow3h
-  fullName: CalendarBack.Entities.snow.snow3h
-  nameWithType: snow.snow3h
-- uid: CalendarBack.Entities.snow.snow3h*
-  name: snow3h
-  href: Back/CalendarBack.Entities.snow.html#CalendarBack_Entities_snow_snow3h_
-  commentId: Overload:CalendarBack.Entities.snow.snow3h
-  isSpec: "True"
-  fullName: CalendarBack.Entities.snow.snow3h
-  nameWithType: snow.snow3h
-- uid: CalendarBack.Entities.sys
-  name: sys
-  href: Back/CalendarBack.Entities.sys.html
-  commentId: T:CalendarBack.Entities.sys
-  fullName: CalendarBack.Entities.sys
-  nameWithType: sys
-- uid: CalendarBack.Entities.sys.country
-  name: country
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_country
-  commentId: P:CalendarBack.Entities.sys.country
-  fullName: CalendarBack.Entities.sys.country
-  nameWithType: sys.country
-- uid: CalendarBack.Entities.sys.country*
-  name: country
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_country_
-  commentId: Overload:CalendarBack.Entities.sys.country
-  isSpec: "True"
-  fullName: CalendarBack.Entities.sys.country
-  nameWithType: sys.country
-- uid: CalendarBack.Entities.sys.id
-  name: id
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_id
-  commentId: P:CalendarBack.Entities.sys.id
-  fullName: CalendarBack.Entities.sys.id
-  nameWithType: sys.id
-- uid: CalendarBack.Entities.sys.id*
-  name: id
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_id_
-  commentId: Overload:CalendarBack.Entities.sys.id
-  isSpec: "True"
-  fullName: CalendarBack.Entities.sys.id
-  nameWithType: sys.id
-- uid: CalendarBack.Entities.sys.sunrise
-  name: sunrise
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_sunrise
-  commentId: P:CalendarBack.Entities.sys.sunrise
-  fullName: CalendarBack.Entities.sys.sunrise
-  nameWithType: sys.sunrise
-- uid: CalendarBack.Entities.sys.sunrise*
-  name: sunrise
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_sunrise_
-  commentId: Overload:CalendarBack.Entities.sys.sunrise
-  isSpec: "True"
-  fullName: CalendarBack.Entities.sys.sunrise
-  nameWithType: sys.sunrise
-- uid: CalendarBack.Entities.sys.sunset
-  name: sunset
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_sunset
-  commentId: P:CalendarBack.Entities.sys.sunset
-  fullName: CalendarBack.Entities.sys.sunset
-  nameWithType: sys.sunset
-- uid: CalendarBack.Entities.sys.sunset*
-  name: sunset
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_sunset_
-  commentId: Overload:CalendarBack.Entities.sys.sunset
-  isSpec: "True"
-  fullName: CalendarBack.Entities.sys.sunset
-  nameWithType: sys.sunset
-- uid: CalendarBack.Entities.sys.type
-  name: type
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_type
-  commentId: P:CalendarBack.Entities.sys.type
-  fullName: CalendarBack.Entities.sys.type
-  nameWithType: sys.type
-- uid: CalendarBack.Entities.sys.type*
-  name: type
-  href: Back/CalendarBack.Entities.sys.html#CalendarBack_Entities_sys_type_
-  commentId: Overload:CalendarBack.Entities.sys.type
-  isSpec: "True"
-  fullName: CalendarBack.Entities.sys.type
-  nameWithType: sys.type
+- uid: CalendarBack.Entities._5Day3hForecast
+  name: _5Day3hForecast
+  href: Back/CalendarBack.Entities._5Day3hForecast.html
+  commentId: T:CalendarBack.Entities._5Day3hForecast
+  fullName: CalendarBack.Entities._5Day3hForecast
+  nameWithType: _5Day3hForecast
 - uid: CalendarBack.Entities.weather
   name: weather
-  href: Back/CalendarBack.Entities.weather.html
+  href: Back/CalendarBack.Entities.weather_1.html
   commentId: T:CalendarBack.Entities.weather
   fullName: CalendarBack.Entities.weather
   nameWithType: weather
 - uid: CalendarBack.Entities.Weather
   name: Weather
-  href: Back/CalendarBack.Entities.Weather_1.html
+  href: Back/CalendarBack.Entities.Weather.html
   commentId: T:CalendarBack.Entities.Weather
   fullName: CalendarBack.Entities.Weather
   nameWithType: Weather
-- uid: CalendarBack.Entities.Weather._base
-  name: _base
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather__base
-  commentId: P:CalendarBack.Entities.Weather._base
-  fullName: CalendarBack.Entities.Weather._base
-  nameWithType: Weather._base
-- uid: CalendarBack.Entities.Weather._base*
-  name: _base
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather__base_
-  commentId: Overload:CalendarBack.Entities.Weather._base
+- uid: CalendarBack.Entities.Weather.base
+  name: base
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_base
+  commentId: P:CalendarBack.Entities.Weather.base
+  fullName: CalendarBack.Entities.Weather.base
+  nameWithType: Weather.base
+- uid: CalendarBack.Entities.Weather.base*
+  name: base
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_base_
+  commentId: Overload:CalendarBack.Entities.Weather.base
   isSpec: "True"
-  fullName: CalendarBack.Entities.Weather._base
-  nameWithType: Weather._base
+  fullName: CalendarBack.Entities.Weather.base
+  nameWithType: Weather.base
+- uid: CalendarBack.Entities.weather.cloudness
+  name: cloudness
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_cloudness
+  commentId: P:CalendarBack.Entities.weather.cloudness
+  fullName: CalendarBack.Entities.weather.cloudness
+  nameWithType: weather.cloudness
 - uid: CalendarBack.Entities.Weather.cloudness
   name: cloudness
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_cloudness
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_cloudness
   commentId: P:CalendarBack.Entities.Weather.cloudness
   fullName: CalendarBack.Entities.Weather.cloudness
   nameWithType: Weather.cloudness
+- uid: CalendarBack.Entities.weather.cloudness*
+  name: cloudness
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_cloudness_
+  commentId: Overload:CalendarBack.Entities.weather.cloudness
+  isSpec: "True"
+  fullName: CalendarBack.Entities.weather.cloudness
+  nameWithType: weather.cloudness
 - uid: CalendarBack.Entities.Weather.cloudness*
   name: cloudness
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_cloudness_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_cloudness_
   commentId: Overload:CalendarBack.Entities.Weather.cloudness
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.cloudness
   nameWithType: Weather.cloudness
 - uid: CalendarBack.Entities.Weather.cod
   name: cod
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_cod
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_cod
   commentId: P:CalendarBack.Entities.Weather.cod
   fullName: CalendarBack.Entities.Weather.cod
   nameWithType: Weather.cod
 - uid: CalendarBack.Entities.Weather.cod*
   name: cod
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_cod_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_cod_
   commentId: Overload:CalendarBack.Entities.Weather.cod
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.cod
   nameWithType: Weather.cod
-- uid: CalendarBack.Entities.weather.description
-  name: description
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_description
-  commentId: P:CalendarBack.Entities.weather.description
-  fullName: CalendarBack.Entities.weather.description
-  nameWithType: weather.description
-- uid: CalendarBack.Entities.weather.description*
-  name: description
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_description_
-  commentId: Overload:CalendarBack.Entities.weather.description
+- uid: CalendarBack.Entities.Weather.coord
+  name: coord
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_coord
+  commentId: P:CalendarBack.Entities.Weather.coord
+  fullName: CalendarBack.Entities.Weather.coord
+  nameWithType: Weather.coord
+- uid: CalendarBack.Entities.Weather.coord*
+  name: coord
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_coord_
+  commentId: Overload:CalendarBack.Entities.Weather.coord
   isSpec: "True"
-  fullName: CalendarBack.Entities.weather.description
-  nameWithType: weather.description
+  fullName: CalendarBack.Entities.Weather.coord
+  nameWithType: Weather.coord
+- uid: CalendarBack.Entities.weather.day
+  name: day
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_day
+  commentId: P:CalendarBack.Entities.weather.day
+  fullName: CalendarBack.Entities.weather.day
+  nameWithType: weather.day
+- uid: CalendarBack.Entities.weather.day*
+  name: day
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_day_
+  commentId: Overload:CalendarBack.Entities.weather.day
+  isSpec: "True"
+  fullName: CalendarBack.Entities.weather.day
+  nameWithType: weather.day
 - uid: CalendarBack.Entities.Weather.dt
   name: dt
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_dt
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_dt
   commentId: P:CalendarBack.Entities.Weather.dt
   fullName: CalendarBack.Entities.Weather.dt
   nameWithType: Weather.dt
 - uid: CalendarBack.Entities.Weather.dt*
   name: dt
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_dt_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_dt_
   commentId: Overload:CalendarBack.Entities.Weather.dt
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.dt
   nameWithType: Weather.dt
-- uid: CalendarBack.Entities.weather.iconCode
-  name: iconCode
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_iconCode
-  commentId: P:CalendarBack.Entities.weather.iconCode
-  fullName: CalendarBack.Entities.weather.iconCode
-  nameWithType: weather.iconCode
-- uid: CalendarBack.Entities.weather.iconCode*
-  name: iconCode
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_iconCode_
-  commentId: Overload:CalendarBack.Entities.weather.iconCode
+- uid: CalendarBack.Entities.weather.icon
+  name: icon
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_icon
+  commentId: P:CalendarBack.Entities.weather.icon
+  fullName: CalendarBack.Entities.weather.icon
+  nameWithType: weather.icon
+- uid: CalendarBack.Entities.weather.icon*
+  name: icon
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_icon_
+  commentId: Overload:CalendarBack.Entities.weather.icon
   isSpec: "True"
-  fullName: CalendarBack.Entities.weather.iconCode
-  nameWithType: weather.iconCode
-- uid: CalendarBack.Entities.weather.id
-  name: id
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_id
-  commentId: P:CalendarBack.Entities.weather.id
-  fullName: CalendarBack.Entities.weather.id
-  nameWithType: weather.id
+  fullName: CalendarBack.Entities.weather.icon
+  nameWithType: weather.icon
 - uid: CalendarBack.Entities.Weather.id
   name: id
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_id
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_id
   commentId: P:CalendarBack.Entities.Weather.id
   fullName: CalendarBack.Entities.Weather.id
   nameWithType: Weather.id
-- uid: CalendarBack.Entities.weather.id*
-  name: id
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_id_
-  commentId: Overload:CalendarBack.Entities.weather.id
-  isSpec: "True"
-  fullName: CalendarBack.Entities.weather.id
-  nameWithType: weather.id
 - uid: CalendarBack.Entities.Weather.id*
   name: id
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_id_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_id_
   commentId: Overload:CalendarBack.Entities.Weather.id
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.id
   nameWithType: Weather.id
-- uid: CalendarBack.Entities.weather.mainName
-  name: mainName
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_mainName
-  commentId: P:CalendarBack.Entities.weather.mainName
-  fullName: CalendarBack.Entities.weather.mainName
-  nameWithType: weather.mainName
-- uid: CalendarBack.Entities.weather.mainName*
-  name: mainName
-  href: Back/CalendarBack.Entities.weather.html#CalendarBack_Entities_weather_mainName_
-  commentId: Overload:CalendarBack.Entities.weather.mainName
+- uid: CalendarBack.Entities.Weather.main
+  name: main
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_main
+  commentId: P:CalendarBack.Entities.Weather.main
+  fullName: CalendarBack.Entities.Weather.main
+  nameWithType: Weather.main
+- uid: CalendarBack.Entities.Weather.main*
+  name: main
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_main_
+  commentId: Overload:CalendarBack.Entities.Weather.main
   isSpec: "True"
-  fullName: CalendarBack.Entities.weather.mainName
-  nameWithType: weather.mainName
-- uid: CalendarBack.Entities.Weather.mainParams
-  name: mainParams
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_mainParams
-  commentId: P:CalendarBack.Entities.Weather.mainParams
-  fullName: CalendarBack.Entities.Weather.mainParams
-  nameWithType: Weather.mainParams
-- uid: CalendarBack.Entities.Weather.mainParams*
-  name: mainParams
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_mainParams_
-  commentId: Overload:CalendarBack.Entities.Weather.mainParams
-  isSpec: "True"
-  fullName: CalendarBack.Entities.Weather.mainParams
-  nameWithType: Weather.mainParams
+  fullName: CalendarBack.Entities.Weather.main
+  nameWithType: Weather.main
 - uid: CalendarBack.Entities.Weather.name
   name: name
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_name
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_name
   commentId: P:CalendarBack.Entities.Weather.name
   fullName: CalendarBack.Entities.Weather.name
   nameWithType: Weather.name
 - uid: CalendarBack.Entities.Weather.name*
   name: name
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_name_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_name_
   commentId: Overload:CalendarBack.Entities.Weather.name
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.name
   nameWithType: Weather.name
-- uid: CalendarBack.Entities.Weather.position
-  name: position
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_position
-  commentId: P:CalendarBack.Entities.Weather.position
-  fullName: CalendarBack.Entities.Weather.position
-  nameWithType: Weather.position
-- uid: CalendarBack.Entities.Weather.position*
-  name: position
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_position_
-  commentId: Overload:CalendarBack.Entities.Weather.position
-  isSpec: "True"
-  fullName: CalendarBack.Entities.Weather.position
-  nameWithType: Weather.position
 - uid: CalendarBack.Entities.Weather.rain
   name: rain
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_rain
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_rain
   commentId: P:CalendarBack.Entities.Weather.rain
   fullName: CalendarBack.Entities.Weather.rain
   nameWithType: Weather.rain
 - uid: CalendarBack.Entities.Weather.rain*
   name: rain
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_rain_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_rain_
   commentId: Overload:CalendarBack.Entities.Weather.rain
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.rain
   nameWithType: Weather.rain
 - uid: CalendarBack.Entities.Weather.snow
   name: snow
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_snow
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_snow
   commentId: P:CalendarBack.Entities.Weather.snow
   fullName: CalendarBack.Entities.Weather.snow
   nameWithType: Weather.snow
 - uid: CalendarBack.Entities.Weather.snow*
   name: snow
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_snow_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_snow_
   commentId: Overload:CalendarBack.Entities.Weather.snow
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.snow
   nameWithType: Weather.snow
 - uid: CalendarBack.Entities.Weather.sys
   name: sys
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_sys
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_sys
   commentId: P:CalendarBack.Entities.Weather.sys
   fullName: CalendarBack.Entities.Weather.sys
   nameWithType: Weather.sys
 - uid: CalendarBack.Entities.Weather.sys*
   name: sys
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_sys_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_sys_
   commentId: Overload:CalendarBack.Entities.Weather.sys
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.sys
   nameWithType: Weather.sys
-- uid: CalendarBack.Entities.Weather.temperatureC
-  name: temperatureC
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_temperatureC
-  commentId: P:CalendarBack.Entities.Weather.temperatureC
-  fullName: CalendarBack.Entities.Weather.temperatureC
-  nameWithType: Weather.temperatureC
-- uid: CalendarBack.Entities.Weather.temperatureC*
-  name: temperatureC
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_temperatureC_
-  commentId: Overload:CalendarBack.Entities.Weather.temperatureC
+- uid: CalendarBack.Entities.weather.temperature
+  name: temperature
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_temperature
+  commentId: P:CalendarBack.Entities.weather.temperature
+  fullName: CalendarBack.Entities.weather.temperature
+  nameWithType: weather.temperature
+- uid: CalendarBack.Entities.Weather.temperature
+  name: temperature
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_temperature
+  commentId: P:CalendarBack.Entities.Weather.temperature
+  fullName: CalendarBack.Entities.Weather.temperature
+  nameWithType: Weather.temperature
+- uid: CalendarBack.Entities.weather.temperature*
+  name: temperature
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_temperature_
+  commentId: Overload:CalendarBack.Entities.weather.temperature
   isSpec: "True"
-  fullName: CalendarBack.Entities.Weather.temperatureC
-  nameWithType: Weather.temperatureC
+  fullName: CalendarBack.Entities.weather.temperature
+  nameWithType: weather.temperature
+- uid: CalendarBack.Entities.Weather.temperature*
+  name: temperature
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_temperature_
+  commentId: Overload:CalendarBack.Entities.Weather.temperature
+  isSpec: "True"
+  fullName: CalendarBack.Entities.Weather.temperature
+  nameWithType: Weather.temperature
 - uid: CalendarBack.Entities.Weather.timezone
   name: timezone
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_timezone
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_timezone
   commentId: P:CalendarBack.Entities.Weather.timezone
   fullName: CalendarBack.Entities.Weather.timezone
   nameWithType: Weather.timezone
 - uid: CalendarBack.Entities.Weather.timezone*
   name: timezone
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_timezone_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_timezone_
   commentId: Overload:CalendarBack.Entities.Weather.timezone
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.timezone
   nameWithType: Weather.timezone
 - uid: CalendarBack.Entities.Weather.visibility
   name: visibility
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_visibility
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_visibility
   commentId: P:CalendarBack.Entities.Weather.visibility
   fullName: CalendarBack.Entities.Weather.visibility
   nameWithType: Weather.visibility
 - uid: CalendarBack.Entities.Weather.visibility*
   name: visibility
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_visibility_
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_visibility_
   commentId: Overload:CalendarBack.Entities.Weather.visibility
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.visibility
   nameWithType: Weather.visibility
-- uid: CalendarBack.Entities.Weather.weathers
-  name: weathers
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_weathers
-  commentId: P:CalendarBack.Entities.Weather.weathers
-  fullName: CalendarBack.Entities.Weather.weathers
-  nameWithType: Weather.weathers
-- uid: CalendarBack.Entities.Weather.weathers*
-  name: weathers
-  href: Back/CalendarBack.Entities.Weather_1.html#CalendarBack_Entities_Weather_weathers_
-  commentId: Overload:CalendarBack.Entities.Weather.weathers
+- uid: CalendarBack.Entities.Weather.weather
+  name: weather
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_weather
+  commentId: P:CalendarBack.Entities.Weather.weather
+  fullName: CalendarBack.Entities.Weather.weather
+  nameWithType: Weather.weather
+- uid: CalendarBack.Entities.Weather.weather*
+  name: weather
+  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_weather_
+  commentId: Overload:CalendarBack.Entities.Weather.weather
   isSpec: "True"
-  fullName: CalendarBack.Entities.Weather.weathers
-  nameWithType: Weather.weathers
+  fullName: CalendarBack.Entities.Weather.weather
+  nameWithType: Weather.weather
+- uid: CalendarBack.Entities.weather.wind
+  name: wind
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_wind
+  commentId: P:CalendarBack.Entities.weather.wind
+  fullName: CalendarBack.Entities.weather.wind
+  nameWithType: weather.wind
+- uid: CalendarBack.Entities.weather.wind*
+  name: wind
+  href: Back/CalendarBack.Entities.weather_1.html#CalendarBack_Entities_weather_wind_
+  commentId: Overload:CalendarBack.Entities.weather.wind
+  isSpec: "True"
+  fullName: CalendarBack.Entities.weather.wind
+  nameWithType: weather.wind
+- uid: CalendarBack.Entities.WeatherSendingFromEndpoint
+  name: WeatherSendingFromEndpoint
+  href: Back/CalendarBack.Entities.WeatherSendingFromEndpoint.html
+  commentId: T:CalendarBack.Entities.WeatherSendingFromEndpoint
+  fullName: CalendarBack.Entities.WeatherSendingFromEndpoint
+  nameWithType: WeatherSendingFromEndpoint
 - uid: CalendarBack.Entities.wind
   name: wind
   href: Back/CalendarBack.Entities.wind.html
   commentId: T:CalendarBack.Entities.wind
   fullName: CalendarBack.Entities.wind
   nameWithType: wind
-- uid: CalendarBack.Entities.wind.deg
-  name: deg
-  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_deg
-  commentId: P:CalendarBack.Entities.wind.deg
-  fullName: CalendarBack.Entities.wind.deg
-  nameWithType: wind.deg
-- uid: CalendarBack.Entities.wind.deg*
-  name: deg
-  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_deg_
-  commentId: Overload:CalendarBack.Entities.wind.deg
+- uid: CalendarBack.Entities.wind.direction
+  name: direction
+  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_direction
+  commentId: P:CalendarBack.Entities.wind.direction
+  fullName: CalendarBack.Entities.wind.direction
+  nameWithType: wind.direction
+- uid: CalendarBack.Entities.wind.direction*
+  name: direction
+  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_direction_
+  commentId: Overload:CalendarBack.Entities.wind.direction
   isSpec: "True"
-  fullName: CalendarBack.Entities.wind.deg
-  nameWithType: wind.deg
-- uid: CalendarBack.Entities.wind.speed
-  name: speed
-  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_speed
-  commentId: P:CalendarBack.Entities.wind.speed
-  fullName: CalendarBack.Entities.wind.speed
-  nameWithType: wind.speed
-- uid: CalendarBack.Entities.wind.speed*
-  name: speed
-  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_speed_
-  commentId: Overload:CalendarBack.Entities.wind.speed
+  fullName: CalendarBack.Entities.wind.direction
+  nameWithType: wind.direction
+- uid: CalendarBack.Entities.wind.power
+  name: power
+  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_power
+  commentId: P:CalendarBack.Entities.wind.power
+  fullName: CalendarBack.Entities.wind.power
+  nameWithType: wind.power
+- uid: CalendarBack.Entities.wind.power*
+  name: power
+  href: Back/CalendarBack.Entities.wind.html#CalendarBack_Entities_wind_power_
+  commentId: Overload:CalendarBack.Entities.wind.power
   isSpec: "True"
-  fullName: CalendarBack.Entities.wind.speed
-  nameWithType: wind.speed
+  fullName: CalendarBack.Entities.wind.power
+  nameWithType: wind.power
 - uid: CalendarBack.Program
   name: Program
   href: Back/CalendarBack.Program.html
@@ -841,3 +659,15 @@ references:
   isSpec: "True"
   fullName: CalendarBack.Startup.ConfigureServices
   nameWithType: Startup.ConfigureServices
+- uid: CalendarBack.Tests
+  name: CalendarBack.Tests
+  href: Back/CalendarBack.Tests.html
+  commentId: N:CalendarBack.Tests
+  fullName: CalendarBack.Tests
+  nameWithType: CalendarBack.Tests
+- uid: CalendarBack.Tests.WeatherControlerTest
+  name: WeatherControlerTest
+  href: Back/CalendarBack.Tests.WeatherControlerTest.html
+  commentId: T:CalendarBack.Tests.WeatherControlerTest
+  fullName: CalendarBack.Tests.WeatherControlerTest
+  nameWithType: WeatherControlerTest

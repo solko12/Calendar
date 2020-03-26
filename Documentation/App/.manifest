@@ -12,5 +12,10 @@
   "CalendarApp.CalendarPage.selectedDate": "CalendarApp.CalendarPage.yml",
   "CalendarApp.DayPage": "CalendarApp.DayPage.yml",
   "CalendarApp.DayPage.#ctor(System.DateTime)": "CalendarApp.DayPage.yml",
-  "CalendarApp.DayPage.InitializeComponent": "CalendarApp.DayPage.yml"
+  "CalendarApp.DayPage.InitializeComponent": "CalendarApp.DayPage.yml",
+  "CalendarApp.WeatherPage": "CalendarApp.WeatherPage.yml",
+  "CalendarApp.WeatherPage.#ctor": "CalendarApp.WeatherPage.yml",
+  "CalendarApp.WeatherPage.date": "CalendarApp.WeatherPage.yml",
+  "CalendarApp.WeatherPage.InitializeComponent": "CalendarApp.WeatherPage.yml",
+  "CalendarApp.WeatherPage.list": "CalendarApp.WeatherPage.yml"
 }

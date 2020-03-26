@@ -621,7 +621,8 @@ public class WeatherController : ControllerBase</code></pre>
   
   <a id="CalendarBack_Controllers_WeatherController_Get_" data-uid="CalendarBack.Controllers.WeatherController.Get*"></a>
   <h4 id="CalendarBack_Controllers_WeatherController_Get" data-uid="CalendarBack.Controllers.WeatherController.Get">Get()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Endpoint for current location</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -682,6 +683,58 @@ public string Get(int id)</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Controllers_WeatherController_GetWeather_" data-uid="CalendarBack.Controllers.WeatherController.GetWeather*"></a>
+  <h4 id="CalendarBack_Controllers_WeatherController_GetWeather" data-uid="CalendarBack.Controllers.WeatherController.GetWeather">GetWeather()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet(&quot;/&quot;)]
+public string GetWeather()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Controllers_WeatherController_reload_" data-uid="CalendarBack.Controllers.WeatherController.reload*"></a>
+  <h4 id="CalendarBack_Controllers_WeatherController_reload" data-uid="CalendarBack.Controllers.WeatherController.reload">reload()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HttpGet(&quot;reload&quot;)]
+public Weather reload()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CalendarBack.Entities.Weather.html">Weather</a></td>
         <td></td>
       </tr>
     </tbody>

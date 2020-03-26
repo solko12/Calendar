@@ -7,6 +7,8 @@ items:
   children:
   - CalendarBack.Controllers.WeatherController.Get
   - CalendarBack.Controllers.WeatherController.Get(System.Int32)
+  - CalendarBack.Controllers.WeatherController.GetWeather
+  - CalendarBack.Controllers.WeatherController.reload
   langs:
   - csharp
   - vb
@@ -17,7 +19,7 @@ items:
   source:
     id: WeatherController
     path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 12
+    startLine: 14
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
@@ -244,10 +246,12 @@ items:
   source:
     id: Get
     path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 20
+    startLine: 28
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
+  summary: "\nEndpoint for current location\n"
+  example: []
   syntax:
     content: >-
       [HttpGet("location")]
@@ -255,6 +259,7 @@ items:
       public IEnumerable<string> Get()
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
+      description: ''
     content.vb: >-
       <HttpGet("location")>
 
@@ -266,6 +271,46 @@ items:
     arguments:
     - type: System.String
       value: location
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Controllers.WeatherController.GetWeather
+  commentId: M:CalendarBack.Controllers.WeatherController.GetWeather
+  id: GetWeather
+  parent: CalendarBack.Controllers.WeatherController
+  langs:
+  - csharp
+  - vb
+  name: GetWeather()
+  nameWithType: WeatherController.GetWeather()
+  fullName: CalendarBack.Controllers.WeatherController.GetWeather()
+  type: Method
+  source:
+    id: GetWeather
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
+    startLine: 34
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Controllers
+  syntax:
+    content: >-
+      [HttpGet("/")]
+
+      public string GetWeather()
+    return:
+      type: System.String
+    content.vb: >-
+      <HttpGet("/")>
+
+      Public Function GetWeather As String
+  overload: CalendarBack.Controllers.WeatherController.GetWeather*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: /
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -284,7 +329,7 @@ items:
   source:
     id: Get
     path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 27
+    startLine: 41
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
@@ -313,6 +358,46 @@ items:
     - name: Name
       type: System.String
       value: Get
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Controllers.WeatherController.reload
+  commentId: M:CalendarBack.Controllers.WeatherController.reload
+  id: reload
+  parent: CalendarBack.Controllers.WeatherController
+  langs:
+  - csharp
+  - vb
+  name: reload()
+  nameWithType: WeatherController.reload()
+  fullName: CalendarBack.Controllers.WeatherController.reload()
+  type: Method
+  source:
+    id: reload
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
+    startLine: 48
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Controllers
+  syntax:
+    content: >-
+      [HttpGet("reload")]
+
+      public Weather reload()
+    return:
+      type: CalendarBack.Entities.Weather
+    content.vb: >-
+      <HttpGet("reload")>
+
+      Public Function reload As Weather
+  overload: CalendarBack.Controllers.WeatherController.reload*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: reload
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -12056,13 +12141,11 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+- uid: CalendarBack.Controllers.WeatherController.GetWeather*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeather
+  name: GetWeather
+  nameWithType: WeatherController.GetWeather
+  fullName: CalendarBack.Controllers.WeatherController.GetWeather
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -12070,3 +12153,26 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CalendarBack.Controllers.WeatherController.reload*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.reload
+  name: reload
+  nameWithType: WeatherController.reload
+  fullName: CalendarBack.Controllers.WeatherController.reload
+- uid: CalendarBack.Entities.Weather
+  commentId: T:CalendarBack.Entities.Weather
+  parent: CalendarBack.Entities
+  name: Weather
+  nameWithType: Weather
+  fullName: CalendarBack.Entities.Weather
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities

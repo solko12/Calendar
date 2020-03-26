@@ -6,6 +6,7 @@ items:
   children:
   - CalendarApp.CalendarPage
   - CalendarApp.DayPage
+  - CalendarApp.WeatherPage
   langs:
   - csharp
   - vb
@@ -26,3 +27,8 @@ references:
   name: DayPage
   nameWithType: DayPage
   fullName: CalendarApp.DayPage
+- uid: CalendarApp.WeatherPage
+  commentId: T:CalendarApp.WeatherPage
+  name: WeatherPage
+  nameWithType: WeatherPage
+  fullName: CalendarApp.WeatherPage

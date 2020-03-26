@@ -5,8 +5,8 @@ items:
   id: wind
   parent: CalendarBack.Entities
   children:
-  - CalendarBack.Entities.wind.deg
-  - CalendarBack.Entities.wind.speed
+  - CalendarBack.Entities.wind.direction
+  - CalendarBack.Entities.wind.power
   langs:
   - csharp
   - vb
@@ -16,8 +16,8 @@ items:
   type: Class
   source:
     id: wind
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 31
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\WeatherSendingFromEndpoint.cs
+    startLine: 7
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
@@ -40,62 +40,62 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarBack.Entities.wind.speed
-  commentId: P:CalendarBack.Entities.wind.speed
-  id: speed
+- uid: CalendarBack.Entities.wind.direction
+  commentId: P:CalendarBack.Entities.wind.direction
+  id: direction
   parent: CalendarBack.Entities.wind
   langs:
   - csharp
   - vb
-  name: speed
-  nameWithType: wind.speed
-  fullName: CalendarBack.Entities.wind.speed
+  name: direction
+  nameWithType: wind.direction
+  fullName: CalendarBack.Entities.wind.direction
   type: Property
   source:
-    id: speed
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 33
+    id: direction
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\WeatherSendingFromEndpoint.cs
+    startLine: 9
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public double speed { get; set; }
+    content: public string direction { get; set; }
     parameters: []
     return:
-      type: System.Double
-    content.vb: Public Property speed As Double
-  overload: CalendarBack.Entities.wind.speed*
+      type: System.String
+    content.vb: Public Property direction As String
+  overload: CalendarBack.Entities.wind.direction*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: CalendarBack.Entities.wind.deg
-  commentId: P:CalendarBack.Entities.wind.deg
-  id: deg
+- uid: CalendarBack.Entities.wind.power
+  commentId: P:CalendarBack.Entities.wind.power
+  id: power
   parent: CalendarBack.Entities.wind
   langs:
   - csharp
   - vb
-  name: deg
-  nameWithType: wind.deg
-  fullName: CalendarBack.Entities.wind.deg
+  name: power
+  nameWithType: wind.power
+  fullName: CalendarBack.Entities.wind.power
   type: Property
   source:
-    id: deg
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 34
+    id: power
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\WeatherSendingFromEndpoint.cs
+    startLine: 10
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public double deg { get; set; }
+    content: public double power { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: Public Property deg As Double
-  overload: CalendarBack.Entities.wind.deg*
+    content.vb: Public Property power As Double
+  overload: CalendarBack.Entities.wind.power*
   modifiers.csharp:
   - public
   - get
@@ -400,11 +400,23 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalendarBack.Entities.wind.speed*
-  commentId: Overload:CalendarBack.Entities.wind.speed
-  name: speed
-  nameWithType: wind.speed
-  fullName: CalendarBack.Entities.wind.speed
+- uid: CalendarBack.Entities.wind.direction*
+  commentId: Overload:CalendarBack.Entities.wind.direction
+  name: direction
+  nameWithType: wind.direction
+  fullName: CalendarBack.Entities.wind.direction
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CalendarBack.Entities.wind.power*
+  commentId: Overload:CalendarBack.Entities.wind.power
+  name: power
+  nameWithType: wind.power
+  fullName: CalendarBack.Entities.wind.power
 - uid: System.Double
   commentId: T:System.Double
   parent: System
@@ -412,8 +424,3 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: CalendarBack.Entities.wind.deg*
-  commentId: Overload:CalendarBack.Entities.wind.deg
-  name: deg
-  nameWithType: wind.deg
-  fullName: CalendarBack.Entities.wind.deg
