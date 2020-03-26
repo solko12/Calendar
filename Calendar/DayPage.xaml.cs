@@ -25,9 +25,6 @@ namespace CalendarApp
         {
             InitializeComponent();
             _date = date;
-            list.Add("chuj");
-            list.Add("Dupa");
-            list.Add("cipa");
             Notes.ItemsSource = list;
         }
 

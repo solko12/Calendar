@@ -24,24 +24,7 @@
                 </Grid.RowDefinitions>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Content="Wybor miasta" Foreground="White"/>
                 <ComboBox Name="CityBox" Grid.Row="1" Height="30" VerticalAlignment="Top" IsEditable="true">
-                    <!--
-                    <ComboBoxItem Content="chuj"/>
-                    <ComboBoxItem Content="kasza"/>
-                    <ComboBoxItem Content="Kielce"/>
-                    <ComboBoxItem Content="grzyb"/>
-                    <ComboBoxItem Content="wroclaw"/>
-                    <ComboBoxItem Content="chuj123"/>
-                    <ComboBoxItem Content="Warszawa"/>
-                    <ComboBoxItem Content="Chujno"/>
-                    <ComboBoxItem Content="Kupa"/>
-                    <ComboBoxItem Content="dupa"/>
-                    <ComboBoxItem Content="cipa"/>
-                    <ComboBoxItem Content="sranie"/>
-                    <ComboBoxItem Content="Kutasiarnia"/>
-                    <ComboBoxItem Content="Jestem"/>
-                    <ComboBoxItem Content="chorym"/>
-                    <ComboBoxItem Content="Pojebem"/>
-                    -->
+                   
                 </ComboBox>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Content="Temp. teraz" Foreground="White"/>
             </Grid>
@@ -55,10 +38,11 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
+                    <RowDefinition/> <!-- Daty -->
+                    <RowDefinition/> <!-- Ikona-->
+                    <RowDefinition/> <!-- Temperatura-->
+                    <RowDefinition/> <!-- Wiatr -->
+                    <RowDefinition/> <!-- Ciśnienie -->
                 </Grid.RowDefinitions>
                 <!-- Placeholder na ikony-->
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="0" Content="Ikona" Foreground="White"/>
@@ -66,18 +50,7 @@
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="2" Content="Ikona" Foreground="White"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="3" Content="Ikona" Foreground="White"/>
                 <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="4" Content="Ikona" Foreground="White"/>
-                <!-- Placeholder na temperature-->
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="0" Content="Temperatura" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="1" Content="Temperatura" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="2" Content="Temperatura" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="3" Content="Temperatura" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="4" Content="Temperatura" Foreground="White"/>
-                <!-- Placeholder na opady-->
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="0" Content="Opady" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="1" Content="Opady" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="2" Content="Opady" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="3" Content="Opady" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="4" Content="Opady" Foreground="White"/>
+                
             </Grid>
         </Grid>
         

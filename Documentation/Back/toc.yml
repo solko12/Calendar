@@ -14,16 +14,13 @@
 - uid: CalendarBack.Entities
   name: CalendarBack.Entities
   items:
-  - uid: CalendarBack.Entities._5Day3hForecast
-    name: _5Day3hForecast
-  - uid: CalendarBack.Entities.weather
-    name: weather
   - uid: CalendarBack.Entities.Weather
     name: Weather
-  - uid: CalendarBack.Entities.WeatherSendingFromEndpoint
-    name: WeatherSendingFromEndpoint
-  - uid: CalendarBack.Entities.wind
-    name: wind
+- uid: CalendarBack.Logic
+  name: CalendarBack.Logic
+  items:
+  - uid: CalendarBack.Logic.WeatherParser
+    name: WeatherParser
 - uid: CalendarBack.Tests
   name: CalendarBack.Tests
   items:

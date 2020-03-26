@@ -4,12 +4,19 @@
              xmlns:local="clr-namespace:Calendar"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <Style x:Key="LabelStyle" TargetType="{x:Type Label}">
+        <Style x:Key="DateLabelStyle" TargetType="{x:Type Label}">
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="VerticalAlignment" Value= "Center" />
             <Setter Property="Foreground" Value="White" />
             <Setter Property="FontFamily" Value="Calibri" />
             <Setter Property="FontSize" Value="17" />
+        </Style>
+        <Style x:Key="TempLabelStyle" TargetType="{x:Type Label}">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value= "Center" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontFamily" Value="Calibri" />
+            <Setter Property="FontSize" Value="14" />
         </Style>
     </Application.Resources>
 </Application>

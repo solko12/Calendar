@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Logic
+  commentId: N:CalendarBack.Logic
+  id: CalendarBack.Logic
+  children:
+  - CalendarBack.Logic.WeatherParser
+  langs:
+  - csharp
+  - vb
+  name: CalendarBack.Logic
+  nameWithType: CalendarBack.Logic
+  fullName: CalendarBack.Logic
+  type: Namespace
+  assemblies:
+  - CalendarBack
+references:
+- uid: CalendarBack.Logic.WeatherParser
+  commentId: T:CalendarBack.Logic.WeatherParser
+  name: WeatherParser
+  nameWithType: WeatherParser
+  fullName: CalendarBack.Logic.WeatherParser
