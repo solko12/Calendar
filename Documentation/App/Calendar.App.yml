@@ -111,7 +111,7 @@ items:
   source:
     id: InitializeComponent
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\App.g.cs
-    startLine: 46
+    startLine: 48
   assemblies:
   - CalendarApp
   namespace: Calendar
@@ -139,7 +139,7 @@ items:
   source:
     id: Main
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\App.g.cs
-    startLine: 60
+    startLine: 73
   assemblies:
   - CalendarApp
   namespace: Calendar

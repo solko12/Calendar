@@ -1,29 +1,30 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalendarBack.Entities.coord
-  commentId: T:CalendarBack.Entities.coord
-  id: coord
-  parent: CalendarBack.Entities
+- uid: CalendarBack.Logic.WeatherParser
+  commentId: T:CalendarBack.Logic.WeatherParser
+  id: WeatherParser
+  parent: CalendarBack.Logic
   children:
-  - CalendarBack.Entities.coord.lat
-  - CalendarBack.Entities.coord.lon
+  - CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   langs:
   - csharp
   - vb
-  name: coord
-  nameWithType: coord
-  fullName: CalendarBack.Entities.coord
+  name: WeatherParser
+  nameWithType: WeatherParser
+  fullName: CalendarBack.Logic.WeatherParser
   type: Class
   source:
-    id: coord
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 15
+    id: WeatherParser
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
+    startLine: 13
   assemblies:
   - CalendarBack
-  namespace: CalendarBack.Entities
+  namespace: CalendarBack.Logic
+  summary: "\nClass parse downloaded weatherInfo 5 days per 3 h to average for 5 days\n"
+  example: []
   syntax:
-    content: public class coord
-    content.vb: Public Class coord
+    content: public static class WeatherParser
+    content.vb: Public Module WeatherParser
   inheritance:
   - System.Object
   inheritedMembers:
@@ -36,78 +37,54 @@ items:
   - System.Object.ToString
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
-- uid: CalendarBack.Entities.coord.lat
-  commentId: P:CalendarBack.Entities.coord.lat
-  id: lat
-  parent: CalendarBack.Entities.coord
+  - Module
+- uid: CalendarBack.Logic.WeatherParser.parseWeather(System.String)
+  commentId: M:CalendarBack.Logic.WeatherParser.parseWeather(System.String)
+  id: parseWeather(System.String)
+  parent: CalendarBack.Logic.WeatherParser
   langs:
   - csharp
   - vb
-  name: lat
-  nameWithType: coord.lat
-  fullName: CalendarBack.Entities.coord.lat
-  type: Property
+  name: parseWeather(String)
+  nameWithType: WeatherParser.parseWeather(String)
+  fullName: CalendarBack.Logic.WeatherParser.parseWeather(System.String)
+  type: Method
   source:
-    id: lat
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 17
+    id: parseWeather
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
+    startLine: 20
   assemblies:
   - CalendarBack
-  namespace: CalendarBack.Entities
+  namespace: CalendarBack.Logic
+  summary: "\nMethod parse json string consist weather for 5 days per 3 h to average weather for 5 days daily\n"
+  example: []
   syntax:
-    content: public double lat { get; set; }
-    parameters: []
+    content: public static string parseWeather(string json)
+    parameters:
+    - id: json
+      type: System.String
+      description: Input JSON formated string
     return:
-      type: System.Double
-    content.vb: Public Property lat As Double
-  overload: CalendarBack.Entities.coord.lat*
+      type: System.String
+      description: Parsed Json formated string
+    content.vb: Public Shared Function parseWeather(json As String) As String
+  overload: CalendarBack.Logic.WeatherParser.parseWeather*
   modifiers.csharp:
   - public
-  - get
-  - set
+  - static
   modifiers.vb:
   - Public
-- uid: CalendarBack.Entities.coord.lon
-  commentId: P:CalendarBack.Entities.coord.lon
-  id: lon
-  parent: CalendarBack.Entities.coord
-  langs:
-  - csharp
-  - vb
-  name: lon
-  nameWithType: coord.lon
-  fullName: CalendarBack.Entities.coord.lon
-  type: Property
-  source:
-    id: lon
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 18
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public double lon { get; set; }
-    parameters: []
-    return:
-      type: System.Double
-    content.vb: Public Property lon As Double
-  overload: CalendarBack.Entities.coord.lon*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
+  - Shared
 references:
-- uid: CalendarBack.Entities
-  commentId: N:CalendarBack.Entities
-  name: CalendarBack.Entities
-  nameWithType: CalendarBack.Entities
-  fullName: CalendarBack.Entities
+- uid: CalendarBack.Logic
+  commentId: N:CalendarBack.Logic
+  name: CalendarBack.Logic
+  nameWithType: CalendarBack.Logic
+  fullName: CalendarBack.Logic
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -400,20 +377,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalendarBack.Entities.coord.lat*
-  commentId: Overload:CalendarBack.Entities.coord.lat
-  name: lat
-  nameWithType: coord.lat
-  fullName: CalendarBack.Entities.coord.lat
-- uid: System.Double
-  commentId: T:System.Double
+- uid: CalendarBack.Logic.WeatherParser.parseWeather*
+  commentId: Overload:CalendarBack.Logic.WeatherParser.parseWeather
+  name: parseWeather
+  nameWithType: WeatherParser.parseWeather
+  fullName: CalendarBack.Logic.WeatherParser.parseWeather
+- uid: System.String
+  commentId: T:System.String
   parent: System
   isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: CalendarBack.Entities.coord.lon*
-  commentId: Overload:CalendarBack.Entities.coord.lon
-  name: lon
-  nameWithType: coord.lon
-  fullName: CalendarBack.Entities.coord.lon
+  name: String
+  nameWithType: String
+  fullName: System.String

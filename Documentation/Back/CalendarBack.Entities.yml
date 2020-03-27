@@ -4,14 +4,7 @@ items:
   commentId: N:CalendarBack.Entities
   id: CalendarBack.Entities
   children:
-  - CalendarBack.Entities.coord
-  - CalendarBack.Entities.mainParams
-  - CalendarBack.Entities.rain
-  - CalendarBack.Entities.snow
-  - CalendarBack.Entities.sys
-  - CalendarBack.Entities.weather
   - CalendarBack.Entities.Weather
-  - CalendarBack.Entities.wind
   langs:
   - csharp
   - vb
@@ -22,53 +15,8 @@ items:
   assemblies:
   - CalendarBack
 references:
-- uid: CalendarBack.Entities.weather
-  commentId: T:CalendarBack.Entities.weather
-  name: weather
-  nameWithType: weather
-  fullName: CalendarBack.Entities.weather
-- uid: CalendarBack.Entities.coord
-  commentId: T:CalendarBack.Entities.coord
-  parent: CalendarBack.Entities
-  name: coord
-  nameWithType: coord
-  fullName: CalendarBack.Entities.coord
-- uid: CalendarBack.Entities.mainParams
-  commentId: T:CalendarBack.Entities.mainParams
-  parent: CalendarBack.Entities
-  name: mainParams
-  nameWithType: mainParams
-  fullName: CalendarBack.Entities.mainParams
-- uid: CalendarBack.Entities.wind
-  commentId: T:CalendarBack.Entities.wind
-  name: wind
-  nameWithType: wind
-  fullName: CalendarBack.Entities.wind
-- uid: CalendarBack.Entities.sys
-  commentId: T:CalendarBack.Entities.sys
-  parent: CalendarBack.Entities
-  name: sys
-  nameWithType: sys
-  fullName: CalendarBack.Entities.sys
-- uid: CalendarBack.Entities.rain
-  commentId: T:CalendarBack.Entities.rain
-  parent: CalendarBack.Entities
-  name: rain
-  nameWithType: rain
-  fullName: CalendarBack.Entities.rain
-- uid: CalendarBack.Entities.snow
-  commentId: T:CalendarBack.Entities.snow
-  parent: CalendarBack.Entities
-  name: snow
-  nameWithType: snow
-  fullName: CalendarBack.Entities.snow
 - uid: CalendarBack.Entities.Weather
   commentId: T:CalendarBack.Entities.Weather
   name: Weather
   nameWithType: Weather
   fullName: CalendarBack.Entities.Weather
-- uid: CalendarBack.Entities
-  commentId: N:CalendarBack.Entities
-  name: CalendarBack.Entities
-  nameWithType: CalendarBack.Entities
-  fullName: CalendarBack.Entities

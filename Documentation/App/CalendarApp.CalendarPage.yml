@@ -711,7 +711,7 @@ items:
   source:
     id: InitializeComponent
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\CalendarPage.g.cs
-    startLine: 88
+    startLine: 104
   assemblies:
   - CalendarApp
   namespace: CalendarApp

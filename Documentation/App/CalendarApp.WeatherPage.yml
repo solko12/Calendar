@@ -1,32 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalendarApp.DayPage
-  commentId: T:CalendarApp.DayPage
-  id: DayPage
+- uid: CalendarApp.WeatherPage
+  commentId: T:CalendarApp.WeatherPage
+  id: WeatherPage
   parent: CalendarApp
   children:
-  - CalendarApp.DayPage.#ctor(System.DateTime)
-  - CalendarApp.DayPage.InitializeComponent
+  - CalendarApp.WeatherPage.#ctor
+  - CalendarApp.WeatherPage.date
+  - CalendarApp.WeatherPage.InitializeComponent
+  - CalendarApp.WeatherPage.list
   langs:
   - csharp
   - vb
-  name: DayPage
-  nameWithType: DayPage
-  fullName: CalendarApp.DayPage
+  name: WeatherPage
+  nameWithType: WeatherPage
+  fullName: CalendarApp.WeatherPage
   type: Class
   source:
-    id: DayPage
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
+    id: WeatherPage
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\WeatherPage.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
   namespace: CalendarApp
-  summary: "\nLogika interakcji dla klasy DayPage.xaml\n"
+  summary: "\nLogika interakcji dla klasy WeatherPage.xaml\n"
   example: []
   syntax:
-    content: 'public class DayPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector'
+    content: 'public class WeatherPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector'
     content.vb: >-
-      Public Class DayPage
+      Public Class WeatherPage
           Inherits Page
           Implements IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
   inheritance:
@@ -643,49 +645,100 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarApp.DayPage.#ctor(System.DateTime)
-  commentId: M:CalendarApp.DayPage.#ctor(System.DateTime)
-  id: '#ctor(System.DateTime)'
-  parent: CalendarApp.DayPage
+- uid: CalendarApp.WeatherPage.date
+  commentId: F:CalendarApp.WeatherPage.date
+  id: date
+  parent: CalendarApp.WeatherPage
   langs:
   - csharp
   - vb
-  name: DayPage(DateTime)
-  nameWithType: DayPage.DayPage(DateTime)
-  fullName: CalendarApp.DayPage.DayPage(System.DateTime)
+  name: date
+  nameWithType: WeatherPage.date
+  fullName: CalendarApp.WeatherPage.date
+  type: Field
+  source:
+    id: date
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
+    startLine: 21
+  assemblies:
+  - CalendarApp
+  namespace: CalendarApp
+  syntax:
+    content: public DateTime date
+    return:
+      type: System.DateTime
+    content.vb: Public date As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarApp.WeatherPage.list
+  commentId: F:CalendarApp.WeatherPage.list
+  id: list
+  parent: CalendarApp.WeatherPage
+  langs:
+  - csharp
+  - vb
+  name: list
+  nameWithType: WeatherPage.list
+  fullName: CalendarApp.WeatherPage.list
+  type: Field
+  source:
+    id: list
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
+    startLine: 22
+  assemblies:
+  - CalendarApp
+  namespace: CalendarApp
+  syntax:
+    content: public ObservableCollection<string> list
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.String}
+    content.vb: Public list As ObservableCollection(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarApp.WeatherPage.#ctor
+  commentId: M:CalendarApp.WeatherPage.#ctor
+  id: '#ctor'
+  parent: CalendarApp.WeatherPage
+  langs:
+  - csharp
+  - vb
+  name: WeatherPage()
+  nameWithType: WeatherPage.WeatherPage()
+  fullName: CalendarApp.WeatherPage.WeatherPage()
   type: Constructor
   source:
     id: .ctor
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
     startLine: 23
   assemblies:
   - CalendarApp
   namespace: CalendarApp
   syntax:
-    content: public DayPage(DateTime date)
-    parameters:
-    - id: date
-      type: System.DateTime
-    content.vb: Public Sub New(date As Date)
-  overload: CalendarApp.DayPage.#ctor*
+    content: public WeatherPage()
+    content.vb: Public Sub New
+  overload: CalendarApp.WeatherPage.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: CalendarApp.DayPage.InitializeComponent
-  commentId: M:CalendarApp.DayPage.InitializeComponent
+- uid: CalendarApp.WeatherPage.InitializeComponent
+  commentId: M:CalendarApp.WeatherPage.InitializeComponent
   id: InitializeComponent
-  parent: CalendarApp.DayPage
+  parent: CalendarApp.WeatherPage
   langs:
   - csharp
   - vb
   name: InitializeComponent()
-  nameWithType: DayPage.InitializeComponent()
-  fullName: CalendarApp.DayPage.InitializeComponent()
+  nameWithType: WeatherPage.InitializeComponent()
+  fullName: CalendarApp.WeatherPage.InitializeComponent()
   type: Method
   source:
     id: InitializeComponent
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\WeatherPage.g.cs
     startLine: 80
   assemblies:
   - CalendarApp
@@ -695,7 +748,7 @@ items:
   syntax:
     content: public void InitializeComponent()
     content.vb: Public Sub InitializeComponent
-  overload: CalendarApp.DayPage.InitializeComponent*
+  overload: CalendarApp.WeatherPage.InitializeComponent*
   implements:
   - System.Windows.Markup.IComponentConnector.InitializeComponent
   modifiers.csharp:
@@ -12065,11 +12118,6 @@ references:
   name: System.Windows.Markup
   nameWithType: System.Windows.Markup
   fullName: System.Windows.Markup
-- uid: CalendarApp.DayPage.#ctor*
-  commentId: Overload:CalendarApp.DayPage.#ctor
-  name: DayPage
-  nameWithType: DayPage.DayPage
-  fullName: CalendarApp.DayPage.DayPage
 - uid: System.DateTime
   commentId: T:System.DateTime
   parent: System
@@ -12077,11 +12125,105 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: CalendarApp.DayPage.InitializeComponent*
-  commentId: Overload:CalendarApp.DayPage.InitializeComponent
+- uid: System.Collections.ObjectModel.ObservableCollection{System.String}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{System.String}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  name: ObservableCollection<String>
+  nameWithType: ObservableCollection<String>
+  fullName: System.Collections.ObjectModel.ObservableCollection<System.String>
+  nameWithType.vb: ObservableCollection(Of String)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of System.String)
+  name.vb: ObservableCollection(Of String)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    nameWithType: ObservableCollection
+    fullName: System.Collections.ObjectModel.ObservableCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: CalendarApp.WeatherPage.#ctor*
+  commentId: Overload:CalendarApp.WeatherPage.#ctor
+  name: WeatherPage
+  nameWithType: WeatherPage.WeatherPage
+  fullName: CalendarApp.WeatherPage.WeatherPage
+- uid: CalendarApp.WeatherPage.InitializeComponent*
+  commentId: Overload:CalendarApp.WeatherPage.InitializeComponent
   name: InitializeComponent
-  nameWithType: DayPage.InitializeComponent
-  fullName: CalendarApp.DayPage.InitializeComponent
+  nameWithType: WeatherPage.InitializeComponent
+  fullName: CalendarApp.WeatherPage.InitializeComponent
 - uid: System.Windows.Markup.IComponentConnector.InitializeComponent
   commentId: M:System.Windows.Markup.IComponentConnector.InitializeComponent
   parent: System.Windows.Markup.IComponentConnector

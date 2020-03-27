@@ -14,19 +14,15 @@
 - uid: CalendarBack.Entities
   name: CalendarBack.Entities
   items:
-  - uid: CalendarBack.Entities.coord
-    name: coord
-  - uid: CalendarBack.Entities.mainParams
-    name: mainParams
-  - uid: CalendarBack.Entities.rain
-    name: rain
-  - uid: CalendarBack.Entities.snow
-    name: snow
-  - uid: CalendarBack.Entities.sys
-    name: sys
-  - uid: CalendarBack.Entities.weather
-    name: weather
   - uid: CalendarBack.Entities.Weather
     name: Weather
-  - uid: CalendarBack.Entities.wind
-    name: wind
+- uid: CalendarBack.Logic
+  name: CalendarBack.Logic
+  items:
+  - uid: CalendarBack.Logic.WeatherParser
+    name: WeatherParser
+- uid: CalendarBack.Tests
+  name: CalendarBack.Tests
+  items:
+  - uid: CalendarBack.Tests.WeatherControlerTest
+    name: WeatherControlerTest

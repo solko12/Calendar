@@ -5,8 +5,10 @@ items:
   id: WeatherController
   parent: CalendarBack.Controllers
   children:
-  - CalendarBack.Controllers.WeatherController.Get
-  - CalendarBack.Controllers.WeatherController.Get(System.Int32)
+  - CalendarBack.Controllers.WeatherController.Get(System.String)
+  - CalendarBack.Controllers.WeatherController.GetWeather
+  - CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String,System.String)
+  - CalendarBack.Controllers.WeatherController.reload
   langs:
   - csharp
   - vb
@@ -17,7 +19,7 @@ items:
   source:
     id: WeatherController
     path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
@@ -230,89 +232,174 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarBack.Controllers.WeatherController.Get
-  commentId: M:CalendarBack.Controllers.WeatherController.Get
-  id: Get
+- uid: CalendarBack.Controllers.WeatherController.GetWeather
+  commentId: M:CalendarBack.Controllers.WeatherController.GetWeather
+  id: GetWeather
   parent: CalendarBack.Controllers.WeatherController
   langs:
   - csharp
   - vb
-  name: Get()
-  nameWithType: WeatherController.Get()
-  fullName: CalendarBack.Controllers.WeatherController.Get()
+  name: GetWeather()
+  nameWithType: WeatherController.GetWeather()
+  fullName: CalendarBack.Controllers.WeatherController.GetWeather()
   type: Method
   source:
-    id: Get
+    id: GetWeather
     path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 20
+    startLine: 26
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
   syntax:
     content: >-
-      [HttpGet("location")]
+      [HttpGet("")]
 
-      public IEnumerable<string> Get()
+      public string GetWeather()
     return:
-      type: System.Collections.Generic.IEnumerable{System.String}
+      type: System.String
     content.vb: >-
-      <HttpGet("location")>
+      <HttpGet("")>
 
-      Public Function Get As IEnumerable(Of String)
-  overload: CalendarBack.Controllers.WeatherController.Get*
+      Public Function GetWeather As String
+  overload: CalendarBack.Controllers.WeatherController.GetWeather*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: location
+      value: ''
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: CalendarBack.Controllers.WeatherController.Get(System.Int32)
-  commentId: M:CalendarBack.Controllers.WeatherController.Get(System.Int32)
-  id: Get(System.Int32)
+- uid: CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String,System.String)
+  commentId: M:CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String,System.String)
+  id: GetWeatherPostCode(System.String,System.String)
   parent: CalendarBack.Controllers.WeatherController
   langs:
   - csharp
   - vb
-  name: Get(Int32)
-  nameWithType: WeatherController.Get(Int32)
-  fullName: CalendarBack.Controllers.WeatherController.Get(System.Int32)
+  name: GetWeatherPostCode(String, String)
+  nameWithType: WeatherController.GetWeatherPostCode(String, String)
+  fullName: CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String, System.String)
   type: Method
   source:
-    id: Get
+    id: GetWeatherPostCode
     path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 27
+    startLine: 31
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
   syntax:
     content: >-
-      [HttpGet("{id}", Name = "Get")]
+      [HttpGet("{zipCode}/{countryCode}")]
 
-      public string Get(int id)
+      public string GetWeatherPostCode(string zipCode, string countryCode)
     parameters:
-    - id: id
-      type: System.Int32
+    - id: zipCode
+      type: System.String
+    - id: countryCode
+      type: System.String
     return:
       type: System.String
     content.vb: >-
-      <HttpGet("{id}", Name:="Get")>
+      <HttpGet("{zipCode}/{countryCode}")>
 
-      Public Function Get(id As Integer) As String
+      Public Function GetWeatherPostCode(zipCode As String, countryCode As String) As String
+  overload: CalendarBack.Controllers.WeatherController.GetWeatherPostCode*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: '{zipCode}/{countryCode}'
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Controllers.WeatherController.Get(System.String)
+  commentId: M:CalendarBack.Controllers.WeatherController.Get(System.String)
+  id: Get(System.String)
+  parent: CalendarBack.Controllers.WeatherController
+  langs:
+  - csharp
+  - vb
+  name: Get(String)
+  nameWithType: WeatherController.Get(String)
+  fullName: CalendarBack.Controllers.WeatherController.Get(System.String)
+  type: Method
+  source:
+    id: Get
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
+    startLine: 37
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Controllers
+  syntax:
+    content: >-
+      [HttpGet("{city}", Name = "Get")]
+
+      public string Get(string city)
+    parameters:
+    - id: city
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <HttpGet("{city}", Name:="Get")>
+
+      Public Function Get(city As String) As String
   overload: CalendarBack.Controllers.WeatherController.Get*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: '{id}'
+      value: '{city}'
     namedArguments:
     - name: Name
       type: System.String
       value: Get
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Controllers.WeatherController.reload
+  commentId: M:CalendarBack.Controllers.WeatherController.reload
+  id: reload
+  parent: CalendarBack.Controllers.WeatherController
+  langs:
+  - csharp
+  - vb
+  name: reload()
+  nameWithType: WeatherController.reload()
+  fullName: CalendarBack.Controllers.WeatherController.reload()
+  type: Method
+  source:
+    id: reload
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
+    startLine: 46
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Controllers
+  syntax:
+    content: >-
+      [HttpGet("reload")]
+
+      public string reload()
+    return:
+      type: System.String
+    content.vb: >-
+      <HttpGet("reload")>
+
+      Public Function reload As String
+  overload: CalendarBack.Controllers.WeatherController.reload*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: reload
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -11962,107 +12049,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CalendarBack.Controllers.WeatherController.Get*
-  commentId: Overload:CalendarBack.Controllers.WeatherController.Get
-  name: Get
-  nameWithType: WeatherController.Get
-  fullName: CalendarBack.Controllers.WeatherController.Get
-- uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: T:System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IEnumerable`1
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
-  nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
-  name.vb: IEnumerable(Of String)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+- uid: CalendarBack.Controllers.WeatherController.GetWeather*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeather
+  name: GetWeather
+  nameWithType: WeatherController.GetWeather
+  fullName: CalendarBack.Controllers.WeatherController.GetWeather
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -12070,3 +12061,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: CalendarBack.Controllers.WeatherController.GetWeatherPostCode*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeatherPostCode
+  name: GetWeatherPostCode
+  nameWithType: WeatherController.GetWeatherPostCode
+  fullName: CalendarBack.Controllers.WeatherController.GetWeatherPostCode
+- uid: CalendarBack.Controllers.WeatherController.Get*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.Get
+  name: Get
+  nameWithType: WeatherController.Get
+  fullName: CalendarBack.Controllers.WeatherController.Get
+- uid: CalendarBack.Controllers.WeatherController.reload*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.reload
+  name: reload
+  nameWithType: WeatherController.reload
+  fullName: CalendarBack.Controllers.WeatherController.reload

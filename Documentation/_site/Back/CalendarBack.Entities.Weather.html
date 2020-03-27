@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class weather
+    <title>Class Weather
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class weather
+    <meta name="title" content="Class Weather
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -68,17 +68,17 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="CalendarBack.Entities.weather">
+            <article class="content wrap" id="_content" data-uid="CalendarBack.Entities.Weather">
   
   
-  <h1 id="CalendarBack_Entities_weather" data-uid="CalendarBack.Entities.weather" class="text-break">Class weather
+  <h1 id="CalendarBack_Entities_Weather" data-uid="CalendarBack.Entities.Weather" class="text-break">Class Weather
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">weather</span></div>
+    <div class="level1"><span class="xref">Weather</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -106,21 +106,21 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="CalendarBack.Entities.html">CalendarBack.Entities</a></h6>
   <h6><strong>Assembly</strong>: CalendarBack.dll</h6>
-  <h5 id="CalendarBack_Entities_weather_syntax">Syntax</h5>
+  <h5 id="CalendarBack_Entities_Weather_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class weather</code></pre>
+    <pre><code class="lang-csharp hljs">public class Weather</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="CalendarBack_Entities_weather_description_" data-uid="CalendarBack.Entities.weather.description*"></a>
-  <h4 id="CalendarBack_Entities_weather_description" data-uid="CalendarBack.Entities.weather.description">description</h4>
+  <a id="CalendarBack_Entities_Weather_base_" data-uid="CalendarBack.Entities.Weather.base*"></a>
+  <h4 id="CalendarBack_Entities_Weather_base" data-uid="CalendarBack.Entities.Weather.base">base</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string description { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string base { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,13 +139,13 @@
   </table>
   
   
-  <a id="CalendarBack_Entities_weather_iconCode_" data-uid="CalendarBack.Entities.weather.iconCode*"></a>
-  <h4 id="CalendarBack_Entities_weather_iconCode" data-uid="CalendarBack.Entities.weather.iconCode">iconCode</h4>
+  <a id="CalendarBack_Entities_Weather_cloudness_" data-uid="CalendarBack.Entities.Weather.cloudness*"></a>
+  <h4 id="CalendarBack_Entities_Weather_cloudness" data-uid="CalendarBack.Entities.Weather.cloudness">cloudness</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string iconCode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double cloudness { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,15 +157,90 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Double</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="CalendarBack_Entities_weather_id_" data-uid="CalendarBack.Entities.weather.id*"></a>
-  <h4 id="CalendarBack_Entities_weather_id" data-uid="CalendarBack.Entities.weather.id">id</h4>
+  <a id="CalendarBack_Entities_Weather_cod_" data-uid="CalendarBack.Entities.Weather.cod*"></a>
+  <h4 id="CalendarBack_Entities_Weather_cod" data-uid="CalendarBack.Entities.Weather.cod">cod</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int cod { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_coord_" data-uid="CalendarBack.Entities.Weather.coord*"></a>
+  <h4 id="CalendarBack_Entities_Weather_coord" data-uid="CalendarBack.Entities.Weather.coord">coord</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, double&gt; coord { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_dt_" data-uid="CalendarBack.Entities.Weather.dt*"></a>
+  <h4 id="CalendarBack_Entities_Weather_dt" data-uid="CalendarBack.Entities.Weather.dt">dt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int dt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_id_" data-uid="CalendarBack.Entities.Weather.id*"></a>
+  <h4 id="CalendarBack_Entities_Weather_id" data-uid="CalendarBack.Entities.Weather.id">id</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -189,13 +264,38 @@
   </table>
   
   
-  <a id="CalendarBack_Entities_weather_mainName_" data-uid="CalendarBack.Entities.weather.mainName*"></a>
-  <h4 id="CalendarBack_Entities_weather_mainName" data-uid="CalendarBack.Entities.weather.mainName">mainName</h4>
+  <a id="CalendarBack_Entities_Weather_main_" data-uid="CalendarBack.Entities.Weather.main*"></a>
+  <h4 id="CalendarBack_Entities_Weather_main" data-uid="CalendarBack.Entities.Weather.main">main</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string mainName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, double&gt; main { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_name_" data-uid="CalendarBack.Entities.Weather.name*"></a>
+  <h4 id="CalendarBack_Entities_Weather_name" data-uid="CalendarBack.Entities.Weather.name">name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,6 +308,181 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_rain_" data-uid="CalendarBack.Entities.Weather.rain*"></a>
+  <h4 id="CalendarBack_Entities_Weather_rain" data-uid="CalendarBack.Entities.Weather.rain">rain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; rain { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_snow_" data-uid="CalendarBack.Entities.Weather.snow*"></a>
+  <h4 id="CalendarBack_Entities_Weather_snow" data-uid="CalendarBack.Entities.Weather.snow">snow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; snow { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_sys_" data-uid="CalendarBack.Entities.Weather.sys*"></a>
+  <h4 id="CalendarBack_Entities_Weather_sys" data-uid="CalendarBack.Entities.Weather.sys">sys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; sys { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_temperature_" data-uid="CalendarBack.Entities.Weather.temperature*"></a>
+  <h4 id="CalendarBack_Entities_Weather_temperature" data-uid="CalendarBack.Entities.Weather.temperature">temperature</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string temperature { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_timezone_" data-uid="CalendarBack.Entities.Weather.timezone*"></a>
+  <h4 id="CalendarBack_Entities_Weather_timezone" data-uid="CalendarBack.Entities.Weather.timezone">timezone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int timezone { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_visibility_" data-uid="CalendarBack.Entities.Weather.visibility*"></a>
+  <h4 id="CalendarBack_Entities_Weather_visibility" data-uid="CalendarBack.Entities.Weather.visibility">visibility</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double visibility { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CalendarBack_Entities_Weather_weather_" data-uid="CalendarBack.Entities.Weather.weather*"></a>
+  <h4 id="CalendarBack_Entities_Weather_weather" data-uid="CalendarBack.Entities.Weather.weather">weather</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;Dictionary&lt;string, string&gt;&gt; weather { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>

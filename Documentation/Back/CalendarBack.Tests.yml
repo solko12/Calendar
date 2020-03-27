@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Tests
+  commentId: N:CalendarBack.Tests
+  id: CalendarBack.Tests
+  children:
+  - CalendarBack.Tests.WeatherControlerTest
+  langs:
+  - csharp
+  - vb
+  name: CalendarBack.Tests
+  nameWithType: CalendarBack.Tests
+  fullName: CalendarBack.Tests
+  type: Namespace
+  assemblies:
+  - CalendarBack
+references:
+- uid: CalendarBack.Tests.WeatherControlerTest
+  commentId: T:CalendarBack.Tests.WeatherControlerTest
+  name: WeatherControlerTest
+  nameWithType: WeatherControlerTest
+  fullName: CalendarBack.Tests.WeatherControlerTest
