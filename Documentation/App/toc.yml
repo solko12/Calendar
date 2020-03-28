@@ -13,5 +13,7 @@
     name: CalendarPage
   - uid: CalendarApp.DayPage
     name: DayPage
+  - uid: CalendarApp.Task
+    name: Task
   - uid: CalendarApp.WeatherPage
     name: WeatherPage

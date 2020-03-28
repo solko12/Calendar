@@ -134,6 +134,64 @@ references:
   isSpec: "True"
   fullName: CalendarApp.DayPage.InitializeComponent
   nameWithType: DayPage.InitializeComponent
+- uid: CalendarApp.DayPage.list
+  name: list
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_list
+  commentId: P:CalendarApp.DayPage.list
+  fullName: CalendarApp.DayPage.list
+  nameWithType: DayPage.list
+- uid: CalendarApp.DayPage.list*
+  name: list
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_list_
+  commentId: Overload:CalendarApp.DayPage.list
+  isSpec: "True"
+  fullName: CalendarApp.DayPage.list
+  nameWithType: DayPage.list
+- uid: CalendarApp.DayPage.selectedTask
+  name: selectedTask
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_selectedTask
+  commentId: P:CalendarApp.DayPage.selectedTask
+  fullName: CalendarApp.DayPage.selectedTask
+  nameWithType: DayPage.selectedTask
+- uid: CalendarApp.DayPage.selectedTask*
+  name: selectedTask
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_selectedTask_
+  commentId: Overload:CalendarApp.DayPage.selectedTask
+  isSpec: "True"
+  fullName: CalendarApp.DayPage.selectedTask
+  nameWithType: DayPage.selectedTask
+- uid: CalendarApp.Task
+  name: Task
+  href: App/CalendarApp.Task.html
+  commentId: T:CalendarApp.Task
+  fullName: CalendarApp.Task
+  nameWithType: Task
+- uid: CalendarApp.Task.content
+  name: content
+  href: App/CalendarApp.Task.html#CalendarApp_Task_content
+  commentId: P:CalendarApp.Task.content
+  fullName: CalendarApp.Task.content
+  nameWithType: Task.content
+- uid: CalendarApp.Task.content*
+  name: content
+  href: App/CalendarApp.Task.html#CalendarApp_Task_content_
+  commentId: Overload:CalendarApp.Task.content
+  isSpec: "True"
+  fullName: CalendarApp.Task.content
+  nameWithType: Task.content
+- uid: CalendarApp.Task.time
+  name: time
+  href: App/CalendarApp.Task.html#CalendarApp_Task_time
+  commentId: P:CalendarApp.Task.time
+  fullName: CalendarApp.Task.time
+  nameWithType: Task.time
+- uid: CalendarApp.Task.time*
+  name: time
+  href: App/CalendarApp.Task.html#CalendarApp_Task_time_
+  commentId: Overload:CalendarApp.Task.time
+  isSpec: "True"
+  fullName: CalendarApp.Task.time
+  nameWithType: Task.time
 - uid: CalendarApp.WeatherPage
   name: WeatherPage
   href: App/CalendarApp.WeatherPage.html

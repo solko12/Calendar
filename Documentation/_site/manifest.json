@@ -12,7 +12,7 @@
           "hash": "tuQNFlQKuEoN4jAYrb6igw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "O0J7H1w44TQw+UfyP8YNCg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "lqYkDpBzmneI2gkJZUqpYQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "1gW/1r54rBQDj2O5U6IzhA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,7 +57,19 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.DayPage.html",
-          "hash": "s1o3FnKwgUEpv8iFo/3uog=="
+          "hash": "o+T8bWaLAoF7bO6OU9Fayw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation/App/CalendarApp.Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "App/CalendarApp.Task.html",
+          "hash": "rpiK45WdPKpaqee4/lixnA=="
         }
       },
       "is_incremental": false,
@@ -72,7 +84,7 @@
           "hash": "A+iUN4Lh1NPDaCBwhI6Uyg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.html",
-          "hash": "/w69kLNEHk1lGopcKYPcQg=="
+          "hash": "pIpwtRw/btfFqjRXbWfxiw=="
         }
       },
       "is_incremental": false,
@@ -93,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "App/toc.html",
-          "hash": "lPWgnys0j0eVMrmYAyzTzw=="
+          "hash": "ZfxxVGuB9HDUgqvBgDZpyA=="
         }
       },
       "is_incremental": false,
@@ -256,8 +268,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 18,
-          "skipped_file_count": 17
+          "total_file_count": 19,
+          "skipped_file_count": 16
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

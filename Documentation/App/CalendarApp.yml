@@ -6,6 +6,7 @@ items:
   children:
   - CalendarApp.CalendarPage
   - CalendarApp.DayPage
+  - CalendarApp.Task
   - CalendarApp.WeatherPage
   langs:
   - csharp
@@ -27,8 +28,19 @@ references:
   name: DayPage
   nameWithType: DayPage
   fullName: CalendarApp.DayPage
+- uid: CalendarApp.Task
+  commentId: T:CalendarApp.Task
+  parent: CalendarApp
+  name: Task
+  nameWithType: Task
+  fullName: CalendarApp.Task
 - uid: CalendarApp.WeatherPage
   commentId: T:CalendarApp.WeatherPage
   name: WeatherPage
   nameWithType: WeatherPage
   fullName: CalendarApp.WeatherPage
+- uid: CalendarApp
+  commentId: N:CalendarApp
+  name: CalendarApp
+  nameWithType: CalendarApp
+  fullName: CalendarApp
