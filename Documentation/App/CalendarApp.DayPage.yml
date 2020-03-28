@@ -17,7 +17,7 @@ items:
   source:
     id: DayPage
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
-    startLine: 41
+    startLine: 42
   assemblies:
   - CalendarApp
   namespace: CalendarApp
@@ -686,7 +686,7 @@ items:
   source:
     id: InitializeComponent
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
-    startLine: 80
+    startLine: 81
   assemblies:
   - CalendarApp
   namespace: CalendarApp

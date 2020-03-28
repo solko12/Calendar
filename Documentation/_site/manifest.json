@@ -60,7 +60,7 @@
           "hash": "s1o3FnKwgUEpv8iFo/3uog=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.WeatherPage.html",
-          "hash": "hQuZo3y9H77I9GYhnPD+WQ=="
+          "hash": "A+iUN4Lh1NPDaCBwhI6Uyg=="
         }
       },
       "is_incremental": true,
@@ -84,7 +84,7 @@
           "hash": "/w69kLNEHk1lGopcKYPcQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "PXJkxS2hk8LjH5QeriXBKA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "wjbcN6r04pUNN7h4JZTK8A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "5oF18Ez4ZKuL5uvJQJAOGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "PuS29cDfIPaDSA+nFfaUbw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +156,7 @@
           "hash": "iPF9xDplHri5svVn2d2dUQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "KWczie4Ocilbgd9bxlVteg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,7 +180,7 @@
           "hash": "G4p3SwyKIZKf6fiFUzNDHg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "dgCdLDhAe9KEZ//SDZMKtA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "BjLXCP7AOAws2FEwGz1c9Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -216,7 +216,7 @@
           "hash": "MR8ucy04cGmwENFR1zM/cA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "ZWHaZluDRwVpmRUlnWF7Qg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -257,7 +257,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 18,
-          "skipped_file_count": 14
+          "skipped_file_count": 17
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

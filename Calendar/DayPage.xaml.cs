@@ -20,22 +20,71 @@ namespace CalendarApp
     public partial class DayPage : Page
     {
         private DateTime _date;
-        private ObservableCollection<string> list = new ObservableCollection<string>();
+        public ObservableCollection<Task> list { get; set; } //public bo bindowanie
+        public Task selectedTask { get; set; } //public bo bindowanie
+
         public DayPage(DateTime date)
         {
+            list = new ObservableCollection<Task>();
             InitializeComponent();
+            DataContext = this;
             _date = date;
-            Notes.ItemsSource = list;
+            //Notes.ItemsSource = list;
         }
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            list.Add(newQuest.Text);
+            
+            if (newQuest.Text == "")
+            {
+                MessageBox.Show("Podaj treść wydarzenia");
+            }
+            else
+            {
+                Task task = new Task();
+                task.content = newQuest.Text;
+
+                if ((bool)AllDay.IsChecked)
+                {
+                    task.time = "Cały dzień";
+                }
+                else if(BeginTime.Text == EndTime.Text)
+                {
+                    task.time = BeginTime.Text;
+                }
+                else
+                {
+                    task.time = BeginTime.Text + "-" + EndTime.Text;
+                }
+                list.Add(task);
+                newQuest.Clear();
+                AllDay.IsChecked = false;
+            }     
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
-            list.Remove(Notes.SelectedItem.ToString());
+            if(Notes.SelectedItem!=null)
+            {
+                list.Remove(selectedTask);
+            }
         }
+        private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (slider.Value > slider2.Value)
+            {
+                slider2.Value = slider.Value;
+            }
+        }
+
+        private void slider2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (slider2.Value < slider.Value)
+            {
+                slider.Value = slider2.Value;
+            }
+        }
+
+
     }
 }
