@@ -172,12 +172,12 @@ references:
   isSpec: "True"
   fullName: CalendarApp.WeatherPage.InitializeComponent
   nameWithType: WeatherPage.InitializeComponent
-- uid: CalendarApp.WeatherPage.list
-  name: list
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_list
-  commentId: F:CalendarApp.WeatherPage.list
-  fullName: CalendarApp.WeatherPage.list
-  nameWithType: WeatherPage.list
+- uid: CalendarApp.WeatherPage.listOfCities
+  name: listOfCities
+  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_listOfCities
+  commentId: F:CalendarApp.WeatherPage.listOfCities
+  fullName: CalendarApp.WeatherPage.listOfCities
+  nameWithType: WeatherPage.listOfCities
 - uid: CalendarBack
   name: CalendarBack
   href: Back/CalendarBack.html

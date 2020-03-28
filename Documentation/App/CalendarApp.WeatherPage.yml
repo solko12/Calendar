@@ -8,7 +8,7 @@ items:
   - CalendarApp.WeatherPage.#ctor
   - CalendarApp.WeatherPage.date
   - CalendarApp.WeatherPage.InitializeComponent
-  - CalendarApp.WeatherPage.list
+  - CalendarApp.WeatherPage.listOfCities
   langs:
   - csharp
   - vb
@@ -659,7 +659,7 @@ items:
   source:
     id: date
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
-    startLine: 21
+    startLine: 24
   assemblies:
   - CalendarApp
   namespace: CalendarApp
@@ -672,29 +672,29 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: CalendarApp.WeatherPage.list
-  commentId: F:CalendarApp.WeatherPage.list
-  id: list
+- uid: CalendarApp.WeatherPage.listOfCities
+  commentId: F:CalendarApp.WeatherPage.listOfCities
+  id: listOfCities
   parent: CalendarApp.WeatherPage
   langs:
   - csharp
   - vb
-  name: list
-  nameWithType: WeatherPage.list
-  fullName: CalendarApp.WeatherPage.list
+  name: listOfCities
+  nameWithType: WeatherPage.listOfCities
+  fullName: CalendarApp.WeatherPage.listOfCities
   type: Field
   source:
-    id: list
+    id: listOfCities
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
-    startLine: 22
+    startLine: 25
   assemblies:
   - CalendarApp
   namespace: CalendarApp
   syntax:
-    content: public ObservableCollection<string> list
+    content: public ObservableCollection<string> listOfCities
     return:
       type: System.Collections.ObjectModel.ObservableCollection{System.String}
-    content.vb: Public list As ObservableCollection(Of String)
+    content.vb: Public listOfCities As ObservableCollection(Of String)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -713,7 +713,7 @@ items:
   source:
     id: .ctor
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
-    startLine: 23
+    startLine: 26
   assemblies:
   - CalendarApp
   namespace: CalendarApp
