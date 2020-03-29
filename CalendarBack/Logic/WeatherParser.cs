@@ -88,7 +88,7 @@ namespace CalendarBack.Logic
                     singleParsedWeather += "\"AvPressure\":" + Math.Round(sumPressure / pressureCount, 2).ToString(CultureInfo.InvariantCulture) + ",";
                     singleParsedWeather += "\"Wind\":" + "{" + "\"Direction\":\"" + getMeTheWindDirectionLetter((decimal)singleWeather.SelectToken("wind").SelectToken("deg")) + "\",";
                     singleParsedWeather += "\"SpeedMin\":" + (currentLowSpeed).ToString(CultureInfo.InvariantCulture) + ",";
-                    singleParsedWeather += "\"SpeedMax\":" + (currentHighSpeed).ToString(CultureInfo.InvariantCulture) + "}";
+                    singleParsedWeather += "\"SpeedMax\":" + (currentHighSpeed).ToString(CultureInfo.InvariantCulture) + "},";
                     singleParsedWeather += "\"WeatherInfo\":{\"Description\":\"" + singleWeather.SelectToken("weather")[0].SelectToken("description") + "\",\"icon\":\"" + singleWeather.SelectToken("weather")[0].SelectToken("icon") + "\"}";
                     singleParsedWeather += "}";
                     weathers.Add(singleParsedWeather);
