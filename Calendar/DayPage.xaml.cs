@@ -20,7 +20,7 @@ namespace CalendarApp
     public partial class DayPage : Page
     {
         // date of the page 
-        private DateTime _date
+        private DateTime _date;
         /// <summary>
         /// List of the tasks binded to xaml control
         /// </summary>

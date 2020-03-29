@@ -47,11 +47,55 @@
         </member>
         <member name="T:CalendarApp.DayPage">
             <summary>
-            Logika interakcji dla klasy DayPage.xaml
+            The class is responsible for service and displaying Day's tasks
             </summary>
             <summary>
             DayPage
             </summary>
+        </member>
+        <member name="P:CalendarApp.DayPage.list">
+            <summary>
+            List of the tasks binded to xaml control
+            </summary>
+        </member>
+        <member name="P:CalendarApp.DayPage.selectedTask">
+            <summary>
+            selected Task on the list necessary to removing elements from the list
+            </summary>
+        </member>
+        <member name="M:CalendarApp.DayPage.#ctor(System.DateTime)">
+            <summary>
+            Constructor 
+            </summary>
+            <param name="date"> Date of the clicked day</param>
+        </member>
+        <member name="M:CalendarApp.DayPage.AddButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Function invokes after clicking AddButton. It adds task to the list of tasks
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CalendarApp.DayPage.DeleteButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            This method removes selected task from the list
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CalendarApp.DayPage.slider_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            This method guards if slider value isn't bigger than slider2 value and aligns them
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CalendarApp.DayPage.slider2_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            This method guards if slider2 value isn't smalle than slider value and aligns them
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
         </member>
         <member name="M:CalendarApp.DayPage.InitializeComponent">
             <summary>

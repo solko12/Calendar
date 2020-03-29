@@ -23,7 +23,7 @@ items:
   assemblies:
   - CalendarApp
   namespace: CalendarApp
-  summary: "\nLogika interakcji dla klasy DayPage.xaml\n"
+  summary: "\nThe class is responsible for service and displaying Day&apos;s tasks\n"
   example: []
   syntax:
     content: 'public class DayPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector'
@@ -659,10 +659,12 @@ items:
   source:
     id: list
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 22
+    startLine: 26
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nList of the tasks binded to xaml control\n"
+  example: []
   syntax:
     content: public ObservableCollection<Task> list { get; set; }
     parameters: []
@@ -690,10 +692,12 @@ items:
   source:
     id: selectedTask
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 23
+    startLine: 30
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nselected Task on the list necessary to removing elements from the list\n"
+  example: []
   syntax:
     content: public Task selectedTask { get; set; }
     parameters: []
@@ -721,15 +725,18 @@ items:
   source:
     id: .ctor
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 25
+    startLine: 36
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nConstructor \n"
+  example: []
   syntax:
     content: public DayPage(DateTime date)
     parameters:
     - id: date
       type: System.DateTime
+      description: Date of the clicked day
     content.vb: Public Sub New(date As Date)
   overload: CalendarApp.DayPage.#ctor*
   modifiers.csharp:
