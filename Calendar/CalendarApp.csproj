@@ -16,6 +16,7 @@
   <ItemGroup>
     <None Remove="ArrowLeft.png" />
     <None Remove="ArrowRight.png" />
+    <None Remove="pogoda.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,7 @@
   <ItemGroup>
     <Resource Include="images\ArrowLeft.png" />
     <Resource Include="images\ArrowRight.png" />
+    <Resource Include="pogoda.png" />
   </ItemGroup>
 
 </Project>

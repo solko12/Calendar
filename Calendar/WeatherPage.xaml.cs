@@ -13,7 +13,7 @@ using System.Windows.Shapes;
 using System.Collections.ObjectModel;
 using System.Net;
 using Newtonsoft.Json;
-using CalendarApp.JSONmodel;
+using CalendarApp.JSONmodels.JsonWeatherModel;
 
 namespace CalendarApp
 {
@@ -31,6 +31,8 @@ namespace CalendarApp
             PrintTemp(GetWeather());
             PrintPressure(GetWeather());
             PrintWind(GetWeather());
+            PrintIcon(GetWeather());
+            PrintDescription(GetWeather());
             CityBox.ItemsSource = listOfCities;
         }
         private void PrintDays()
@@ -67,7 +69,7 @@ namespace CalendarApp
                 double minTemp = Math.Round(w.Temperature.TempMin);
                 label.Content = string.Format("{0}°C", maxTemp) + " / " + string.Format("{0}°C", minTemp); 
                 label.SetValue(Grid.ColumnProperty, i);
-                label.SetValue(Grid.RowProperty, 2);
+                label.SetValue(Grid.RowProperty, 3);
                 label.Style = style;
                 DaysGrid.Children.Add(label);
                 i++;
@@ -83,7 +85,7 @@ namespace CalendarApp
                 double pressure = Math.Round(w.AvPressure);
                 label.Content = pressure + "hPa";
                 label.SetValue(Grid.ColumnProperty, i);
-                label.SetValue(Grid.RowProperty, 4);
+                label.SetValue(Grid.RowProperty, 5);
                 label.Style = style;
                 DaysGrid.Children.Add(label);
                 i++;
@@ -100,11 +102,45 @@ namespace CalendarApp
                 double wind = Math.Round((w.Wind.SpeedMax+w.Wind.SpeedMin)/2);        
                 label.Content = direction + " " + wind +" km/h";
                 label.SetValue(Grid.ColumnProperty, i);
-                label.SetValue(Grid.RowProperty, 3);
+                label.SetValue(Grid.RowProperty, 4);
                 label.Style = style;
                 DaysGrid.Children.Add(label);
                 i++;
             }
         }
+        private void PrintIcon(List<Weather> weathers)
+        {
+            int i = 0;
+            foreach (Weather w in weathers)
+            {
+                Image img = new Image();
+                string icon = w.WeatherInfo.icon;
+                string source = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+                Uri resourceUri = new Uri(source, UriKind.RelativeOrAbsolute);
+                img.Source = new BitmapImage(resourceUri);
+                img.SetValue(Grid.ColumnProperty, i);
+                img.SetValue(Grid.RowProperty, 1);
+                
+                DaysGrid.Children.Add(img);
+                i++;
+            }
+        }
+        private void PrintDescription(List<Weather> weathers)
+        {
+            Style style = this.FindResource("TempLabelStyle") as Style;
+            int i = 0;
+            foreach (Weather w in weathers)
+            {
+                var label = new Label();
+                string description = w.WeatherInfo.Description;
+                label.Content = description;
+                label.SetValue(Grid.ColumnProperty, i);
+                label.SetValue(Grid.RowProperty, 2);
+                label.Style = style;
+                DaysGrid.Children.Add(label);
+                i++;
+            }
+        }
+
     }
 }

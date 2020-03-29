@@ -40,17 +40,13 @@
                 <Grid.RowDefinitions>
                     <RowDefinition/> <!-- Daty -->
                     <RowDefinition/> <!-- Ikona-->
+                    <RowDefinition/> <!-- Opis -->
                     <RowDefinition/> <!-- Temperatura-->
                     <RowDefinition/> <!-- Wiatr -->
                     <RowDefinition/> <!-- Ciśnienie -->
                 </Grid.RowDefinitions>
                 <!-- Placeholder na ikony-->
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="0" Content="Ikona" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="1" Content="Ikona" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="2" Content="Ikona" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="3" Content="Ikona" Foreground="White"/>
-                <Label HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="4" Content="Ikona" Foreground="White"/>
-                
+               
             </Grid>
         </Grid>
         

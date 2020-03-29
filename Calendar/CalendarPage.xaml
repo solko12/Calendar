@@ -100,7 +100,7 @@
                         </RadialGradientBrush>
                     </Button.Background>
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="images/pogoda.png"/>
+                        <Image Source="/pogoda.png"/>
                         <TextBlock Text="Pogoda" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </Button>

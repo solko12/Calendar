@@ -4,37 +4,6 @@
         <name>CalendarApp</name>
     </assembly>
     <members>
-        <member name="T:Calendar.App">
-            <summary>
-            Interaction logic for App.xaml
-            </summary>
-            <summary>
-            App
-            </summary>
-        </member>
-        <member name="M:Calendar.App.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
-        <member name="M:Calendar.App.Main">
-            <summary>
-            Application Entry Point.
-            </summary>
-        </member>
-        <member name="T:Calendar.MainWindow">
-            <summary>
-            Interaction logic for MainWindow.xaml
-            </summary>
-            <summary>
-            MainWindow
-            </summary>
-        </member>
-        <member name="M:Calendar.MainWindow.InitializeComponent">
-            <summary>
-            InitializeComponent
-            </summary>
-        </member>
         <member name="T:CalendarApp.CalendarPage">
             <summary>
             CalendarPage
@@ -111,6 +80,37 @@
             </summary>
         </member>
         <member name="M:CalendarApp.WeatherPage.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Calendar.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Calendar.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Calendar.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Calendar.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Calendar.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent
             </summary>
