@@ -10,5 +10,6 @@ namespace CalendarApp.JSONmodel
         public Temperature Temperature { get; set; }
         public double AvPressure { get; set; }
         public Wind Wind { get; set; }
+        public WeatherInfo WeatherInfo { get; set; }
     }
 }

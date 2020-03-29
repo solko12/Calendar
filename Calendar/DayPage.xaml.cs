@@ -15,14 +15,25 @@ using System.Collections.ObjectModel;
 namespace CalendarApp
 {
     /// <summary>
-    /// Logika interakcji dla klasy DayPage.xaml
+    /// The class is responsible for service and displaying Day's tasks
     /// </summary>
     public partial class DayPage : Page
     {
-        private DateTime _date;
-        public ObservableCollection<Task> list { get; set; } //public bo bindowanie
+        // date of the page 
+        private DateTime _date
+        /// <summary>
+        /// List of the tasks binded to xaml control
+        /// </summary>
+        public ObservableCollection<Task> list { get; set; }
+        /// <summary>
+        /// selected Task on the list necessary to removing elements from the list
+        /// </summary>
         public Task selectedTask { get; set; } //public bo bindowanie
 
+        /// <summary>
+        /// Constructor 
+        /// </summary>
+        /// <param name="date"> Date of the clicked day</param>
         public DayPage(DateTime date)
         {
             list = new ObservableCollection<Task>();
@@ -32,9 +43,14 @@ namespace CalendarApp
             //Notes.ItemsSource = list;
         }
 
+        /// <summary>
+        /// Function invokes after clicking AddButton. It adds task to the list of tasks
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            // if textbox is empty we will get warning
             if (newQuest.Text == "")
             {
                 MessageBox.Show("Podaj treść wydarzenia");
@@ -42,14 +58,17 @@ namespace CalendarApp
             else
             {
                 Task task = new Task();
+                // Text from newQuest TextBpx is assigned to task content
                 task.content = newQuest.Text;
-
+                // checking if AddDay CheckBox is clicked
                 if ((bool)AllDay.IsChecked)
                 {
                     task.time = "Cały dzień";
                 }
+                // checking if the time of begining of the task equals the time of finishing the task
                 else if(BeginTime.Text == EndTime.Text)
                 {
+                    //if true, only one value is assigned to task time
                     task.time = BeginTime.Text;
                 }
                 else
@@ -57,18 +76,30 @@ namespace CalendarApp
                     task.time = BeginTime.Text + "-" + EndTime.Text;
                 }
                 list.Add(task);
+                // clears TextBox 
                 newQuest.Clear();
+                //clears CheckBox
                 AllDay.IsChecked = false;
             }     
         }
-
+        /// <summary>
+        /// This method removes selected task from the list
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
+            // checking if the list is not empty
             if(Notes.SelectedItem!=null)
             {
                 list.Remove(selectedTask);
             }
         }
+        /// <summary>
+        /// This method guards if slider value isn't bigger than slider2 value and aligns them
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (slider.Value > slider2.Value)
@@ -76,7 +107,11 @@ namespace CalendarApp
                 slider2.Value = slider.Value;
             }
         }
-
+        /// <summary>
+        /// This method guards if slider2 value isn't smalle than slider value and aligns them
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void slider2_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             if (slider2.Value < slider.Value)
