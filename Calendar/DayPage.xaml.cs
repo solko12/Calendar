@@ -11,6 +11,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Collections.ObjectModel;
+using CalendarApp.API;
+using CalendarApp.JSONmodels.JsonSheduleModel;
 
 namespace CalendarApp
 {
@@ -29,7 +31,9 @@ namespace CalendarApp
         /// selected Task on the list necessary to removing elements from the list
         /// </summary>
         public Task selectedTask { get; set; } //public bo bindowanie
-
+        private AppsCommunication api = new AppsCommunication();
+        public Shedule shedule;
+        
         /// <summary>
         /// Constructor 
         /// </summary>
@@ -40,7 +44,9 @@ namespace CalendarApp
             InitializeComponent();
             DataContext = this;
             _date = date;
-            //Notes.ItemsSource = list;
+            //string jsonData=api.GetTasks(_date);
+            //shedule = api.DeJsonigTasks(jsonData);
+            //list = shedule.tasksList;
         }
 
         /// <summary>
@@ -80,7 +86,9 @@ namespace CalendarApp
                 newQuest.Clear();
                 //clears CheckBox
                 AllDay.IsChecked = false;
-            }     
+            }
+            string jsonData = api.JsoningTasks(_date, list);
+            //api.PutTasks(jsonData,_date);
         }
         /// <summary>
         /// This method removes selected task from the list

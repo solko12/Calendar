@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CalendarApp.JSONmodels.JsonSheduleModel
 {
-    class Shedule
+    public class Shedule
     {
         public DateTime date { get; set; }
         public ObservableCollection<Task> tasksList { get; set; }

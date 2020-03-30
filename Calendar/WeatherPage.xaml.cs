@@ -14,6 +14,7 @@ using System.Collections.ObjectModel;
 using System.Net;
 using Newtonsoft.Json;
 using CalendarApp.JSONmodels.JsonWeatherModel;
+using CalendarApp.API;
 
 namespace CalendarApp
 {
@@ -24,15 +25,16 @@ namespace CalendarApp
     {
         public DateTime date = DateTime.Now; 
         public ObservableCollection<string> listOfCities = new ObservableCollection<string>();
+        private AppsCommunication api= new AppsCommunication();
         public WeatherPage()
         {
             InitializeComponent();
             PrintDays();
-            PrintTemp(GetWeather());
-            PrintPressure(GetWeather());
-            PrintWind(GetWeather());
-            PrintIcon(GetWeather());
-            PrintDescription(GetWeather());
+            PrintTemp(api.GetWeather());
+            PrintPressure(api.GetWeather());
+            PrintWind(api.GetWeather());
+            PrintIcon(api.GetWeather());
+            PrintDescription(api.GetWeather());
             CityBox.ItemsSource = listOfCities;
         }
         private void PrintDays()
@@ -49,6 +51,7 @@ namespace CalendarApp
                 day=day.AddDays(1);
             }
         }
+        /*
         private List<Weather> GetWeather()
         {
             WebClient client = new WebClient();
@@ -58,6 +61,7 @@ namespace CalendarApp
             return weathers;
            
         }
+        */
         private void PrintTemp(List<Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;
