@@ -19,13 +19,25 @@ using CalendarApp.API;
 namespace CalendarApp
 {
     /// <summary>
-    /// Logika interakcji dla klasy WeatherPage.xaml
+    /// This is a weather page class that enables program to show 5 days weather forecast
     /// </summary>
     public partial class WeatherPage : Page
     {
+        /// <summary>
+        /// Actual date
+        /// </summary>
         public DateTime date = DateTime.Now; 
+        /// <summary>
+        /// List of cities with weather forecast
+        /// </summary>
         public ObservableCollection<string> listOfCities = new ObservableCollection<string>();
+        /// <summary>
+        /// API that enables communication with server
+        /// </summary>
         private AppsCommunication api= new AppsCommunication();
+        /// <summary>
+        /// Constructor that initalizes weather page
+        /// </summary>
         public WeatherPage()
         {
             InitializeComponent();
@@ -37,6 +49,9 @@ namespace CalendarApp
             PrintDescription(api.GetWeather());
             CityBox.ItemsSource = listOfCities;
         }
+        /// <summary>
+        /// This method prints dates of 5 days from today
+        /// </summary>
         private void PrintDays()
         {
             DateTime day = new DateTime(date.Year, date.Month, date.Day);
@@ -51,17 +66,10 @@ namespace CalendarApp
                 day=day.AddDays(1);
             }
         }
-        /*
-        private List<Weather> GetWeather()
-        {
-            WebClient client = new WebClient();
-            String rawJSON = client.DownloadString("https://localhost:5001/weather");
-            RootObject weatherData = JsonConvert.DeserializeObject<RootObject>(rawJSON);
-            List<Weather> weathers = weatherData.Weather;
-            return weathers;
-           
-        }
-        */
+        /// <summary>
+        /// Method which prints maximum and minimum temperature 
+        /// </summary>
+        /// <param name="weathers"></param>
         private void PrintTemp(List<Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;
@@ -79,6 +87,10 @@ namespace CalendarApp
                 i++;
             }
         }
+        /// <summary>
+        /// A method that prints the average pressure 
+        /// </summary>
+        /// <param name="weathers"></param>
         private void PrintPressure(List<Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;
@@ -95,6 +107,10 @@ namespace CalendarApp
                 i++;
             }
         }
+        /// <summary>
+        /// A method that prints the average wind speed 
+        /// </summary>
+        /// <param name="weathers"></param>
         private void PrintWind(List<Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;
@@ -112,6 +128,10 @@ namespace CalendarApp
                 i++;
             }
         }
+        /// <summary>
+        /// the method displays icons symbolizing the given weather
+        /// </summary>
+        /// <param name="weathers"></param>
         private void PrintIcon(List<Weather> weathers)
         {
             int i = 0;
@@ -129,6 +149,10 @@ namespace CalendarApp
                 i++;
             }
         }
+        /// <summary>
+        /// This method prints description about weather for given day
+        /// </summary>
+        /// <param name="weathers"></param>
         private void PrintDescription(List<Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;

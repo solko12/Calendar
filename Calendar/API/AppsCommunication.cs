@@ -10,8 +10,15 @@ using System.IO;
 
 namespace CalendarApp.API
 {
+    /// <summary>
+    /// Class that allows to comunicate with server
+    /// </summary>
     class AppsCommunication
     {
+        /// <summary>
+        /// This method download weather data as json and deserialize it into RootObject
+        /// </summary>
+        /// <returns> List of Weather objects</returns>
         public List<Weather> GetWeather()
         {
             WebClient client = new WebClient();
@@ -21,7 +28,12 @@ namespace CalendarApp.API
             return weathers;
 
         }
-        
+        /// <summary>
+        /// this method creates json from Shedule object
+        /// </summary>
+        /// <param name="d">day on which the tasks are scheduled</param>
+        /// <param name="t">List of tasks</param>
+        /// <returns> json created from Shedule object </returns>
         public string JsoningTasks(DateTime d,ObservableCollection<Task> t )
         {
             Shedule shedule = new Shedule();
@@ -30,11 +42,21 @@ namespace CalendarApp.API
             string strResultJson = JsonConvert.SerializeObject(shedule);
             return strResultJson;
         }
+        /// <summary>
+        /// This method converts json to Shedule object
+        /// </summary>
+        /// <param name="taskJson"></param>
+        /// <returns> Shedule object as a result of deserialization json</returns>
         public Shedule DeJsonigTasks(string taskJson)
         {
             Shedule shedule = JsonConvert.DeserializeObject<Shedule>(taskJson);
             return shedule;
         }
+        /// <summary>
+        /// This method makes GET request to the server to get tasks planed for given day
+        /// </summary>
+        /// <param name="date">given day</param>
+        /// <returns> Response of the server as string </returns>
         public string GetTasks(DateTime date)
         {
             string strDate = date.ToShortDateString();
@@ -62,6 +84,11 @@ namespace CalendarApp.API
             } //end of using response
             return responseString;
         }
+        /// <summary>
+        /// This method makes PUT request to the server to update informations about tasks
+        /// </summary>
+        /// <param name="postedData"> Tasks</param>
+        /// <param name="date">Day on which the tasks are sheduled</param>
         public void PutTasks(string postedData,DateTime date)
         {
             string strDate = date.ToShortDateString();

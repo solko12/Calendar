@@ -15,15 +15,23 @@ namespace CalendarApp
 {
     public partial class CalendarPage : Page
     {
+        /// <summary>
+        /// Date selected from calendar
+        /// </summary>
         public DateTime selectedDate = DateTime.Now;
 
+        /// <summary>
+        /// Constructor that initialize calendar page
+        /// </summary>
         public CalendarPage()
         {
             this.DataContext = this;
             InitializeComponent();
             RefreshCalendarGrid();
         }
-
+        /// <summary>
+        /// This method prints days on the calendar page.
+        /// </summary>
         private void RefreshCalendarGrid()
         {
             currDateText.Text = selectedDate.ToString("MMMM") + " " + selectedDate.Year;
@@ -59,7 +67,11 @@ namespace CalendarApp
                 day = day.AddDays(1);
             }
         }
-
+        /// <summary>
+        /// The method supports clicking the button that represents given day. As a result of clicking button day page is displayed.
+        /// </summary>
+        /// <param name="sender"> Default parameter </param>
+        /// <param name="e"> Default parameter </param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button;
@@ -68,19 +80,31 @@ namespace CalendarApp
             DayPage nextPage = new DayPage(new DateTime(selectedDate.Year, selectedDate.Month, int.Parse(button.Content.ToString())));
             this.NavigationService.Navigate(nextPage);
         }
-
+        /// <summary>
+        /// The method supports clicking the button that changes the month to the previous one
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PrevButton_Click(object sender, RoutedEventArgs e)
         {
             selectedDate = selectedDate.AddMonths(-1);
             RefreshCalendarGrid();
         }
-
+        /// <summary>
+        /// The method supports clicking the button that changes the month to the next one
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
             selectedDate = selectedDate.AddMonths(1);
             RefreshCalendarGrid();
         }
-
+        /// <summary>
+        /// The method supports clicking the weather button that leads us to weather page
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Weather_Click(object sender, RoutedEventArgs e)
         {
             WeatherPage nextPage = new WeatherPage();

@@ -30,12 +30,18 @@ namespace CalendarApp
         /// <summary>
         /// selected Task on the list necessary to removing elements from the list
         /// </summary>
-        public Task selectedTask { get; set; } //public bo bindowanie
+        public Task selectedTask { get; set; }
+        /// <summary>
+        /// facility enabling communication
+        /// </summary>
         private AppsCommunication api = new AppsCommunication();
+        /// <summary>
+        /// Actual shedule
+        /// </summary>
         public Shedule shedule;
         
         /// <summary>
-        /// Constructor 
+        /// Constructor that initialize day page
         /// </summary>
         /// <param name="date"> Date of the clicked day</param>
         public DayPage(DateTime date)
