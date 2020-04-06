@@ -17,3 +17,13 @@
     name: Task
   - uid: CalendarApp.WeatherPage
     name: WeatherPage
+- uid: CalendarApp.CalendarAppTests
+  name: CalendarApp.CalendarAppTests
+  items:
+  - uid: CalendarApp.CalendarAppTests.TimeConverterTests
+    name: TimeConverterTests
+- uid: CalendarApp.JSONmodels.JsonSheduleModel
+  name: CalendarApp.JSONmodels.JsonSheduleModel
+  items:
+  - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+    name: Shedule

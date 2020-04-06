@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarApp.JSONmodels.JsonSheduleModel
+  commentId: N:CalendarApp.JSONmodels.JsonSheduleModel
+  id: CalendarApp.JSONmodels.JsonSheduleModel
+  children:
+  - CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  langs:
+  - csharp
+  - vb
+  name: CalendarApp.JSONmodels.JsonSheduleModel
+  nameWithType: CalendarApp.JSONmodels.JsonSheduleModel
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel
+  type: Namespace
+  assemblies:
+  - CalendarApp
+references:
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  commentId: T:CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  parent: CalendarApp.JSONmodels.JsonSheduleModel
+  name: Shedule
+  nameWithType: Shedule
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+- uid: CalendarApp.JSONmodels.JsonSheduleModel
+  commentId: N:CalendarApp.JSONmodels.JsonSheduleModel
+  name: CalendarApp.JSONmodels.JsonSheduleModel
+  nameWithType: CalendarApp.JSONmodels.JsonSheduleModel
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel

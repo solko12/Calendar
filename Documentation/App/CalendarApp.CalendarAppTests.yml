@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarApp.CalendarAppTests
+  commentId: N:CalendarApp.CalendarAppTests
+  id: CalendarApp.CalendarAppTests
+  children:
+  - CalendarApp.CalendarAppTests.TimeConverterTests
+  langs:
+  - csharp
+  - vb
+  name: CalendarApp.CalendarAppTests
+  nameWithType: CalendarApp.CalendarAppTests
+  fullName: CalendarApp.CalendarAppTests
+  type: Namespace
+  assemblies:
+  - CalendarApp
+references:
+- uid: CalendarApp.CalendarAppTests.TimeConverterTests
+  commentId: T:CalendarApp.CalendarAppTests.TimeConverterTests
+  name: TimeConverterTests
+  nameWithType: TimeConverterTests
+  fullName: CalendarApp.CalendarAppTests.TimeConverterTests

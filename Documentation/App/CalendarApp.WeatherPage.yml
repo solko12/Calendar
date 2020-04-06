@@ -23,7 +23,7 @@ items:
   assemblies:
   - CalendarApp
   namespace: CalendarApp
-  summary: "\nLogika interakcji dla klasy WeatherPage.xaml\n"
+  summary: "\nThis is a weather page class that enables program to show 5 days weather forecast\n"
   example: []
   syntax:
     content: 'public class WeatherPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector'
@@ -659,10 +659,12 @@ items:
   source:
     id: date
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
-    startLine: 24
+    startLine: 28
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nActual date\n"
+  example: []
   syntax:
     content: public DateTime date
     return:
@@ -686,10 +688,12 @@ items:
   source:
     id: listOfCities
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
-    startLine: 25
+    startLine: 32
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nList of cities with weather forecast\n"
+  example: []
   syntax:
     content: public ObservableCollection<string> listOfCities
     return:
@@ -713,10 +717,12 @@ items:
   source:
     id: .ctor
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
-    startLine: 26
+    startLine: 40
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nConstructor that initalizes weather page\n"
+  example: []
   syntax:
     content: public WeatherPage()
     content.vb: Public Sub New

@@ -9,6 +9,7 @@ items:
   - CalendarApp.DayPage.InitializeComponent
   - CalendarApp.DayPage.list
   - CalendarApp.DayPage.selectedTask
+  - CalendarApp.DayPage.shedule
   langs:
   - csharp
   - vb
@@ -659,7 +660,7 @@ items:
   source:
     id: list
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 26
+    startLine: 28
   assemblies:
   - CalendarApp
   namespace: CalendarApp
@@ -692,7 +693,7 @@ items:
   source:
     id: selectedTask
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 30
+    startLine: 32
   assemblies:
   - CalendarApp
   namespace: CalendarApp
@@ -711,6 +712,35 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: CalendarApp.DayPage.shedule
+  commentId: F:CalendarApp.DayPage.shedule
+  id: shedule
+  parent: CalendarApp.DayPage
+  langs:
+  - csharp
+  - vb
+  name: shedule
+  nameWithType: DayPage.shedule
+  fullName: CalendarApp.DayPage.shedule
+  type: Field
+  source:
+    id: shedule
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
+    startLine: 40
+  assemblies:
+  - CalendarApp
+  namespace: CalendarApp
+  summary: "\nActual shedule\n"
+  example: []
+  syntax:
+    content: public Shedule shedule
+    return:
+      type: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+    content.vb: Public shedule As Shedule
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: CalendarApp.DayPage.#ctor(System.DateTime)
   commentId: M:CalendarApp.DayPage.#ctor(System.DateTime)
   id: '#ctor(System.DateTime)'
@@ -725,11 +755,11 @@ items:
   source:
     id: .ctor
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
-    startLine: 36
+    startLine: 46
   assemblies:
   - CalendarApp
   namespace: CalendarApp
-  summary: "\nConstructor \n"
+  summary: "\nConstructor that initialize day page\n"
   example: []
   syntax:
     content: public DayPage(DateTime date)
@@ -12239,6 +12269,17 @@ references:
   name: Task
   nameWithType: Task
   fullName: CalendarApp.Task
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  commentId: T:CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  parent: CalendarApp.JSONmodels.JsonSheduleModel
+  name: Shedule
+  nameWithType: Shedule
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+- uid: CalendarApp.JSONmodels.JsonSheduleModel
+  commentId: N:CalendarApp.JSONmodels.JsonSheduleModel
+  name: CalendarApp.JSONmodels.JsonSheduleModel
+  nameWithType: CalendarApp.JSONmodels.JsonSheduleModel
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel
 - uid: CalendarApp.DayPage.#ctor*
   commentId: Overload:CalendarApp.DayPage.#ctor
   name: DayPage

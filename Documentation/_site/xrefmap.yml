@@ -64,6 +64,31 @@ references:
   commentId: N:CalendarApp
   fullName: CalendarApp
   nameWithType: CalendarApp
+- uid: CalendarApp.CalendarAppTests
+  name: CalendarApp.CalendarAppTests
+  href: App/CalendarApp.CalendarAppTests.html
+  commentId: N:CalendarApp.CalendarAppTests
+  fullName: CalendarApp.CalendarAppTests
+  nameWithType: CalendarApp.CalendarAppTests
+- uid: CalendarApp.CalendarAppTests.TimeConverterTests
+  name: TimeConverterTests
+  href: App/CalendarApp.CalendarAppTests.TimeConverterTests.html
+  commentId: T:CalendarApp.CalendarAppTests.TimeConverterTests
+  fullName: CalendarApp.CalendarAppTests.TimeConverterTests
+  nameWithType: TimeConverterTests
+- uid: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32,System.String)
+  name: ConvertingMinutes(Int32, String)
+  href: App/CalendarApp.CalendarAppTests.TimeConverterTests.html#CalendarApp_CalendarAppTests_TimeConverterTests_ConvertingMinutes_System_Int32_System_String_
+  commentId: M:CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32,System.String)
+  fullName: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32, System.String)
+  nameWithType: TimeConverterTests.ConvertingMinutes(Int32, String)
+- uid: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes*
+  name: ConvertingMinutes
+  href: App/CalendarApp.CalendarAppTests.TimeConverterTests.html#CalendarApp_CalendarAppTests_TimeConverterTests_ConvertingMinutes_
+  commentId: Overload:CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes
+  isSpec: "True"
+  fullName: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes
+  nameWithType: TimeConverterTests.ConvertingMinutes
 - uid: CalendarApp.CalendarPage
   name: CalendarPage
   href: App/CalendarApp.CalendarPage.html
@@ -160,6 +185,50 @@ references:
   isSpec: "True"
   fullName: CalendarApp.DayPage.selectedTask
   nameWithType: DayPage.selectedTask
+- uid: CalendarApp.DayPage.shedule
+  name: shedule
+  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_shedule
+  commentId: F:CalendarApp.DayPage.shedule
+  fullName: CalendarApp.DayPage.shedule
+  nameWithType: DayPage.shedule
+- uid: CalendarApp.JSONmodels.JsonSheduleModel
+  name: CalendarApp.JSONmodels.JsonSheduleModel
+  href: App/CalendarApp.JSONmodels.JsonSheduleModel.html
+  commentId: N:CalendarApp.JSONmodels.JsonSheduleModel
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel
+  nameWithType: CalendarApp.JSONmodels.JsonSheduleModel
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  name: Shedule
+  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html
+  commentId: T:CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+  nameWithType: Shedule
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
+  name: date
+  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_date
+  commentId: P:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
+  nameWithType: Shedule.date
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date*
+  name: date
+  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_date_
+  commentId: Overload:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
+  isSpec: "True"
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
+  nameWithType: Shedule.date
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
+  name: tasksList
+  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_tasksList
+  commentId: P:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
+  nameWithType: Shedule.tasksList
+- uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList*
+  name: tasksList
+  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_tasksList_
+  commentId: Overload:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
+  isSpec: "True"
+  fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
+  nameWithType: Shedule.tasksList
 - uid: CalendarApp.Task
   name: Task
   href: App/CalendarApp.Task.html

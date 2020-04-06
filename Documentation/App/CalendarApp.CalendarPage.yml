@@ -658,10 +658,12 @@ items:
   source:
     id: selectedDate
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nDate selected from calendar\n"
+  example: []
   syntax:
     content: public DateTime selectedDate
     return:
@@ -685,10 +687,12 @@ items:
   source:
     id: .ctor
     path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
-    startLine: 19
+    startLine: 25
   assemblies:
   - CalendarApp
   namespace: CalendarApp
+  summary: "\nConstructor that initialize calendar page\n"
+  example: []
   syntax:
     content: public CalendarPage()
     content.vb: Public Sub New

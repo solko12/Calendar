@@ -4,10 +4,93 @@
         <name>CalendarApp</name>
     </assembly>
     <members>
+        <member name="T:CalendarApp.API.AppsCommunication">
+            <summary>
+            Class that allows to comunicate with server
+            </summary>
+        </member>
+        <member name="M:CalendarApp.API.AppsCommunication.GetWeather">
+            <summary>
+            This method download weather data as json and deserialize it into RootObject
+            </summary>
+            <returns> List of Weather objects</returns>
+        </member>
+        <member name="M:CalendarApp.API.AppsCommunication.JsoningTasks(System.DateTime,System.Collections.ObjectModel.ObservableCollection{CalendarApp.Task})">
+            <summary>
+            this method creates json from Shedule object
+            </summary>
+            <param name="d">day on which the tasks are scheduled</param>
+            <param name="t">List of tasks</param>
+            <returns> json created from Shedule object </returns>
+        </member>
+        <member name="M:CalendarApp.API.AppsCommunication.DeJsonigTasks(System.String)">
+            <summary>
+            This method converts json to Shedule object
+            </summary>
+            <param name="taskJson"></param>
+            <returns> Shedule object as a result of deserialization json</returns>
+        </member>
+        <member name="M:CalendarApp.API.AppsCommunication.GetTasks(System.DateTime)">
+            <summary>
+            This method makes GET request to the server to get tasks planed for given day
+            </summary>
+            <param name="date">given day</param>
+            <returns> Response of the server as string </returns>
+        </member>
+        <member name="M:CalendarApp.API.AppsCommunication.PutTasks(System.String,System.DateTime)">
+            <summary>
+            This method makes PUT request to the server to update informations about tasks
+            </summary>
+            <param name="postedData"> Tasks</param>
+            <param name="date">Day on which the tasks are sheduled</param>
+        </member>
         <member name="T:CalendarApp.CalendarPage">
             <summary>
             CalendarPage
             </summary>
+        </member>
+        <member name="F:CalendarApp.CalendarPage.selectedDate">
+            <summary>
+            Date selected from calendar
+            </summary>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.#ctor">
+            <summary>
+            Constructor that initialize calendar page
+            </summary>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.RefreshCalendarGrid">
+            <summary>
+            This method prints days on the calendar page.
+            </summary>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method supports clicking the button that represents given day. As a result of clicking button day page is displayed.
+            </summary>
+            <param name="sender"> Default parameter </param>
+            <param name="e"> Default parameter </param>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.PrevButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method supports clicking the button that changes the month to the previous one
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.NextButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method supports clicking the button that changes the month to the next one
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CalendarApp.CalendarPage.Weather_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The method supports clicking the weather button that leads us to weather page
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
         </member>
         <member name="M:CalendarApp.CalendarPage.InitializeComponent">
             <summary>
@@ -32,9 +115,19 @@
             selected Task on the list necessary to removing elements from the list
             </summary>
         </member>
+        <member name="F:CalendarApp.DayPage.api">
+            <summary>
+            facility enabling communication
+            </summary>
+        </member>
+        <member name="F:CalendarApp.DayPage.shedule">
+            <summary>
+            Actual shedule
+            </summary>
+        </member>
         <member name="M:CalendarApp.DayPage.#ctor(System.DateTime)">
             <summary>
-            Constructor 
+            Constructor that initialize day page
             </summary>
             <param name="date"> Date of the clicked day</param>
         </member>
@@ -71,13 +164,88 @@
             InitializeComponent
             </summary>
         </member>
+        <member name="M:CalendarApp.TimeConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            This method converts minutes to hours
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns> Time as a string </returns>
+        </member>
+        <member name="M:CalendarApp.TimeConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Not implemented method 
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns> Throws exception </returns>
+        </member>
         <member name="T:CalendarApp.WeatherPage">
             <summary>
-            Logika interakcji dla klasy WeatherPage.xaml
+            This is a weather page class that enables program to show 5 days weather forecast
             </summary>
             <summary>
             WeatherPage
             </summary>
+        </member>
+        <member name="F:CalendarApp.WeatherPage.date">
+            <summary>
+            Actual date
+            </summary>
+        </member>
+        <member name="F:CalendarApp.WeatherPage.listOfCities">
+            <summary>
+            List of cities with weather forecast
+            </summary>
+        </member>
+        <member name="F:CalendarApp.WeatherPage.api">
+            <summary>
+            API that enables communication with server
+            </summary>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.#ctor">
+            <summary>
+            Constructor that initalizes weather page
+            </summary>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.PrintDays">
+            <summary>
+            This method prints dates of 5 days from today
+            </summary>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.PrintTemp(System.Collections.Generic.List{CalendarApp.JSONmodels.JsonWeatherModel.Weather})">
+            <summary>
+            Method which prints maximum and minimum temperature 
+            </summary>
+            <param name="weathers"></param>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.PrintPressure(System.Collections.Generic.List{CalendarApp.JSONmodels.JsonWeatherModel.Weather})">
+            <summary>
+            A method that prints the average pressure 
+            </summary>
+            <param name="weathers"></param>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.PrintWind(System.Collections.Generic.List{CalendarApp.JSONmodels.JsonWeatherModel.Weather})">
+            <summary>
+            A method that prints the average wind speed 
+            </summary>
+            <param name="weathers"></param>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.PrintIcon(System.Collections.Generic.List{CalendarApp.JSONmodels.JsonWeatherModel.Weather})">
+            <summary>
+            the method displays icons symbolizing the given weather
+            </summary>
+            <param name="weathers"></param>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.PrintDescription(System.Collections.Generic.List{CalendarApp.JSONmodels.JsonWeatherModel.Weather})">
+            <summary>
+            This method prints description about weather for given day
+            </summary>
+            <param name="weathers"></param>
         </member>
         <member name="M:CalendarApp.WeatherPage.InitializeComponent">
             <summary>

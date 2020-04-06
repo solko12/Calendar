@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarApp", "Calendar\CalendarApp.csproj", "{B4E4B41E-ED18-4501-ABB1-2E129AE71340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarApp", "Calendar\CalendarApp.csproj", "{B4E4B41E-ED18-4501-ABB1-2E129AE71340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarBack", "CalendarBack\CalendarBack.csproj", "{E572ECFD-91FB-4DD1-A710-351042DB9323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarBack", "CalendarBack\CalendarBack.csproj", "{E572ECFD-91FB-4DD1-A710-351042DB9323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
