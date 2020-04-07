@@ -70,32 +70,20 @@ namespace CalendarApp
             else
             {
                 Task task = new Task();
-                // Text from newQuest TextBpx is assigned to task content
+                // Text from newQuest TextBox is assigned to task content
                 task.content = newQuest.Text;
-                // checking if AddDay CheckBox is clicked
-                if ((bool)AllDay.IsChecked)
-                {
-                    task.time = "Cały dzień";
-                }
-                // checking if the time of begining of the task equals the time of finishing the task
-                else if(BeginTime.Text == EndTime.Text)
-                {
-                    //if true, only one value is assigned to task time
-                    task.time = BeginTime.Text;
-                }
-                else
-                {
-                    task.time = BeginTime.Text + "-" + EndTime.Text;
-                }
+                bool check = (bool)AllDay.IsChecked;
+                task.time=DayPageLogic.TaskTimeAssignment(check, BeginTime.Text, EndTime.Text);
                 list.Add(task);
                 // clears TextBox 
                 newQuest.Clear();
-                //clears CheckBox
+                // clears CheckBox
                 AllDay.IsChecked = false;
             }
             string jsonData = api.JsoningTasks(_date, list);
             //api.PutTasks(jsonData,_date);
         }
+        
         /// <summary>
         /// This method removes selected task from the list
         /// </summary>

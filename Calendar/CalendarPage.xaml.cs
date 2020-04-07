@@ -16,7 +16,7 @@ namespace CalendarApp
     public partial class CalendarPage : Page
     {
         /// <summary>
-        /// Date selected from calendar
+        /// Selected date
         /// </summary>
         public DateTime selectedDate = DateTime.Now;
 
@@ -32,9 +32,11 @@ namespace CalendarApp
         /// <summary>
         /// This method prints days on the calendar page.
         /// </summary>
-        private void RefreshCalendarGrid()
+        private void RefreshCalendarGrid() // to rozbic i napisac testy
         {
+            // Current date text block
             currDateText.Text = selectedDate.ToString("MMMM") + " " + selectedDate.Year;
+            // Clearing grid
             GridCalendar.Children.Clear();
 
             int daysInMonth = System.DateTime.DaysInMonth(selectedDate.Year, selectedDate.Month);
@@ -42,8 +44,8 @@ namespace CalendarApp
             int row = 0;
          
             DateTime day = new DateTime(selectedDate.Year, selectedDate.Month, selectedDate.Day);
-            
-            day = day.AddDays((-1 * (int)day.Day) +1);
+
+            day = CalendarPageLogic.SetDayToBeginingOfTheMonth(day); 
 
             for (int i = 1; i <= daysInMonth; i++)
             {
@@ -59,7 +61,7 @@ namespace CalendarApp
                 }
                 button.Content = day.Day + "";
                 button.SetValue(Grid.RowProperty, row);
-                int dayOfWeeek = ((int)day.DayOfWeek == 0) ? 7 : (int)day.DayOfWeek;
+                int dayOfWeeek = CalendarPageLogic.DayOfWeekNumeration(day);
                 button.SetValue(Grid.ColumnProperty, dayOfWeeek-1);
                 button.Click += Button_Click;
                 GridCalendar.Children.Add(button);

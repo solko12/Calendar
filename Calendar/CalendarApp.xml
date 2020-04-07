@@ -44,6 +44,28 @@
             <param name="postedData"> Tasks</param>
             <param name="date">Day on which the tasks are sheduled</param>
         </member>
+        <member name="T:CalendarApp.CalendarAppTests.CalendarPageTests">
+            <summary>
+            This class consist of unit tests for CalendarPageLogic.cs
+            </summary>
+        </member>
+        <member name="M:CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This method check if the method DayOfWeekNumeration works correctly. It checks the index of sunday and monday.
+            </summary>
+            <param name="year"></param>
+            <param name="month"></param>
+            <param name="day"></param>
+            <param name="expected"></param>
+        </member>
+        <member name="M:CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            This method checks if SetBeginOfTheMonth method works correctly
+            </summary>
+            <param name="year"></param>
+            <param name="month"></param>
+            <param name="day"></param>
+        </member>
         <member name="T:CalendarApp.CalendarPage">
             <summary>
             CalendarPage
@@ -51,7 +73,7 @@
         </member>
         <member name="F:CalendarApp.CalendarPage.selectedDate">
             <summary>
-            Date selected from calendar
+            Selected date
             </summary>
         </member>
         <member name="M:CalendarApp.CalendarPage.#ctor">
@@ -96,6 +118,25 @@
             <summary>
             InitializeComponent
             </summary>
+        </member>
+        <member name="T:CalendarApp.CalendarPageLogic">
+            <summary>
+            A class with helpful methods for CalendarPage.xaml.cs
+            </summary>
+        </member>
+        <member name="M:CalendarApp.CalendarPageLogic.DayOfWeekNumeration(System.DateTime)">
+            <summary>
+            This method change numeration of the sunday from dafault 0 to 7
+            </summary>
+            <param name="day"></param>
+            <returns>Day number of the week</returns>
+        </member>
+        <member name="M:CalendarApp.CalendarPageLogic.SetDayToBeginingOfTheMonth(System.DateTime)">
+            <summary>
+            This method set date to the first day of the current month
+            </summary>
+            <param name="day"></param>
+            <returns>Date with first day of the month</returns>
         </member>
         <member name="T:CalendarApp.DayPage">
             <summary>
@@ -166,13 +207,20 @@
         </member>
         <member name="M:CalendarApp.TimeConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <summary>
-            This method converts minutes to hours
+            This method converts value of the object to minutes
             </summary>
             <param name="value"></param>
             <param name="targetType"></param>
             <param name="parameter"></param>
             <param name="culture"></param>
-            <returns> Time as a string </returns>
+            <returns> Object </returns>
+        </member>
+        <member name="M:CalendarApp.TimeConverter.ConvertLogic(System.Int32)">
+            <summary>
+            This method converts minutes to time format
+            </summary>
+            <param name="minutes"></param>
+            <returns>Time as string</returns>
         </member>
         <member name="M:CalendarApp.TimeConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <summary>
