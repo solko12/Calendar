@@ -1,4 +1,5 @@
 ﻿
+using CalendarBack.Entities;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace CalendarBack.Logic
     public static class WeatherParser
     {
         /// <summary>
-        /// Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
+        /// !!!deprecated!!! Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
         /// </summary>
         /// <param name="json">Input JSON formated string</param>
         /// <returns>Parsed Json formated string</returns>
@@ -97,6 +98,90 @@ namespace CalendarBack.Logic
                 }
             }
             return "{\"City\":\""+ weather.SelectToken("city").SelectToken("name") + "\",\"Weather\":[" + string.Join(",", weathers) + "]}";
+        }
+
+        /// <summary>
+        /// Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
+        /// </summary>
+        /// <param name="forecast">Input JSON formated string</param>
+        /// <returns>Parsed Json formated string</returns>
+        public static String parseWeather(Forecast forecast)
+        {
+            //Helper var for single day weather
+            String singleParsedWeather = "";
+            //List of daily forecast
+            List<List> weathers = forecast.list;
+            List<String> parsedWeatherList = new List<String>();
+            //Flag indicates new day
+            bool flag = false;
+            //Var storage last day
+            string lastDay = "";
+            //Helping vars for high and low temperature
+            decimal currentHighTemp = -999;
+            decimal currentLowTemp = 999;
+            //Helping vars for high and low wind speed
+            decimal currentHighSpeed = 0;
+            decimal currentLowSpeed = 999;
+            //Helping var for compute average pressure
+            decimal sumPressure = 0;
+            int pressureCount = 0;
+            //We are looking at single forecast from api
+            foreach (List singleWeather in weathers)
+            {
+                //String stores prepared current day nb from date in format "YYYY-MM-DD HH-MM-SS"
+                string currentDay = singleWeather.dt_txt.Split(" ")[0].Split("-")[2];
+                //When new day comes
+                if (flag == false)
+                {
+                    lastDay = currentDay;
+                    flag = true;
+                    singleParsedWeather = "{\"Day\":\"" + singleWeather.dt_txt.Split(" ")[0] + "\",";
+                    sumPressure = 0;
+                    pressureCount = 0;
+                    currentHighTemp =(decimal)singleWeather.main.temp_max;
+                    currentLowTemp = (decimal)singleWeather.main.temp_min;
+                    currentHighSpeed = (decimal)singleWeather.wind.speed;
+                    currentLowSpeed = currentHighSpeed;
+                }
+                if (lastDay.Equals(currentDay))
+                {
+                    lastDay = currentDay;
+                    if (currentHighTemp < (decimal)singleWeather.main.temp_max)
+                    {
+                        currentHighTemp = (decimal)singleWeather.main.temp_max;
+                    }
+                    if (currentLowTemp > (decimal)singleWeather.main.temp_min)
+                    {
+                        currentLowTemp = (decimal)singleWeather.main.temp_min;
+                    }
+                    if (currentHighSpeed < (decimal)singleWeather.wind.speed)
+                    {
+                        currentHighSpeed = (decimal)singleWeather.wind.speed;
+                    }
+                    if (currentLowSpeed > (decimal)singleWeather.wind.speed)
+                    {
+                        currentLowSpeed = (decimal)singleWeather.wind.speed;
+                    }
+                    sumPressure += (decimal)singleWeather.main.pressure;
+                    pressureCount++;
+                }
+                else
+                {
+                    singleParsedWeather += "\"Temperature\":{";
+                    //ToString(CultureInfo.InvariantCulture) give us a change from "," to "." decimal separator
+                    singleParsedWeather += "\"TempMax\":" + currentHighTemp.ToString(CultureInfo.InvariantCulture) + ",";
+                    singleParsedWeather += "\"TempMin\":" + currentLowTemp.ToString(CultureInfo.InvariantCulture) + "},";
+                    singleParsedWeather += "\"AvPressure\":" + Math.Round(sumPressure / pressureCount, 2).ToString(CultureInfo.InvariantCulture) + ",";
+                    singleParsedWeather += "\"Wind\":" + "{" + "\"Direction\":\"" + getMeTheWindDirectionLetter((decimal)singleWeather.wind.deg) + "\",";
+                    singleParsedWeather += "\"SpeedMin\":" + (currentLowSpeed).ToString(CultureInfo.InvariantCulture) + ",";
+                    singleParsedWeather += "\"SpeedMax\":" + (currentHighSpeed).ToString(CultureInfo.InvariantCulture) + "},";
+                    singleParsedWeather += "\"WeatherInfo\":{\"Description\":\"" + singleWeather.weather[0].description + "\",\"icon\":\"" + singleWeather.weather[0].icon.Replace("n","d") + "\"}";
+                    singleParsedWeather += "}";
+                    parsedWeatherList.Add(singleParsedWeather);
+                    flag = false;
+                }
+            }
+            return "{\"City\":\"" + forecast.city.name + "\",\"Weather\":[" + string.Join(",", parsedWeatherList) + "]}";
         }
 
         private static string getMeTheWindDirectionLetter(decimal degree)

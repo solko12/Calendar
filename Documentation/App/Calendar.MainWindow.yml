@@ -14,8 +14,12 @@ items:
   fullName: Calendar.MainWindow
   type: Class
   source:
+    remote:
+      path: Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: MainWindow
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\MainWindow.g.cs
+    path: ../Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
@@ -782,8 +786,12 @@ items:
   fullName: Calendar.MainWindow.InitializeComponent()
   type: Method
   source:
+    remote:
+      path: Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: InitializeComponent
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\MainWindow.g.cs
+    path: ../Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
     startLine: 48
   assemblies:
   - CalendarApp

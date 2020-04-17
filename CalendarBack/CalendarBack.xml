@@ -14,6 +14,34 @@
             Variable weather store data about current weather
             </summary>
         </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation">
+            <summary>
+            Endpoint for forecast in default location
+            </summary>
+            <returns>String in json format</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)">
+            <summary>
+            Endpoint for forecast in specified zipCode
+            </summary>
+            <param name="zipCode">Zip Code specified for region</param>
+            <param name="countryCode">Country code from zipCode where it comes from</param>
+            <returns>Forecast String in json format</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)">
+            <summary>
+            Endpoint for forecast in specified city
+            </summary>
+            <param name="city">Specified name of city</param>
+            <returns>Forecast String in json format</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetReload">
+            <summary>
+            Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified zipCode or city was used
+            otherwise will be used defaul one
+            </summary>
+            <returns>Done when operation was succesfuly done</returns>
+        </member>
         <member name="T:CalendarBack.Logic.WeatherParser">
             <summary>
             Class parse downloaded weatherInfo 5 days per 3 h to average for 5 days
@@ -24,6 +52,13 @@
             Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
             </summary>
             <param name="json">Input JSON formated string</param>
+            <returns>Parsed Json formated string</returns>
+        </member>
+        <member name="M:CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)">
+            <summary>
+            Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
+            </summary>
+            <param name="forecast">Input JSON formated string</param>
             <returns>Parsed Json formated string</returns>
         </member>
     </members>

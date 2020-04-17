@@ -20,6 +20,10 @@
 - uid: CalendarApp.CalendarAppTests
   name: CalendarApp.CalendarAppTests
   items:
+  - uid: CalendarApp.CalendarAppTests.CalendarPageTests
+    name: CalendarPageTests
+  - uid: CalendarApp.CalendarAppTests.DayPageTests
+    name: DayPageTests
   - uid: CalendarApp.CalendarAppTests.TimeConverterTests
     name: TimeConverterTests
 - uid: CalendarApp.JSONmodels.JsonSheduleModel

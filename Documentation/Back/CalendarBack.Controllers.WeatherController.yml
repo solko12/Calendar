@@ -5,10 +5,11 @@ items:
   id: WeatherController
   parent: CalendarBack.Controllers
   children:
-  - CalendarBack.Controllers.WeatherController.Get(System.String)
-  - CalendarBack.Controllers.WeatherController.GetWeather
-  - CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String,System.String)
-  - CalendarBack.Controllers.WeatherController.reload
+  - CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
+  - CalendarBack.Controllers.WeatherController.GetReload
+  - CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
+  - CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)
+  - CalendarBack.Controllers.WeatherController.test
   langs:
   - csharp
   - vb
@@ -17,8 +18,12 @@ items:
   fullName: CalendarBack.Controllers.WeatherController
   type: Class
   source:
+    remote:
+      path: CalendarBack/Controllers/WeatherController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: WeatherController
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
+    path: Controllers/WeatherController.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -232,36 +237,43 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarBack.Controllers.WeatherController.GetWeather
-  commentId: M:CalendarBack.Controllers.WeatherController.GetWeather
-  id: GetWeather
+- uid: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
+  commentId: M:CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
+  id: GetWeatherByDefaultLocation
   parent: CalendarBack.Controllers.WeatherController
   langs:
   - csharp
   - vb
-  name: GetWeather()
-  nameWithType: WeatherController.GetWeather()
-  fullName: CalendarBack.Controllers.WeatherController.GetWeather()
+  name: GetWeatherByDefaultLocation()
+  nameWithType: WeatherController.GetWeatherByDefaultLocation()
+  fullName: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation()
   type: Method
   source:
-    id: GetWeather
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 26
+    remote:
+      path: CalendarBack/Controllers/WeatherController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: GetWeatherByDefaultLocation
+    path: Controllers/WeatherController.cs
+    startLine: 29
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
+  summary: "\nEndpoint for forecast in default location\n"
+  example: []
   syntax:
     content: >-
       [HttpGet("")]
 
-      public string GetWeather()
+      public string GetWeatherByDefaultLocation()
     return:
       type: System.String
+      description: String in json format
     content.vb: >-
       <HttpGet("")>
 
-      Public Function GetWeather As String
-  overload: CalendarBack.Controllers.WeatherController.GetWeather*
+      Public Function GetWeatherByDefaultLocation As String
+  overload: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
@@ -272,41 +284,50 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String,System.String)
-  commentId: M:CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String,System.String)
-  id: GetWeatherPostCode(System.String,System.String)
+- uid: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)
+  commentId: M:CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)
+  id: GetWeatherByPostCode(System.String,System.String)
   parent: CalendarBack.Controllers.WeatherController
   langs:
   - csharp
   - vb
-  name: GetWeatherPostCode(String, String)
-  nameWithType: WeatherController.GetWeatherPostCode(String, String)
-  fullName: CalendarBack.Controllers.WeatherController.GetWeatherPostCode(System.String, System.String)
+  name: GetWeatherByPostCode(String, String)
+  nameWithType: WeatherController.GetWeatherByPostCode(String, String)
+  fullName: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String, System.String)
   type: Method
   source:
-    id: GetWeatherPostCode
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 31
+    remote:
+      path: CalendarBack/Controllers/WeatherController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: GetWeatherByPostCode
+    path: Controllers/WeatherController.cs
+    startLine: 40
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
+  summary: "\nEndpoint for forecast in specified zipCode\n"
+  example: []
   syntax:
     content: >-
       [HttpGet("{zipCode}/{countryCode}")]
 
-      public string GetWeatherPostCode(string zipCode, string countryCode)
+      public string GetWeatherByPostCode(string zipCode, string countryCode)
     parameters:
     - id: zipCode
       type: System.String
+      description: Zip Code specified for region
     - id: countryCode
       type: System.String
+      description: Country code from zipCode where it comes from
     return:
       type: System.String
+      description: Forecast String in json format
     content.vb: >-
       <HttpGet("{zipCode}/{countryCode}")>
 
-      Public Function GetWeatherPostCode(zipCode As String, countryCode As String) As String
-  overload: CalendarBack.Controllers.WeatherController.GetWeatherPostCode*
+      Public Function GetWeatherByPostCode(zipCode As String, countryCode As String) As String
+  overload: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
@@ -317,39 +338,47 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: CalendarBack.Controllers.WeatherController.Get(System.String)
-  commentId: M:CalendarBack.Controllers.WeatherController.Get(System.String)
-  id: Get(System.String)
+- uid: CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
+  commentId: M:CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
+  id: GetForecastByCityName(System.String)
   parent: CalendarBack.Controllers.WeatherController
   langs:
   - csharp
   - vb
-  name: Get(String)
-  nameWithType: WeatherController.Get(String)
-  fullName: CalendarBack.Controllers.WeatherController.Get(System.String)
+  name: GetForecastByCityName(String)
+  nameWithType: WeatherController.GetForecastByCityName(String)
+  fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
   type: Method
   source:
-    id: Get
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 37
+    remote:
+      path: CalendarBack/Controllers/WeatherController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: GetForecastByCityName
+    path: Controllers/WeatherController.cs
+    startLine: 50
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
+  summary: "\nEndpoint for forecast in specified city\n"
+  example: []
   syntax:
     content: >-
       [HttpGet("{city}", Name = "Get")]
 
-      public string Get(string city)
+      public string GetForecastByCityName(string city)
     parameters:
     - id: city
       type: System.String
+      description: Specified name of city
     return:
       type: System.String
+      description: Forecast String in json format
     content.vb: >-
       <HttpGet("{city}", Name:="Get")>
 
-      Public Function Get(city As String) As String
-  overload: CalendarBack.Controllers.WeatherController.Get*
+      Public Function GetForecastByCityName(city As String) As String
+  overload: CalendarBack.Controllers.WeatherController.GetForecastByCityName*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
@@ -364,42 +393,93 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: CalendarBack.Controllers.WeatherController.reload
-  commentId: M:CalendarBack.Controllers.WeatherController.reload
-  id: reload
+- uid: CalendarBack.Controllers.WeatherController.GetReload
+  commentId: M:CalendarBack.Controllers.WeatherController.GetReload
+  id: GetReload
   parent: CalendarBack.Controllers.WeatherController
   langs:
   - csharp
   - vb
-  name: reload()
-  nameWithType: WeatherController.reload()
-  fullName: CalendarBack.Controllers.WeatherController.reload()
+  name: GetReload()
+  nameWithType: WeatherController.GetReload()
+  fullName: CalendarBack.Controllers.WeatherController.GetReload()
   type: Method
   source:
-    id: reload
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
-    startLine: 46
+    remote:
+      path: CalendarBack/Controllers/WeatherController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: GetReload
+    path: Controllers/WeatherController.cs
+    startLine: 63
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
+  summary: "\nEndpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified zipCode or city was used\notherwise will be used defaul one\n"
+  example: []
   syntax:
     content: >-
       [HttpGet("reload")]
 
-      public string reload()
+      public string GetReload()
     return:
       type: System.String
+      description: Done when operation was succesfuly done
     content.vb: >-
       <HttpGet("reload")>
 
-      Public Function reload As String
-  overload: CalendarBack.Controllers.WeatherController.reload*
+      Public Function GetReload As String
+  overload: CalendarBack.Controllers.WeatherController.GetReload*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: reload
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Controllers.WeatherController.test
+  commentId: M:CalendarBack.Controllers.WeatherController.test
+  id: test
+  parent: CalendarBack.Controllers.WeatherController
+  langs:
+  - csharp
+  - vb
+  name: test()
+  nameWithType: WeatherController.test()
+  fullName: CalendarBack.Controllers.WeatherController.test()
+  type: Method
+  source:
+    remote:
+      path: CalendarBack/Controllers/WeatherController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: test
+    path: Controllers/WeatherController.cs
+    startLine: 71
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Controllers
+  syntax:
+    content: >-
+      [HttpGet("TEST")]
+
+      public string test()
+    return:
+      type: System.String
+    content.vb: >-
+      <HttpGet("TEST")>
+
+      Public Function test As String
+  overload: CalendarBack.Controllers.WeatherController.test*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: TEST
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -12049,11 +12129,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CalendarBack.Controllers.WeatherController.GetWeather*
-  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeather
-  name: GetWeather
-  nameWithType: WeatherController.GetWeather
-  fullName: CalendarBack.Controllers.WeatherController.GetWeather
+- uid: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
+  name: GetWeatherByDefaultLocation
+  nameWithType: WeatherController.GetWeatherByDefaultLocation
+  fullName: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -12061,18 +12141,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: CalendarBack.Controllers.WeatherController.GetWeatherPostCode*
-  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeatherPostCode
-  name: GetWeatherPostCode
-  nameWithType: WeatherController.GetWeatherPostCode
-  fullName: CalendarBack.Controllers.WeatherController.GetWeatherPostCode
-- uid: CalendarBack.Controllers.WeatherController.Get*
-  commentId: Overload:CalendarBack.Controllers.WeatherController.Get
-  name: Get
-  nameWithType: WeatherController.Get
-  fullName: CalendarBack.Controllers.WeatherController.Get
-- uid: CalendarBack.Controllers.WeatherController.reload*
-  commentId: Overload:CalendarBack.Controllers.WeatherController.reload
-  name: reload
-  nameWithType: WeatherController.reload
-  fullName: CalendarBack.Controllers.WeatherController.reload
+- uid: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeatherByPostCode
+  name: GetWeatherByPostCode
+  nameWithType: WeatherController.GetWeatherByPostCode
+  fullName: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode
+- uid: CalendarBack.Controllers.WeatherController.GetForecastByCityName*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetForecastByCityName
+  name: GetForecastByCityName
+  nameWithType: WeatherController.GetForecastByCityName
+  fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityName
+- uid: CalendarBack.Controllers.WeatherController.GetReload*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetReload
+  name: GetReload
+  nameWithType: WeatherController.GetReload
+  fullName: CalendarBack.Controllers.WeatherController.GetReload
+- uid: CalendarBack.Controllers.WeatherController.test*
+  commentId: Overload:CalendarBack.Controllers.WeatherController.test
+  name: test
+  nameWithType: WeatherController.test
+  fullName: CalendarBack.Controllers.WeatherController.test

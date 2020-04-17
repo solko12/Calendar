@@ -5,21 +5,10 @@ items:
   id: Weather
   parent: CalendarBack.Entities
   children:
-  - CalendarBack.Entities.Weather.base
-  - CalendarBack.Entities.Weather.cloudness
-  - CalendarBack.Entities.Weather.cod
-  - CalendarBack.Entities.Weather.coord
-  - CalendarBack.Entities.Weather.dt
+  - CalendarBack.Entities.Weather.description
+  - CalendarBack.Entities.Weather.icon
   - CalendarBack.Entities.Weather.id
   - CalendarBack.Entities.Weather.main
-  - CalendarBack.Entities.Weather.name
-  - CalendarBack.Entities.Weather.rain
-  - CalendarBack.Entities.Weather.snow
-  - CalendarBack.Entities.Weather.sys
-  - CalendarBack.Entities.Weather.temperature
-  - CalendarBack.Entities.Weather.timezone
-  - CalendarBack.Entities.Weather.visibility
-  - CalendarBack.Entities.Weather.weather
   langs:
   - csharp
   - vb
@@ -28,9 +17,13 @@ items:
   fullName: CalendarBack.Entities.Weather
   type: Class
   source:
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: Weather
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 7
+    path: Entities/Forecast.cs
+    startLine: 23
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
@@ -53,124 +46,35 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarBack.Entities.Weather.coord
-  commentId: P:CalendarBack.Entities.Weather.coord
-  id: coord
+- uid: CalendarBack.Entities.Weather.id
+  commentId: P:CalendarBack.Entities.Weather.id
+  id: id
   parent: CalendarBack.Entities.Weather
   langs:
   - csharp
   - vb
-  name: coord
-  nameWithType: Weather.coord
-  fullName: CalendarBack.Entities.Weather.coord
+  name: id
+  nameWithType: Weather.id
+  fullName: CalendarBack.Entities.Weather.id
   type: Property
   source:
-    id: coord
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 9
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: id
+    path: Entities/Forecast.cs
+    startLine: 25
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public Dictionary<string, double> coord { get; set; }
+    content: public int id { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.Dictionary{System.String,System.Double}
-    content.vb: Public Property coord As Dictionary(Of String, Double)
-  overload: CalendarBack.Entities.Weather.coord*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.weather
-  commentId: P:CalendarBack.Entities.Weather.weather
-  id: weather
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: weather
-  nameWithType: Weather.weather
-  fullName: CalendarBack.Entities.Weather.weather
-  type: Property
-  source:
-    id: weather
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 10
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public IList<Dictionary<string, string>> weather { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.IList{System.Collections.Generic.Dictionary{System.String,System.String}}
-    content.vb: Public Property weather As IList(Of Dictionary(Of String, String))
-  overload: CalendarBack.Entities.Weather.weather*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.base
-  commentId: P:CalendarBack.Entities.Weather.base
-  id: base
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: base
-  nameWithType: Weather.base
-  fullName: CalendarBack.Entities.Weather.base
-  type: Property
-  source:
-    id: base
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 11
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public string base { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property base As String
-  overload: CalendarBack.Entities.Weather.base*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.temperature
-  commentId: P:CalendarBack.Entities.Weather.temperature
-  id: temperature
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: temperature
-  nameWithType: Weather.temperature
-  fullName: CalendarBack.Entities.Weather.temperature
-  type: Property
-  source:
-    id: temperature
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 12
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public string temperature { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property temperature As String
-  overload: CalendarBack.Entities.Weather.temperature*
+      type: System.Int32
+    content.vb: Public Property id As Integer
+  overload: CalendarBack.Entities.Weather.id*
   modifiers.csharp:
   - public
   - get
@@ -189,18 +93,22 @@ items:
   fullName: CalendarBack.Entities.Weather.main
   type: Property
   source:
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: main
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 13
+    path: Entities/Forecast.cs
+    startLine: 26
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public Dictionary<string, double> main { get; set; }
+    content: public string main { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.Dictionary{System.String,System.Double}
-    content.vb: Public Property main As Dictionary(Of String, Double)
+      type: System.String
+    content.vb: Public Property main As String
   overload: CalendarBack.Entities.Weather.main*
   modifiers.csharp:
   - public
@@ -208,310 +116,70 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: CalendarBack.Entities.Weather.visibility
-  commentId: P:CalendarBack.Entities.Weather.visibility
-  id: visibility
+- uid: CalendarBack.Entities.Weather.description
+  commentId: P:CalendarBack.Entities.Weather.description
+  id: description
   parent: CalendarBack.Entities.Weather
   langs:
   - csharp
   - vb
-  name: visibility
-  nameWithType: Weather.visibility
-  fullName: CalendarBack.Entities.Weather.visibility
+  name: description
+  nameWithType: Weather.description
+  fullName: CalendarBack.Entities.Weather.description
   type: Property
   source:
-    id: visibility
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 14
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: description
+    path: Entities/Forecast.cs
+    startLine: 27
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public double visibility { get; set; }
-    parameters: []
-    return:
-      type: System.Double
-    content.vb: Public Property visibility As Double
-  overload: CalendarBack.Entities.Weather.visibility*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.cloudness
-  commentId: P:CalendarBack.Entities.Weather.cloudness
-  id: cloudness
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: cloudness
-  nameWithType: Weather.cloudness
-  fullName: CalendarBack.Entities.Weather.cloudness
-  type: Property
-  source:
-    id: cloudness
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 15
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public double cloudness { get; set; }
-    parameters: []
-    return:
-      type: System.Double
-    content.vb: Public Property cloudness As Double
-  overload: CalendarBack.Entities.Weather.cloudness*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.dt
-  commentId: P:CalendarBack.Entities.Weather.dt
-  id: dt
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: dt
-  nameWithType: Weather.dt
-  fullName: CalendarBack.Entities.Weather.dt
-  type: Property
-  source:
-    id: dt
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 16
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public int dt { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Property dt As Integer
-  overload: CalendarBack.Entities.Weather.dt*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.sys
-  commentId: P:CalendarBack.Entities.Weather.sys
-  id: sys
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: sys
-  nameWithType: Weather.sys
-  fullName: CalendarBack.Entities.Weather.sys
-  type: Property
-  source:
-    id: sys
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 17
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public Dictionary<string, string> sys { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: Public Property sys As Dictionary(Of String, String)
-  overload: CalendarBack.Entities.Weather.sys*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.timezone
-  commentId: P:CalendarBack.Entities.Weather.timezone
-  id: timezone
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: timezone
-  nameWithType: Weather.timezone
-  fullName: CalendarBack.Entities.Weather.timezone
-  type: Property
-  source:
-    id: timezone
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 18
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public int timezone { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Property timezone As Integer
-  overload: CalendarBack.Entities.Weather.timezone*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.id
-  commentId: P:CalendarBack.Entities.Weather.id
-  id: id
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: id
-  nameWithType: Weather.id
-  fullName: CalendarBack.Entities.Weather.id
-  type: Property
-  source:
-    id: id
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 19
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public int id { get; set; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Property id As Integer
-  overload: CalendarBack.Entities.Weather.id*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.name
-  commentId: P:CalendarBack.Entities.Weather.name
-  id: name
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: name
-  nameWithType: Weather.name
-  fullName: CalendarBack.Entities.Weather.name
-  type: Property
-  source:
-    id: name
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 20
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public string name { get; set; }
+    content: public string description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property name As String
-  overload: CalendarBack.Entities.Weather.name*
+    content.vb: Public Property description As String
+  overload: CalendarBack.Entities.Weather.description*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: CalendarBack.Entities.Weather.cod
-  commentId: P:CalendarBack.Entities.Weather.cod
-  id: cod
+- uid: CalendarBack.Entities.Weather.icon
+  commentId: P:CalendarBack.Entities.Weather.icon
+  id: icon
   parent: CalendarBack.Entities.Weather
   langs:
   - csharp
   - vb
-  name: cod
-  nameWithType: Weather.cod
-  fullName: CalendarBack.Entities.Weather.cod
+  name: icon
+  nameWithType: Weather.icon
+  fullName: CalendarBack.Entities.Weather.icon
   type: Property
   source:
-    id: cod
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 21
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: icon
+    path: Entities/Forecast.cs
+    startLine: 28
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public int cod { get; set; }
+    content: public string icon { get; set; }
     parameters: []
     return:
-      type: System.Int32
-    content.vb: Public Property cod As Integer
-  overload: CalendarBack.Entities.Weather.cod*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.rain
-  commentId: P:CalendarBack.Entities.Weather.rain
-  id: rain
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: rain
-  nameWithType: Weather.rain
-  fullName: CalendarBack.Entities.Weather.rain
-  type: Property
-  source:
-    id: rain
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 22
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public Dictionary<string, string> rain { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: Public Property rain As Dictionary(Of String, String)
-  overload: CalendarBack.Entities.Weather.rain*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: CalendarBack.Entities.Weather.snow
-  commentId: P:CalendarBack.Entities.Weather.snow
-  id: snow
-  parent: CalendarBack.Entities.Weather
-  langs:
-  - csharp
-  - vb
-  name: snow
-  nameWithType: Weather.snow
-  fullName: CalendarBack.Entities.Weather.snow
-  type: Property
-  source:
-    id: snow
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Weather.cs
-    startLine: 23
-  assemblies:
-  - CalendarBack
-  namespace: CalendarBack.Entities
-  syntax:
-    content: public Dictionary<string, string> snow { get; set; }
-    parameters: []
-    return:
-      type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: Public Property snow As Dictionary(Of String, String)
-  overload: CalendarBack.Entities.Weather.snow*
+      type: System.String
+    content.vb: Public Property icon As String
+  overload: CalendarBack.Entities.Weather.icon*
   modifiers.csharp:
   - public
   - get
@@ -816,298 +484,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: CalendarBack.Entities.Weather.coord*
-  commentId: Overload:CalendarBack.Entities.Weather.coord
-  name: coord
-  nameWithType: Weather.coord
-  fullName: CalendarBack.Entities.Weather.coord
-- uid: System.Collections.Generic.Dictionary{System.String,System.Double}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Double}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, Double>
-  nameWithType: Dictionary<String, Double>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.Double>
-  nameWithType.vb: Dictionary(Of String, Double)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Double)
-  name.vb: Dictionary(Of String, Double)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Double
-    name: Double
-    nameWithType: Double
-    fullName: System.Double
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
-  isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-- uid: CalendarBack.Entities.Weather.weather*
-  commentId: Overload:CalendarBack.Entities.Weather.weather
-  name: weather
-  nameWithType: Weather.weather
-  fullName: CalendarBack.Entities.Weather.weather
-- uid: System.Collections.Generic.IList{System.Collections.Generic.Dictionary{System.String,System.String}}
-  commentId: T:System.Collections.Generic.IList{System.Collections.Generic.Dictionary{System.String,System.String}}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IList`1
-  name: IList<Dictionary<String, String>>
-  nameWithType: IList<Dictionary<String, String>>
-  fullName: System.Collections.Generic.IList<System.Collections.Generic.Dictionary<System.String, System.String>>
-  nameWithType.vb: IList(Of Dictionary(Of String, String))
-  fullName.vb: System.Collections.Generic.IList(Of System.Collections.Generic.Dictionary(Of System.String, System.String))
-  name.vb: IList(Of Dictionary(Of String, String))
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IList`1
-  commentId: T:System.Collections.Generic.IList`1
-  isExternal: true
-  name: IList<T>
-  nameWithType: IList<T>
-  fullName: System.Collections.Generic.IList<T>
-  nameWithType.vb: IList(Of T)
-  fullName.vb: System.Collections.Generic.IList(Of T)
-  name.vb: IList(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    nameWithType: IList
-    fullName: System.Collections.Generic.IList
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: CalendarBack.Entities.Weather.base*
-  commentId: Overload:CalendarBack.Entities.Weather.base
-  name: base
-  nameWithType: Weather.base
-  fullName: CalendarBack.Entities.Weather.base
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: CalendarBack.Entities.Weather.temperature*
-  commentId: Overload:CalendarBack.Entities.Weather.temperature
-  name: temperature
-  nameWithType: Weather.temperature
-  fullName: CalendarBack.Entities.Weather.temperature
-- uid: CalendarBack.Entities.Weather.main*
-  commentId: Overload:CalendarBack.Entities.Weather.main
-  name: main
-  nameWithType: Weather.main
-  fullName: CalendarBack.Entities.Weather.main
-- uid: CalendarBack.Entities.Weather.visibility*
-  commentId: Overload:CalendarBack.Entities.Weather.visibility
-  name: visibility
-  nameWithType: Weather.visibility
-  fullName: CalendarBack.Entities.Weather.visibility
-- uid: System.Double
-  commentId: T:System.Double
-  parent: System
-  isExternal: true
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: CalendarBack.Entities.Weather.cloudness*
-  commentId: Overload:CalendarBack.Entities.Weather.cloudness
-  name: cloudness
-  nameWithType: Weather.cloudness
-  fullName: CalendarBack.Entities.Weather.cloudness
-- uid: CalendarBack.Entities.Weather.dt*
-  commentId: Overload:CalendarBack.Entities.Weather.dt
-  name: dt
-  nameWithType: Weather.dt
-  fullName: CalendarBack.Entities.Weather.dt
+- uid: CalendarBack.Entities.Weather.id*
+  commentId: Overload:CalendarBack.Entities.Weather.id
+  name: id
+  nameWithType: Weather.id
+  fullName: CalendarBack.Entities.Weather.id
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -1115,98 +496,25 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: CalendarBack.Entities.Weather.sys*
-  commentId: Overload:CalendarBack.Entities.Weather.sys
-  name: sys
-  nameWithType: Weather.sys
-  fullName: CalendarBack.Entities.Weather.sys
-- uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
-  name: Dictionary<String, String>
-  nameWithType: Dictionary<String, String>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
-  nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
-  name.vb: Dictionary(Of String, String)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: CalendarBack.Entities.Weather.timezone*
-  commentId: Overload:CalendarBack.Entities.Weather.timezone
-  name: timezone
-  nameWithType: Weather.timezone
-  fullName: CalendarBack.Entities.Weather.timezone
-- uid: CalendarBack.Entities.Weather.id*
-  commentId: Overload:CalendarBack.Entities.Weather.id
-  name: id
-  nameWithType: Weather.id
-  fullName: CalendarBack.Entities.Weather.id
-- uid: CalendarBack.Entities.Weather.name*
-  commentId: Overload:CalendarBack.Entities.Weather.name
-  name: name
-  nameWithType: Weather.name
-  fullName: CalendarBack.Entities.Weather.name
-- uid: CalendarBack.Entities.Weather.cod*
-  commentId: Overload:CalendarBack.Entities.Weather.cod
-  name: cod
-  nameWithType: Weather.cod
-  fullName: CalendarBack.Entities.Weather.cod
-- uid: CalendarBack.Entities.Weather.rain*
-  commentId: Overload:CalendarBack.Entities.Weather.rain
-  name: rain
-  nameWithType: Weather.rain
-  fullName: CalendarBack.Entities.Weather.rain
-- uid: CalendarBack.Entities.Weather.snow*
-  commentId: Overload:CalendarBack.Entities.Weather.snow
-  name: snow
-  nameWithType: Weather.snow
-  fullName: CalendarBack.Entities.Weather.snow
+- uid: CalendarBack.Entities.Weather.main*
+  commentId: Overload:CalendarBack.Entities.Weather.main
+  name: main
+  nameWithType: Weather.main
+  fullName: CalendarBack.Entities.Weather.main
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CalendarBack.Entities.Weather.description*
+  commentId: Overload:CalendarBack.Entities.Weather.description
+  name: description
+  nameWithType: Weather.description
+  fullName: CalendarBack.Entities.Weather.description
+- uid: CalendarBack.Entities.Weather.icon*
+  commentId: Overload:CalendarBack.Entities.Weather.icon
+  name: icon
+  nameWithType: Weather.icon
+  fullName: CalendarBack.Entities.Weather.icon

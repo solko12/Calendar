@@ -13,9 +13,13 @@ items:
   fullName: CalendarBack.Tests.WeatherControlerTest
   type: Class
   source:
+    remote:
+      path: CalendarBack/Tests/WeatherControlerTest.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: WeatherControlerTest
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Tests\WeatherControlerTest.cs
-    startLine: 10
+    path: Tests/WeatherControlerTest.cs
+    startLine: 12
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Tests

@@ -4,6 +4,8 @@ items:
   commentId: N:CalendarApp.CalendarAppTests
   id: CalendarApp.CalendarAppTests
   children:
+  - CalendarApp.CalendarAppTests.CalendarPageTests
+  - CalendarApp.CalendarAppTests.DayPageTests
   - CalendarApp.CalendarAppTests.TimeConverterTests
   langs:
   - csharp
@@ -15,6 +17,16 @@ items:
   assemblies:
   - CalendarApp
 references:
+- uid: CalendarApp.CalendarAppTests.CalendarPageTests
+  commentId: T:CalendarApp.CalendarAppTests.CalendarPageTests
+  name: CalendarPageTests
+  nameWithType: CalendarPageTests
+  fullName: CalendarApp.CalendarAppTests.CalendarPageTests
+- uid: CalendarApp.CalendarAppTests.DayPageTests
+  commentId: T:CalendarApp.CalendarAppTests.DayPageTests
+  name: DayPageTests
+  nameWithType: DayPageTests
+  fullName: CalendarApp.CalendarAppTests.DayPageTests
 - uid: CalendarApp.CalendarAppTests.TimeConverterTests
   commentId: T:CalendarApp.CalendarAppTests.TimeConverterTests
   name: TimeConverterTests

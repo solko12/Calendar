@@ -16,8 +16,12 @@ items:
   fullName: CalendarApp.CalendarPage
   type: Class
   source:
+    remote:
+      path: Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: CalendarPage
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\CalendarPage.g.cs
+    path: ../Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
@@ -656,13 +660,17 @@ items:
   fullName: CalendarApp.CalendarPage.selectedDate
   type: Field
   source:
+    remote:
+      path: Calendar/CalendarPage.xaml.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: selectedDate
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
+    path: ../Calendar/CalendarPage.xaml.cs
     startLine: 20
   assemblies:
   - CalendarApp
   namespace: CalendarApp
-  summary: "\nDate selected from calendar\n"
+  summary: "\nSelected date\n"
   example: []
   syntax:
     content: public DateTime selectedDate
@@ -685,8 +693,12 @@ items:
   fullName: CalendarApp.CalendarPage.CalendarPage()
   type: Constructor
   source:
+    remote:
+      path: Calendar/CalendarPage.xaml.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: .ctor
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
+    path: ../Calendar/CalendarPage.xaml.cs
     startLine: 25
   assemblies:
   - CalendarApp
@@ -713,8 +725,12 @@ items:
   fullName: CalendarApp.CalendarPage.InitializeComponent()
   type: Method
   source:
+    remote:
+      path: Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: InitializeComponent
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\CalendarPage.g.cs
+    path: ../Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
     startLine: 104
   assemblies:
   - CalendarApp
