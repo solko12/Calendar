@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Controllers.TasksController.html",
-          "hash": "Tvw4lBwAQCJXXIvLfEDCuw=="
+          "hash": "F3JFUpptCQUhIjrNuG/0BA=="
         }
       },
       "is_incremental": false,
@@ -204,7 +204,7 @@
           "hash": "Ii1skmGPDAarMCnGt3ZtAQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +228,7 @@
           "hash": "T27Vy7JEwhTYHwEar/8xzA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -240,7 +240,7 @@
           "hash": "6lQT9/N5uWAYHwdsxohAUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "uaTFd8l8lbhtEdEriYgUQA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "LVvMa597hBwCmymr/GPxVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -276,7 +276,7 @@
           "hash": "T4i3EjlYZl/Fdv4yNc45PQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -288,7 +288,7 @@
           "hash": "TRNHah6BdzrSA1ACCD2LkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -300,7 +300,7 @@
           "hash": "bcoWyvVrn5W2sFbQKwNnBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "9vv2uRxJu9M3Cr6aD1GNTQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +324,7 @@
           "hash": "V+Z0aTrJrz4p8MGeo/zgiw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "wmtYBxRSpCwGM/d7GOZaZw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -348,7 +348,7 @@
           "hash": "uasUFkJZkSFEavJGfQpHbA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +360,19 @@
           "hash": "zl2/WxdAfbJ3OH4Tikrd0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation/Back/CalendarBack.Entities.Shedule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Back/CalendarBack.Entities.Shedule.html",
+          "hash": "/kSdzjdYEJOa1yGj2N+Vvg=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -372,7 +384,19 @@
           "hash": "XHzswl6KqAxs9drEjY5F/Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation/Back/CalendarBack.Entities.TasksList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Back/CalendarBack.Entities.TasksList.html",
+          "hash": "3ujRC09mlKA0E8YMc8MRgQ=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -384,7 +408,7 @@
           "hash": "Ba8zQmU9R6m6InbFBh9VOw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -396,7 +420,7 @@
           "hash": "pdOZLEyEtcVYtxvBxSveLg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.html",
-          "hash": "7pj1j0UX/hGv/blXmvQm+g=="
+          "hash": "M8r+CZvN+M8Pg/AzuP1erQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -420,7 +444,7 @@
           "hash": "J/OjrixWWRcwnKxcLMiT6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +456,7 @@
           "hash": "qZSbj8Si97zb/r5Mn11V+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -444,7 +468,7 @@
           "hash": "VHJ23fe8BgNovsvg+MLvpQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -456,7 +480,7 @@
           "hash": "eNlZ41BsVeKm0Ql33CkHQQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -468,7 +492,7 @@
           "hash": "eKb93+M/Bq3p7YYH2LSFqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -480,7 +504,7 @@
           "hash": "ge7o+xG+IhjLd605WPyOgQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -492,7 +516,7 @@
           "hash": "jH9QYXZA2K4EEySwMOEfFQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -504,7 +528,7 @@
           "hash": "uhZjmyNTRd5j/ZSLUFFUVg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "Back/toc.html",
-          "hash": "D0dZY5UVadgIHJMeAb2nSg=="
+          "hash": "PEbnzbxBKOezFkecpXb6rA=="
         }
       },
       "is_incremental": false,
@@ -532,8 +556,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 41,
-          "skipped_file_count": 40
+          "total_file_count": 43,
+          "skipped_file_count": 39
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

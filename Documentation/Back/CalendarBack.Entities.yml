@@ -11,7 +11,9 @@ items:
   - CalendarBack.Entities.List
   - CalendarBack.Entities.Main
   - CalendarBack.Entities.Rain
+  - CalendarBack.Entities.Shedule
   - CalendarBack.Entities.Sys
+  - CalendarBack.Entities.TasksList
   - CalendarBack.Entities.Weather
   - CalendarBack.Entities.Wind
   langs:
@@ -82,6 +84,17 @@ references:
   name: Forecast
   nameWithType: Forecast
   fullName: CalendarBack.Entities.Forecast
+- uid: CalendarBack.Entities.TasksList
+  commentId: T:CalendarBack.Entities.TasksList
+  name: TasksList
+  nameWithType: TasksList
+  fullName: CalendarBack.Entities.TasksList
+- uid: CalendarBack.Entities.Shedule
+  commentId: T:CalendarBack.Entities.Shedule
+  parent: CalendarBack.Entities
+  name: Shedule
+  nameWithType: Shedule
+  fullName: CalendarBack.Entities.Shedule
 - uid: CalendarBack.Entities
   commentId: N:CalendarBack.Entities
   name: CalendarBack.Entities
