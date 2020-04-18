@@ -19,10 +19,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: DatabaseTest
     path: Tests/DatabaseTest.cs
-    startLine: 8
+    startLine: 11
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Tests
+  summary: "\nTests for Database unit\n"
+  example: []
   syntax:
     content: public class DatabaseTest
     content.vb: Public Class DatabaseTest

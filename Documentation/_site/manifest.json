@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "App/Calendar.App.html",
-          "hash": "fOYspXmUr9X2kcksgJ45sw=="
+          "hash": "jArsnNo96ZJvwUZM05qt9g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "App/Calendar.MainWindow.html",
-          "hash": "DYJjJmzc2lvyDNiL7b7cvw=="
+          "hash": "g/Mm+ml2Tw6zeSx8FCeBIQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "App/Calendar.html",
-          "hash": "lqYkDpBzmneI2gkJZUqpYQ=="
+          "hash": "ZSxAoTEXeXGLqd++2Wkidg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.CalendarAppTests.CalendarPageTests.html",
-          "hash": "5MydQ2E7re1jucd4oXObTQ=="
+          "hash": "QbIAhwhHMFH9140zAbes9Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.CalendarAppTests.DayPageTests.html",
-          "hash": "8NSP9zx2HxYYsXDCUSve8A=="
+          "hash": "Q2JvptFgVbb9Ju44ZiF/kg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.CalendarAppTests.TimeConverterTests.html",
-          "hash": "4Zpa3w8vXdOunHJX8AjhBw=="
+          "hash": "d+y4i1NOd738foxtSTpo8Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.CalendarAppTests.html",
-          "hash": "fzcxDpoGfIZr0ThsOI09VQ=="
+          "hash": "5zLkjZMfE4WOwqgAsTfU2Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.CalendarPage.html",
-          "hash": "1Tl5OjaZtktiK2GwtdgsHQ=="
+          "hash": "mynCQ/l7i+5nd4yYDFYEnQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.DayPage.html",
-          "hash": "CMeVZvQ2sxx5Xos66bPlJA=="
+          "hash": "qP08f/lfTZUWUvn9XPUEgw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html",
-          "hash": "22VDGmOlhNI3siaYeTag4w=="
+          "hash": "Ijl2AEk1jNKiJTF6GlbPjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.JSONmodels.JsonSheduleModel.html",
-          "hash": "giBvuStBkIT8aTkKud0KLQ=="
+          "hash": "V8bFWwxkzDwycHkd1XC3qQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.Task.html",
-          "hash": "pMA6W4avdKmAY1stOxjgpg=="
+          "hash": "8TwTi2AR0p5NCsPRoWF4Xg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.WeatherPage.html",
-          "hash": "uT5jWoOFoNj1zcqvzC+NKA=="
+          "hash": "XWIY4Q4EzR/+QXS7zG+zjw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "App/CalendarApp.html",
-          "hash": "kYCPqy4SlgskNMHrj8k89g=="
+          "hash": "EUGa/SyqGmT/yYGytkk6Vw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Controllers.WeatherController.html",
-          "hash": "DFsvsnoJDIprfy6PijDIVA=="
+          "hash": "Ii1skmGPDAarMCnGt3ZtAQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Controllers.html",
-          "hash": "wjbcN6r04pUNN7h4JZTK8A=="
+          "hash": "8kpp6mOsBE/RESG1w8UJzA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Database.CalendarContext.html",
-          "hash": "fzyMLlAOFlwFVBo+h67STQ=="
+          "hash": "T27Vy7JEwhTYHwEar/8xzA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Database.Entities.Shedule.html",
-          "hash": "U4jJGtJaXLY4ftwDZ1pltA=="
+          "hash": "6lQT9/N5uWAYHwdsxohAUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Database.Entities.Task.html",
-          "hash": "6zsWlLxmS5g+DEkATWkhwQ=="
+          "hash": "uaTFd8l8lbhtEdEriYgUQA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Database.Entities.html",
-          "hash": "m4Tr5yy/N56jmVitk4/VDA=="
+          "hash": "LVvMa597hBwCmymr/GPxVQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Database.html",
-          "hash": "C2opD+v8Z5wSeuEiWDRUoQ=="
+          "hash": "T4i3EjlYZl/Fdv4yNc45PQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.City.html",
-          "hash": "CTxssY9pd0phWBBVs9E+eQ=="
+          "hash": "TRNHah6BdzrSA1ACCD2LkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Clouds.html",
-          "hash": "iVwrl6szwHEMDBiTDUjcHQ=="
+          "hash": "bcoWyvVrn5W2sFbQKwNnBQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Coord.html",
-          "hash": "LuszDhzasiKQOHwyVxuo6w=="
+          "hash": "9vv2uRxJu9M3Cr6aD1GNTQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Forecast.html",
-          "hash": "bbA5mJf9p5LKzs2dMSU7Ww=="
+          "hash": "V+Z0aTrJrz4p8MGeo/zgiw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.List.html",
-          "hash": "GorEeyumU9LEUuL9MXUFig=="
+          "hash": "wmtYBxRSpCwGM/d7GOZaZw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Main.html",
-          "hash": "9zZ2HwKOS9BT1eHGD1DTvg=="
+          "hash": "uasUFkJZkSFEavJGfQpHbA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Rain.html",
-          "hash": "VNjmx0NiQSEPNQiH4s2PDg=="
+          "hash": "zl2/WxdAfbJ3OH4Tikrd0g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Sys.html",
-          "hash": "7nKBfHNKEVrmJFp5x3hk8w=="
+          "hash": "XHzswl6KqAxs9drEjY5F/Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Weather.html",
-          "hash": "MDsjWYXZe5xXh3IuKeANLQ=="
+          "hash": "Ba8zQmU9R6m6InbFBh9VOw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Wind.html",
-          "hash": "lalBJRwiUWNKcyL1ZVpDmg=="
+          "hash": "pdOZLEyEtcVYtxvBxSveLg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.html",
-          "hash": "RlYIiPd80m1Glq1pcc2HZA=="
+          "hash": "7pj1j0UX/hGv/blXmvQm+g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Logic.WeatherParser.html",
-          "hash": "hL1IGHZ2HSqbhnedO7iR4A=="
+          "hash": "J/OjrixWWRcwnKxcLMiT6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Logic.html",
-          "hash": "KWczie4Ocilbgd9bxlVteg=="
+          "hash": "qZSbj8Si97zb/r5Mn11V+A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Program.html",
-          "hash": "NU1yklD+zDLJfuTutDYcZQ=="
+          "hash": "VHJ23fe8BgNovsvg+MLvpQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Startup.html",
-          "hash": "pFvoL38k5KT+xcqX9iWyKw=="
+          "hash": "eNlZ41BsVeKm0Ql33CkHQQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Tests.DatabaseTest.html",
-          "hash": "uExgrN86FC/kynJgrR9KfA=="
+          "hash": "eKb93+M/Bq3p7YYH2LSFqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Tests.WeatherControlerTest.html",
-          "hash": "0lNcU2uM+nF/TD4jbsJpxQ=="
+          "hash": "9bkkQ5vykk210gkIST868A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Tests.html",
-          "hash": "Z3BQiyTQ/hrJkhTT8K3/3g=="
+          "hash": "Jsihl+yQdki+znwK2mFzXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.html",
-          "hash": "ZWHaZluDRwVpmRUlnWF7Qg=="
+          "hash": "uhZjmyNTRd5j/ZSLUFFUVg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -511,17 +511,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.51.0.0 to 2.52.0.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 40,
-          "skipped_file_count": 40
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

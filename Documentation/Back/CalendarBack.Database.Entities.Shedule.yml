@@ -22,10 +22,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Shedule
     path: Database/Entities/Shedule.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nShedule entity\n"
+  example: []
   syntax:
     content: public class Shedule
     content.vb: Public Class Shedule
@@ -63,10 +65,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Id
     path: Database/Entities/Shedule.cs
-    startLine: 9
+    startLine: 15
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nId of the shedule\n"
+  example: []
   syntax:
     content: public int Id { get; set; }
     parameters: []
@@ -98,10 +102,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Date
     path: Database/Entities/Shedule.cs
-    startLine: 10
+    startLine: 19
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nDate is date for which data is storage\n"
+  example: []
   syntax:
     content: public DateTime Date { get; set; }
     parameters: []
@@ -133,10 +139,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: TasksList
     path: Database/Entities/Shedule.cs
-    startLine: 11
+    startLine: 23
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nTaskList is list of task for that day\n"
+  example: []
   syntax:
     content: public List<Task> TasksList { get; set; }
     parameters: []

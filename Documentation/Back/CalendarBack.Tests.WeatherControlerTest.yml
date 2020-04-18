@@ -19,10 +19,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: WeatherControlerTest
     path: Tests/WeatherControlerTest.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Tests
+  summary: "\nTests for wheaterControler\n"
+  example: []
   syntax:
     content: public class WeatherControlerTest
     content.vb: Public Class WeatherControlerTest

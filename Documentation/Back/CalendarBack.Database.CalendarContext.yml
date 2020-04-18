@@ -23,10 +23,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: CalendarContext
     path: Database/CalendarContext.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database
+  summary: "\nThis class is contector between database and CalendarBack\n"
+  example: []
   syntax:
     content: 'public class CalendarContext : DbContext, IDisposable, IAsyncDisposable, IInfrastructure<IServiceProvider>, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService'
     content.vb: >-
@@ -132,10 +134,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: DbCatalog
     path: Database/CalendarContext.cs
-    startLine: 11
+    startLine: 17
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database
+  summary: "\nDbCatalog is database name\n"
+  example: []
   syntax:
     content: public string DbCatalog { get; set; }
     parameters: []
@@ -167,10 +171,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Shedules
     path: Database/CalendarContext.cs
-    startLine: 12
+    startLine: 21
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database
+  summary: "\nDbSet collection for storage shedules\n"
+  example: []
   syntax:
     content: public DbSet<Shedule> Shedules { get; set; }
     parameters: []
@@ -202,10 +208,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Tasks
     path: Database/CalendarContext.cs
-    startLine: 13
+    startLine: 25
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database
+  summary: "\nDbSet collection for storage tasks\n"
+  example: []
   syntax:
     content: public DbSet<Task> Tasks { get; set; }
     parameters: []
@@ -237,15 +245,18 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: OnConfiguring
     path: Database/CalendarContext.cs
-    startLine: 15
+    startLine: 30
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database
+  summary: "\nOverrided method for init configuration\n"
+  example: []
   syntax:
     content: protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     parameters:
     - id: optionsBuilder
       type: Microsoft.EntityFrameworkCore.DbContextOptionsBuilder
+      description: DbContextOptionsBuilder object
     content.vb: Protected Overrides Sub OnConfiguring(optionsBuilder As DbContextOptionsBuilder)
   overridden: Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   overload: CalendarBack.Database.CalendarContext.OnConfiguring*

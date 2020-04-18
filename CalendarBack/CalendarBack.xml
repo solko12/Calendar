@@ -42,6 +42,72 @@
             </summary>
             <returns>Done when operation was succesfuly done</returns>
         </member>
+        <member name="T:CalendarBack.Database.CalendarContext">
+            <summary>
+            This class is contector between database and CalendarBack
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.CalendarContext.DbCatalog">
+            <summary>
+            DbCatalog is database name
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.CalendarContext.Shedules">
+            <summary>
+            DbSet collection for storage shedules
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.CalendarContext.Tasks">
+            <summary>
+            DbSet collection for storage tasks
+            </summary>
+        </member>
+        <member name="M:CalendarBack.Database.CalendarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Overrided method for init configuration
+            </summary>
+            <param name="optionsBuilder">DbContextOptionsBuilder object</param>
+        </member>
+        <member name="T:CalendarBack.Database.Entities.Shedule">
+            <summary>
+            Shedule entity
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Shedule.Id">
+            <summary>
+            Id of the shedule
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Shedule.Date">
+            <summary>
+            Date is date for which data is storage
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Shedule.TasksList">
+            <summary>
+            TaskList is list of task for that day
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Database.Entities.Task">
+            <summary>
+            Task Entity
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Task.Id">
+            <summary>
+            Id of single task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Task.Content">
+            <summary>
+            Content storages string value describe of task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Task.Time">
+            <summary>
+            Time storages time when task have been planed
+            </summary>
+        </member>
         <member name="T:CalendarBack.Logic.WeatherParser">
             <summary>
             Class parse downloaded weatherInfo 5 days per 3 h to average for 5 days
@@ -60,6 +126,16 @@
             </summary>
             <param name="forecast">Input JSON formated string</param>
             <returns>Parsed Json formated string</returns>
+        </member>
+        <member name="T:CalendarBack.Tests.DatabaseTest">
+            <summary>
+            Tests for Database unit
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Tests.WeatherControlerTest">
+            <summary>
+            Tests for wheaterControler
+            </summary>
         </member>
     </members>
 </doc>

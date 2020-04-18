@@ -22,10 +22,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Task
     path: Database/Entities/Task.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nTask Entity\n"
+  example: []
   syntax:
     content: public class Task
     content.vb: Public Class Task
@@ -63,10 +65,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Id
     path: Database/Entities/Task.cs
-    startLine: 9
+    startLine: 15
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nId of single task\n"
+  example: []
   syntax:
     content: public int Id { get; set; }
     parameters: []
@@ -98,10 +102,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Content
     path: Database/Entities/Task.cs
-    startLine: 10
+    startLine: 19
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nContent storages string value describe of task\n"
+  example: []
   syntax:
     content: public string Content { get; set; }
     parameters: []
@@ -133,10 +139,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Time
     path: Database/Entities/Task.cs
-    startLine: 11
+    startLine: 23
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Database.Entities
+  summary: "\nTime storages time when task have been planed\n"
+  example: []
   syntax:
     content: public string Time { get; set; }
     parameters: []
