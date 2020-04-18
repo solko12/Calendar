@@ -5,6 +5,7 @@ using CalendarBack.Database;
 using CalendarBack.Database.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace CalendarBack.Controllers
 {
@@ -18,23 +19,28 @@ namespace CalendarBack.Controllers
         CalendarContext context = new CalendarContext();
         /// <summary>
         /// Endpoint for adding record in tasks table in database
+        /// <param name="date">Param for specified date</param>
         /// </summary>
         [HttpPut("{date}")]
-        public void AddRecord([FromBody] Entities.Shedule json)
+        public void AddRecord([FromBody] Entities.Shedule shedule)
         {
             //context.Database.EnsureCreated();
             Task task = new Task();
             task.Content = "";
             task.Time = "";
             //context.Shedules.Find()
-            Shedule shedule = new Shedule();
-            Console.WriteLine(json);
-            
+            Shedule sheduleToDB = new Shedule();
+            Console.WriteLine(shedule.tasksList);
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="date">Param for specified date</param>
+        /// <returns></returns>
         [HttpGet("{date}")]
         public String GetSheduleForDay(String date) {
-            return "";
+            Shedule shedule = new Shedule();
+            return JsonConvert.SerializeObject(shedule);
         }
     }
 }

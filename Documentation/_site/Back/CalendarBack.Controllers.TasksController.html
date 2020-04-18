@@ -622,17 +622,18 @@ public class TasksController : ControllerBase</code></pre>
     <a href="https://github.com/solko12/Calendar/new/master/apiSpec/new?filename=CalendarBack_Controllers_TasksController_AddRecord_CalendarBack_Entities_Shedule_.md&amp;value=---%0Auid%3A%20CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/solko12/Calendar/blob/master/CalendarBack/Controllers/TasksController.cs/#L22">View Source</a>
+    <a href="https://github.com/solko12/Calendar/blob/master/CalendarBack/Controllers/TasksController.cs/#L24">View Source</a>
   </span>
   <a id="CalendarBack_Controllers_TasksController_AddRecord_" data-uid="CalendarBack.Controllers.TasksController.AddRecord*"></a>
   <h4 id="CalendarBack_Controllers_TasksController_AddRecord_CalendarBack_Entities_Shedule_" data-uid="CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)">AddRecord(Shedule)</h4>
   <div class="markdown level1 summary"><p>Endpoint for adding record in tasks table in database</p>
+<param name="date">Param for specified date
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPut(&quot;{date}&quot;)]
-public void AddRecord([FromBody] Shedule json)</code></pre>
+public void AddRecord([FromBody] Shedule shedule)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -646,7 +647,7 @@ public void AddRecord([FromBody] Shedule json)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="CalendarBack.Entities.Shedule.html">Shedule</a></td>
-        <td><span class="parametername">json</span></td>
+        <td><span class="parametername">shedule</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -656,7 +657,7 @@ public void AddRecord([FromBody] Shedule json)</code></pre>
     <a href="https://github.com/solko12/Calendar/new/master/apiSpec/new?filename=CalendarBack_Controllers_TasksController_GetSheduleForDay_System_String_.md&amp;value=---%0Auid%3A%20CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/solko12/Calendar/blob/master/CalendarBack/Controllers/TasksController.cs/#L35">View Source</a>
+    <a href="https://github.com/solko12/Calendar/blob/master/CalendarBack/Controllers/TasksController.cs/#L40">View Source</a>
   </span>
   <a id="CalendarBack_Controllers_TasksController_GetSheduleForDay_" data-uid="CalendarBack.Controllers.TasksController.GetSheduleForDay*"></a>
   <h4 id="CalendarBack_Controllers_TasksController_GetSheduleForDay_System_String_" data-uid="CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)">GetSheduleForDay(String)</h4>
@@ -680,7 +681,8 @@ public string GetSheduleForDay(string date)</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">date</span></td>
-        <td></td>
+        <td><p>Param for specified date</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -710,7 +712,7 @@ public string GetSheduleForDay(string date)</code></pre>
                     <a href="https://github.com/solko12/Calendar/new/master/apiSpec/new?filename=CalendarBack_Controllers_TasksController.md&amp;value=---%0Auid%3A%20CalendarBack.Controllers.TasksController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/solko12/Calendar/blob/master/CalendarBack/Controllers/TasksController.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/solko12/Calendar/blob/master/CalendarBack/Controllers/TasksController.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

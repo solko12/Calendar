@@ -21,7 +21,7 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: TasksController
     path: Controllers/TasksController.cs
-    startLine: 13
+    startLine: 14
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
@@ -252,19 +252,19 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: AddRecord
     path: Controllers/TasksController.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
-  summary: "\nEndpoint for adding record in tasks table in database\n"
+  summary: "\nEndpoint for adding record in tasks table in database\n<param name=\"date\">Param for specified date</param>\n"
   example: []
   syntax:
     content: >-
       [HttpPut("{date}")]
 
-      public void AddRecord([FromBody] Shedule json)
+      public void AddRecord([FromBody] Shedule shedule)
     parameters:
-    - id: json
+    - id: shedule
       type: CalendarBack.Entities.Shedule
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
@@ -273,7 +273,7 @@ items:
     content.vb: >-
       <HttpPut("{date}")>
 
-      Public Sub AddRecord(json As Shedule)
+      Public Sub AddRecord(shedule As Shedule)
   overload: CalendarBack.Controllers.TasksController.AddRecord*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpPutAttribute
@@ -303,10 +303,12 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: GetSheduleForDay
     path: Controllers/TasksController.cs
-    startLine: 34
+    startLine: 39
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
+  summary: "\n\n"
+  example: []
   syntax:
     content: >-
       [HttpGet("{date}")]
@@ -315,8 +317,10 @@ items:
     parameters:
     - id: date
       type: System.String
+      description: Param for specified date
     return:
       type: System.String
+      description: ''
     content.vb: >-
       <HttpGet("{date}")>
 
