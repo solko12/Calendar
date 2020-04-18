@@ -9,6 +9,8 @@
 - uid: CalendarBack.Controllers
   name: CalendarBack.Controllers
   items:
+  - uid: CalendarBack.Controllers.TasksController
+    name: TasksController
   - uid: CalendarBack.Controllers.WeatherController
     name: WeatherController
 - uid: CalendarBack.Database
@@ -56,5 +58,5 @@
   items:
   - uid: CalendarBack.Tests.DatabaseTest
     name: DatabaseTest
-  - uid: CalendarBack.Tests.WeatherControlerTest
-    name: WeatherControlerTest
+  - uid: CalendarBack.Tests.WeatherControllerTest
+    name: WeatherControllerTest

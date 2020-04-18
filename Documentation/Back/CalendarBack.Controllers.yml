@@ -4,6 +4,7 @@ items:
   commentId: N:CalendarBack.Controllers
   id: CalendarBack.Controllers
   children:
+  - CalendarBack.Controllers.TasksController
   - CalendarBack.Controllers.WeatherController
   langs:
   - csharp
@@ -15,6 +16,11 @@ items:
   assemblies:
   - CalendarBack
 references:
+- uid: CalendarBack.Controllers.TasksController
+  commentId: T:CalendarBack.Controllers.TasksController
+  name: TasksController
+  nameWithType: TasksController
+  fullName: CalendarBack.Controllers.TasksController
 - uid: CalendarBack.Controllers.WeatherController
   commentId: T:CalendarBack.Controllers.WeatherController
   name: WeatherController

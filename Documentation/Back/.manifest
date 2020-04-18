@@ -1,6 +1,8 @@
 {
   "CalendarBack": "CalendarBack.yml",
   "CalendarBack.Controllers": "CalendarBack.Controllers.yml",
+  "CalendarBack.Controllers.TasksController": "CalendarBack.Controllers.TasksController.yml",
+  "CalendarBack.Controllers.TasksController.AddRecord(System.Object)": "CalendarBack.Controllers.TasksController.yml",
   "CalendarBack.Controllers.WeatherController": "CalendarBack.Controllers.WeatherController.yml",
   "CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)": "CalendarBack.Controllers.WeatherController.yml",
   "CalendarBack.Controllers.WeatherController.GetReload": "CalendarBack.Controllers.WeatherController.yml",
@@ -88,5 +90,5 @@
   "CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": "CalendarBack.Startup.yml",
   "CalendarBack.Tests": "CalendarBack.Tests.yml",
   "CalendarBack.Tests.DatabaseTest": "CalendarBack.Tests.DatabaseTest.yml",
-  "CalendarBack.Tests.WeatherControlerTest": "CalendarBack.Tests.WeatherControlerTest.yml"
+  "CalendarBack.Tests.WeatherControllerTest": "CalendarBack.Tests.WeatherControllerTest.yml"
 }

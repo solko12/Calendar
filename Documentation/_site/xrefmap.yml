@@ -368,6 +368,25 @@ references:
   commentId: N:CalendarBack.Controllers
   fullName: CalendarBack.Controllers
   nameWithType: CalendarBack.Controllers
+- uid: CalendarBack.Controllers.TasksController
+  name: TasksController
+  href: Back/CalendarBack.Controllers.TasksController.html
+  commentId: T:CalendarBack.Controllers.TasksController
+  fullName: CalendarBack.Controllers.TasksController
+  nameWithType: TasksController
+- uid: CalendarBack.Controllers.TasksController.AddRecord(System.Object)
+  name: AddRecord(Object)
+  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_System_Object_
+  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(System.Object)
+  fullName: CalendarBack.Controllers.TasksController.AddRecord(System.Object)
+  nameWithType: TasksController.AddRecord(Object)
+- uid: CalendarBack.Controllers.TasksController.AddRecord*
+  name: AddRecord
+  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_
+  commentId: Overload:CalendarBack.Controllers.TasksController.AddRecord
+  isSpec: "True"
+  fullName: CalendarBack.Controllers.TasksController.AddRecord
+  nameWithType: TasksController.AddRecord
 - uid: CalendarBack.Controllers.WeatherController
   name: WeatherController
   href: Back/CalendarBack.Controllers.WeatherController.html
@@ -1337,9 +1356,9 @@ references:
   commentId: T:CalendarBack.Tests.DatabaseTest
   fullName: CalendarBack.Tests.DatabaseTest
   nameWithType: DatabaseTest
-- uid: CalendarBack.Tests.WeatherControlerTest
-  name: WeatherControlerTest
-  href: Back/CalendarBack.Tests.WeatherControlerTest.html
-  commentId: T:CalendarBack.Tests.WeatherControlerTest
-  fullName: CalendarBack.Tests.WeatherControlerTest
-  nameWithType: WeatherControlerTest
+- uid: CalendarBack.Tests.WeatherControllerTest
+  name: WeatherControllerTest
+  href: Back/CalendarBack.Tests.WeatherControllerTest.html
+  commentId: T:CalendarBack.Tests.WeatherControllerTest
+  fullName: CalendarBack.Tests.WeatherControllerTest
+  nameWithType: WeatherControllerTest

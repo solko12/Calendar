@@ -4,6 +4,16 @@
         <name>CalendarBack</name>
     </assembly>
     <members>
+        <member name="T:CalendarBack.Controllers.TasksController">
+            <summary>
+            Controller for flow of tasks between client and database
+            </summary>
+        </member>
+        <member name="M:CalendarBack.Controllers.TasksController.AddRecord(System.Object)">
+            <summary>
+            Endpoint for adding record in tasks table in database
+            </summary>
+        </member>
         <member name="T:CalendarBack.Controllers.WeatherController">
             <summary>
              Class controls downloading weather info from api and make endpoints which sending wanted data
@@ -132,7 +142,7 @@
             Tests for Database unit
             </summary>
         </member>
-        <member name="T:CalendarBack.Tests.WeatherControlerTest">
+        <member name="T:CalendarBack.Tests.WeatherControllerTest">
             <summary>
             Tests for wheaterControler
             </summary>

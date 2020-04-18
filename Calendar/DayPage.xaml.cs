@@ -81,7 +81,7 @@ namespace CalendarApp
                 AllDay.IsChecked = false;
             }
             string jsonData = api.JsoningTasks(_date, list);
-            //api.PutTasks(jsonData,_date);
+            api.PutTasks(jsonData,_date);
         }
         
         /// <summary>
