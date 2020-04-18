@@ -5,6 +5,7 @@ items:
   id: WeatherParser
   parent: CalendarBack.Logic
   children:
+  - CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
   - CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   langs:
   - csharp
@@ -14,9 +15,13 @@ items:
   fullName: CalendarBack.Logic.WeatherParser
   type: Class
   source:
+    remote:
+      path: CalendarBack/Logic/WeatherParser.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: WeatherParser
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
-    startLine: 14
+    path: Logic/WeatherParser.cs
+    startLine: 15
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Logic
@@ -54,13 +59,17 @@ items:
   fullName: CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   type: Method
   source:
+    remote:
+      path: CalendarBack/Logic/WeatherParser.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: parseWeather
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
-    startLine: 21
+    path: Logic/WeatherParser.cs
+    startLine: 22
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Logic
-  summary: "\nMethod parse json string consist weather for 5 days per 3 h to average weather for 5 days daily\n"
+  summary: "\n!!!deprecated!!! Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily\n"
   example: []
   syntax:
     content: public static string parseWeather(string json)
@@ -72,6 +81,47 @@ items:
       type: System.String
       description: Parsed Json formated string
     content.vb: Public Shared Function parseWeather(json As String) As String
+  overload: CalendarBack.Logic.WeatherParser.parseWeather*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
+  commentId: M:CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
+  id: parseWeather(CalendarBack.Entities.Forecast)
+  parent: CalendarBack.Logic.WeatherParser
+  langs:
+  - csharp
+  - vb
+  name: parseWeather(Forecast)
+  nameWithType: WeatherParser.parseWeather(Forecast)
+  fullName: CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
+  type: Method
+  source:
+    remote:
+      path: CalendarBack/Logic/WeatherParser.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: parseWeather
+    path: Logic/WeatherParser.cs
+    startLine: 107
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Logic
+  summary: "\nMethod parse json string consist weather for 5 days per 3 h to average weather for 5 days daily\n"
+  example: []
+  syntax:
+    content: public static string parseWeather(Forecast forecast)
+    parameters:
+    - id: forecast
+      type: CalendarBack.Entities.Forecast
+      description: Input JSON formated string
+    return:
+      type: System.String
+      description: Parsed Json formated string
+    content.vb: Public Shared Function parseWeather(forecast As Forecast) As String
   overload: CalendarBack.Logic.WeatherParser.parseWeather*
   modifiers.csharp:
   - public
@@ -389,3 +439,14 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: CalendarBack.Entities.Forecast
+  commentId: T:CalendarBack.Entities.Forecast
+  parent: CalendarBack.Entities
+  name: Forecast
+  nameWithType: Forecast
+  fullName: CalendarBack.Entities.Forecast
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities

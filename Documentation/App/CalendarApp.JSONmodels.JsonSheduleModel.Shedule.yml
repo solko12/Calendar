@@ -15,8 +15,12 @@ items:
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
   type: Class
   source:
+    remote:
+      path: Calendar/JSONmodels/JsonSheduleModel/Shedule.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: Shedule
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\JSONmodels\JsonSheduleModel\Shedule.cs
+    path: ../Calendar/JSONmodels/JsonSheduleModel/Shedule.cs
     startLine: 7
   assemblies:
   - CalendarApp
@@ -52,8 +56,12 @@ items:
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
   type: Property
   source:
+    remote:
+      path: Calendar/JSONmodels/JsonSheduleModel/Shedule.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: date
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\JSONmodels\JsonSheduleModel\Shedule.cs
+    path: ../Calendar/JSONmodels/JsonSheduleModel/Shedule.cs
     startLine: 9
   assemblies:
   - CalendarApp
@@ -83,8 +91,12 @@ items:
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
   type: Property
   source:
+    remote:
+      path: Calendar/JSONmodels/JsonSheduleModel/Shedule.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: tasksList
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\JSONmodels\JsonSheduleModel\Shedule.cs
+    path: ../Calendar/JSONmodels/JsonSheduleModel/Shedule.cs
     startLine: 10
   assemblies:
   - CalendarApp

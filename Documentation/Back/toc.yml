@@ -9,13 +9,45 @@
 - uid: CalendarBack.Controllers
   name: CalendarBack.Controllers
   items:
+  - uid: CalendarBack.Controllers.TasksController
+    name: TasksController
   - uid: CalendarBack.Controllers.WeatherController
     name: WeatherController
+- uid: CalendarBack.Database
+  name: CalendarBack.Database
+  items:
+  - uid: CalendarBack.Database.CalendarContext
+    name: CalendarContext
+- uid: CalendarBack.Database.Entities
+  name: CalendarBack.Database.Entities
+  items:
+  - uid: CalendarBack.Database.Entities.Shedule
+    name: Shedule
+  - uid: CalendarBack.Database.Entities.Task
+    name: Task
 - uid: CalendarBack.Entities
   name: CalendarBack.Entities
   items:
+  - uid: CalendarBack.Entities.City
+    name: City
+  - uid: CalendarBack.Entities.Clouds
+    name: Clouds
+  - uid: CalendarBack.Entities.Coord
+    name: Coord
+  - uid: CalendarBack.Entities.Forecast
+    name: Forecast
+  - uid: CalendarBack.Entities.List
+    name: List
+  - uid: CalendarBack.Entities.Main
+    name: Main
+  - uid: CalendarBack.Entities.Rain
+    name: Rain
+  - uid: CalendarBack.Entities.Sys
+    name: Sys
   - uid: CalendarBack.Entities.Weather
     name: Weather
+  - uid: CalendarBack.Entities.Wind
+    name: Wind
 - uid: CalendarBack.Logic
   name: CalendarBack.Logic
   items:
@@ -24,5 +56,7 @@
 - uid: CalendarBack.Tests
   name: CalendarBack.Tests
   items:
-  - uid: CalendarBack.Tests.WeatherControlerTest
-    name: WeatherControlerTest
+  - uid: CalendarBack.Tests.DatabaseTest
+    name: DatabaseTest
+  - uid: CalendarBack.Tests.WeatherControllerTest
+    name: WeatherControllerTest

@@ -4,7 +4,16 @@ items:
   commentId: N:CalendarBack.Entities
   id: CalendarBack.Entities
   children:
+  - CalendarBack.Entities.City
+  - CalendarBack.Entities.Clouds
+  - CalendarBack.Entities.Coord
+  - CalendarBack.Entities.Forecast
+  - CalendarBack.Entities.List
+  - CalendarBack.Entities.Main
+  - CalendarBack.Entities.Rain
+  - CalendarBack.Entities.Sys
   - CalendarBack.Entities.Weather
+  - CalendarBack.Entities.Wind
   langs:
   - csharp
   - vb
@@ -15,8 +24,66 @@ items:
   assemblies:
   - CalendarBack
 references:
+- uid: CalendarBack.Entities.Main
+  commentId: T:CalendarBack.Entities.Main
+  parent: CalendarBack.Entities
+  name: Main
+  nameWithType: Main
+  fullName: CalendarBack.Entities.Main
 - uid: CalendarBack.Entities.Weather
   commentId: T:CalendarBack.Entities.Weather
   name: Weather
   nameWithType: Weather
   fullName: CalendarBack.Entities.Weather
+- uid: CalendarBack.Entities.Clouds
+  commentId: T:CalendarBack.Entities.Clouds
+  parent: CalendarBack.Entities
+  name: Clouds
+  nameWithType: Clouds
+  fullName: CalendarBack.Entities.Clouds
+- uid: CalendarBack.Entities.Wind
+  commentId: T:CalendarBack.Entities.Wind
+  parent: CalendarBack.Entities
+  name: Wind
+  nameWithType: Wind
+  fullName: CalendarBack.Entities.Wind
+- uid: CalendarBack.Entities.Sys
+  commentId: T:CalendarBack.Entities.Sys
+  parent: CalendarBack.Entities
+  name: Sys
+  nameWithType: Sys
+  fullName: CalendarBack.Entities.Sys
+- uid: CalendarBack.Entities.Rain
+  commentId: T:CalendarBack.Entities.Rain
+  parent: CalendarBack.Entities
+  name: Rain
+  nameWithType: Rain
+  fullName: CalendarBack.Entities.Rain
+- uid: CalendarBack.Entities.List
+  commentId: T:CalendarBack.Entities.List
+  name: List
+  nameWithType: List
+  fullName: CalendarBack.Entities.List
+- uid: CalendarBack.Entities.Coord
+  commentId: T:CalendarBack.Entities.Coord
+  parent: CalendarBack.Entities
+  name: Coord
+  nameWithType: Coord
+  fullName: CalendarBack.Entities.Coord
+- uid: CalendarBack.Entities.City
+  commentId: T:CalendarBack.Entities.City
+  parent: CalendarBack.Entities
+  name: City
+  nameWithType: City
+  fullName: CalendarBack.Entities.City
+- uid: CalendarBack.Entities.Forecast
+  commentId: T:CalendarBack.Entities.Forecast
+  parent: CalendarBack.Entities
+  name: Forecast
+  nameWithType: Forecast
+  fullName: CalendarBack.Entities.Forecast
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities

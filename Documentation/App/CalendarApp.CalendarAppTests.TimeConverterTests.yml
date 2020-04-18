@@ -14,8 +14,12 @@ items:
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests
   type: Class
   source:
+    remote:
+      path: Calendar/CalendarAppTests/TimeConverterTests.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: TimeConverterTests
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\TimeConverterTests.cs
+    path: ../Calendar/CalendarAppTests/TimeConverterTests.cs
     startLine: 6
   assemblies:
   - CalendarApp
@@ -51,8 +55,12 @@ items:
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32, System.String)
   type: Method
   source:
+    remote:
+      path: Calendar/CalendarAppTests/TimeConverterTests.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
     id: ConvertingMinutes
-    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\TimeConverterTests.cs
+    path: ../Calendar/CalendarAppTests/TimeConverterTests.cs
     startLine: 8
   assemblies:
   - CalendarApp
@@ -62,6 +70,8 @@ items:
       [Theory]
 
       [InlineData(new object[]{120, "02:00"})]
+
+      [InlineData(new object[]{0, "00:00"})]
 
       public void ConvertingMinutes(int value, string expected)
     parameters:
@@ -73,6 +83,8 @@ items:
       <Theory>
 
       <InlineData(New Object() {120, "02:00"})>
+
+      <InlineData(New Object() {0, "00:00"})>
 
       Public Sub ConvertingMinutes(value As Integer, expected As String)
   overload: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes*

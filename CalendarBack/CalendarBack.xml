@@ -4,6 +4,16 @@
         <name>CalendarBack</name>
     </assembly>
     <members>
+        <member name="T:CalendarBack.Controllers.TasksController">
+            <summary>
+            Controller for flow of tasks between client and database
+            </summary>
+        </member>
+        <member name="M:CalendarBack.Controllers.TasksController.AddRecord(System.Object)">
+            <summary>
+            Endpoint for adding record in tasks table in database
+            </summary>
+        </member>
         <member name="T:CalendarBack.Controllers.WeatherController">
             <summary>
              Class controls downloading weather info from api and make endpoints which sending wanted data
@@ -14,6 +24,100 @@
             Variable weather store data about current weather
             </summary>
         </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation">
+            <summary>
+            Endpoint for forecast in default location
+            </summary>
+            <returns>String in json format</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)">
+            <summary>
+            Endpoint for forecast in specified zipCode
+            </summary>
+            <param name="zipCode">Zip Code specified for region</param>
+            <param name="countryCode">Country code from zipCode where it comes from</param>
+            <returns>Forecast String in json format</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)">
+            <summary>
+            Endpoint for forecast in specified city
+            </summary>
+            <param name="city">Specified name of city</param>
+            <returns>Forecast String in json format</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetReload">
+            <summary>
+            Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified zipCode or city was used
+            otherwise will be used defaul one
+            </summary>
+            <returns>Done when operation was succesfuly done</returns>
+        </member>
+        <member name="T:CalendarBack.Database.CalendarContext">
+            <summary>
+            This class is contector between database and CalendarBack
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.CalendarContext.DbCatalog">
+            <summary>
+            DbCatalog is database name
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.CalendarContext.Shedules">
+            <summary>
+            DbSet collection for storage shedules
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.CalendarContext.Tasks">
+            <summary>
+            DbSet collection for storage tasks
+            </summary>
+        </member>
+        <member name="M:CalendarBack.Database.CalendarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Overrided method for init configuration
+            </summary>
+            <param name="optionsBuilder">DbContextOptionsBuilder object</param>
+        </member>
+        <member name="T:CalendarBack.Database.Entities.Shedule">
+            <summary>
+            Shedule entity
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Shedule.Id">
+            <summary>
+            Id of the shedule
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Shedule.Date">
+            <summary>
+            Date is date for which data is storage
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Shedule.TasksList">
+            <summary>
+            TaskList is list of task for that day
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Database.Entities.Task">
+            <summary>
+            Task Entity
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Task.Id">
+            <summary>
+            Id of single task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Task.Content">
+            <summary>
+            Content storages string value describe of task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Database.Entities.Task.Time">
+            <summary>
+            Time storages time when task have been planed
+            </summary>
+        </member>
         <member name="T:CalendarBack.Logic.WeatherParser">
             <summary>
             Class parse downloaded weatherInfo 5 days per 3 h to average for 5 days
@@ -21,10 +125,27 @@
         </member>
         <member name="M:CalendarBack.Logic.WeatherParser.parseWeather(System.String)">
             <summary>
-            Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
+            !!!deprecated!!! Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
             </summary>
             <param name="json">Input JSON formated string</param>
             <returns>Parsed Json formated string</returns>
+        </member>
+        <member name="M:CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)">
+            <summary>
+            Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
+            </summary>
+            <param name="forecast">Input JSON formated string</param>
+            <returns>Parsed Json formated string</returns>
+        </member>
+        <member name="T:CalendarBack.Tests.DatabaseTest">
+            <summary>
+            Tests for Database unit
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Tests.WeatherControllerTest">
+            <summary>
+            Tests for wheaterControler
+            </summary>
         </member>
     </members>
 </doc>

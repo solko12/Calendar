@@ -1,27 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CalendarBack.Tests.WeatherControlerTest
-  commentId: T:CalendarBack.Tests.WeatherControlerTest
-  id: WeatherControlerTest
-  parent: CalendarBack.Tests
-  children: []
+- uid: CalendarBack.Entities.Wind
+  commentId: T:CalendarBack.Entities.Wind
+  id: Wind
+  parent: CalendarBack.Entities
+  children:
+  - CalendarBack.Entities.Wind.deg
+  - CalendarBack.Entities.Wind.speed
   langs:
   - csharp
   - vb
-  name: WeatherControlerTest
-  nameWithType: WeatherControlerTest
-  fullName: CalendarBack.Tests.WeatherControlerTest
+  name: Wind
+  nameWithType: Wind
+  fullName: CalendarBack.Entities.Wind
   type: Class
   source:
-    id: WeatherControlerTest
-    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Tests\WeatherControlerTest.cs
-    startLine: 10
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: Wind
+    path: Entities/Forecast.cs
+    startLine: 36
   assemblies:
   - CalendarBack
-  namespace: CalendarBack.Tests
+  namespace: CalendarBack.Entities
   syntax:
-    content: public class WeatherControlerTest
-    content.vb: Public Class WeatherControlerTest
+    content: public class Wind
+    content.vb: Public Class Wind
   inheritance:
   - System.Object
   inheritedMembers:
@@ -38,12 +44,82 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: CalendarBack.Entities.Wind.speed
+  commentId: P:CalendarBack.Entities.Wind.speed
+  id: speed
+  parent: CalendarBack.Entities.Wind
+  langs:
+  - csharp
+  - vb
+  name: speed
+  nameWithType: Wind.speed
+  fullName: CalendarBack.Entities.Wind.speed
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: speed
+    path: Entities/Forecast.cs
+    startLine: 38
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public double speed { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property speed As Double
+  overload: CalendarBack.Entities.Wind.speed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.Wind.deg
+  commentId: P:CalendarBack.Entities.Wind.deg
+  id: deg
+  parent: CalendarBack.Entities.Wind
+  langs:
+  - csharp
+  - vb
+  name: deg
+  nameWithType: Wind.deg
+  fullName: CalendarBack.Entities.Wind.deg
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/Forecast.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: deg
+    path: Entities/Forecast.cs
+    startLine: 39
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  syntax:
+    content: public int deg { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property deg As Integer
+  overload: CalendarBack.Entities.Wind.deg*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: CalendarBack.Tests
-  commentId: N:CalendarBack.Tests
-  name: CalendarBack.Tests
-  nameWithType: CalendarBack.Tests
-  fullName: CalendarBack.Tests
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -336,3 +412,27 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: CalendarBack.Entities.Wind.speed*
+  commentId: Overload:CalendarBack.Entities.Wind.speed
+  name: speed
+  nameWithType: Wind.speed
+  fullName: CalendarBack.Entities.Wind.speed
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: CalendarBack.Entities.Wind.deg*
+  commentId: Overload:CalendarBack.Entities.Wind.deg
+  name: deg
+  nameWithType: Wind.deg
+  fullName: CalendarBack.Entities.Wind.deg
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

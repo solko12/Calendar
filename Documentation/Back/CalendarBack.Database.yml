@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Database
+  commentId: N:CalendarBack.Database
+  id: CalendarBack.Database
+  children:
+  - CalendarBack.Database.CalendarContext
+  langs:
+  - csharp
+  - vb
+  name: CalendarBack.Database
+  nameWithType: CalendarBack.Database
+  fullName: CalendarBack.Database
+  type: Namespace
+  assemblies:
+  - CalendarBack
+references:
+- uid: CalendarBack.Database.CalendarContext
+  commentId: T:CalendarBack.Database.CalendarContext
+  name: CalendarContext
+  nameWithType: CalendarContext
+  fullName: CalendarBack.Database.CalendarContext
