@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Controllers.TasksController.html",
-          "hash": "+3nEPxc7KHaXX0TIYmxnQw=="
+          "hash": "7Jt78H6qUTeTvQLRMrXXsA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -216,7 +216,7 @@
           "hash": "dbHuBfybt2uxraekSCKTSg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.Shedule.html",
-          "hash": "/kSdzjdYEJOa1yGj2N+Vvg=="
+          "hash": "z4hbrhEi+agxznCThBx4DQ=="
         }
       },
       "is_incremental": true,
@@ -389,11 +389,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "../Documentation/Back/CalendarBack.Entities.TasksList.yml",
+      "source_relative_path": "../Documentation/Back/CalendarBack.Entities.Task.yml",
       "output": {
         ".html": {
-          "relative_path": "Back/CalendarBack.Entities.TasksList.html",
-          "hash": "3ujRC09mlKA0E8YMc8MRgQ=="
+          "relative_path": "Back/CalendarBack.Entities.Task.html",
+          "hash": "OBx4fpgdpLFS4DgPH5B7kw=="
         }
       },
       "is_incremental": true,
@@ -429,7 +429,31 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Entities.html",
-          "hash": "M8r+CZvN+M8Pg/AzuP1erQ=="
+          "hash": "i/fLDJa8EZN+BsZ2e84sCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation/Back/CalendarBack.Logic.DBEntity2EntityParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Back/CalendarBack.Logic.DBEntity2EntityParser.html",
+          "hash": "zH/0x1SlgXiSggsLOnod8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../Documentation/Back/CalendarBack.Logic.Entity2DBEntityParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Back/CalendarBack.Logic.Entity2DBEntityParser.html",
+          "hash": "sA7LhdI08nKAtTAiiYLfQQ=="
         }
       },
       "is_incremental": true,
@@ -453,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "Back/CalendarBack.Logic.html",
-          "hash": "qZSbj8Si97zb/r5Mn11V+A=="
+          "hash": "eJNS4WjqhizLWGq9i8NrWw=="
         }
       },
       "is_incremental": true,
@@ -537,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "Back/toc.html",
-          "hash": "PEbnzbxBKOezFkecpXb6rA=="
+          "hash": "EmNUM0AZ23rodgD/E7pBIw=="
         }
       },
       "is_incremental": false,
@@ -556,8 +580,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 43,
-          "skipped_file_count": 42
+          "total_file_count": 45,
+          "skipped_file_count": 45
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

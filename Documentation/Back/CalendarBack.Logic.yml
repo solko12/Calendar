@@ -4,6 +4,8 @@ items:
   commentId: N:CalendarBack.Logic
   id: CalendarBack.Logic
   children:
+  - CalendarBack.Logic.DBEntity2EntityParser
+  - CalendarBack.Logic.Entity2DBEntityParser
   - CalendarBack.Logic.WeatherParser
   langs:
   - csharp
@@ -15,6 +17,16 @@ items:
   assemblies:
   - CalendarBack
 references:
+- uid: CalendarBack.Logic.DBEntity2EntityParser
+  commentId: T:CalendarBack.Logic.DBEntity2EntityParser
+  name: DBEntity2EntityParser
+  nameWithType: DBEntity2EntityParser
+  fullName: CalendarBack.Logic.DBEntity2EntityParser
+- uid: CalendarBack.Logic.Entity2DBEntityParser
+  commentId: T:CalendarBack.Logic.Entity2DBEntityParser
+  name: Entity2DBEntityParser
+  nameWithType: Entity2DBEntityParser
+  fullName: CalendarBack.Logic.Entity2DBEntityParser
 - uid: CalendarBack.Logic.WeatherParser
   commentId: T:CalendarBack.Logic.WeatherParser
   name: WeatherParser

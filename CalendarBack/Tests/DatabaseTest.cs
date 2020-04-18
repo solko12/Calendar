@@ -24,7 +24,7 @@ namespace CalendarBack.Tests
         [Fact]
         void addingAndDeletingNewRecord() {
             context.Database.EnsureCreated();
-            var task = new Database.Entities.Task() { Id = 0, Content = " ", Time = "13:00" };
+            var task = new Database.Entities.Task() {Content = " ", Time = "13:00" };
             Assert.Equal(0, context.Tasks.Count());
             context.Tasks.Add(task);
             context.SaveChanges();

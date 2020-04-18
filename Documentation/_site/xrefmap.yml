@@ -1172,38 +1172,38 @@ references:
   isSpec: "True"
   fullName: CalendarBack.Entities.Sys.pod
   nameWithType: Sys.pod
-- uid: CalendarBack.Entities.TasksList
-  name: TasksList
-  href: Back/CalendarBack.Entities.TasksList.html
-  commentId: T:CalendarBack.Entities.TasksList
-  fullName: CalendarBack.Entities.TasksList
-  nameWithType: TasksList
-- uid: CalendarBack.Entities.TasksList.content
+- uid: CalendarBack.Entities.Task
+  name: Task
+  href: Back/CalendarBack.Entities.Task.html
+  commentId: T:CalendarBack.Entities.Task
+  fullName: CalendarBack.Entities.Task
+  nameWithType: Task
+- uid: CalendarBack.Entities.Task.content
   name: content
-  href: Back/CalendarBack.Entities.TasksList.html#CalendarBack_Entities_TasksList_content
-  commentId: P:CalendarBack.Entities.TasksList.content
-  fullName: CalendarBack.Entities.TasksList.content
-  nameWithType: TasksList.content
-- uid: CalendarBack.Entities.TasksList.content*
+  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_content
+  commentId: P:CalendarBack.Entities.Task.content
+  fullName: CalendarBack.Entities.Task.content
+  nameWithType: Task.content
+- uid: CalendarBack.Entities.Task.content*
   name: content
-  href: Back/CalendarBack.Entities.TasksList.html#CalendarBack_Entities_TasksList_content_
-  commentId: Overload:CalendarBack.Entities.TasksList.content
+  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_content_
+  commentId: Overload:CalendarBack.Entities.Task.content
   isSpec: "True"
-  fullName: CalendarBack.Entities.TasksList.content
-  nameWithType: TasksList.content
-- uid: CalendarBack.Entities.TasksList.time
+  fullName: CalendarBack.Entities.Task.content
+  nameWithType: Task.content
+- uid: CalendarBack.Entities.Task.time
   name: time
-  href: Back/CalendarBack.Entities.TasksList.html#CalendarBack_Entities_TasksList_time
-  commentId: P:CalendarBack.Entities.TasksList.time
-  fullName: CalendarBack.Entities.TasksList.time
-  nameWithType: TasksList.time
-- uid: CalendarBack.Entities.TasksList.time*
+  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_time
+  commentId: P:CalendarBack.Entities.Task.time
+  fullName: CalendarBack.Entities.Task.time
+  nameWithType: Task.time
+- uid: CalendarBack.Entities.Task.time*
   name: time
-  href: Back/CalendarBack.Entities.TasksList.html#CalendarBack_Entities_TasksList_time_
-  commentId: Overload:CalendarBack.Entities.TasksList.time
+  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_time_
+  commentId: Overload:CalendarBack.Entities.Task.time
   isSpec: "True"
-  fullName: CalendarBack.Entities.TasksList.time
-  nameWithType: TasksList.time
+  fullName: CalendarBack.Entities.Task.time
+  nameWithType: Task.time
 - uid: CalendarBack.Entities.Weather
   name: Weather
   href: Back/CalendarBack.Entities.Weather.html
@@ -1300,6 +1300,44 @@ references:
   commentId: N:CalendarBack.Logic
   fullName: CalendarBack.Logic
   nameWithType: CalendarBack.Logic
+- uid: CalendarBack.Logic.DBEntity2EntityParser
+  name: DBEntity2EntityParser
+  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html
+  commentId: T:CalendarBack.Logic.DBEntity2EntityParser
+  fullName: CalendarBack.Logic.DBEntity2EntityParser
+  nameWithType: DBEntity2EntityParser
+- uid: CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
+  name: parseShedule(Shedule)
+  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseShedule_CalendarBack_Database_Entities_Shedule_
+  commentId: M:CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
+  fullName: CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
+  nameWithType: DBEntity2EntityParser.parseShedule(Shedule)
+- uid: CalendarBack.Logic.DBEntity2EntityParser.parseShedule*
+  name: parseShedule
+  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseShedule_
+  commentId: Overload:CalendarBack.Logic.DBEntity2EntityParser.parseShedule
+  isSpec: "True"
+  fullName: CalendarBack.Logic.DBEntity2EntityParser.parseShedule
+  nameWithType: DBEntity2EntityParser.parseShedule
+- uid: CalendarBack.Logic.Entity2DBEntityParser
+  name: Entity2DBEntityParser
+  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html
+  commentId: T:CalendarBack.Logic.Entity2DBEntityParser
+  fullName: CalendarBack.Logic.Entity2DBEntityParser
+  nameWithType: Entity2DBEntityParser
+- uid: CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
+  name: parseShedule(Shedule)
+  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseShedule_CalendarBack_Entities_Shedule_
+  commentId: M:CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
+  fullName: CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
+  nameWithType: Entity2DBEntityParser.parseShedule(Shedule)
+- uid: CalendarBack.Logic.Entity2DBEntityParser.parseShedule*
+  name: parseShedule
+  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseShedule_
+  commentId: Overload:CalendarBack.Logic.Entity2DBEntityParser.parseShedule
+  isSpec: "True"
+  fullName: CalendarBack.Logic.Entity2DBEntityParser.parseShedule
+  nameWithType: Entity2DBEntityParser.parseShedule
 - uid: CalendarBack.Logic.WeatherParser
   name: WeatherParser
   href: Back/CalendarBack.Logic.WeatherParser.html

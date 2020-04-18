@@ -21,7 +21,7 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: Shedule
     path: Entities/Shedule.cs
-    startLine: 13
+    startLine: 7
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
@@ -62,7 +62,7 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: date
     path: Entities/Shedule.cs
-    startLine: 15
+    startLine: 9
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
@@ -97,16 +97,16 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: tasksList
     path: Entities/Shedule.cs
-    startLine: 16
+    startLine: 10
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Entities
   syntax:
-    content: public List<TasksList> tasksList { get; set; }
+    content: public List<Task> tasksList { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{CalendarBack.Entities.TasksList}
-    content.vb: Public Property tasksList As List(Of TasksList)
+      type: System.Collections.Generic.List{CalendarBack.Entities.Task}
+    content.vb: Public Property tasksList As List(Of Task)
   overload: CalendarBack.Entities.Shedule.tasksList*
   modifiers.csharp:
   - public
@@ -429,16 +429,16 @@ references:
   name: tasksList
   nameWithType: Shedule.tasksList
   fullName: CalendarBack.Entities.Shedule.tasksList
-- uid: System.Collections.Generic.List{CalendarBack.Entities.TasksList}
-  commentId: T:System.Collections.Generic.List{CalendarBack.Entities.TasksList}
+- uid: System.Collections.Generic.List{CalendarBack.Entities.Task}
+  commentId: T:System.Collections.Generic.List{CalendarBack.Entities.Task}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
-  name: List<TasksList>
-  nameWithType: List<TasksList>
-  fullName: System.Collections.Generic.List<CalendarBack.Entities.TasksList>
-  nameWithType.vb: List(Of TasksList)
-  fullName.vb: System.Collections.Generic.List(Of CalendarBack.Entities.TasksList)
-  name.vb: List(Of TasksList)
+  name: List<Task>
+  nameWithType: List<Task>
+  fullName: System.Collections.Generic.List<CalendarBack.Entities.Task>
+  nameWithType.vb: List(Of Task)
+  fullName.vb: System.Collections.Generic.List(Of CalendarBack.Entities.Task)
+  name.vb: List(Of Task)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
@@ -448,10 +448,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: CalendarBack.Entities.TasksList
-    name: TasksList
-    nameWithType: TasksList
-    fullName: CalendarBack.Entities.TasksList
+  - uid: CalendarBack.Entities.Task
+    name: Task
+    nameWithType: Task
+    fullName: CalendarBack.Entities.Task
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -464,10 +464,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: CalendarBack.Entities.TasksList
-    name: TasksList
-    nameWithType: TasksList
-    fullName: CalendarBack.Entities.TasksList
+  - uid: CalendarBack.Entities.Task
+    name: Task
+    nameWithType: Task
+    fullName: CalendarBack.Entities.Task
   - name: )
     nameWithType: )
     fullName: )

@@ -101,9 +101,9 @@ namespace CalendarApp.API
                 streamWriter.Write(postedData);
                 streamWriter.Flush();
                 streamWriter.Close();
-                /*
+                
                 var httpResponse = (HttpWebResponse)request.GetResponse();
-                using(var streamReader = new StreamReader(request.GetRequestStream()))
+                /*using(var streamReader = new StreamReader(request.GetRequestStream()))
                 {
                     var result = streamReader.ReadToEnd();
                 }

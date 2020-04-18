@@ -46,8 +46,8 @@
     name: Shedule
   - uid: CalendarBack.Entities.Sys
     name: Sys
-  - uid: CalendarBack.Entities.TasksList
-    name: TasksList
+  - uid: CalendarBack.Entities.Task
+    name: Task
   - uid: CalendarBack.Entities.Weather
     name: Weather
   - uid: CalendarBack.Entities.Wind
@@ -55,6 +55,10 @@
 - uid: CalendarBack.Logic
   name: CalendarBack.Logic
   items:
+  - uid: CalendarBack.Logic.DBEntity2EntityParser
+    name: DBEntity2EntityParser
+  - uid: CalendarBack.Logic.Entity2DBEntityParser
+    name: Entity2DBEntityParser
   - uid: CalendarBack.Logic.WeatherParser
     name: WeatherParser
 - uid: CalendarBack.Tests

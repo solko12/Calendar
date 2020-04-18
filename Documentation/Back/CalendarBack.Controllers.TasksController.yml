@@ -21,7 +21,7 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: TasksController
     path: Controllers/TasksController.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
@@ -252,11 +252,11 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: AddRecord
     path: Controllers/TasksController.cs
-    startLine: 23
+    startLine: 24
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
-  summary: "\nEndpoint for adding record in tasks table in database\n<param name=\"date\">Param for specified date</param>\n"
+  summary: "\nEndpoint for adding record in tasks table in database\n<param name=\"shedule\">Param for specified shedule for day</param>\n"
   example: []
   syntax:
     content: >-
@@ -303,11 +303,11 @@ items:
       repo: https://github.com/solko12/Calendar.git
     id: GetSheduleForDay
     path: Controllers/TasksController.cs
-    startLine: 39
+    startLine: 41
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
-  summary: "\n\n"
+  summary: "\nEndpoint returns daily tasks\n"
   example: []
   syntax:
     content: >-
@@ -320,7 +320,7 @@ items:
       description: Param for specified date
     return:
       type: System.String
-      description: ''
+      description: Json formated shedule object
     content.vb: >-
       <HttpGet("{date}")>
 
