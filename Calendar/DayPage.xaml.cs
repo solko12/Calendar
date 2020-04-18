@@ -50,9 +50,9 @@ namespace CalendarApp
             InitializeComponent();
             DataContext = this;
             _date = date;
-            //string jsonData=api.GetTasks(_date);
-            //shedule = api.DeJsonigTasks(jsonData);
-            //list = shedule.tasksList;
+            string jsonData=api.GetTasks(_date);
+            shedule = api.DeJsonigTasks(jsonData);
+            list = shedule.tasksList;
         }
 
         /// <summary>
