@@ -9,7 +9,7 @@
             Controller for flow of tasks between client and database
             </summary>
         </member>
-        <member name="M:CalendarBack.Controllers.TasksController.AddRecord(System.Object)">
+        <member name="M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)">
             <summary>
             Endpoint for adding record in tasks table in database
             </summary>

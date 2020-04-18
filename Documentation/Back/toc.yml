@@ -42,8 +42,12 @@
     name: Main
   - uid: CalendarBack.Entities.Rain
     name: Rain
+  - uid: CalendarBack.Entities.Shedule
+    name: Shedule
   - uid: CalendarBack.Entities.Sys
     name: Sys
+  - uid: CalendarBack.Entities.TasksList
+    name: TasksList
   - uid: CalendarBack.Entities.Weather
     name: Weather
   - uid: CalendarBack.Entities.Wind

@@ -5,7 +5,8 @@ items:
   id: TasksController
   parent: CalendarBack.Controllers
   children:
-  - CalendarBack.Controllers.TasksController.AddRecord(System.Object)
+  - CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
+  - CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
   langs:
   - csharp
   - vb
@@ -233,16 +234,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarBack.Controllers.TasksController.AddRecord(System.Object)
-  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(System.Object)
-  id: AddRecord(System.Object)
+- uid: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
+  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
+  id: AddRecord(CalendarBack.Entities.Shedule)
   parent: CalendarBack.Controllers.TasksController
   langs:
   - csharp
   - vb
-  name: AddRecord(Object)
-  nameWithType: TasksController.AddRecord(Object)
-  fullName: CalendarBack.Controllers.TasksController.AddRecord(System.Object)
+  name: AddRecord(Shedule)
+  nameWithType: TasksController.AddRecord(Shedule)
+  fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
   type: Method
   source:
     remote:
@@ -261,10 +262,10 @@ items:
     content: >-
       [HttpPut("{date}")]
 
-      public void AddRecord([FromBody] object json)
+      public void AddRecord([FromBody] Shedule json)
     parameters:
     - id: json
-      type: System.Object
+      type: CalendarBack.Entities.Shedule
       attributes:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
@@ -272,11 +273,58 @@ items:
     content.vb: >-
       <HttpPut("{date}")>
 
-      Public Sub AddRecord(json As Object)
+      Public Sub AddRecord(json As Shedule)
   overload: CalendarBack.Controllers.TasksController.AddRecord*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpPutAttribute
     ctor: Microsoft.AspNetCore.Mvc.HttpPutAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: '{date}'
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
+  commentId: M:CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
+  id: GetSheduleForDay(System.String)
+  parent: CalendarBack.Controllers.TasksController
+  langs:
+  - csharp
+  - vb
+  name: GetSheduleForDay(String)
+  nameWithType: TasksController.GetSheduleForDay(String)
+  fullName: CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
+  type: Method
+  source:
+    remote:
+      path: CalendarBack/Controllers/TasksController.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: GetSheduleForDay
+    path: Controllers/TasksController.cs
+    startLine: 34
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Controllers
+  syntax:
+    content: >-
+      [HttpGet("{date}")]
+
+      public string GetSheduleForDay(string date)
+    parameters:
+    - id: date
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <HttpGet("{date}")>
+
+      Public Function GetSheduleForDay(date As String) As String
+  overload: CalendarBack.Controllers.TasksController.GetSheduleForDay*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: '{date}'
@@ -11934,3 +11982,26 @@ references:
   name: AddRecord
   nameWithType: TasksController.AddRecord
   fullName: CalendarBack.Controllers.TasksController.AddRecord
+- uid: CalendarBack.Entities.Shedule
+  commentId: T:CalendarBack.Entities.Shedule
+  parent: CalendarBack.Entities
+  name: Shedule
+  nameWithType: Shedule
+  fullName: CalendarBack.Entities.Shedule
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities
+- uid: CalendarBack.Controllers.TasksController.GetSheduleForDay*
+  commentId: Overload:CalendarBack.Controllers.TasksController.GetSheduleForDay
+  name: GetSheduleForDay
+  nameWithType: TasksController.GetSheduleForDay
+  fullName: CalendarBack.Controllers.TasksController.GetSheduleForDay
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

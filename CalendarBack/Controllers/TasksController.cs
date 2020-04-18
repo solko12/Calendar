@@ -20,7 +20,7 @@ namespace CalendarBack.Controllers
         /// Endpoint for adding record in tasks table in database
         /// </summary>
         [HttpPut("{date}")]
-        public void AddRecord([FromBody] object json)
+        public void AddRecord([FromBody] Entities.Shedule json)
         {
             //context.Database.EnsureCreated();
             Task task = new Task();
@@ -32,6 +32,9 @@ namespace CalendarBack.Controllers
             
         }
 
-
+        [HttpGet("{date}")]
+        public String GetSheduleForDay(String date) {
+            return "";
+        }
     }
 }
