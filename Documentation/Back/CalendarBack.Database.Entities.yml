@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Database.Entities
+  commentId: N:CalendarBack.Database.Entities
+  id: CalendarBack.Database.Entities
+  children:
+  - CalendarBack.Database.Entities.Shedule
+  - CalendarBack.Database.Entities.Task
+  langs:
+  - csharp
+  - vb
+  name: CalendarBack.Database.Entities
+  nameWithType: CalendarBack.Database.Entities
+  fullName: CalendarBack.Database.Entities
+  type: Namespace
+  assemblies:
+  - CalendarBack
+references:
+- uid: CalendarBack.Database.Entities.Shedule
+  commentId: T:CalendarBack.Database.Entities.Shedule
+  name: Shedule
+  nameWithType: Shedule
+  fullName: CalendarBack.Database.Entities.Shedule
+- uid: CalendarBack.Database.Entities.Task
+  commentId: T:CalendarBack.Database.Entities.Task
+  name: Task
+  nameWithType: Task
+  fullName: CalendarBack.Database.Entities.Task

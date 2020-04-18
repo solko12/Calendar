@@ -69,7 +69,7 @@ items:
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Logic
-  summary: "\nMethod parse json string consist weather for 5 days per 3 h to average weather for 5 days daily\n"
+  summary: "\n!!!deprecated!!! Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily\n"
   example: []
   syntax:
     content: public static string parseWeather(string json)

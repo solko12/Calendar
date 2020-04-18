@@ -11,6 +11,18 @@
   items:
   - uid: CalendarBack.Controllers.WeatherController
     name: WeatherController
+- uid: CalendarBack.Database
+  name: CalendarBack.Database
+  items:
+  - uid: CalendarBack.Database.CalendarContext
+    name: CalendarContext
+- uid: CalendarBack.Database.Entities
+  name: CalendarBack.Database.Entities
+  items:
+  - uid: CalendarBack.Database.Entities.Shedule
+    name: Shedule
+  - uid: CalendarBack.Database.Entities.Task
+    name: Task
 - uid: CalendarBack.Entities
   name: CalendarBack.Entities
   items:
@@ -42,5 +54,7 @@
 - uid: CalendarBack.Tests
   name: CalendarBack.Tests
   items:
+  - uid: CalendarBack.Tests.DatabaseTest
+    name: DatabaseTest
   - uid: CalendarBack.Tests.WeatherControlerTest
     name: WeatherControlerTest

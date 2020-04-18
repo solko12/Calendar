@@ -4,6 +4,7 @@ items:
   commentId: N:CalendarBack.Tests
   id: CalendarBack.Tests
   children:
+  - CalendarBack.Tests.DatabaseTest
   - CalendarBack.Tests.WeatherControlerTest
   langs:
   - csharp
@@ -15,6 +16,11 @@ items:
   assemblies:
   - CalendarBack
 references:
+- uid: CalendarBack.Tests.DatabaseTest
+  commentId: T:CalendarBack.Tests.DatabaseTest
+  name: DatabaseTest
+  nameWithType: DatabaseTest
+  fullName: CalendarBack.Tests.DatabaseTest
 - uid: CalendarBack.Tests.WeatherControlerTest
   commentId: T:CalendarBack.Tests.WeatherControlerTest
   name: WeatherControlerTest

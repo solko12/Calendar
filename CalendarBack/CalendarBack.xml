@@ -49,7 +49,7 @@
         </member>
         <member name="M:CalendarBack.Logic.WeatherParser.parseWeather(System.String)">
             <summary>
-            Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
+            !!!deprecated!!! Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
             </summary>
             <param name="json">Input JSON formated string</param>
             <returns>Parsed Json formated string</returns>

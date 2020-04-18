@@ -10,6 +10,9 @@ using CalendarBack.Entities;
 
 namespace CalendarBack.Tests
 {
+    /// <summary>
+    /// Tests for wheaterControler
+    /// </summary>
     public class WeatherControlerTest
     {
         [Fact]
