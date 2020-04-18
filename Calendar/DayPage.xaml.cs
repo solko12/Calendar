@@ -50,9 +50,9 @@ namespace CalendarApp
             InitializeComponent();
             DataContext = this;
             _date = date;
-            //string jsonData=api.GetTasks(_date);
-            //shedule = api.DeJsonigTasks(jsonData);
-            //list = shedule.tasksList;
+            string jsonData=api.GetTasks(_date);
+            shedule = api.DeJsonigTasks(jsonData);
+            list = shedule.tasksList;
         }
 
         /// <summary>
@@ -81,7 +81,7 @@ namespace CalendarApp
                 AllDay.IsChecked = false;
             }
             string jsonData = api.JsoningTasks(_date, list);
-            //api.PutTasks(jsonData,_date);
+            api.PutTasks(jsonData,_date);
         }
         
         /// <summary>
