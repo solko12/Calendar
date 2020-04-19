@@ -20,7 +20,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Weather
     path: Entities/Forecast.cs
     startLine: 23
@@ -61,7 +61,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: id
     path: Entities/Forecast.cs
     startLine: 25
@@ -96,7 +96,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: main
     path: Entities/Forecast.cs
     startLine: 26
@@ -131,7 +131,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: description
     path: Entities/Forecast.cs
     startLine: 27
@@ -166,7 +166,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: icon
     path: Entities/Forecast.cs
     startLine: 28

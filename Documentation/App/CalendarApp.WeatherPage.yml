@@ -20,7 +20,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: WeatherPage
     path: ../Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
     startLine: 41
@@ -664,7 +664,7 @@ items:
     remote:
       path: Calendar/WeatherPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: date
     path: ../Calendar/WeatherPage.xaml.cs
     startLine: 28
@@ -697,7 +697,7 @@ items:
     remote:
       path: Calendar/WeatherPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: listOfCities
     path: ../Calendar/WeatherPage.xaml.cs
     startLine: 32
@@ -730,7 +730,7 @@ items:
     remote:
       path: Calendar/WeatherPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: .ctor
     path: ../Calendar/WeatherPage.xaml.cs
     startLine: 40
@@ -762,7 +762,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: InitializeComponent
     path: ../Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
     startLine: 80

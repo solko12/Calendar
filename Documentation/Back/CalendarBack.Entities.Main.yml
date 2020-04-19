@@ -25,7 +25,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Main
     path: Entities/Forecast.cs
     startLine: 10
@@ -66,7 +66,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: temp
     path: Entities/Forecast.cs
     startLine: 12
@@ -101,7 +101,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: feels_like
     path: Entities/Forecast.cs
     startLine: 13
@@ -136,7 +136,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: temp_min
     path: Entities/Forecast.cs
     startLine: 14
@@ -171,7 +171,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: temp_max
     path: Entities/Forecast.cs
     startLine: 15
@@ -206,7 +206,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: pressure
     path: Entities/Forecast.cs
     startLine: 16
@@ -241,7 +241,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: sea_level
     path: Entities/Forecast.cs
     startLine: 17
@@ -276,7 +276,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: grnd_level
     path: Entities/Forecast.cs
     startLine: 18
@@ -311,7 +311,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: humidity
     path: Entities/Forecast.cs
     startLine: 19
@@ -346,7 +346,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: temp_kf
     path: Entities/Forecast.cs
     startLine: 20

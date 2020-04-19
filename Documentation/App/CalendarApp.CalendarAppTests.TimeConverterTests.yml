@@ -17,7 +17,7 @@ items:
     remote:
       path: Calendar/CalendarAppTests/TimeConverterTests.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: TimeConverterTests
     path: ../Calendar/CalendarAppTests/TimeConverterTests.cs
     startLine: 6
@@ -58,7 +58,7 @@ items:
     remote:
       path: Calendar/CalendarAppTests/TimeConverterTests.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: ConvertingMinutes
     path: ../Calendar/CalendarAppTests/TimeConverterTests.cs
     startLine: 8

@@ -18,7 +18,7 @@ items:
     remote:
       path: CalendarBack/Entities/Shedule.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Shedule
     path: Entities/Shedule.cs
     startLine: 7
@@ -59,7 +59,7 @@ items:
     remote:
       path: CalendarBack/Entities/Shedule.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: date
     path: Entities/Shedule.cs
     startLine: 9
@@ -94,7 +94,7 @@ items:
     remote:
       path: CalendarBack/Entities/Shedule.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: tasksList
     path: Entities/Shedule.cs
     startLine: 10

@@ -18,7 +18,7 @@ items:
     remote:
       path: Calendar/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Task
     path: ../Calendar/Task.cs
     startLine: 6
@@ -59,7 +59,7 @@ items:
     remote:
       path: Calendar/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: content
     path: ../Calendar/Task.cs
     startLine: 8
@@ -94,7 +94,7 @@ items:
     remote:
       path: Calendar/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: time
     path: ../Calendar/Task.cs
     startLine: 9

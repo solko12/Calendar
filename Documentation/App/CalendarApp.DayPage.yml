@@ -21,7 +21,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: DayPage
     path: ../Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
     startLine: 41
@@ -665,7 +665,7 @@ items:
     remote:
       path: Calendar/DayPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: list
     path: ../Calendar/DayPage.xaml.cs
     startLine: 28
@@ -702,7 +702,7 @@ items:
     remote:
       path: Calendar/DayPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: selectedTask
     path: ../Calendar/DayPage.xaml.cs
     startLine: 32
@@ -739,7 +739,7 @@ items:
     remote:
       path: Calendar/DayPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: shedule
     path: ../Calendar/DayPage.xaml.cs
     startLine: 40
@@ -772,7 +772,7 @@ items:
     remote:
       path: Calendar/DayPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: .ctor
     path: ../Calendar/DayPage.xaml.cs
     startLine: 46
@@ -808,7 +808,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: InitializeComponent
     path: ../Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
     startLine: 144

@@ -17,7 +17,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Clouds
     path: Entities/Forecast.cs
     startLine: 31
@@ -58,7 +58,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: all
     path: Entities/Forecast.cs
     startLine: 33

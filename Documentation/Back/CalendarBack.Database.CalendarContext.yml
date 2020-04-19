@@ -20,7 +20,7 @@ items:
     remote:
       path: CalendarBack/Database/CalendarContext.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: CalendarContext
     path: Database/CalendarContext.cs
     startLine: 12
@@ -131,7 +131,7 @@ items:
     remote:
       path: CalendarBack/Database/CalendarContext.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: DbCatalog
     path: Database/CalendarContext.cs
     startLine: 17
@@ -168,7 +168,7 @@ items:
     remote:
       path: CalendarBack/Database/CalendarContext.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Shedules
     path: Database/CalendarContext.cs
     startLine: 21
@@ -205,7 +205,7 @@ items:
     remote:
       path: CalendarBack/Database/CalendarContext.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Tasks
     path: Database/CalendarContext.cs
     startLine: 25
@@ -242,7 +242,7 @@ items:
     remote:
       path: CalendarBack/Database/CalendarContext.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: OnConfiguring
     path: Database/CalendarContext.cs
     startLine: 30

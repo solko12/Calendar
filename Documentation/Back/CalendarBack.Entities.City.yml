@@ -24,7 +24,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: City
     path: Entities/Forecast.cs
     startLine: 71
@@ -65,7 +65,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: id
     path: Entities/Forecast.cs
     startLine: 73
@@ -100,7 +100,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: name
     path: Entities/Forecast.cs
     startLine: 74
@@ -135,7 +135,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: coord
     path: Entities/Forecast.cs
     startLine: 75
@@ -170,7 +170,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: country
     path: Entities/Forecast.cs
     startLine: 76
@@ -205,7 +205,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: population
     path: Entities/Forecast.cs
     startLine: 77
@@ -240,7 +240,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: timezone
     path: Entities/Forecast.cs
     startLine: 78
@@ -275,7 +275,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: sunrise
     path: Entities/Forecast.cs
     startLine: 79
@@ -310,7 +310,7 @@ items:
     remote:
       path: CalendarBack/Entities/Forecast.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: sunset
     path: Entities/Forecast.cs
     startLine: 80

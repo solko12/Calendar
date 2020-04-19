@@ -6,6 +6,7 @@ items:
   parent: CalendarBack.Logic
   children:
   - CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
+  - CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
   langs:
   - csharp
   - vb
@@ -17,7 +18,7 @@ items:
     remote:
       path: CalendarBack/Logic/Entity2DBEntityParser.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Entity2DBEntityParser
     path: Logic/Entity2DBEntityParser.cs
     startLine: 10
@@ -60,7 +61,7 @@ items:
     remote:
       path: CalendarBack/Logic/Entity2DBEntityParser.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: parseShedule
     path: Logic/Entity2DBEntityParser.cs
     startLine: 17
@@ -80,6 +81,43 @@ items:
       description: ''
     content.vb: Public Shared Function parseShedule(eShedule As Shedule) As Shedule
   overload: CalendarBack.Logic.Entity2DBEntityParser.parseShedule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
+  commentId: M:CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
+  id: parseTask(CalendarBack.Entities.Task)
+  parent: CalendarBack.Logic.Entity2DBEntityParser
+  langs:
+  - csharp
+  - vb
+  name: parseTask(Task)
+  nameWithType: Entity2DBEntityParser.parseTask(Task)
+  fullName: CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
+  type: Method
+  source:
+    remote:
+      path: CalendarBack/Logic/Entity2DBEntityParser.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar
+    id: parseTask
+    path: Logic/Entity2DBEntityParser.cs
+    startLine: 26
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Logic
+  syntax:
+    content: public static Task parseTask(Task eTask)
+    parameters:
+    - id: eTask
+      type: CalendarBack.Entities.Task
+    return:
+      type: CalendarBack.Database.Entities.Task
+    content.vb: Public Shared Function parseTask(eTask As Task) As Task
+  overload: CalendarBack.Logic.Entity2DBEntityParser.parseTask*
   modifiers.csharp:
   - public
   - static
@@ -411,3 +449,20 @@ references:
   name: CalendarBack.Database.Entities
   nameWithType: CalendarBack.Database.Entities
   fullName: CalendarBack.Database.Entities
+- uid: CalendarBack.Logic.Entity2DBEntityParser.parseTask*
+  commentId: Overload:CalendarBack.Logic.Entity2DBEntityParser.parseTask
+  name: parseTask
+  nameWithType: Entity2DBEntityParser.parseTask
+  fullName: CalendarBack.Logic.Entity2DBEntityParser.parseTask
+- uid: CalendarBack.Entities.Task
+  commentId: T:CalendarBack.Entities.Task
+  parent: CalendarBack.Entities
+  name: Task
+  nameWithType: Task
+  fullName: CalendarBack.Entities.Task
+- uid: CalendarBack.Database.Entities.Task
+  commentId: T:CalendarBack.Database.Entities.Task
+  parent: CalendarBack.Database.Entities
+  name: Task
+  nameWithType: Task
+  fullName: CalendarBack.Database.Entities.Task

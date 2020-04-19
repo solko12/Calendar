@@ -7,6 +7,7 @@ items:
   children:
   - CalendarBack.Database.Entities.Task.Content
   - CalendarBack.Database.Entities.Task.Id
+  - CalendarBack.Database.Entities.Task.SheduleId
   - CalendarBack.Database.Entities.Task.Time
   langs:
   - csharp
@@ -19,7 +20,7 @@ items:
     remote:
       path: CalendarBack/Database/Entities/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Task
     path: Database/Entities/Task.cs
     startLine: 10
@@ -62,7 +63,7 @@ items:
     remote:
       path: CalendarBack/Database/Entities/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Id
     path: Database/Entities/Task.cs
     startLine: 15
@@ -99,7 +100,7 @@ items:
     remote:
       path: CalendarBack/Database/Entities/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Content
     path: Database/Entities/Task.cs
     startLine: 19
@@ -136,7 +137,7 @@ items:
     remote:
       path: CalendarBack/Database/Entities/Task.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Time
     path: Database/Entities/Task.cs
     startLine: 23
@@ -152,6 +153,41 @@ items:
       type: System.String
     content.vb: Public Property Time As String
   overload: CalendarBack.Database.Entities.Task.Time*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Database.Entities.Task.SheduleId
+  commentId: P:CalendarBack.Database.Entities.Task.SheduleId
+  id: SheduleId
+  parent: CalendarBack.Database.Entities.Task
+  langs:
+  - csharp
+  - vb
+  name: SheduleId
+  nameWithType: Task.SheduleId
+  fullName: CalendarBack.Database.Entities.Task.SheduleId
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Database/Entities/Task.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar
+    id: SheduleId
+    path: Database/Entities/Task.cs
+    startLine: 25
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Database.Entities
+  syntax:
+    content: public int SheduleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SheduleId As Integer
+  overload: CalendarBack.Database.Entities.Task.SheduleId*
   modifiers.csharp:
   - public
   - get
@@ -485,3 +521,8 @@ references:
   name: Time
   nameWithType: Task.Time
   fullName: CalendarBack.Database.Entities.Task.Time
+- uid: CalendarBack.Database.Entities.Task.SheduleId*
+  commentId: Overload:CalendarBack.Database.Entities.Task.SheduleId
+  name: SheduleId
+  nameWithType: Task.SheduleId
+  fullName: CalendarBack.Database.Entities.Task.SheduleId

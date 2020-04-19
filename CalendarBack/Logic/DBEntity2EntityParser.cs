@@ -26,5 +26,9 @@ namespace CalendarBack.Logic
             eShedule.tasksList = eTasks;
             return eShedule;
         }
+
+        public static Entities.Task parseTask(Database.Entities.Task dbTask) {
+            return new Entities.Task() { content = dbTask.Content, time = dbTask.Time };
+        }
     }
 }

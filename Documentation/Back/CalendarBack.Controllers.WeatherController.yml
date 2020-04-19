@@ -21,7 +21,7 @@ items:
     remote:
       path: CalendarBack/Controllers/WeatherController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: WeatherController
     path: Controllers/WeatherController.cs
     startLine: 15
@@ -252,7 +252,7 @@ items:
     remote:
       path: CalendarBack/Controllers/WeatherController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: GetWeatherByDefaultLocation
     path: Controllers/WeatherController.cs
     startLine: 29
@@ -299,7 +299,7 @@ items:
     remote:
       path: CalendarBack/Controllers/WeatherController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: GetWeatherByPostCode
     path: Controllers/WeatherController.cs
     startLine: 40
@@ -353,7 +353,7 @@ items:
     remote:
       path: CalendarBack/Controllers/WeatherController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: GetForecastByCityName
     path: Controllers/WeatherController.cs
     startLine: 50
@@ -408,7 +408,7 @@ items:
     remote:
       path: CalendarBack/Controllers/WeatherController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: GetReload
     path: Controllers/WeatherController.cs
     startLine: 63
@@ -455,7 +455,7 @@ items:
     remote:
       path: CalendarBack/Controllers/WeatherController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: test
     path: Controllers/WeatherController.cs
     startLine: 71

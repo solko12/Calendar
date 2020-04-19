@@ -374,12 +374,12 @@ references:
   commentId: T:CalendarBack.Controllers.TasksController
   fullName: CalendarBack.Controllers.TasksController
   nameWithType: TasksController
-- uid: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
-  name: AddRecord(Shedule)
-  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_CalendarBack_Entities_Shedule_
-  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
-  fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
-  nameWithType: TasksController.AddRecord(Shedule)
+- uid: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
+  name: AddRecord(Shedule, String)
+  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_CalendarBack_Entities_Shedule_System_String_
+  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
+  fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule, System.String)
+  nameWithType: TasksController.AddRecord(Shedule, String)
 - uid: CalendarBack.Controllers.TasksController.AddRecord*
   name: AddRecord
   href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_
@@ -618,6 +618,19 @@ references:
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Task.Id
   nameWithType: Task.Id
+- uid: CalendarBack.Database.Entities.Task.SheduleId
+  name: SheduleId
+  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_SheduleId
+  commentId: P:CalendarBack.Database.Entities.Task.SheduleId
+  fullName: CalendarBack.Database.Entities.Task.SheduleId
+  nameWithType: Task.SheduleId
+- uid: CalendarBack.Database.Entities.Task.SheduleId*
+  name: SheduleId
+  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_SheduleId_
+  commentId: Overload:CalendarBack.Database.Entities.Task.SheduleId
+  isSpec: "True"
+  fullName: CalendarBack.Database.Entities.Task.SheduleId
+  nameWithType: Task.SheduleId
 - uid: CalendarBack.Database.Entities.Task.Time
   name: Time
   href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Time
@@ -1319,6 +1332,19 @@ references:
   isSpec: "True"
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseShedule
   nameWithType: DBEntity2EntityParser.parseShedule
+- uid: CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
+  name: parseTask(Task)
+  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseTask_CalendarBack_Database_Entities_Task_
+  commentId: M:CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
+  fullName: CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
+  nameWithType: DBEntity2EntityParser.parseTask(Task)
+- uid: CalendarBack.Logic.DBEntity2EntityParser.parseTask*
+  name: parseTask
+  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseTask_
+  commentId: Overload:CalendarBack.Logic.DBEntity2EntityParser.parseTask
+  isSpec: "True"
+  fullName: CalendarBack.Logic.DBEntity2EntityParser.parseTask
+  nameWithType: DBEntity2EntityParser.parseTask
 - uid: CalendarBack.Logic.Entity2DBEntityParser
   name: Entity2DBEntityParser
   href: Back/CalendarBack.Logic.Entity2DBEntityParser.html
@@ -1338,6 +1364,19 @@ references:
   isSpec: "True"
   fullName: CalendarBack.Logic.Entity2DBEntityParser.parseShedule
   nameWithType: Entity2DBEntityParser.parseShedule
+- uid: CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
+  name: parseTask(Task)
+  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseTask_CalendarBack_Entities_Task_
+  commentId: M:CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
+  fullName: CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
+  nameWithType: Entity2DBEntityParser.parseTask(Task)
+- uid: CalendarBack.Logic.Entity2DBEntityParser.parseTask*
+  name: parseTask
+  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseTask_
+  commentId: Overload:CalendarBack.Logic.Entity2DBEntityParser.parseTask
+  isSpec: "True"
+  fullName: CalendarBack.Logic.Entity2DBEntityParser.parseTask
+  nameWithType: Entity2DBEntityParser.parseTask
 - uid: CalendarBack.Logic.WeatherParser
   name: WeatherParser
   href: Back/CalendarBack.Logic.WeatherParser.html

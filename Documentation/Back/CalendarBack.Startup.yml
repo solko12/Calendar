@@ -20,7 +20,7 @@ items:
     remote:
       path: CalendarBack/Startup.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Startup
     path: Startup.cs
     startLine: 15
@@ -61,7 +61,7 @@ items:
     remote:
       path: CalendarBack/Startup.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: .ctor
     path: Startup.cs
     startLine: 17
@@ -94,7 +94,7 @@ items:
     remote:
       path: CalendarBack/Startup.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Configuration
     path: Startup.cs
     startLine: 22
@@ -129,7 +129,7 @@ items:
     remote:
       path: CalendarBack/Startup.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: ConfigureServices
     path: Startup.cs
     startLine: 25
@@ -162,7 +162,7 @@ items:
     remote:
       path: CalendarBack/Startup.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: Configure
     path: Startup.cs
     startLine: 31

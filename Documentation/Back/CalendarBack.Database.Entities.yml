@@ -24,6 +24,7 @@ references:
   fullName: CalendarBack.Database.Entities.Shedule
 - uid: CalendarBack.Database.Entities.Task
   commentId: T:CalendarBack.Database.Entities.Task
+  parent: CalendarBack.Database.Entities
   name: Task
   nameWithType: Task
   fullName: CalendarBack.Database.Entities.Task

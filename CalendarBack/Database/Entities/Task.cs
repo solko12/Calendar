@@ -22,5 +22,7 @@ namespace CalendarBack.Database.Entities
         /// Time storages time when task have been planed
         /// </summary>
         public string Time { get; set; }
+
+        public int SheduleId { get; set; }
     }
 }

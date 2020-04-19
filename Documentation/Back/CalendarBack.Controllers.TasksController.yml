@@ -5,7 +5,7 @@ items:
   id: TasksController
   parent: CalendarBack.Controllers
   children:
-  - CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
+  - CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
   - CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
   langs:
   - csharp
@@ -18,7 +18,7 @@ items:
     remote:
       path: CalendarBack/Controllers/TasksController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: TasksController
     path: Controllers/TasksController.cs
     startLine: 15
@@ -234,22 +234,22 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
-  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
-  id: AddRecord(CalendarBack.Entities.Shedule)
+- uid: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
+  commentId: M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
+  id: AddRecord(CalendarBack.Entities.Shedule,System.String)
   parent: CalendarBack.Controllers.TasksController
   langs:
   - csharp
   - vb
-  name: AddRecord(Shedule)
-  nameWithType: TasksController.AddRecord(Shedule)
-  fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule)
+  name: AddRecord(Shedule, String)
+  nameWithType: TasksController.AddRecord(Shedule, String)
+  fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule, System.String)
   type: Method
   source:
     remote:
       path: CalendarBack/Controllers/TasksController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: AddRecord
     path: Controllers/TasksController.cs
     startLine: 24
@@ -262,7 +262,7 @@ items:
     content: >-
       [HttpPut("{date}")]
 
-      public void AddRecord([FromBody] Shedule shedule)
+      public void AddRecord([FromBody] Shedule shedule, string date)
     parameters:
     - id: shedule
       type: CalendarBack.Entities.Shedule
@@ -270,10 +270,12 @@ items:
       - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
         ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
         arguments: []
+    - id: date
+      type: System.String
     content.vb: >-
       <HttpPut("{date}")>
 
-      Public Sub AddRecord(shedule As Shedule)
+      Public Sub AddRecord(shedule As Shedule, date As String)
   overload: CalendarBack.Controllers.TasksController.AddRecord*
   attributes:
   - type: Microsoft.AspNetCore.Mvc.HttpPutAttribute
@@ -300,10 +302,10 @@ items:
     remote:
       path: CalendarBack/Controllers/TasksController.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: GetSheduleForDay
     path: Controllers/TasksController.cs
-    startLine: 41
+    startLine: 57
   assemblies:
   - CalendarBack
   namespace: CalendarBack.Controllers
@@ -11992,6 +11994,13 @@ references:
   name: Shedule
   nameWithType: Shedule
   fullName: CalendarBack.Entities.Shedule
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: CalendarBack.Entities
   commentId: N:CalendarBack.Entities
   name: CalendarBack.Entities
@@ -12002,10 +12011,3 @@ references:
   name: GetSheduleForDay
   nameWithType: TasksController.GetSheduleForDay
   fullName: CalendarBack.Controllers.TasksController.GetSheduleForDay
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String

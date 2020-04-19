@@ -16,7 +16,7 @@ items:
     remote:
       path: CalendarBack/Tests/WeatherControllerTest.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: WeatherControllerTest
     path: Tests/WeatherControllerTest.cs
     startLine: 15

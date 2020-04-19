@@ -19,7 +19,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: CalendarPage
     path: ../Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
     startLine: 41
@@ -663,7 +663,7 @@ items:
     remote:
       path: Calendar/CalendarPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: selectedDate
     path: ../Calendar/CalendarPage.xaml.cs
     startLine: 20
@@ -696,7 +696,7 @@ items:
     remote:
       path: Calendar/CalendarPage.xaml.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: .ctor
     path: ../Calendar/CalendarPage.xaml.cs
     startLine: 25
@@ -728,7 +728,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: InitializeComponent
     path: ../Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
     startLine: 104

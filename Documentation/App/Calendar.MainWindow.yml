@@ -17,7 +17,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: MainWindow
     path: ../Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
     startLine: 41
@@ -789,7 +789,7 @@ items:
     remote:
       path: Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
       branch: master
-      repo: https://github.com/solko12/Calendar.git
+      repo: https://github.com/solko12/Calendar
     id: InitializeComponent
     path: ../Calendar/obj/Release/netcoreapp3.1/MainWindow.g.cs
     startLine: 48

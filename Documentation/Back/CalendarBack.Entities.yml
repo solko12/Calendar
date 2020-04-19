@@ -92,6 +92,7 @@ references:
   fullName: CalendarBack.Entities.Shedule
 - uid: CalendarBack.Entities.Task
   commentId: T:CalendarBack.Entities.Task
+  parent: CalendarBack.Entities
   name: Task
   nameWithType: Task
   fullName: CalendarBack.Entities.Task
