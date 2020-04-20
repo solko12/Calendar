@@ -60,19 +60,29 @@ namespace CalendarBack.Controllers
         {
             context.Database.EnsureCreated();
             List<Database.Entities.Shedule> dbShedules = context.Shedules.Where(s => s.Date == DateTime.Parse(date)).ToList();
-            List<Database.Entities.Task> dbTasks = context.Tasks.Where(s => s.SheduleId == dbShedules[0].Id).ToList();
             List<Entities.Task> eTasks = new List<Entities.Task>();
-            if (dbTasks.Count == 0)
+
+            if (dbShedules.Count == 0)
             {
-                return JsonConvert.SerializeObject(new Database.Entities.Task());
+                return JsonConvert.SerializeObject(eTasks);
             }
             else
             {
-                foreach (Database.Entities.Task dbTask in dbTasks) {
-                    eTasks.Add(DBEntity2EntityParser.parseTask(dbTask));
+                List<Database.Entities.Task> dbTasks = context.Tasks.Where(s => s.SheduleId == dbShedules[0].Id).ToList();
+                if (dbTasks.Count == 0)
+                {
+                    return JsonConvert.SerializeObject(eTasks);
                 }
-                return JsonConvert.SerializeObject(eTasks);
+                else
+                {
+                    foreach (Database.Entities.Task dbTask in dbTasks)
+                    {
+                        eTasks.Add(DBEntity2EntityParser.parseTask(dbTask));
+                    }
+                    return JsonConvert.SerializeObject(eTasks);
+                }
             }
+
         }
     }
 }
