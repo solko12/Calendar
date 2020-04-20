@@ -120,7 +120,7 @@ namespace CalendarApp
                 var label = new Label();
                 string direction = w.Wind.Direction;
                 double wind = Math.Round((w.Wind.SpeedMax+w.Wind.SpeedMin)/2);        
-                label.Content = direction + " " + wind +" km/h";
+                label.Content = direction + " " + wind +" m/s";
                 label.SetValue(Grid.ColumnProperty, i);
                 label.SetValue(Grid.RowProperty, 4);
                 label.Style = style;

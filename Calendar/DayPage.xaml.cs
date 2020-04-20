@@ -50,6 +50,8 @@ namespace CalendarApp
             InitializeComponent();
             DataContext = this;
             _date = date;
+
+            // downloads actual tasks from a server 
             string jsonData=api.GetTasks(_date);
             shedule = api.DeJsonigTasks(jsonData);
             list = shedule.tasksList;
@@ -80,6 +82,7 @@ namespace CalendarApp
                 // clears CheckBox
                 AllDay.IsChecked = false;
             }
+            // put added task on server
             string jsonData = api.JsoningTasks(_date, list);
             api.PutTasks(jsonData,_date);
         }
