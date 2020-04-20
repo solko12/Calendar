@@ -68,7 +68,10 @@ namespace CalendarBack.Controllers
             forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
             return "DONE";
         }
-        
+        /// <summary>
+        /// Method for testing purposes
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("TEST")]
         public string test() {
             Forecast forecast1 = new Forecast();

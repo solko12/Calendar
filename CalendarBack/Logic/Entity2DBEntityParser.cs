@@ -13,8 +13,8 @@ namespace CalendarBack.Logic
         /// <summary>
         /// Method parse shedule entity
         /// </summary>
-        /// <param name="eShedule">Shedule in dotnet entity model</param>
-        /// <returns></returns>
+        /// <param name="eShedule">Shedule in json entity model</param>
+        /// <returns>DBEntity parsed model</returns>
         public static Database.Entities.Shedule parseShedule(Entities.Shedule eShedule) {
             Database.Entities.Shedule dbShedule = new Database.Entities.Shedule() { Date=eShedule.date};
             List<Database.Entities.Task> dbTasks = new List<Database.Entities.Task>();
@@ -24,6 +24,11 @@ namespace CalendarBack.Logic
             dbShedule.TasksList = dbTasks;
             return dbShedule;
         }
+        /// <summary>
+        /// Method parse task entity
+        /// </summary>
+        /// <param name="eTask">Task in json entity model</param>
+        /// <returns>DBEntity parsed model</returns>
         public static Database.Entities.Task parseTask(Entities.Task eTask) {
             return new Database.Entities.Task() { Content = eTask.content, Time = eTask.time };
         }

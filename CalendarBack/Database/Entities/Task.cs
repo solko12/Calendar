@@ -22,7 +22,9 @@ namespace CalendarBack.Database.Entities
         /// Time storages time when task have been planed
         /// </summary>
         public string Time { get; set; }
-
+        /// <summary>
+        /// Foreign key for sheduleId
+        /// </summary>
         public int SheduleId { get; set; }
     }
 }

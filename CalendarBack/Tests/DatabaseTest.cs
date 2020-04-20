@@ -16,13 +16,13 @@ namespace CalendarBack.Tests
         
 
         [Fact]
-        void creatingAndDeletingDatabase() {
+        private void creatingAndDeletingDatabase() {
             Assert.True(context.Database.EnsureCreated());
             Assert.True(context.Database.EnsureDeleted());
         }
 
         [Fact]
-        void addingAndDeletingNewRecord() {
+        private void addingAndDeletingNewRecord() {
             context.Database.EnsureCreated();
             var task = new Database.Entities.Task() {Content = " ", Time = "13:00" };
             Assert.Equal(0, context.Tasks.Count());

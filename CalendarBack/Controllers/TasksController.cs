@@ -44,10 +44,6 @@ namespace CalendarBack.Controllers
                 dbShedule[0].TasksList = newTasksList;
                 context.Shedules.Update(dbShedule[0]);
             }
-            Console.WriteLine(context.Shedules.Where(s => s.Date == shedule.date).ToList().Count);
-            Console.WriteLine(context.Shedules.Where(s => s.Date == shedule.date).ToList()[0].Date);
-            Console.WriteLine(DateTime.Parse(date));
-            Console.WriteLine(context.Shedules.Where(s => s.Date == shedule.date).ToList()[0].Date == DateTime.Parse(date));
             context.SaveChanges();
         }
         /// <summary>
@@ -85,6 +81,10 @@ namespace CalendarBack.Controllers
 
         }
 
+        /// <summary>
+        /// Enpoint returns list of days which contains tasks
+        /// </summary>
+        /// <returns>Parsed json list includes days with tasks</returns>
         [HttpGet]
         public String GetDaysWithTasks() {
             context.Database.EnsureCreated();

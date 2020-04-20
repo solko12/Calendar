@@ -16,7 +16,7 @@ namespace CalendarBack.Tests
     public class WeatherControllerTest
     {
         [Fact]
-        void deserialiseJson() {
+        private void deserialiseJson() {
             Assert.Equal("{\"City\":\"x\",\"Weather\":[]}", WeatherParser.parseWeather(new Forecast()));
         }
     }

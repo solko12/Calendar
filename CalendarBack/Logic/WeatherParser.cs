@@ -183,7 +183,11 @@ namespace CalendarBack.Logic
             }
             return "{\"City\":\"" + forecast.city.name + "\",\"Weather\":[" + string.Join(",", parsedWeatherList) + "]}";
         }
-
+        /// <summary>
+        /// Method parse degree into NSWE type
+        /// </summary>
+        /// <param name="degree">Direction in degrees</param>
+        /// <returns>Direction in NSWE type</returns>
         private static string getMeTheWindDirectionLetter(decimal degree)
         {
             if ((degree <= 20 && degree >= 0) || (degree <= 360 && degree > 340))
