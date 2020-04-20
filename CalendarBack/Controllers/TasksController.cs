@@ -44,10 +44,6 @@ namespace CalendarBack.Controllers
                 dbShedule[0].TasksList = newTasksList;
                 context.Shedules.Update(dbShedule[0]);
             }
-            Console.WriteLine(context.Shedules.Where(s => s.Date == shedule.date).ToList().Count);
-            Console.WriteLine(context.Shedules.Where(s => s.Date == shedule.date).ToList()[0].Date);
-            Console.WriteLine(DateTime.Parse(date));
-            Console.WriteLine(context.Shedules.Where(s => s.Date == shedule.date).ToList()[0].Date == DateTime.Parse(date));
             context.SaveChanges();
         }
         /// <summary>
@@ -56,7 +52,7 @@ namespace CalendarBack.Controllers
         /// <param name="date">Param for specified date</param>
         /// <returns>Json formated shedule object</returns>
         [HttpGet("{date}")]
-        public String GetSheduleForDay(String date)
+        public String GetTasksForDay(String date)
         {
             context.Database.EnsureCreated();
             List<Database.Entities.Shedule> dbShedules = context.Shedules.Where(s => s.Date == DateTime.Parse(date)).ToList();
@@ -83,6 +79,21 @@ namespace CalendarBack.Controllers
                 }
             }
 
+        }
+
+        /// <summary>
+        /// Enpoint returns list of days which contains tasks
+        /// </summary>
+        /// <returns>Parsed json list includes days with tasks</returns>
+        [HttpGet]
+        public String GetDaysWithTasks() {
+            context.Database.EnsureCreated();
+            List<Database.Entities.Shedule> dbShedules = context.Shedules.Where(s => s.TasksList.Count != 0).ToList();
+            List<DateTime> daysWithTasks = new List<DateTime>();
+            foreach (Database.Entities.Shedule shedule in dbShedules) {
+                daysWithTasks.Add(shedule.Date);
+            }
+            return JsonConvert.SerializeObject(daysWithTasks);
         }
     }
 }

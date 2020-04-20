@@ -15,7 +15,7 @@
             <param name="shedule">Param for specified shedule for day</param>
             </summary>
         </member>
-        <member name="M:CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)">
+        <member name="M:CalendarBack.Controllers.TasksController.GetTasksForDay(System.String)">
             <summary>
             Endpoint returns daily tasks
             </summary>
