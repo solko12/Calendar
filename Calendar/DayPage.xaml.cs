@@ -38,7 +38,7 @@ namespace CalendarApp
         /// <summary>
         /// Actual shedule
         /// </summary>
-        public Shedule shedule;
+        //public Shedule shedule;
         
         /// <summary>
         /// Constructor that initialize day page
@@ -53,8 +53,8 @@ namespace CalendarApp
 
             // downloads actual tasks from a server 
             string jsonData=api.GetTasks(_date);
-            shedule = api.DeJsonigTasks(jsonData);
-            list = shedule.tasksList;
+            list = api.DeJsonigTasks(jsonData);
+           // shedule.tasksList = list;
         }
 
         /// <summary>

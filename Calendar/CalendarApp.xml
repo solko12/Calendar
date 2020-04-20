@@ -161,11 +161,6 @@
             facility enabling communication
             </summary>
         </member>
-        <member name="F:CalendarApp.DayPage.shedule">
-            <summary>
-            Actual shedule
-            </summary>
-        </member>
         <member name="M:CalendarApp.DayPage.#ctor(System.DateTime)">
             <summary>
             Constructor that initialize day page

@@ -47,9 +47,9 @@ namespace CalendarApp.API
         /// </summary>
         /// <param name="taskJson"></param>
         /// <returns> Shedule object as a result of deserialization json</returns>
-        public Shedule DeJsonigTasks(string taskJson)
+        public ObservableCollection<Task> DeJsonigTasks(string taskJson)
         {
-            Shedule shedule = JsonConvert.DeserializeObject<Shedule>(taskJson);
+            ObservableCollection<Task> shedule = JsonConvert.DeserializeObject<ObservableCollection<Task>>(taskJson);
             return shedule;
         }
         /// <summary>
