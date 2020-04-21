@@ -99,6 +99,9 @@ namespace CalendarApp
             {
                 list.Remove(selectedTask);
             }
+            // update tasks list on server
+            string jsonData = api.JsoningTasks(_date, list);
+            api.PutTasks(jsonData, _date);
         }
         /// <summary>
         /// This method guards if slider value isn't bigger than slider2 value and aligns them

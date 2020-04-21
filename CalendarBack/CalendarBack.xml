@@ -22,6 +22,12 @@
             <param name="date">Param for specified date</param>
             <returns>Json formated shedule object</returns>
         </member>
+        <member name="M:CalendarBack.Controllers.TasksController.GetDaysWithTasks">
+            <summary>
+            Enpoint returns list of days which contains tasks
+            </summary>
+            <returns>Parsed json list includes days with tasks</returns>
+        </member>
         <member name="T:CalendarBack.Controllers.WeatherController">
             <summary>
              Class controls downloading weather info from api and make endpoints which sending wanted data
@@ -59,6 +65,12 @@
             otherwise will be used defaul one
             </summary>
             <returns>Done when operation was succesfuly done</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.test">
+            <summary>
+            Method for testing purposes
+            </summary>
+            <returns></returns>
         </member>
         <member name="T:CalendarBack.Database.CalendarContext">
             <summary>
@@ -126,6 +138,296 @@
             Time storages time when task have been planed
             </summary>
         </member>
+        <member name="P:CalendarBack.Database.Entities.Task.SheduleId">
+            <summary>
+            Foreign key for sheduleId
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Main">
+            <summary>
+            Class contains main json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.temp">
+            <summary>
+            Temperature
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.feels_like">
+            <summary>
+            Feels like temperature
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.temp_min">
+            <summary>
+            Minimal temperature
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.temp_max">
+            <summary>
+            Maximal temperature
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.pressure">
+            <summary>
+            Air pressure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.sea_level">
+            <summary>
+            Sea level
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.grnd_level">
+            <summary>
+            Location ground level
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.humidity">
+            <summary>
+            Humidity in percents
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Main.temp_kf">
+            <summary>
+            Temperature in kelwins
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Weather">
+            <summary>
+            Class contains weather json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Weather.id">
+            <summary>
+            Id of weather type
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Weather.main">
+            <summary>
+            Main description of weather
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Weather.description">
+            <summary>
+            Description in specified language
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Weather.icon">
+            <summary>
+            Weather icon
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Clouds">
+            <summary>
+            Class contains clouds json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Clouds.all">
+            <summary>
+            Cloudless in percents
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Wind">
+            <summary>
+            Class contains wind json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Wind.speed">
+            <summary>
+            Wind speed
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Wind.deg">
+            <summary>
+            Angle of wind where 0 is North
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Sys">
+            <summary>
+            Class contains sys json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Sys.pod">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Rain">
+            <summary>
+            Class contains rain json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Rain.__invalid_name__3h">
+            <summary>
+            Expected rain in next 3h
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.List">
+            <summary>
+            Class contains list json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.dt">
+            <summary>
+            It's status block
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.main">
+            <summary>
+            Main object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.weather">
+            <summary>
+            List of Weather objects
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.clouds">
+            <summary>
+            Clouds object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.wind">
+            <summary>
+            Wind object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.sys">
+            <summary>
+            Sys object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.dt_txt">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.List.rain">
+            <summary>
+            Rain object
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Coord">
+            <summary>
+            Class contains coord json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Coord.lat">
+            <summary>
+            Lattitude
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Coord.lon">
+            <summary>
+            Lontitude
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.City">
+            <summary>
+            Class contains city json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.id">
+            <summary>
+            City id
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.name">
+            <summary>
+            City name
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.coord">
+            <summary>
+            Coord object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.country">
+            <summary>
+            Country code
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.population">
+            <summary>
+            City population
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.timezone">
+            <summary>
+            Time zone
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.sunrise">
+            <summary>
+            Sunrise time
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.City.sunset">
+            <summary>
+            Sunset time
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Forecast">
+            <summary>
+            Class contains forecast json's object structure
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Forecast.cod">
+            <summary>
+            System variable
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Forecast.message">
+            <summary>
+            System variable
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Forecast.cnt">
+            <summary>
+            System variable
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Forecast.list">
+            <summary>
+            List of list objects
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Forecast.city">
+            <summary>
+            City object
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Shedule">
+            <summary>
+            Describes Shedule json object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Shedule.date">
+            <summary>
+            Date of shedule
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Shedule.tasksList">
+            <summary>
+            List of tasks objects
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Entities.Task">
+            <summary>
+            Describes task json object
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Task.content">
+            <summary>
+            It's name of task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.Task.time">
+            <summary>
+            Time of the task
+            </summary>
+        </member>
         <member name="T:CalendarBack.Logic.DBEntity2EntityParser">
             <summary>
             Class for parse DBModel Enities to Entities
@@ -136,7 +438,14 @@
             Method parse shedule entity
             </summary>
             <param name="dbShedule">Shedule in dbentity model</param>
-            <returns></returns>
+            <returns>Entity parsed model</returns>
+        </member>
+        <member name="M:CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)">
+            <summary>
+            Method parse task entity
+            </summary>
+            <param name="dbTask">Task in dbentity model</param>
+            <returns>Entity parsed model</returns>
         </member>
         <member name="T:CalendarBack.Logic.Entity2DBEntityParser">
             <summary>
@@ -147,8 +456,15 @@
             <summary>
             Method parse shedule entity
             </summary>
-            <param name="eShedule">Shedule in dotnet entity model</param>
-            <returns></returns>
+            <param name="eShedule">Shedule in json entity model</param>
+            <returns>DBEntity parsed model</returns>
+        </member>
+        <member name="M:CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)">
+            <summary>
+            Method parse task entity
+            </summary>
+            <param name="eTask">Task in json entity model</param>
+            <returns>DBEntity parsed model</returns>
         </member>
         <member name="T:CalendarBack.Logic.WeatherParser">
             <summary>
@@ -168,6 +484,45 @@
             </summary>
             <param name="forecast">Input JSON formated string</param>
             <returns>Parsed Json formated string</returns>
+        </member>
+        <member name="M:CalendarBack.Logic.WeatherParser.getMeTheWindDirectionLetter(System.Decimal)">
+            <summary>
+            Method parse degree into NSWE type
+            </summary>
+            <param name="degree">Direction in degrees</param>
+            <returns>Direction in NSWE type</returns>
+        </member>
+        <member name="M:CalendarBack.Program.Main(System.String[])">
+            <summary>
+            Main loop of program
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CalendarBack.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            This method starting backedn service
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalendarBack.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            This method is Startup constructor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CalendarBack.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
         </member>
         <member name="T:CalendarBack.Tests.DatabaseTest">
             <summary>
