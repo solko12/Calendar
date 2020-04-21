@@ -33,15 +33,14 @@ namespace CalendarBack.Controllers
             }
             else
             {
-                var tasksList = dbShedule[0].TasksList;
-                List<Database.Entities.Task> newTasksList = new List<Task>();
-                foreach (Database.Entities.Task task in tasksList) {
-                    newTasksList.Add(task);
+                var tasksToRemove = context.Tasks.Where(s => s.SheduleId == dbShedule[0].Id).ToList();
+                context.Tasks.RemoveRange(tasksToRemove);
+                List<Entities.Task> eTasks = shedule.tasksList;
+                List<Database.Entities.Task> tasksList = new List<Task>();
+                foreach (Entities.Task task in eTasks) { 
+                    tasksList.Add(Entity2DBEntityParser.parseTask(task));
                 }
-                foreach (Entities.Task task in shedule.tasksList) {
-                    newTasksList.Add(Entity2DBEntityParser.parseTask(task));
-                }
-                dbShedule[0].TasksList = newTasksList;
+                dbShedule[0].TasksList = tasksList;
                 context.Shedules.Update(dbShedule[0]);
             }
             context.SaveChanges();
