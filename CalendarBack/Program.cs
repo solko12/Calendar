@@ -9,6 +9,9 @@ using Microsoft.Extensions.Logging;
 
 namespace CalendarBack
 {
+    /// <summary>
+    /// Main class of the program
+    /// </summary>
     public class Program
     {
         /// <summary>

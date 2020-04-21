@@ -21,6 +21,7 @@ namespace CalendarBack.Controllers
         /// <summary>
         /// Endpoint for adding record in tasks table in database
         /// <param name="shedule">Param for specified shedule for day</param>
+        /// <param name="date">Paran for specify date</param>/>
         /// </summary>
         [HttpPut("{date}")]
         public void AddRecord([FromBody] Entities.Shedule shedule, String date)

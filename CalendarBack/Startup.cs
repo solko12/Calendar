@@ -14,6 +14,9 @@ using Microsoft.Extensions.Logging;
 
 namespace CalendarBack
 {
+    /// <summary>
+    /// Startup class
+    /// </summary>
     public class Startup
     {
         /// <summary>
@@ -24,7 +27,9 @@ namespace CalendarBack
         {
             Configuration = configuration;
         }
-
+        /// <summary>
+        /// Configuration inteface
+        /// </summary>
         public IConfiguration Configuration { get; }
 
         /// <summary>

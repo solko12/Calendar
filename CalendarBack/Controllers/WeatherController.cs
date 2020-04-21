@@ -69,6 +69,15 @@ namespace CalendarBack.Controllers
             return "DONE";
         }
         /// <summary>
+        /// Endpoint returns list of avaliable cities
+        /// </summary>
+        /// <returns>Cities in list</returns>
+        [HttpGet("cities/{cityName}")]
+        public List<SingleCity> GetCities(String cityName) {
+            CitiesList cities = JsonConvert.DeserializeObject<CitiesList>(Unirest.get("http://api.openweathermap.org/data/2.5/find?q=" + cityName + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf").asJson<String>().Body.ToString());
+            return cities.list;
+        }
+        /// <summary>
         /// Method for testing purposes
         /// </summary>
         /// <returns></returns>

@@ -13,6 +13,7 @@
             <summary>
             Endpoint for adding record in tasks table in database
             <param name="shedule">Param for specified shedule for day</param>
+            <param name="date">Paran for specify date</param>/>
             </summary>
         </member>
         <member name="M:CalendarBack.Controllers.TasksController.GetTasksForDay(System.String)">
@@ -65,6 +66,12 @@
             otherwise will be used defaul one
             </summary>
             <returns>Done when operation was succesfuly done</returns>
+        </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetCities(System.String)">
+            <summary>
+            Endpoint returns list of avaliable cities
+            </summary>
+            <returns>Cities in list</returns>
         </member>
         <member name="M:CalendarBack.Controllers.WeatherController.test">
             <summary>
@@ -492,6 +499,11 @@
             <param name="degree">Direction in degrees</param>
             <returns>Direction in NSWE type</returns>
         </member>
+        <member name="T:CalendarBack.Program">
+            <summary>
+            Main class of the program
+            </summary>
+        </member>
         <member name="M:CalendarBack.Program.Main(System.String[])">
             <summary>
             Main loop of program
@@ -505,11 +517,21 @@
             <param name="args"></param>
             <returns></returns>
         </member>
+        <member name="T:CalendarBack.Startup">
+            <summary>
+            Startup class
+            </summary>
+        </member>
         <member name="M:CalendarBack.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
             <summary>
             This method is Startup constructor
             </summary>
             <param name="configuration"></param>
+        </member>
+        <member name="P:CalendarBack.Startup.Configuration">
+            <summary>
+            Configuration inteface
+            </summary>
         </member>
         <member name="M:CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
             <summary>
