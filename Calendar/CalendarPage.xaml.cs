@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CalendarApp.API;
 
 namespace CalendarApp
 {
@@ -20,6 +21,9 @@ namespace CalendarApp
         /// </summary>
         public DateTime selectedDate = DateTime.Now;
 
+        public List<DateTime> daysWithTasks { get; set; }
+        private AppsCommunication api = new AppsCommunication();
+
         /// <summary>
         /// Constructor that initialize calendar page
         /// </summary>
@@ -27,13 +31,16 @@ namespace CalendarApp
         {
             this.DataContext = this;
             InitializeComponent();
+            daysWithTasks = api.GetDaysWithTasks();
             RefreshCalendarGrid();
+            
         }
         /// <summary>
         /// This method prints days on the calendar page.
         /// </summary>
         private void RefreshCalendarGrid() // to rozbic i napisac testy
         {
+            
             // Current date text block
             currDateText.Text = selectedDate.ToString("MMMM") + " " + selectedDate.Year;
             // Clearing grid
@@ -59,7 +66,15 @@ namespace CalendarApp
                 {
                     button.Background = Brushes.Lime;
                 }
-                button.Content = day.Day + "";
+                if(daysWithTasks.Contains(day))
+                {
+                    button.Content = "*    " + day.Day + "    *";
+                }
+                else
+                {
+                    button.Content = day.Day + "";
+                }
+                
                 button.SetValue(Grid.RowProperty, row);
                 int dayOfWeeek = CalendarPageLogic.DayOfWeekNumeration(day);
                 button.SetValue(Grid.ColumnProperty, dayOfWeeek-1);

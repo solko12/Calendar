@@ -28,6 +28,14 @@ namespace CalendarApp.API
             return weathers;
 
         }
+        public List<DateTime> GetDaysWithTasks()
+        {
+            WebClient client = new WebClient();
+            String rawJSON = client.DownloadString("https://localhost:5001/tasks");
+            List<DateTime> days = JsonConvert.DeserializeObject<List<DateTime>>(rawJSON);
+            return days;
+
+        }
         /// <summary>
         /// this method creates json from Shedule object
         /// </summary>
