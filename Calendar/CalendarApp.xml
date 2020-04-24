@@ -15,6 +15,12 @@
             </summary>
             <returns> List of Weather objects</returns>
         </member>
+        <member name="M:CalendarApp.API.AppsCommunication.GetDaysWithTasks">
+            <summary>
+            This method download weather data as json and deserialize it into List of dates
+            </summary>
+            <returns>List of dates</returns>
+        </member>
         <member name="M:CalendarApp.API.AppsCommunication.JsoningTasks(System.DateTime,System.Collections.ObjectModel.ObservableCollection{CalendarApp.Task})">
             <summary>
             this method creates json from Shedule object
@@ -74,6 +80,16 @@
         <member name="F:CalendarApp.CalendarPage.selectedDate">
             <summary>
             Selected date
+            </summary>
+        </member>
+        <member name="P:CalendarApp.CalendarPage.daysWithTasks">
+            <summary>
+            List of days that contains tasks
+            </summary>
+        </member>
+        <member name="F:CalendarApp.CalendarPage.api">
+            <summary>
+            api instance
             </summary>
         </member>
         <member name="M:CalendarApp.CalendarPage.#ctor">
@@ -324,36 +340,6 @@
         <member name="M:Calendar.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent
-            </summary>
-        </member>
-        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
-            <summary>
-            GeneratedInternalTypeHelper
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
-            <summary>
-            CreateInstance
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
-            <summary>
-            GetPropertyValue
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
-            <summary>
-            SetPropertyValue
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
-            <summary>
-            CreateDelegate
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
-            <summary>
-            AddEventHandler
             </summary>
         </member>
     </members>

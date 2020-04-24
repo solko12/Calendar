@@ -20,8 +20,13 @@ namespace CalendarApp
         /// Selected date
         /// </summary>
         public DateTime selectedDate = DateTime.Now;
-
+        /// <summary>
+        /// List of days that contains tasks
+        /// </summary>
         public List<DateTime> daysWithTasks { get; set; }
+        /// <summary>
+        /// api instance
+        /// </summary>
         private AppsCommunication api = new AppsCommunication();
 
         /// <summary>
@@ -56,8 +61,9 @@ namespace CalendarApp
 
             for (int i = 1; i <= daysInMonth; i++)
             {
-
+                // marking actual day
                 var button = new Button();
+                Style style = this.FindResource("DayWithTasks") as Style;
                 if (day.Date.Equals(DateTime.Now.Date))
                 {
                     button.Background = Brushes.DeepSkyBlue;
@@ -66,15 +72,13 @@ namespace CalendarApp
                 {
                     button.Background = Brushes.Lime;
                 }
+                // marking days that contains shedule
                 if(daysWithTasks.Contains(day))
                 {
-                    button.Content = "*    " + day.Day + "    *";
+                    button.Style = style;
                 }
-                else
-                {
-                    button.Content = day.Day + "";
-                }
-                
+               
+                button.Content = day.Day + "";
                 button.SetValue(Grid.RowProperty, row);
                 int dayOfWeeek = CalendarPageLogic.DayOfWeekNumeration(day);
                 button.SetValue(Grid.ColumnProperty, dayOfWeeek-1);

@@ -28,6 +28,10 @@ namespace CalendarApp.API
             return weathers;
 
         }
+        /// <summary>
+        /// This method download weather data as json and deserialize it into List of dates
+        /// </summary>
+        /// <returns>List of dates</returns>
         public List<DateTime> GetDaysWithTasks()
         {
             WebClient client = new WebClient();
