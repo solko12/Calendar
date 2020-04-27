@@ -15,6 +15,7 @@ using System.Net;
 using Newtonsoft.Json;
 using CalendarApp.JSONmodels.JsonWeatherModel;
 using CalendarApp.API;
+using CalendarBack.Entities;
 
 namespace CalendarApp
 {
@@ -30,7 +31,9 @@ namespace CalendarApp
         /// <summary>
         /// List of cities with weather forecast
         /// </summary>
-        public ObservableCollection<string> listOfCities = new ObservableCollection<string>();
+        public ObservableCollection<SingleCity> listOfCities { get; set; }
+        public SingleCity selectedCity { get; set; }
+        string cityName = "Warszawa";
         /// <summary>
         /// API that enables communication with server
         /// </summary>
@@ -40,14 +43,13 @@ namespace CalendarApp
         /// </summary>
         public WeatherPage()
         {
+            listOfCities = new ObservableCollection<SingleCity>(); 
             InitializeComponent();
-            PrintDays();
-            PrintTemp(api.GetWeather());
-            PrintPressure(api.GetWeather());
-            PrintWind(api.GetWeather());
-            PrintIcon(api.GetWeather());
-            PrintDescription(api.GetWeather());
-            CityBox.ItemsSource = listOfCities;
+            DataContext = this;
+            listOfCities = api.GetCities();
+            Refresh();
+            
+           
         }
         /// <summary>
         /// This method prints dates of 5 days from today
@@ -70,11 +72,11 @@ namespace CalendarApp
         /// Method which prints maximum and minimum temperature 
         /// </summary>
         /// <param name="weathers"></param>
-        private void PrintTemp(List<Weather> weathers)
+        private void PrintTemp(List<JSONmodels.JsonWeatherModel.Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;
             int i = 0;
-            foreach (Weather w in weathers)
+            foreach (JSONmodels.JsonWeatherModel.Weather w in weathers)
             {
                 var label = new Label();
                 double maxTemp = Math.Round(w.Temperature.TempMax);
@@ -91,11 +93,12 @@ namespace CalendarApp
         /// A method that prints the average pressure 
         /// </summary>
         /// <param name="weathers"></param>
-        private void PrintPressure(List<Weather> weathers)
+        private void PrintPressure(List<JSONmodels.JsonWeatherModel.Weather> weathers)
         {
+            
             Style style = this.FindResource("TempLabelStyle") as Style;
             int i = 0;
-            foreach (Weather w in weathers)
+            foreach (JSONmodels.JsonWeatherModel.Weather w in weathers)
             {
                 var label = new Label();
                 double pressure = Math.Round(w.AvPressure);
@@ -111,11 +114,11 @@ namespace CalendarApp
         /// A method that prints the average wind speed 
         /// </summary>
         /// <param name="weathers"></param>
-        private void PrintWind(List<Weather> weathers)
+        private void PrintWind(List<JSONmodels.JsonWeatherModel.Weather> weathers)
         {
             Style style = this.FindResource("TempLabelStyle") as Style;
             int i = 0;
-            foreach (Weather w in weathers)
+            foreach (JSONmodels.JsonWeatherModel.Weather w in weathers)
             {
                 var label = new Label();
                 string direction = w.Wind.Direction;
@@ -132,10 +135,10 @@ namespace CalendarApp
         /// the method displays icons symbolizing the given weather
         /// </summary>
         /// <param name="weathers"></param>
-        private void PrintIcon(List<Weather> weathers)
+        private void PrintIcon(List<JSONmodels.JsonWeatherModel.Weather> weathers)
         {
             int i = 0;
-            foreach (Weather w in weathers)
+            foreach (JSONmodels.JsonWeatherModel.Weather w in weathers)
             {
                 Image img = new Image();
                 string icon = w.WeatherInfo.icon;
@@ -153,11 +156,12 @@ namespace CalendarApp
         /// This method prints description about weather for given day
         /// </summary>
         /// <param name="weathers"></param>
-        private void PrintDescription(List<Weather> weathers)
+        private void PrintDescription(List<JSONmodels.JsonWeatherModel.Weather> weathers)
         {
+            
             Style style = this.FindResource("TempLabelStyle") as Style;
             int i = 0;
-            foreach (Weather w in weathers)
+            foreach (JSONmodels.JsonWeatherModel.Weather w in weathers)
             {
                 var label = new Label();
                 string description = w.WeatherInfo.Description;
@@ -168,7 +172,25 @@ namespace CalendarApp
                 DaysGrid.Children.Add(label);
                 i++;
             }
+            
+        }
+        private void Refresh()
+        {
+            DaysGrid.Children.Clear();
+            PrintDays();
+            PrintTemp(api.GetWeather(cityName));
+            PrintPressure(api.GetWeather(cityName));
+            PrintWind(api.GetWeather(cityName));
+            PrintIcon(api.GetWeather(cityName));
+            PrintDescription(api.GetWeather(cityName));
+            
         }
 
+        private void CityBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (selectedCity == null) return;
+            cityName = selectedCity.name;
+            Refresh();
+        }
     }
 }

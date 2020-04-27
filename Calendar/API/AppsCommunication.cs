@@ -7,6 +7,7 @@ using CalendarApp.JSONmodels.JsonWeatherModel;
 using CalendarApp.JSONmodels.JsonSheduleModel;
 using System.Collections.ObjectModel;
 using System.IO;
+using CalendarBack.Entities;
 
 namespace CalendarApp.API
 {
@@ -19,12 +20,13 @@ namespace CalendarApp.API
         /// This method download weather data as json and deserialize it into RootObject
         /// </summary>
         /// <returns> List of Weather objects</returns>
-        public List<Weather> GetWeather()
+        public List<JSONmodels.JsonWeatherModel.Weather> GetWeather(string city)
         {
             WebClient client = new WebClient();
+            string url = "https://localhost:5001/weather/" + city;
             String rawJSON = client.DownloadString("https://localhost:5001/weather");
             RootObject weatherData = JsonConvert.DeserializeObject<RootObject>(rawJSON);
-            List<Weather> weathers = weatherData.Weather;
+            List<JSONmodels.JsonWeatherModel.Weather> weathers = weatherData.Weather;
             return weathers;
 
         }
@@ -40,15 +42,23 @@ namespace CalendarApp.API
             return days;
 
         }
+        public ObservableCollection<SingleCity> GetCities()
+        {
+            WebClient client = new WebClient();
+            String rawJSON = client.DownloadString("https://localhost:5001/weather/cities");
+            ObservableCollection<SingleCity> cities = JsonConvert.DeserializeObject<ObservableCollection<SingleCity>>(rawJSON);
+            return cities;
+
+        }
         /// <summary>
         /// this method creates json from Shedule object
         /// </summary>
         /// <param name="d">day on which the tasks are scheduled</param>
         /// <param name="t">List of tasks</param>
         /// <returns> json created from Shedule object </returns>
-        public string JsoningTasks(DateTime d,ObservableCollection<Task> t )
+        public string JsoningTasks(DateTime d, ObservableCollection<Task> t )
         {
-            Shedule shedule = new Shedule();
+            JSONmodels.JsonSheduleModel.Shedule shedule = new JSONmodels.JsonSheduleModel.Shedule();
             shedule.date = d;
             shedule.tasksList = t;
             string strResultJson = JsonConvert.SerializeObject(shedule);

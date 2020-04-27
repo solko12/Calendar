@@ -31,6 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CalendarBack\CalendarBack.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Resource Include="images\ArrowLeft.png" />
     <Resource Include="images\ArrowRight.png" />
     <Resource Include="pogoda.png" />
