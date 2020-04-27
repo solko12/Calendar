@@ -103,7 +103,7 @@ namespace CalendarBack.Logic
         /// <summary>
         /// Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
         /// </summary>
-        /// <param name="forecast">Input JSON formated string</param>
+        /// <param name="forecast">Input JSON formated forecast</param>
         /// <returns>Parsed Json formated string</returns>
         public static String parseWeather(Forecast forecast)
         {
