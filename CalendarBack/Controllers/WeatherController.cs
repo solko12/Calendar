@@ -17,11 +17,16 @@ namespace CalendarBack.Controllers
     [ApiController]
     public class WeatherController : ControllerBase
     {
+        
+        /// <summary>
+        /// List of avaliable cities starts there because of server flexibility at endpoint request
+        /// </summary>
+        private static List<Entities.SingleCity> cities = Logic.ListOfCitiesLoader.getCities();
         /// <summary>
         /// Variable weather store data about current weather
         /// </summary>
-        static string location = "Zwoleń";
-        Forecast forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
+        private static string location = "Zwoleń";
+        private static Forecast forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
 
         /// <summary>
         /// Endpoint for forecast in default location
@@ -56,7 +61,7 @@ namespace CalendarBack.Controllers
             return WeatherParser.parseWeather(forecast);
         }
         /// <summary>
-        /// Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified zipCode or city was used
+        /// Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified vity was used
         /// otherwise will be used defaul one
         /// </summary>
         /// <returns>Done when operation was succesfuly done</returns>
@@ -72,10 +77,9 @@ namespace CalendarBack.Controllers
         /// Endpoint returns list of avaliable cities
         /// </summary>
         /// <returns>Cities in list</returns>
-        [HttpGet("cities/{cityName}")]
-        public List<SingleCity> GetCities(String cityName) {
-            CitiesList cities = JsonConvert.DeserializeObject<CitiesList>(Unirest.get("http://api.openweathermap.org/data/2.5/find?q=" + cityName + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf").asJson<String>().Body.ToString());
-            return cities.list;
+        [HttpGet("cities")]
+        public List<SingleCity> GetCities() {
+            return cities;
         }
         /// <summary>
         /// Method for testing purposes

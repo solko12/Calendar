@@ -34,6 +34,11 @@
              Class controls downloading weather info from api and make endpoints which sending wanted data
              </summary>
         </member>
+        <member name="F:CalendarBack.Controllers.WeatherController.cities">
+            <summary>
+            List of avaliable cities starts there because of server flexibility at endpoint request
+            </summary>
+        </member>
         <member name="F:CalendarBack.Controllers.WeatherController.location">
             <summary>
             Variable weather store data about current weather
@@ -62,12 +67,12 @@
         </member>
         <member name="M:CalendarBack.Controllers.WeatherController.GetReload">
             <summary>
-            Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified zipCode or city was used
+            Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified vity was used
             otherwise will be used defaul one
             </summary>
             <returns>Done when operation was succesfuly done</returns>
         </member>
-        <member name="M:CalendarBack.Controllers.WeatherController.GetCities(System.String)">
+        <member name="M:CalendarBack.Controllers.WeatherController.GetCities">
             <summary>
             Endpoint returns list of avaliable cities
             </summary>
@@ -473,6 +478,22 @@
             <param name="eTask">Task in json entity model</param>
             <returns>DBEntity parsed model</returns>
         </member>
+        <member name="T:CalendarBack.Logic.ListOfCitiesLoader">
+            <summary>
+            Class loads cities list and parse it;
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Logic.ListOfCitiesLoader.dataLocation">
+            <summary>
+            Location for json list of cities data
+            </summary>
+        </member>
+        <member name="M:CalendarBack.Logic.ListOfCitiesLoader.getCities">
+            <summary>
+            Method loads and parse citiesList entity
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:CalendarBack.Logic.WeatherParser">
             <summary>
             Class parse downloaded weatherInfo 5 days per 3 h to average for 5 days
@@ -546,9 +567,19 @@
             <param name="app"></param>
             <param name="env"></param>
         </member>
-        <member name="T:CalendarBack.Tests.DatabaseTest">
+        <member name="T:CalendarBack.Tests.DBEntity2EntityParserTest">
             <summary>
-            Tests for Database unit
+            Tests for DBEntity2EntityParse
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Tests.DBEntity2EntityParserTest.TaskData">
+            <summary>
+            Test data for task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData">
+            <summary>
+            Test data for Shedule
             </summary>
         </member>
         <member name="T:CalendarBack.Tests.WeatherControllerTest">
