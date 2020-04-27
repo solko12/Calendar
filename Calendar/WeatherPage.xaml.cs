@@ -32,7 +32,13 @@ namespace CalendarApp
         /// List of cities with weather forecast
         /// </summary>
         public ObservableCollection<SingleCity> listOfCities { get; set; }
+        /// <summary>
+        /// A City selected from ComboBox
+        /// </summary>
         public SingleCity selectedCity { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
         string cityName = "Kielce";
         /// <summary>
         /// API that enables communication with server
@@ -159,21 +165,25 @@ namespace CalendarApp
         private void PrintDescription(List<JSONmodels.JsonWeatherModel.Weather> weathers)
         {
             
-            Style style = this.FindResource("TempLabelStyle") as Style;
+            Style style = this.FindResource("DescritpionStyle") as Style;
             int i = 0;
             foreach (JSONmodels.JsonWeatherModel.Weather w in weathers)
             {
-                var label = new Label();
+                var textBlock = new TextBlock();
+                //var label = new Label();
                 string description = w.WeatherInfo.Description;
-                label.Content = description;
-                label.SetValue(Grid.ColumnProperty, i);
-                label.SetValue(Grid.RowProperty, 2);
-                label.Style = style;
-                DaysGrid.Children.Add(label);
+                textBlock.Text = description;
+                textBlock.SetValue(Grid.ColumnProperty, i);
+                textBlock.SetValue(Grid.RowProperty, 2);
+                textBlock.Style = style;
+                DaysGrid.Children.Add(textBlock);
                 i++;
             }
             
         }
+        /// <summary>
+        /// This method prints weather forecast
+        /// </summary>
         private void Refresh()
         {
             DaysGrid.Children.Clear();
@@ -185,7 +195,11 @@ namespace CalendarApp
             PrintDescription(api.GetWeather(cityName));
             
         }
-
+        /// <summary>
+        /// This method changes the weather forecast for selected city
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CityBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (selectedCity == null) return;

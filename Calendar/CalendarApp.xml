@@ -21,6 +21,12 @@
             </summary>
             <returns>List of dates</returns>
         </member>
+        <member name="M:CalendarApp.API.AppsCommunication.GetCities">
+            <summary>
+            Download list of cities from the server
+            </summary>
+            <returns>List of the cities</returns>
+        </member>
         <member name="M:CalendarApp.API.AppsCommunication.JsoningTasks(System.DateTime,System.Collections.ObjectModel.ObservableCollection{CalendarApp.Task})">
             <summary>
             this method creates json from Shedule object
@@ -261,6 +267,16 @@
             List of cities with weather forecast
             </summary>
         </member>
+        <member name="P:CalendarApp.WeatherPage.selectedCity">
+            <summary>
+            A City selected from ComboBox
+            </summary>
+        </member>
+        <member name="F:CalendarApp.WeatherPage.cityName">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="F:CalendarApp.WeatherPage.api">
             <summary>
             API that enables communication with server
@@ -306,6 +322,18 @@
             </summary>
             <param name="weathers"></param>
         </member>
+        <member name="M:CalendarApp.WeatherPage.Refresh">
+            <summary>
+            This method prints weather forecast
+            </summary>
+        </member>
+        <member name="M:CalendarApp.WeatherPage.CityBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            This method changes the weather forecast for selected city
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
         <member name="M:CalendarApp.WeatherPage.InitializeComponent">
             <summary>
             InitializeComponent
@@ -340,36 +368,6 @@
         <member name="M:Calendar.MainWindow.InitializeComponent">
             <summary>
             InitializeComponent
-            </summary>
-        </member>
-        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
-            <summary>
-            GeneratedInternalTypeHelper
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
-            <summary>
-            CreateInstance
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
-            <summary>
-            GetPropertyValue
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
-            <summary>
-            SetPropertyValue
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
-            <summary>
-            CreateDelegate
-            </summary>
-        </member>
-        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
-            <summary>
-            AddEventHandler
             </summary>
         </member>
     </members>

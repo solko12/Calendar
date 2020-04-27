@@ -42,6 +42,10 @@ namespace CalendarApp.API
             return days;
 
         }
+        /// <summary>
+        /// Download list of cities from the server
+        /// </summary>
+        /// <returns>List of the cities</returns>
         public ObservableCollection<SingleCity> GetCities()
         {
             WebClient client = new WebClient();
