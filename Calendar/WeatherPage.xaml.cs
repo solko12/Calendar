@@ -33,7 +33,7 @@ namespace CalendarApp
         /// </summary>
         public ObservableCollection<SingleCity> listOfCities { get; set; }
         public SingleCity selectedCity { get; set; }
-        string cityName = "Warszawa";
+        string cityName = "Kielce";
         /// <summary>
         /// API that enables communication with server
         /// </summary>

@@ -510,7 +510,7 @@
             <summary>
             Method parse json string consist weather for 5 days per 3 h to average weather for 5 days daily
             </summary>
-            <param name="forecast">Input JSON formated string</param>
+            <param name="forecast">Input JSON formated forecast</param>
             <returns>Parsed Json formated string</returns>
         </member>
         <member name="M:CalendarBack.Logic.WeatherParser.getMeTheWindDirectionLetter(System.Decimal)">
@@ -582,9 +582,14 @@
             Test data for Shedule
             </summary>
         </member>
-        <member name="T:CalendarBack.Tests.WeatherControllerTest">
+        <member name="P:CalendarBack.Tests.Entity2DBEntityParserTest.TaskData">
             <summary>
-            Tests for wheaterControler
+            Test data for task
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData">
+            <summary>
+            Test data for Shedule
             </summary>
         </member>
     </members>

@@ -24,7 +24,7 @@ namespace CalendarApp.API
         {
             WebClient client = new WebClient();
             string url = "https://localhost:5001/weather/" + city;
-            String rawJSON = client.DownloadString("https://localhost:5001/weather");
+            String rawJSON = client.DownloadString(url);
             RootObject weatherData = JsonConvert.DeserializeObject<RootObject>(rawJSON);
             List<JSONmodels.JsonWeatherModel.Weather> weathers = weatherData.Weather;
             return weathers;
