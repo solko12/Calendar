@@ -6,6 +6,9 @@ using Xunit;
 
 namespace CalendarBack.Tests
 {
+    /// <summary>
+    /// Test class for Entity to database entity parser
+    /// </summary>
     public class Entity2DBEntityParserTest
     {
         [Theory]

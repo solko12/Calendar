@@ -17,7 +17,7 @@ namespace CalendarBack.Controllers
     [ApiController]
     public class TasksController : ControllerBase
     {
-        CalendarContext context = new CalendarContext() {DbCatalog = "Do_celow_testowych"};
+        static private CalendarContext context = new CalendarContext() {DbCatalog = "Do_celow_testowych"};
         /// <summary>
         /// Endpoint for adding record in tasks table in database
         /// <param name="shedule">Param for specified shedule for day</param>
