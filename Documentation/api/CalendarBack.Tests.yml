@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Tests
+  commentId: N:CalendarBack.Tests
+  id: CalendarBack.Tests
+  children:
+  - CalendarBack.Tests.DBEntity2EntityParserTest
+  - CalendarBack.Tests.Entity2DBEntityParserTest
+  langs:
+  - csharp
+  - vb
+  name: CalendarBack.Tests
+  nameWithType: CalendarBack.Tests
+  fullName: CalendarBack.Tests
+  type: Namespace
+  assemblies:
+  - CalendarBack
+references:
+- uid: CalendarBack.Tests.DBEntity2EntityParserTest
+  commentId: T:CalendarBack.Tests.DBEntity2EntityParserTest
+  name: DBEntity2EntityParserTest
+  nameWithType: DBEntity2EntityParserTest
+  fullName: CalendarBack.Tests.DBEntity2EntityParserTest
+- uid: CalendarBack.Tests.Entity2DBEntityParserTest
+  commentId: T:CalendarBack.Tests.Entity2DBEntityParserTest
+  name: Entity2DBEntityParserTest
+  nameWithType: Entity2DBEntityParserTest
+  fullName: CalendarBack.Tests.Entity2DBEntityParserTest

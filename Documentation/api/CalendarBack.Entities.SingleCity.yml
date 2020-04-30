@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalendarBack.Entities.SingleCity
+  commentId: T:CalendarBack.Entities.SingleCity
+  id: SingleCity
+  parent: CalendarBack.Entities
+  children:
+  - CalendarBack.Entities.SingleCity.coord
+  - CalendarBack.Entities.SingleCity.country
+  - CalendarBack.Entities.SingleCity.id
+  - CalendarBack.Entities.SingleCity.name
+  - CalendarBack.Entities.SingleCity.state
+  langs:
+  - csharp
+  - vb
+  name: SingleCity
+  nameWithType: SingleCity
+  fullName: CalendarBack.Entities.SingleCity
+  type: Class
+  source:
+    remote:
+      path: CalendarBack/Entities/SingleCity.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: SingleCity
+    path: Entities/SingleCity.cs
+    startLine: 10
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  summary: "\nSingle City Entity\n"
+  example: []
+  syntax:
+    content: public class SingleCity
+    content.vb: Public Class SingleCity
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CalendarBack.Entities.SingleCity.id
+  commentId: P:CalendarBack.Entities.SingleCity.id
+  id: id
+  parent: CalendarBack.Entities.SingleCity
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: SingleCity.id
+  fullName: CalendarBack.Entities.SingleCity.id
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/SingleCity.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: id
+    path: Entities/SingleCity.cs
+    startLine: 15
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  summary: "\nCity id\n"
+  example: []
+  syntax:
+    content: public int id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property id As Integer
+  overload: CalendarBack.Entities.SingleCity.id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.SingleCity.name
+  commentId: P:CalendarBack.Entities.SingleCity.name
+  id: name
+  parent: CalendarBack.Entities.SingleCity
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: SingleCity.name
+  fullName: CalendarBack.Entities.SingleCity.name
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/SingleCity.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: name
+    path: Entities/SingleCity.cs
+    startLine: 19
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  summary: "\nCity name\n"
+  example: []
+  syntax:
+    content: public string name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property name As String
+  overload: CalendarBack.Entities.SingleCity.name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.SingleCity.state
+  commentId: P:CalendarBack.Entities.SingleCity.state
+  id: state
+  parent: CalendarBack.Entities.SingleCity
+  langs:
+  - csharp
+  - vb
+  name: state
+  nameWithType: SingleCity.state
+  fullName: CalendarBack.Entities.SingleCity.state
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/SingleCity.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: state
+    path: Entities/SingleCity.cs
+    startLine: 23
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  summary: "\nCity state\n"
+  example: []
+  syntax:
+    content: public string state { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property state As String
+  overload: CalendarBack.Entities.SingleCity.state*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.SingleCity.country
+  commentId: P:CalendarBack.Entities.SingleCity.country
+  id: country
+  parent: CalendarBack.Entities.SingleCity
+  langs:
+  - csharp
+  - vb
+  name: country
+  nameWithType: SingleCity.country
+  fullName: CalendarBack.Entities.SingleCity.country
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/SingleCity.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: country
+    path: Entities/SingleCity.cs
+    startLine: 27
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  summary: "\nCountry of City\n"
+  example: []
+  syntax:
+    content: public string country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property country As String
+  overload: CalendarBack.Entities.SingleCity.country*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CalendarBack.Entities.SingleCity.coord
+  commentId: P:CalendarBack.Entities.SingleCity.coord
+  id: coord
+  parent: CalendarBack.Entities.SingleCity
+  langs:
+  - csharp
+  - vb
+  name: coord
+  nameWithType: SingleCity.coord
+  fullName: CalendarBack.Entities.SingleCity.coord
+  type: Property
+  source:
+    remote:
+      path: CalendarBack/Entities/SingleCity.cs
+      branch: master
+      repo: https://github.com/solko12/Calendar.git
+    id: coord
+    path: Entities/SingleCity.cs
+    startLine: 31
+  assemblies:
+  - CalendarBack
+  namespace: CalendarBack.Entities
+  summary: "\nCity coordinates\n"
+  example: []
+  syntax:
+    content: public Coord coord { get; set; }
+    parameters: []
+    return:
+      type: CalendarBack.Entities.Coord
+    content.vb: Public Property coord As Coord
+  overload: CalendarBack.Entities.SingleCity.coord*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: CalendarBack.Entities
+  commentId: N:CalendarBack.Entities
+  name: CalendarBack.Entities
+  nameWithType: CalendarBack.Entities
+  fullName: CalendarBack.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CalendarBack.Entities.SingleCity.id*
+  commentId: Overload:CalendarBack.Entities.SingleCity.id
+  name: id
+  nameWithType: SingleCity.id
+  fullName: CalendarBack.Entities.SingleCity.id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CalendarBack.Entities.SingleCity.name*
+  commentId: Overload:CalendarBack.Entities.SingleCity.name
+  name: name
+  nameWithType: SingleCity.name
+  fullName: CalendarBack.Entities.SingleCity.name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CalendarBack.Entities.SingleCity.state*
+  commentId: Overload:CalendarBack.Entities.SingleCity.state
+  name: state
+  nameWithType: SingleCity.state
+  fullName: CalendarBack.Entities.SingleCity.state
+- uid: CalendarBack.Entities.SingleCity.country*
+  commentId: Overload:CalendarBack.Entities.SingleCity.country
+  name: country
+  nameWithType: SingleCity.country
+  fullName: CalendarBack.Entities.SingleCity.country
+- uid: CalendarBack.Entities.SingleCity.coord*
+  commentId: Overload:CalendarBack.Entities.SingleCity.coord
+  name: coord
+  nameWithType: SingleCity.coord
+  fullName: CalendarBack.Entities.SingleCity.coord
+- uid: CalendarBack.Entities.Coord
+  commentId: T:CalendarBack.Entities.Coord
+  parent: CalendarBack.Entities
+  name: Coord
+  nameWithType: Coord
+  fullName: CalendarBack.Entities.Coord

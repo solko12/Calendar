@@ -1,0 +1,106 @@
+### YamlMime:TableOfContent
+- uid: Calendar
+  name: Calendar
+  items:
+  - uid: Calendar.App
+    name: App
+  - uid: Calendar.MainWindow
+    name: MainWindow
+- uid: CalendarApp
+  name: CalendarApp
+  items:
+  - uid: CalendarApp.CalendarPage
+    name: CalendarPage
+  - uid: CalendarApp.DayPage
+    name: DayPage
+  - uid: CalendarApp.Task
+    name: Task
+  - uid: CalendarApp.WeatherPage
+    name: WeatherPage
+- uid: CalendarApp.CalendarAppTests
+  name: CalendarApp.CalendarAppTests
+  items:
+  - uid: CalendarApp.CalendarAppTests.CalendarPageTests
+    name: CalendarPageTests
+  - uid: CalendarApp.CalendarAppTests.DayPageTests
+    name: DayPageTests
+  - uid: CalendarApp.CalendarAppTests.TimeConverterTests
+    name: TimeConverterTests
+- uid: CalendarApp.JSONmodels.JsonSheduleModel
+  name: CalendarApp.JSONmodels.JsonSheduleModel
+  items:
+  - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
+    name: Shedule
+- uid: CalendarBack
+  name: CalendarBack
+  items:
+  - uid: CalendarBack.Program
+    name: Program
+  - uid: CalendarBack.Startup
+    name: Startup
+- uid: CalendarBack.Controllers
+  name: CalendarBack.Controllers
+  items:
+  - uid: CalendarBack.Controllers.TasksController
+    name: TasksController
+  - uid: CalendarBack.Controllers.WeatherController
+    name: WeatherController
+- uid: CalendarBack.Database
+  name: CalendarBack.Database
+  items:
+  - uid: CalendarBack.Database.CalendarContext
+    name: CalendarContext
+- uid: CalendarBack.Database.Entities
+  name: CalendarBack.Database.Entities
+  items:
+  - uid: CalendarBack.Database.Entities.Shedule
+    name: Shedule
+  - uid: CalendarBack.Database.Entities.Task
+    name: Task
+- uid: CalendarBack.Entities
+  name: CalendarBack.Entities
+  items:
+  - uid: CalendarBack.Entities.City
+    name: City
+  - uid: CalendarBack.Entities.Clouds
+    name: Clouds
+  - uid: CalendarBack.Entities.Coord
+    name: Coord
+  - uid: CalendarBack.Entities.Forecast
+    name: Forecast
+  - uid: CalendarBack.Entities.List
+    name: List
+  - uid: CalendarBack.Entities.Main
+    name: Main
+  - uid: CalendarBack.Entities.Rain
+    name: Rain
+  - uid: CalendarBack.Entities.Shedule
+    name: Shedule
+  - uid: CalendarBack.Entities.SingleCity
+    name: SingleCity
+  - uid: CalendarBack.Entities.Sys
+    name: Sys
+  - uid: CalendarBack.Entities.Task
+    name: Task
+  - uid: CalendarBack.Entities.Weather
+    name: Weather
+  - uid: CalendarBack.Entities.Wind
+    name: Wind
+- uid: CalendarBack.Logic
+  name: CalendarBack.Logic
+  items:
+  - uid: CalendarBack.Logic.DBEntity2EntityParser
+    name: DBEntity2EntityParser
+  - uid: CalendarBack.Logic.Entity2DBEntityParser
+    name: Entity2DBEntityParser
+  - uid: CalendarBack.Logic.ListOfCitiesLoader
+    name: ListOfCitiesLoader
+  - uid: CalendarBack.Logic.WeatherParser
+    name: WeatherParser
+- uid: CalendarBack.Tests
+  name: CalendarBack.Tests
+  items:
+  - uid: CalendarBack.Tests.DBEntity2EntityParserTest
+    name: DBEntity2EntityParserTest
+  - uid: CalendarBack.Tests.Entity2DBEntityParserTest
+    name: Entity2DBEntityParserTest

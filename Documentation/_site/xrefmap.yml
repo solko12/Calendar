@@ -3,1414 +3,1583 @@ sorted: true
 references:
 - uid: Calendar
   name: Calendar
-  href: App/Calendar.html
+  href: api/Calendar.html
   commentId: N:Calendar
   fullName: Calendar
   nameWithType: Calendar
 - uid: Calendar.App
   name: App
-  href: App/Calendar.App.html
+  href: api/Calendar.App.html
   commentId: T:Calendar.App
   fullName: Calendar.App
   nameWithType: App
 - uid: Calendar.App.InitializeComponent
   name: InitializeComponent()
-  href: App/Calendar.App.html#Calendar_App_InitializeComponent
+  href: api/Calendar.App.html#Calendar_App_InitializeComponent
   commentId: M:Calendar.App.InitializeComponent
   fullName: Calendar.App.InitializeComponent()
   nameWithType: App.InitializeComponent()
 - uid: Calendar.App.InitializeComponent*
   name: InitializeComponent
-  href: App/Calendar.App.html#Calendar_App_InitializeComponent_
+  href: api/Calendar.App.html#Calendar_App_InitializeComponent_
   commentId: Overload:Calendar.App.InitializeComponent
   isSpec: "True"
   fullName: Calendar.App.InitializeComponent
   nameWithType: App.InitializeComponent
 - uid: Calendar.App.Main
   name: Main()
-  href: App/Calendar.App.html#Calendar_App_Main
+  href: api/Calendar.App.html#Calendar_App_Main
   commentId: M:Calendar.App.Main
   fullName: Calendar.App.Main()
   nameWithType: App.Main()
 - uid: Calendar.App.Main*
   name: Main
-  href: App/Calendar.App.html#Calendar_App_Main_
+  href: api/Calendar.App.html#Calendar_App_Main_
   commentId: Overload:Calendar.App.Main
   isSpec: "True"
   fullName: Calendar.App.Main
   nameWithType: App.Main
 - uid: Calendar.MainWindow
   name: MainWindow
-  href: App/Calendar.MainWindow.html
+  href: api/Calendar.MainWindow.html
   commentId: T:Calendar.MainWindow
   fullName: Calendar.MainWindow
   nameWithType: MainWindow
 - uid: Calendar.MainWindow.InitializeComponent
   name: InitializeComponent()
-  href: App/Calendar.MainWindow.html#Calendar_MainWindow_InitializeComponent
+  href: api/Calendar.MainWindow.html#Calendar_MainWindow_InitializeComponent
   commentId: M:Calendar.MainWindow.InitializeComponent
   fullName: Calendar.MainWindow.InitializeComponent()
   nameWithType: MainWindow.InitializeComponent()
 - uid: Calendar.MainWindow.InitializeComponent*
   name: InitializeComponent
-  href: App/Calendar.MainWindow.html#Calendar_MainWindow_InitializeComponent_
+  href: api/Calendar.MainWindow.html#Calendar_MainWindow_InitializeComponent_
   commentId: Overload:Calendar.MainWindow.InitializeComponent
   isSpec: "True"
   fullName: Calendar.MainWindow.InitializeComponent
   nameWithType: MainWindow.InitializeComponent
 - uid: CalendarApp
   name: CalendarApp
-  href: App/CalendarApp.html
+  href: api/CalendarApp.html
   commentId: N:CalendarApp
   fullName: CalendarApp
   nameWithType: CalendarApp
 - uid: CalendarApp.CalendarAppTests
   name: CalendarApp.CalendarAppTests
-  href: App/CalendarApp.CalendarAppTests.html
+  href: api/CalendarApp.CalendarAppTests.html
   commentId: N:CalendarApp.CalendarAppTests
   fullName: CalendarApp.CalendarAppTests
   nameWithType: CalendarApp.CalendarAppTests
 - uid: CalendarApp.CalendarAppTests.CalendarPageTests
   name: CalendarPageTests
-  href: App/CalendarApp.CalendarAppTests.CalendarPageTests.html
+  href: api/CalendarApp.CalendarAppTests.CalendarPageTests.html
   commentId: T:CalendarApp.CalendarAppTests.CalendarPageTests
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests
   nameWithType: CalendarPageTests
 - uid: CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek(System.Int32,System.Int32,System.Int32,System.Int32)
   name: DoesItReturnsOneSevenNumerationDayOfTheWeek(Int32, Int32, Int32, Int32)
-  href: App/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_DoesItReturnsOneSevenNumerationDayOfTheWeek_System_Int32_System_Int32_System_Int32_System_Int32_
+  href: api/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_DoesItReturnsOneSevenNumerationDayOfTheWeek_System_Int32_System_Int32_System_Int32_System_Int32_
   commentId: M:CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek(System.Int32,System.Int32,System.Int32,System.Int32)
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek(System.Int32, System.Int32, System.Int32, System.Int32)
   nameWithType: CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek(Int32, Int32, Int32, Int32)
 - uid: CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek*
   name: DoesItReturnsOneSevenNumerationDayOfTheWeek
-  href: App/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_DoesItReturnsOneSevenNumerationDayOfTheWeek_
+  href: api/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_DoesItReturnsOneSevenNumerationDayOfTheWeek_
   commentId: Overload:CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek
   isSpec: "True"
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek
   nameWithType: CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek
 - uid: CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth(System.Int32,System.Int32,System.Int32)
   name: TestingSetDayToBeginOfTheMonth(Int32, Int32, Int32)
-  href: App/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_TestingSetDayToBeginOfTheMonth_System_Int32_System_Int32_System_Int32_
+  href: api/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_TestingSetDayToBeginOfTheMonth_System_Int32_System_Int32_System_Int32_
   commentId: M:CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth(System.Int32,System.Int32,System.Int32)
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth(System.Int32, System.Int32, System.Int32)
   nameWithType: CalendarPageTests.TestingSetDayToBeginOfTheMonth(Int32, Int32, Int32)
 - uid: CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth*
   name: TestingSetDayToBeginOfTheMonth
-  href: App/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_TestingSetDayToBeginOfTheMonth_
+  href: api/CalendarApp.CalendarAppTests.CalendarPageTests.html#CalendarApp_CalendarAppTests_CalendarPageTests_TestingSetDayToBeginOfTheMonth_
   commentId: Overload:CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth
   isSpec: "True"
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth
   nameWithType: CalendarPageTests.TestingSetDayToBeginOfTheMonth
 - uid: CalendarApp.CalendarAppTests.DayPageTests
   name: DayPageTests
-  href: App/CalendarApp.CalendarAppTests.DayPageTests.html
+  href: api/CalendarApp.CalendarAppTests.DayPageTests.html
   commentId: T:CalendarApp.CalendarAppTests.DayPageTests
   fullName: CalendarApp.CalendarAppTests.DayPageTests
   nameWithType: DayPageTests
 - uid: CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment(System.Boolean,System.String,System.String,System.String)
   name: ValidatingTaskTimeAssignment(Boolean, String, String, String)
-  href: App/CalendarApp.CalendarAppTests.DayPageTests.html#CalendarApp_CalendarAppTests_DayPageTests_ValidatingTaskTimeAssignment_System_Boolean_System_String_System_String_System_String_
+  href: api/CalendarApp.CalendarAppTests.DayPageTests.html#CalendarApp_CalendarAppTests_DayPageTests_ValidatingTaskTimeAssignment_System_Boolean_System_String_System_String_System_String_
   commentId: M:CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment(System.Boolean,System.String,System.String,System.String)
   fullName: CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment(System.Boolean, System.String, System.String, System.String)
   nameWithType: DayPageTests.ValidatingTaskTimeAssignment(Boolean, String, String, String)
 - uid: CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment*
   name: ValidatingTaskTimeAssignment
-  href: App/CalendarApp.CalendarAppTests.DayPageTests.html#CalendarApp_CalendarAppTests_DayPageTests_ValidatingTaskTimeAssignment_
+  href: api/CalendarApp.CalendarAppTests.DayPageTests.html#CalendarApp_CalendarAppTests_DayPageTests_ValidatingTaskTimeAssignment_
   commentId: Overload:CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment
   isSpec: "True"
   fullName: CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment
   nameWithType: DayPageTests.ValidatingTaskTimeAssignment
 - uid: CalendarApp.CalendarAppTests.TimeConverterTests
   name: TimeConverterTests
-  href: App/CalendarApp.CalendarAppTests.TimeConverterTests.html
+  href: api/CalendarApp.CalendarAppTests.TimeConverterTests.html
   commentId: T:CalendarApp.CalendarAppTests.TimeConverterTests
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests
   nameWithType: TimeConverterTests
 - uid: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32,System.String)
   name: ConvertingMinutes(Int32, String)
-  href: App/CalendarApp.CalendarAppTests.TimeConverterTests.html#CalendarApp_CalendarAppTests_TimeConverterTests_ConvertingMinutes_System_Int32_System_String_
+  href: api/CalendarApp.CalendarAppTests.TimeConverterTests.html#CalendarApp_CalendarAppTests_TimeConverterTests_ConvertingMinutes_System_Int32_System_String_
   commentId: M:CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32,System.String)
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32, System.String)
   nameWithType: TimeConverterTests.ConvertingMinutes(Int32, String)
 - uid: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes*
   name: ConvertingMinutes
-  href: App/CalendarApp.CalendarAppTests.TimeConverterTests.html#CalendarApp_CalendarAppTests_TimeConverterTests_ConvertingMinutes_
+  href: api/CalendarApp.CalendarAppTests.TimeConverterTests.html#CalendarApp_CalendarAppTests_TimeConverterTests_ConvertingMinutes_
   commentId: Overload:CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes
   isSpec: "True"
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes
   nameWithType: TimeConverterTests.ConvertingMinutes
 - uid: CalendarApp.CalendarPage
   name: CalendarPage
-  href: App/CalendarApp.CalendarPage.html
+  href: api/CalendarApp.CalendarPage.html
   commentId: T:CalendarApp.CalendarPage
   fullName: CalendarApp.CalendarPage
   nameWithType: CalendarPage
 - uid: CalendarApp.CalendarPage.#ctor
   name: CalendarPage()
-  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage__ctor
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage__ctor
   commentId: M:CalendarApp.CalendarPage.#ctor
   fullName: CalendarApp.CalendarPage.CalendarPage()
   nameWithType: CalendarPage.CalendarPage()
 - uid: CalendarApp.CalendarPage.#ctor*
   name: CalendarPage
-  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage__ctor_
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage__ctor_
   commentId: Overload:CalendarApp.CalendarPage.#ctor
   isSpec: "True"
   fullName: CalendarApp.CalendarPage.CalendarPage
   nameWithType: CalendarPage.CalendarPage
+- uid: CalendarApp.CalendarPage.daysWithTasks
+  name: daysWithTasks
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_daysWithTasks
+  commentId: P:CalendarApp.CalendarPage.daysWithTasks
+  fullName: CalendarApp.CalendarPage.daysWithTasks
+  nameWithType: CalendarPage.daysWithTasks
+- uid: CalendarApp.CalendarPage.daysWithTasks*
+  name: daysWithTasks
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_daysWithTasks_
+  commentId: Overload:CalendarApp.CalendarPage.daysWithTasks
+  isSpec: "True"
+  fullName: CalendarApp.CalendarPage.daysWithTasks
+  nameWithType: CalendarPage.daysWithTasks
 - uid: CalendarApp.CalendarPage.InitializeComponent
   name: InitializeComponent()
-  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_InitializeComponent
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_InitializeComponent
   commentId: M:CalendarApp.CalendarPage.InitializeComponent
   fullName: CalendarApp.CalendarPage.InitializeComponent()
   nameWithType: CalendarPage.InitializeComponent()
 - uid: CalendarApp.CalendarPage.InitializeComponent*
   name: InitializeComponent
-  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_InitializeComponent_
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_InitializeComponent_
   commentId: Overload:CalendarApp.CalendarPage.InitializeComponent
   isSpec: "True"
   fullName: CalendarApp.CalendarPage.InitializeComponent
   nameWithType: CalendarPage.InitializeComponent
 - uid: CalendarApp.CalendarPage.selectedDate
   name: selectedDate
-  href: App/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_selectedDate
+  href: api/CalendarApp.CalendarPage.html#CalendarApp_CalendarPage_selectedDate
   commentId: F:CalendarApp.CalendarPage.selectedDate
   fullName: CalendarApp.CalendarPage.selectedDate
   nameWithType: CalendarPage.selectedDate
 - uid: CalendarApp.DayPage
   name: DayPage
-  href: App/CalendarApp.DayPage.html
+  href: api/CalendarApp.DayPage.html
   commentId: T:CalendarApp.DayPage
   fullName: CalendarApp.DayPage
   nameWithType: DayPage
 - uid: CalendarApp.DayPage.#ctor(System.DateTime)
   name: DayPage(DateTime)
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_System_DateTime_
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_System_DateTime_
   commentId: M:CalendarApp.DayPage.#ctor(System.DateTime)
   fullName: CalendarApp.DayPage.DayPage(System.DateTime)
   nameWithType: DayPage.DayPage(DateTime)
 - uid: CalendarApp.DayPage.#ctor*
   name: DayPage
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage__ctor_
   commentId: Overload:CalendarApp.DayPage.#ctor
   isSpec: "True"
   fullName: CalendarApp.DayPage.DayPage
   nameWithType: DayPage.DayPage
 - uid: CalendarApp.DayPage.InitializeComponent
   name: InitializeComponent()
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_InitializeComponent
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage_InitializeComponent
   commentId: M:CalendarApp.DayPage.InitializeComponent
   fullName: CalendarApp.DayPage.InitializeComponent()
   nameWithType: DayPage.InitializeComponent()
 - uid: CalendarApp.DayPage.InitializeComponent*
   name: InitializeComponent
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_InitializeComponent_
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage_InitializeComponent_
   commentId: Overload:CalendarApp.DayPage.InitializeComponent
   isSpec: "True"
   fullName: CalendarApp.DayPage.InitializeComponent
   nameWithType: DayPage.InitializeComponent
 - uid: CalendarApp.DayPage.list
   name: list
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_list
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage_list
   commentId: P:CalendarApp.DayPage.list
   fullName: CalendarApp.DayPage.list
   nameWithType: DayPage.list
 - uid: CalendarApp.DayPage.list*
   name: list
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_list_
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage_list_
   commentId: Overload:CalendarApp.DayPage.list
   isSpec: "True"
   fullName: CalendarApp.DayPage.list
   nameWithType: DayPage.list
 - uid: CalendarApp.DayPage.selectedTask
   name: selectedTask
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_selectedTask
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage_selectedTask
   commentId: P:CalendarApp.DayPage.selectedTask
   fullName: CalendarApp.DayPage.selectedTask
   nameWithType: DayPage.selectedTask
 - uid: CalendarApp.DayPage.selectedTask*
   name: selectedTask
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_selectedTask_
+  href: api/CalendarApp.DayPage.html#CalendarApp_DayPage_selectedTask_
   commentId: Overload:CalendarApp.DayPage.selectedTask
   isSpec: "True"
   fullName: CalendarApp.DayPage.selectedTask
   nameWithType: DayPage.selectedTask
-- uid: CalendarApp.DayPage.shedule
-  name: shedule
-  href: App/CalendarApp.DayPage.html#CalendarApp_DayPage_shedule
-  commentId: F:CalendarApp.DayPage.shedule
-  fullName: CalendarApp.DayPage.shedule
-  nameWithType: DayPage.shedule
 - uid: CalendarApp.JSONmodels.JsonSheduleModel
   name: CalendarApp.JSONmodels.JsonSheduleModel
-  href: App/CalendarApp.JSONmodels.JsonSheduleModel.html
+  href: api/CalendarApp.JSONmodels.JsonSheduleModel.html
   commentId: N:CalendarApp.JSONmodels.JsonSheduleModel
   fullName: CalendarApp.JSONmodels.JsonSheduleModel
   nameWithType: CalendarApp.JSONmodels.JsonSheduleModel
 - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
   name: Shedule
-  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html
+  href: api/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html
   commentId: T:CalendarApp.JSONmodels.JsonSheduleModel.Shedule
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule
   nameWithType: Shedule
 - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
   name: date
-  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_date
+  href: api/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_date
   commentId: P:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
   nameWithType: Shedule.date
 - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date*
   name: date
-  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_date_
+  href: api/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_date_
   commentId: Overload:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
   isSpec: "True"
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.date
   nameWithType: Shedule.date
 - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
   name: tasksList
-  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_tasksList
+  href: api/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_tasksList
   commentId: P:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
   nameWithType: Shedule.tasksList
 - uid: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList*
   name: tasksList
-  href: App/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_tasksList_
+  href: api/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html#CalendarApp_JSONmodels_JsonSheduleModel_Shedule_tasksList_
   commentId: Overload:CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
   isSpec: "True"
   fullName: CalendarApp.JSONmodels.JsonSheduleModel.Shedule.tasksList
   nameWithType: Shedule.tasksList
 - uid: CalendarApp.Task
   name: Task
-  href: App/CalendarApp.Task.html
+  href: api/CalendarApp.Task.html
   commentId: T:CalendarApp.Task
   fullName: CalendarApp.Task
   nameWithType: Task
 - uid: CalendarApp.Task.content
   name: content
-  href: App/CalendarApp.Task.html#CalendarApp_Task_content
+  href: api/CalendarApp.Task.html#CalendarApp_Task_content
   commentId: P:CalendarApp.Task.content
   fullName: CalendarApp.Task.content
   nameWithType: Task.content
 - uid: CalendarApp.Task.content*
   name: content
-  href: App/CalendarApp.Task.html#CalendarApp_Task_content_
+  href: api/CalendarApp.Task.html#CalendarApp_Task_content_
   commentId: Overload:CalendarApp.Task.content
   isSpec: "True"
   fullName: CalendarApp.Task.content
   nameWithType: Task.content
 - uid: CalendarApp.Task.time
   name: time
-  href: App/CalendarApp.Task.html#CalendarApp_Task_time
+  href: api/CalendarApp.Task.html#CalendarApp_Task_time
   commentId: P:CalendarApp.Task.time
   fullName: CalendarApp.Task.time
   nameWithType: Task.time
 - uid: CalendarApp.Task.time*
   name: time
-  href: App/CalendarApp.Task.html#CalendarApp_Task_time_
+  href: api/CalendarApp.Task.html#CalendarApp_Task_time_
   commentId: Overload:CalendarApp.Task.time
   isSpec: "True"
   fullName: CalendarApp.Task.time
   nameWithType: Task.time
 - uid: CalendarApp.WeatherPage
   name: WeatherPage
-  href: App/CalendarApp.WeatherPage.html
+  href: api/CalendarApp.WeatherPage.html
   commentId: T:CalendarApp.WeatherPage
   fullName: CalendarApp.WeatherPage
   nameWithType: WeatherPage
 - uid: CalendarApp.WeatherPage.#ctor
   name: WeatherPage()
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage__ctor
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage__ctor
   commentId: M:CalendarApp.WeatherPage.#ctor
   fullName: CalendarApp.WeatherPage.WeatherPage()
   nameWithType: WeatherPage.WeatherPage()
 - uid: CalendarApp.WeatherPage.#ctor*
   name: WeatherPage
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage__ctor_
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage__ctor_
   commentId: Overload:CalendarApp.WeatherPage.#ctor
   isSpec: "True"
   fullName: CalendarApp.WeatherPage.WeatherPage
   nameWithType: WeatherPage.WeatherPage
 - uid: CalendarApp.WeatherPage.date
   name: date
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_date
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_date
   commentId: F:CalendarApp.WeatherPage.date
   fullName: CalendarApp.WeatherPage.date
   nameWithType: WeatherPage.date
 - uid: CalendarApp.WeatherPage.InitializeComponent
   name: InitializeComponent()
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent
   commentId: M:CalendarApp.WeatherPage.InitializeComponent
   fullName: CalendarApp.WeatherPage.InitializeComponent()
   nameWithType: WeatherPage.InitializeComponent()
 - uid: CalendarApp.WeatherPage.InitializeComponent*
   name: InitializeComponent
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent_
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent_
   commentId: Overload:CalendarApp.WeatherPage.InitializeComponent
   isSpec: "True"
   fullName: CalendarApp.WeatherPage.InitializeComponent
   nameWithType: WeatherPage.InitializeComponent
 - uid: CalendarApp.WeatherPage.listOfCities
   name: listOfCities
-  href: App/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_listOfCities
-  commentId: F:CalendarApp.WeatherPage.listOfCities
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_listOfCities
+  commentId: P:CalendarApp.WeatherPage.listOfCities
   fullName: CalendarApp.WeatherPage.listOfCities
   nameWithType: WeatherPage.listOfCities
+- uid: CalendarApp.WeatherPage.listOfCities*
+  name: listOfCities
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_listOfCities_
+  commentId: Overload:CalendarApp.WeatherPage.listOfCities
+  isSpec: "True"
+  fullName: CalendarApp.WeatherPage.listOfCities
+  nameWithType: WeatherPage.listOfCities
+- uid: CalendarApp.WeatherPage.selectedCity
+  name: selectedCity
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_selectedCity
+  commentId: P:CalendarApp.WeatherPage.selectedCity
+  fullName: CalendarApp.WeatherPage.selectedCity
+  nameWithType: WeatherPage.selectedCity
+- uid: CalendarApp.WeatherPage.selectedCity*
+  name: selectedCity
+  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_selectedCity_
+  commentId: Overload:CalendarApp.WeatherPage.selectedCity
+  isSpec: "True"
+  fullName: CalendarApp.WeatherPage.selectedCity
+  nameWithType: WeatherPage.selectedCity
 - uid: CalendarBack
   name: CalendarBack
-  href: Back/CalendarBack.html
+  href: api/CalendarBack.html
   commentId: N:CalendarBack
   fullName: CalendarBack
   nameWithType: CalendarBack
 - uid: CalendarBack.Controllers
   name: CalendarBack.Controllers
-  href: Back/CalendarBack.Controllers.html
+  href: api/CalendarBack.Controllers.html
   commentId: N:CalendarBack.Controllers
   fullName: CalendarBack.Controllers
   nameWithType: CalendarBack.Controllers
 - uid: CalendarBack.Controllers.TasksController
   name: TasksController
-  href: Back/CalendarBack.Controllers.TasksController.html
+  href: api/CalendarBack.Controllers.TasksController.html
   commentId: T:CalendarBack.Controllers.TasksController
   fullName: CalendarBack.Controllers.TasksController
   nameWithType: TasksController
 - uid: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
   name: AddRecord(Shedule, String)
-  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_CalendarBack_Entities_Shedule_System_String_
+  href: api/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_CalendarBack_Entities_Shedule_System_String_
   commentId: M:CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule,System.String)
   fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule, System.String)
   nameWithType: TasksController.AddRecord(Shedule, String)
 - uid: CalendarBack.Controllers.TasksController.AddRecord*
   name: AddRecord
-  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_
+  href: api/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_AddRecord_
   commentId: Overload:CalendarBack.Controllers.TasksController.AddRecord
   isSpec: "True"
   fullName: CalendarBack.Controllers.TasksController.AddRecord
   nameWithType: TasksController.AddRecord
-- uid: CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
-  name: GetSheduleForDay(String)
-  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_GetSheduleForDay_System_String_
-  commentId: M:CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
-  fullName: CalendarBack.Controllers.TasksController.GetSheduleForDay(System.String)
-  nameWithType: TasksController.GetSheduleForDay(String)
-- uid: CalendarBack.Controllers.TasksController.GetSheduleForDay*
-  name: GetSheduleForDay
-  href: Back/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_GetSheduleForDay_
-  commentId: Overload:CalendarBack.Controllers.TasksController.GetSheduleForDay
+- uid: CalendarBack.Controllers.TasksController.GetDaysWithTasks
+  name: GetDaysWithTasks()
+  href: api/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_GetDaysWithTasks
+  commentId: M:CalendarBack.Controllers.TasksController.GetDaysWithTasks
+  fullName: CalendarBack.Controllers.TasksController.GetDaysWithTasks()
+  nameWithType: TasksController.GetDaysWithTasks()
+- uid: CalendarBack.Controllers.TasksController.GetDaysWithTasks*
+  name: GetDaysWithTasks
+  href: api/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_GetDaysWithTasks_
+  commentId: Overload:CalendarBack.Controllers.TasksController.GetDaysWithTasks
   isSpec: "True"
-  fullName: CalendarBack.Controllers.TasksController.GetSheduleForDay
-  nameWithType: TasksController.GetSheduleForDay
+  fullName: CalendarBack.Controllers.TasksController.GetDaysWithTasks
+  nameWithType: TasksController.GetDaysWithTasks
+- uid: CalendarBack.Controllers.TasksController.GetTasksForDay(System.String)
+  name: GetTasksForDay(String)
+  href: api/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_GetTasksForDay_System_String_
+  commentId: M:CalendarBack.Controllers.TasksController.GetTasksForDay(System.String)
+  fullName: CalendarBack.Controllers.TasksController.GetTasksForDay(System.String)
+  nameWithType: TasksController.GetTasksForDay(String)
+- uid: CalendarBack.Controllers.TasksController.GetTasksForDay*
+  name: GetTasksForDay
+  href: api/CalendarBack.Controllers.TasksController.html#CalendarBack_Controllers_TasksController_GetTasksForDay_
+  commentId: Overload:CalendarBack.Controllers.TasksController.GetTasksForDay
+  isSpec: "True"
+  fullName: CalendarBack.Controllers.TasksController.GetTasksForDay
+  nameWithType: TasksController.GetTasksForDay
 - uid: CalendarBack.Controllers.WeatherController
   name: WeatherController
-  href: Back/CalendarBack.Controllers.WeatherController.html
+  href: api/CalendarBack.Controllers.WeatherController.html
   commentId: T:CalendarBack.Controllers.WeatherController
   fullName: CalendarBack.Controllers.WeatherController
   nameWithType: WeatherController
+- uid: CalendarBack.Controllers.WeatherController.GetCities
+  name: GetCities()
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetCities
+  commentId: M:CalendarBack.Controllers.WeatherController.GetCities
+  fullName: CalendarBack.Controllers.WeatherController.GetCities()
+  nameWithType: WeatherController.GetCities()
+- uid: CalendarBack.Controllers.WeatherController.GetCities*
+  name: GetCities
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetCities_
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetCities
+  isSpec: "True"
+  fullName: CalendarBack.Controllers.WeatherController.GetCities
+  nameWithType: WeatherController.GetCities
+- uid: CalendarBack.Controllers.WeatherController.GetForecastByCityId(System.Int32)
+  name: GetForecastByCityId(Int32)
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetForecastByCityId_System_Int32_
+  commentId: M:CalendarBack.Controllers.WeatherController.GetForecastByCityId(System.Int32)
+  fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityId(System.Int32)
+  nameWithType: WeatherController.GetForecastByCityId(Int32)
+- uid: CalendarBack.Controllers.WeatherController.GetForecastByCityId*
+  name: GetForecastByCityId
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetForecastByCityId_
+  commentId: Overload:CalendarBack.Controllers.WeatherController.GetForecastByCityId
+  isSpec: "True"
+  fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityId
+  nameWithType: WeatherController.GetForecastByCityId
 - uid: CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
   name: GetForecastByCityName(String)
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetForecastByCityName_System_String_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetForecastByCityName_System_String_
   commentId: M:CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
   fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
   nameWithType: WeatherController.GetForecastByCityName(String)
 - uid: CalendarBack.Controllers.WeatherController.GetForecastByCityName*
   name: GetForecastByCityName
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetForecastByCityName_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetForecastByCityName_
   commentId: Overload:CalendarBack.Controllers.WeatherController.GetForecastByCityName
   isSpec: "True"
   fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityName
   nameWithType: WeatherController.GetForecastByCityName
 - uid: CalendarBack.Controllers.WeatherController.GetReload
   name: GetReload()
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetReload
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetReload
   commentId: M:CalendarBack.Controllers.WeatherController.GetReload
   fullName: CalendarBack.Controllers.WeatherController.GetReload()
   nameWithType: WeatherController.GetReload()
 - uid: CalendarBack.Controllers.WeatherController.GetReload*
   name: GetReload
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetReload_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetReload_
   commentId: Overload:CalendarBack.Controllers.WeatherController.GetReload
   isSpec: "True"
   fullName: CalendarBack.Controllers.WeatherController.GetReload
   nameWithType: WeatherController.GetReload
 - uid: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
   name: GetWeatherByDefaultLocation()
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByDefaultLocation
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByDefaultLocation
   commentId: M:CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
   fullName: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation()
   nameWithType: WeatherController.GetWeatherByDefaultLocation()
 - uid: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation*
   name: GetWeatherByDefaultLocation
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByDefaultLocation_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByDefaultLocation_
   commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
   isSpec: "True"
   fullName: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation
   nameWithType: WeatherController.GetWeatherByDefaultLocation
 - uid: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)
   name: GetWeatherByPostCode(String, String)
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByPostCode_System_String_System_String_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByPostCode_System_String_System_String_
   commentId: M:CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String,System.String)
   fullName: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String, System.String)
   nameWithType: WeatherController.GetWeatherByPostCode(String, String)
 - uid: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode*
   name: GetWeatherByPostCode
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByPostCode_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_GetWeatherByPostCode_
   commentId: Overload:CalendarBack.Controllers.WeatherController.GetWeatherByPostCode
   isSpec: "True"
   fullName: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode
   nameWithType: WeatherController.GetWeatherByPostCode
 - uid: CalendarBack.Controllers.WeatherController.test
   name: test()
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_test
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_test
   commentId: M:CalendarBack.Controllers.WeatherController.test
   fullName: CalendarBack.Controllers.WeatherController.test()
   nameWithType: WeatherController.test()
 - uid: CalendarBack.Controllers.WeatherController.test*
   name: test
-  href: Back/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_test_
+  href: api/CalendarBack.Controllers.WeatherController.html#CalendarBack_Controllers_WeatherController_test_
   commentId: Overload:CalendarBack.Controllers.WeatherController.test
   isSpec: "True"
   fullName: CalendarBack.Controllers.WeatherController.test
   nameWithType: WeatherController.test
 - uid: CalendarBack.Database
   name: CalendarBack.Database
-  href: Back/CalendarBack.Database.html
+  href: api/CalendarBack.Database.html
   commentId: N:CalendarBack.Database
   fullName: CalendarBack.Database
   nameWithType: CalendarBack.Database
 - uid: CalendarBack.Database.CalendarContext
   name: CalendarContext
-  href: Back/CalendarBack.Database.CalendarContext.html
+  href: api/CalendarBack.Database.CalendarContext.html
   commentId: T:CalendarBack.Database.CalendarContext
   fullName: CalendarBack.Database.CalendarContext
   nameWithType: CalendarContext
 - uid: CalendarBack.Database.CalendarContext.DbCatalog
   name: DbCatalog
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_DbCatalog
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_DbCatalog
   commentId: P:CalendarBack.Database.CalendarContext.DbCatalog
   fullName: CalendarBack.Database.CalendarContext.DbCatalog
   nameWithType: CalendarContext.DbCatalog
 - uid: CalendarBack.Database.CalendarContext.DbCatalog*
   name: DbCatalog
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_DbCatalog_
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_DbCatalog_
   commentId: Overload:CalendarBack.Database.CalendarContext.DbCatalog
   isSpec: "True"
   fullName: CalendarBack.Database.CalendarContext.DbCatalog
   nameWithType: CalendarContext.DbCatalog
 - uid: CalendarBack.Database.CalendarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   name: OnConfiguring(DbContextOptionsBuilder)
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
   commentId: M:CalendarBack.Database.CalendarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   fullName: CalendarBack.Database.CalendarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   nameWithType: CalendarContext.OnConfiguring(DbContextOptionsBuilder)
 - uid: CalendarBack.Database.CalendarContext.OnConfiguring*
   name: OnConfiguring
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_OnConfiguring_
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_OnConfiguring_
   commentId: Overload:CalendarBack.Database.CalendarContext.OnConfiguring
   isSpec: "True"
   fullName: CalendarBack.Database.CalendarContext.OnConfiguring
   nameWithType: CalendarContext.OnConfiguring
 - uid: CalendarBack.Database.CalendarContext.Shedules
   name: Shedules
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Shedules
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Shedules
   commentId: P:CalendarBack.Database.CalendarContext.Shedules
   fullName: CalendarBack.Database.CalendarContext.Shedules
   nameWithType: CalendarContext.Shedules
 - uid: CalendarBack.Database.CalendarContext.Shedules*
   name: Shedules
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Shedules_
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Shedules_
   commentId: Overload:CalendarBack.Database.CalendarContext.Shedules
   isSpec: "True"
   fullName: CalendarBack.Database.CalendarContext.Shedules
   nameWithType: CalendarContext.Shedules
 - uid: CalendarBack.Database.CalendarContext.Tasks
   name: Tasks
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Tasks
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Tasks
   commentId: P:CalendarBack.Database.CalendarContext.Tasks
   fullName: CalendarBack.Database.CalendarContext.Tasks
   nameWithType: CalendarContext.Tasks
 - uid: CalendarBack.Database.CalendarContext.Tasks*
   name: Tasks
-  href: Back/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Tasks_
+  href: api/CalendarBack.Database.CalendarContext.html#CalendarBack_Database_CalendarContext_Tasks_
   commentId: Overload:CalendarBack.Database.CalendarContext.Tasks
   isSpec: "True"
   fullName: CalendarBack.Database.CalendarContext.Tasks
   nameWithType: CalendarContext.Tasks
 - uid: CalendarBack.Database.Entities
   name: CalendarBack.Database.Entities
-  href: Back/CalendarBack.Database.Entities.html
+  href: api/CalendarBack.Database.Entities.html
   commentId: N:CalendarBack.Database.Entities
   fullName: CalendarBack.Database.Entities
   nameWithType: CalendarBack.Database.Entities
 - uid: CalendarBack.Database.Entities.Shedule
   name: Shedule
-  href: Back/CalendarBack.Database.Entities.Shedule.html
+  href: api/CalendarBack.Database.Entities.Shedule.html
   commentId: T:CalendarBack.Database.Entities.Shedule
   fullName: CalendarBack.Database.Entities.Shedule
   nameWithType: Shedule
 - uid: CalendarBack.Database.Entities.Shedule.Date
   name: Date
-  href: Back/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Date
+  href: api/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Date
   commentId: P:CalendarBack.Database.Entities.Shedule.Date
   fullName: CalendarBack.Database.Entities.Shedule.Date
   nameWithType: Shedule.Date
 - uid: CalendarBack.Database.Entities.Shedule.Date*
   name: Date
-  href: Back/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Date_
+  href: api/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Date_
   commentId: Overload:CalendarBack.Database.Entities.Shedule.Date
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Shedule.Date
   nameWithType: Shedule.Date
 - uid: CalendarBack.Database.Entities.Shedule.Id
   name: Id
-  href: Back/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Id
+  href: api/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Id
   commentId: P:CalendarBack.Database.Entities.Shedule.Id
   fullName: CalendarBack.Database.Entities.Shedule.Id
   nameWithType: Shedule.Id
 - uid: CalendarBack.Database.Entities.Shedule.Id*
   name: Id
-  href: Back/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Id_
+  href: api/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_Id_
   commentId: Overload:CalendarBack.Database.Entities.Shedule.Id
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Shedule.Id
   nameWithType: Shedule.Id
 - uid: CalendarBack.Database.Entities.Shedule.TasksList
   name: TasksList
-  href: Back/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_TasksList
+  href: api/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_TasksList
   commentId: P:CalendarBack.Database.Entities.Shedule.TasksList
   fullName: CalendarBack.Database.Entities.Shedule.TasksList
   nameWithType: Shedule.TasksList
 - uid: CalendarBack.Database.Entities.Shedule.TasksList*
   name: TasksList
-  href: Back/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_TasksList_
+  href: api/CalendarBack.Database.Entities.Shedule.html#CalendarBack_Database_Entities_Shedule_TasksList_
   commentId: Overload:CalendarBack.Database.Entities.Shedule.TasksList
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Shedule.TasksList
   nameWithType: Shedule.TasksList
 - uid: CalendarBack.Database.Entities.Task
   name: Task
-  href: Back/CalendarBack.Database.Entities.Task.html
+  href: api/CalendarBack.Database.Entities.Task.html
   commentId: T:CalendarBack.Database.Entities.Task
   fullName: CalendarBack.Database.Entities.Task
   nameWithType: Task
 - uid: CalendarBack.Database.Entities.Task.Content
   name: Content
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Content
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Content
   commentId: P:CalendarBack.Database.Entities.Task.Content
   fullName: CalendarBack.Database.Entities.Task.Content
   nameWithType: Task.Content
 - uid: CalendarBack.Database.Entities.Task.Content*
   name: Content
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Content_
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Content_
   commentId: Overload:CalendarBack.Database.Entities.Task.Content
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Task.Content
   nameWithType: Task.Content
 - uid: CalendarBack.Database.Entities.Task.Id
   name: Id
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Id
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Id
   commentId: P:CalendarBack.Database.Entities.Task.Id
   fullName: CalendarBack.Database.Entities.Task.Id
   nameWithType: Task.Id
 - uid: CalendarBack.Database.Entities.Task.Id*
   name: Id
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Id_
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Id_
   commentId: Overload:CalendarBack.Database.Entities.Task.Id
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Task.Id
   nameWithType: Task.Id
 - uid: CalendarBack.Database.Entities.Task.SheduleId
   name: SheduleId
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_SheduleId
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_SheduleId
   commentId: P:CalendarBack.Database.Entities.Task.SheduleId
   fullName: CalendarBack.Database.Entities.Task.SheduleId
   nameWithType: Task.SheduleId
 - uid: CalendarBack.Database.Entities.Task.SheduleId*
   name: SheduleId
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_SheduleId_
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_SheduleId_
   commentId: Overload:CalendarBack.Database.Entities.Task.SheduleId
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Task.SheduleId
   nameWithType: Task.SheduleId
 - uid: CalendarBack.Database.Entities.Task.Time
   name: Time
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Time
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Time
   commentId: P:CalendarBack.Database.Entities.Task.Time
   fullName: CalendarBack.Database.Entities.Task.Time
   nameWithType: Task.Time
 - uid: CalendarBack.Database.Entities.Task.Time*
   name: Time
-  href: Back/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Time_
+  href: api/CalendarBack.Database.Entities.Task.html#CalendarBack_Database_Entities_Task_Time_
   commentId: Overload:CalendarBack.Database.Entities.Task.Time
   isSpec: "True"
   fullName: CalendarBack.Database.Entities.Task.Time
   nameWithType: Task.Time
 - uid: CalendarBack.Entities
   name: CalendarBack.Entities
-  href: Back/CalendarBack.Entities.html
+  href: api/CalendarBack.Entities.html
   commentId: N:CalendarBack.Entities
   fullName: CalendarBack.Entities
   nameWithType: CalendarBack.Entities
 - uid: CalendarBack.Entities.City
   name: City
-  href: Back/CalendarBack.Entities.City.html
+  href: api/CalendarBack.Entities.City.html
   commentId: T:CalendarBack.Entities.City
   fullName: CalendarBack.Entities.City
   nameWithType: City
 - uid: CalendarBack.Entities.City.coord
   name: coord
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_coord
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_coord
   commentId: P:CalendarBack.Entities.City.coord
   fullName: CalendarBack.Entities.City.coord
   nameWithType: City.coord
 - uid: CalendarBack.Entities.City.coord*
   name: coord
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_coord_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_coord_
   commentId: Overload:CalendarBack.Entities.City.coord
   isSpec: "True"
   fullName: CalendarBack.Entities.City.coord
   nameWithType: City.coord
 - uid: CalendarBack.Entities.City.country
   name: country
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_country
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_country
   commentId: P:CalendarBack.Entities.City.country
   fullName: CalendarBack.Entities.City.country
   nameWithType: City.country
 - uid: CalendarBack.Entities.City.country*
   name: country
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_country_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_country_
   commentId: Overload:CalendarBack.Entities.City.country
   isSpec: "True"
   fullName: CalendarBack.Entities.City.country
   nameWithType: City.country
 - uid: CalendarBack.Entities.City.id
   name: id
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_id
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_id
   commentId: P:CalendarBack.Entities.City.id
   fullName: CalendarBack.Entities.City.id
   nameWithType: City.id
 - uid: CalendarBack.Entities.City.id*
   name: id
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_id_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_id_
   commentId: Overload:CalendarBack.Entities.City.id
   isSpec: "True"
   fullName: CalendarBack.Entities.City.id
   nameWithType: City.id
 - uid: CalendarBack.Entities.City.name
   name: name
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_name
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_name
   commentId: P:CalendarBack.Entities.City.name
   fullName: CalendarBack.Entities.City.name
   nameWithType: City.name
 - uid: CalendarBack.Entities.City.name*
   name: name
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_name_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_name_
   commentId: Overload:CalendarBack.Entities.City.name
   isSpec: "True"
   fullName: CalendarBack.Entities.City.name
   nameWithType: City.name
 - uid: CalendarBack.Entities.City.population
   name: population
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_population
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_population
   commentId: P:CalendarBack.Entities.City.population
   fullName: CalendarBack.Entities.City.population
   nameWithType: City.population
 - uid: CalendarBack.Entities.City.population*
   name: population
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_population_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_population_
   commentId: Overload:CalendarBack.Entities.City.population
   isSpec: "True"
   fullName: CalendarBack.Entities.City.population
   nameWithType: City.population
 - uid: CalendarBack.Entities.City.sunrise
   name: sunrise
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunrise
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunrise
   commentId: P:CalendarBack.Entities.City.sunrise
   fullName: CalendarBack.Entities.City.sunrise
   nameWithType: City.sunrise
 - uid: CalendarBack.Entities.City.sunrise*
   name: sunrise
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunrise_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunrise_
   commentId: Overload:CalendarBack.Entities.City.sunrise
   isSpec: "True"
   fullName: CalendarBack.Entities.City.sunrise
   nameWithType: City.sunrise
 - uid: CalendarBack.Entities.City.sunset
   name: sunset
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunset
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunset
   commentId: P:CalendarBack.Entities.City.sunset
   fullName: CalendarBack.Entities.City.sunset
   nameWithType: City.sunset
 - uid: CalendarBack.Entities.City.sunset*
   name: sunset
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunset_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_sunset_
   commentId: Overload:CalendarBack.Entities.City.sunset
   isSpec: "True"
   fullName: CalendarBack.Entities.City.sunset
   nameWithType: City.sunset
 - uid: CalendarBack.Entities.City.timezone
   name: timezone
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_timezone
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_timezone
   commentId: P:CalendarBack.Entities.City.timezone
   fullName: CalendarBack.Entities.City.timezone
   nameWithType: City.timezone
 - uid: CalendarBack.Entities.City.timezone*
   name: timezone
-  href: Back/CalendarBack.Entities.City.html#CalendarBack_Entities_City_timezone_
+  href: api/CalendarBack.Entities.City.html#CalendarBack_Entities_City_timezone_
   commentId: Overload:CalendarBack.Entities.City.timezone
   isSpec: "True"
   fullName: CalendarBack.Entities.City.timezone
   nameWithType: City.timezone
 - uid: CalendarBack.Entities.Clouds
   name: Clouds
-  href: Back/CalendarBack.Entities.Clouds.html
+  href: api/CalendarBack.Entities.Clouds.html
   commentId: T:CalendarBack.Entities.Clouds
   fullName: CalendarBack.Entities.Clouds
   nameWithType: Clouds
 - uid: CalendarBack.Entities.Clouds.all
   name: all
-  href: Back/CalendarBack.Entities.Clouds.html#CalendarBack_Entities_Clouds_all
+  href: api/CalendarBack.Entities.Clouds.html#CalendarBack_Entities_Clouds_all
   commentId: P:CalendarBack.Entities.Clouds.all
   fullName: CalendarBack.Entities.Clouds.all
   nameWithType: Clouds.all
 - uid: CalendarBack.Entities.Clouds.all*
   name: all
-  href: Back/CalendarBack.Entities.Clouds.html#CalendarBack_Entities_Clouds_all_
+  href: api/CalendarBack.Entities.Clouds.html#CalendarBack_Entities_Clouds_all_
   commentId: Overload:CalendarBack.Entities.Clouds.all
   isSpec: "True"
   fullName: CalendarBack.Entities.Clouds.all
   nameWithType: Clouds.all
 - uid: CalendarBack.Entities.Coord
   name: Coord
-  href: Back/CalendarBack.Entities.Coord.html
+  href: api/CalendarBack.Entities.Coord.html
   commentId: T:CalendarBack.Entities.Coord
   fullName: CalendarBack.Entities.Coord
   nameWithType: Coord
 - uid: CalendarBack.Entities.Coord.lat
   name: lat
-  href: Back/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lat
+  href: api/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lat
   commentId: P:CalendarBack.Entities.Coord.lat
   fullName: CalendarBack.Entities.Coord.lat
   nameWithType: Coord.lat
 - uid: CalendarBack.Entities.Coord.lat*
   name: lat
-  href: Back/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lat_
+  href: api/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lat_
   commentId: Overload:CalendarBack.Entities.Coord.lat
   isSpec: "True"
   fullName: CalendarBack.Entities.Coord.lat
   nameWithType: Coord.lat
 - uid: CalendarBack.Entities.Coord.lon
   name: lon
-  href: Back/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lon
+  href: api/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lon
   commentId: P:CalendarBack.Entities.Coord.lon
   fullName: CalendarBack.Entities.Coord.lon
   nameWithType: Coord.lon
 - uid: CalendarBack.Entities.Coord.lon*
   name: lon
-  href: Back/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lon_
+  href: api/CalendarBack.Entities.Coord.html#CalendarBack_Entities_Coord_lon_
   commentId: Overload:CalendarBack.Entities.Coord.lon
   isSpec: "True"
   fullName: CalendarBack.Entities.Coord.lon
   nameWithType: Coord.lon
 - uid: CalendarBack.Entities.Forecast
   name: Forecast
-  href: Back/CalendarBack.Entities.Forecast.html
+  href: api/CalendarBack.Entities.Forecast.html
   commentId: T:CalendarBack.Entities.Forecast
   fullName: CalendarBack.Entities.Forecast
   nameWithType: Forecast
 - uid: CalendarBack.Entities.Forecast.city
   name: city
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_city
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_city
   commentId: P:CalendarBack.Entities.Forecast.city
   fullName: CalendarBack.Entities.Forecast.city
   nameWithType: Forecast.city
 - uid: CalendarBack.Entities.Forecast.city*
   name: city
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_city_
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_city_
   commentId: Overload:CalendarBack.Entities.Forecast.city
   isSpec: "True"
   fullName: CalendarBack.Entities.Forecast.city
   nameWithType: Forecast.city
 - uid: CalendarBack.Entities.Forecast.cnt
   name: cnt
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cnt
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cnt
   commentId: P:CalendarBack.Entities.Forecast.cnt
   fullName: CalendarBack.Entities.Forecast.cnt
   nameWithType: Forecast.cnt
 - uid: CalendarBack.Entities.Forecast.cnt*
   name: cnt
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cnt_
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cnt_
   commentId: Overload:CalendarBack.Entities.Forecast.cnt
   isSpec: "True"
   fullName: CalendarBack.Entities.Forecast.cnt
   nameWithType: Forecast.cnt
 - uid: CalendarBack.Entities.Forecast.cod
   name: cod
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cod
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cod
   commentId: P:CalendarBack.Entities.Forecast.cod
   fullName: CalendarBack.Entities.Forecast.cod
   nameWithType: Forecast.cod
 - uid: CalendarBack.Entities.Forecast.cod*
   name: cod
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cod_
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_cod_
   commentId: Overload:CalendarBack.Entities.Forecast.cod
   isSpec: "True"
   fullName: CalendarBack.Entities.Forecast.cod
   nameWithType: Forecast.cod
 - uid: CalendarBack.Entities.Forecast.list
   name: list
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_list
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_list
   commentId: P:CalendarBack.Entities.Forecast.list
   fullName: CalendarBack.Entities.Forecast.list
   nameWithType: Forecast.list
 - uid: CalendarBack.Entities.Forecast.list*
   name: list
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_list_
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_list_
   commentId: Overload:CalendarBack.Entities.Forecast.list
   isSpec: "True"
   fullName: CalendarBack.Entities.Forecast.list
   nameWithType: Forecast.list
 - uid: CalendarBack.Entities.Forecast.message
   name: message
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_message
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_message
   commentId: P:CalendarBack.Entities.Forecast.message
   fullName: CalendarBack.Entities.Forecast.message
   nameWithType: Forecast.message
 - uid: CalendarBack.Entities.Forecast.message*
   name: message
-  href: Back/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_message_
+  href: api/CalendarBack.Entities.Forecast.html#CalendarBack_Entities_Forecast_message_
   commentId: Overload:CalendarBack.Entities.Forecast.message
   isSpec: "True"
   fullName: CalendarBack.Entities.Forecast.message
   nameWithType: Forecast.message
 - uid: CalendarBack.Entities.List
   name: List
-  href: Back/CalendarBack.Entities.List.html
+  href: api/CalendarBack.Entities.List.html
   commentId: T:CalendarBack.Entities.List
   fullName: CalendarBack.Entities.List
   nameWithType: List
 - uid: CalendarBack.Entities.List.clouds
   name: clouds
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_clouds
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_clouds
   commentId: P:CalendarBack.Entities.List.clouds
   fullName: CalendarBack.Entities.List.clouds
   nameWithType: List.clouds
 - uid: CalendarBack.Entities.List.clouds*
   name: clouds
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_clouds_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_clouds_
   commentId: Overload:CalendarBack.Entities.List.clouds
   isSpec: "True"
   fullName: CalendarBack.Entities.List.clouds
   nameWithType: List.clouds
 - uid: CalendarBack.Entities.List.dt
   name: dt
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt
   commentId: P:CalendarBack.Entities.List.dt
   fullName: CalendarBack.Entities.List.dt
   nameWithType: List.dt
 - uid: CalendarBack.Entities.List.dt*
   name: dt
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt_
   commentId: Overload:CalendarBack.Entities.List.dt
   isSpec: "True"
   fullName: CalendarBack.Entities.List.dt
   nameWithType: List.dt
 - uid: CalendarBack.Entities.List.dt_txt
   name: dt_txt
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt_txt
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt_txt
   commentId: P:CalendarBack.Entities.List.dt_txt
   fullName: CalendarBack.Entities.List.dt_txt
   nameWithType: List.dt_txt
 - uid: CalendarBack.Entities.List.dt_txt*
   name: dt_txt
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt_txt_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_dt_txt_
   commentId: Overload:CalendarBack.Entities.List.dt_txt
   isSpec: "True"
   fullName: CalendarBack.Entities.List.dt_txt
   nameWithType: List.dt_txt
 - uid: CalendarBack.Entities.List.main
   name: main
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_main
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_main
   commentId: P:CalendarBack.Entities.List.main
   fullName: CalendarBack.Entities.List.main
   nameWithType: List.main
 - uid: CalendarBack.Entities.List.main*
   name: main
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_main_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_main_
   commentId: Overload:CalendarBack.Entities.List.main
   isSpec: "True"
   fullName: CalendarBack.Entities.List.main
   nameWithType: List.main
 - uid: CalendarBack.Entities.List.rain
   name: rain
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_rain
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_rain
   commentId: P:CalendarBack.Entities.List.rain
   fullName: CalendarBack.Entities.List.rain
   nameWithType: List.rain
 - uid: CalendarBack.Entities.List.rain*
   name: rain
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_rain_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_rain_
   commentId: Overload:CalendarBack.Entities.List.rain
   isSpec: "True"
   fullName: CalendarBack.Entities.List.rain
   nameWithType: List.rain
 - uid: CalendarBack.Entities.List.sys
   name: sys
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_sys
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_sys
   commentId: P:CalendarBack.Entities.List.sys
   fullName: CalendarBack.Entities.List.sys
   nameWithType: List.sys
 - uid: CalendarBack.Entities.List.sys*
   name: sys
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_sys_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_sys_
   commentId: Overload:CalendarBack.Entities.List.sys
   isSpec: "True"
   fullName: CalendarBack.Entities.List.sys
   nameWithType: List.sys
 - uid: CalendarBack.Entities.List.weather
   name: weather
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_weather
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_weather
   commentId: P:CalendarBack.Entities.List.weather
   fullName: CalendarBack.Entities.List.weather
   nameWithType: List.weather
 - uid: CalendarBack.Entities.List.weather*
   name: weather
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_weather_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_weather_
   commentId: Overload:CalendarBack.Entities.List.weather
   isSpec: "True"
   fullName: CalendarBack.Entities.List.weather
   nameWithType: List.weather
 - uid: CalendarBack.Entities.List.wind
   name: wind
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_wind
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_wind
   commentId: P:CalendarBack.Entities.List.wind
   fullName: CalendarBack.Entities.List.wind
   nameWithType: List.wind
 - uid: CalendarBack.Entities.List.wind*
   name: wind
-  href: Back/CalendarBack.Entities.List.html#CalendarBack_Entities_List_wind_
+  href: api/CalendarBack.Entities.List.html#CalendarBack_Entities_List_wind_
   commentId: Overload:CalendarBack.Entities.List.wind
   isSpec: "True"
   fullName: CalendarBack.Entities.List.wind
   nameWithType: List.wind
 - uid: CalendarBack.Entities.Main
   name: Main
-  href: Back/CalendarBack.Entities.Main.html
+  href: api/CalendarBack.Entities.Main.html
   commentId: T:CalendarBack.Entities.Main
   fullName: CalendarBack.Entities.Main
   nameWithType: Main
 - uid: CalendarBack.Entities.Main.feels_like
   name: feels_like
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_feels_like
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_feels_like
   commentId: P:CalendarBack.Entities.Main.feels_like
   fullName: CalendarBack.Entities.Main.feels_like
   nameWithType: Main.feels_like
 - uid: CalendarBack.Entities.Main.feels_like*
   name: feels_like
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_feels_like_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_feels_like_
   commentId: Overload:CalendarBack.Entities.Main.feels_like
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.feels_like
   nameWithType: Main.feels_like
 - uid: CalendarBack.Entities.Main.grnd_level
   name: grnd_level
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_grnd_level
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_grnd_level
   commentId: P:CalendarBack.Entities.Main.grnd_level
   fullName: CalendarBack.Entities.Main.grnd_level
   nameWithType: Main.grnd_level
 - uid: CalendarBack.Entities.Main.grnd_level*
   name: grnd_level
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_grnd_level_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_grnd_level_
   commentId: Overload:CalendarBack.Entities.Main.grnd_level
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.grnd_level
   nameWithType: Main.grnd_level
 - uid: CalendarBack.Entities.Main.humidity
   name: humidity
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_humidity
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_humidity
   commentId: P:CalendarBack.Entities.Main.humidity
   fullName: CalendarBack.Entities.Main.humidity
   nameWithType: Main.humidity
 - uid: CalendarBack.Entities.Main.humidity*
   name: humidity
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_humidity_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_humidity_
   commentId: Overload:CalendarBack.Entities.Main.humidity
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.humidity
   nameWithType: Main.humidity
 - uid: CalendarBack.Entities.Main.pressure
   name: pressure
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_pressure
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_pressure
   commentId: P:CalendarBack.Entities.Main.pressure
   fullName: CalendarBack.Entities.Main.pressure
   nameWithType: Main.pressure
 - uid: CalendarBack.Entities.Main.pressure*
   name: pressure
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_pressure_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_pressure_
   commentId: Overload:CalendarBack.Entities.Main.pressure
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.pressure
   nameWithType: Main.pressure
 - uid: CalendarBack.Entities.Main.sea_level
   name: sea_level
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_sea_level
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_sea_level
   commentId: P:CalendarBack.Entities.Main.sea_level
   fullName: CalendarBack.Entities.Main.sea_level
   nameWithType: Main.sea_level
 - uid: CalendarBack.Entities.Main.sea_level*
   name: sea_level
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_sea_level_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_sea_level_
   commentId: Overload:CalendarBack.Entities.Main.sea_level
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.sea_level
   nameWithType: Main.sea_level
 - uid: CalendarBack.Entities.Main.temp
   name: temp
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp
   commentId: P:CalendarBack.Entities.Main.temp
   fullName: CalendarBack.Entities.Main.temp
   nameWithType: Main.temp
 - uid: CalendarBack.Entities.Main.temp*
   name: temp
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_
   commentId: Overload:CalendarBack.Entities.Main.temp
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.temp
   nameWithType: Main.temp
 - uid: CalendarBack.Entities.Main.temp_kf
   name: temp_kf
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_kf
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_kf
   commentId: P:CalendarBack.Entities.Main.temp_kf
   fullName: CalendarBack.Entities.Main.temp_kf
   nameWithType: Main.temp_kf
 - uid: CalendarBack.Entities.Main.temp_kf*
   name: temp_kf
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_kf_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_kf_
   commentId: Overload:CalendarBack.Entities.Main.temp_kf
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.temp_kf
   nameWithType: Main.temp_kf
 - uid: CalendarBack.Entities.Main.temp_max
   name: temp_max
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_max
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_max
   commentId: P:CalendarBack.Entities.Main.temp_max
   fullName: CalendarBack.Entities.Main.temp_max
   nameWithType: Main.temp_max
 - uid: CalendarBack.Entities.Main.temp_max*
   name: temp_max
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_max_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_max_
   commentId: Overload:CalendarBack.Entities.Main.temp_max
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.temp_max
   nameWithType: Main.temp_max
 - uid: CalendarBack.Entities.Main.temp_min
   name: temp_min
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_min
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_min
   commentId: P:CalendarBack.Entities.Main.temp_min
   fullName: CalendarBack.Entities.Main.temp_min
   nameWithType: Main.temp_min
 - uid: CalendarBack.Entities.Main.temp_min*
   name: temp_min
-  href: Back/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_min_
+  href: api/CalendarBack.Entities.Main.html#CalendarBack_Entities_Main_temp_min_
   commentId: Overload:CalendarBack.Entities.Main.temp_min
   isSpec: "True"
   fullName: CalendarBack.Entities.Main.temp_min
   nameWithType: Main.temp_min
 - uid: CalendarBack.Entities.Rain
   name: Rain
-  href: Back/CalendarBack.Entities.Rain.html
+  href: api/CalendarBack.Entities.Rain.html
   commentId: T:CalendarBack.Entities.Rain
   fullName: CalendarBack.Entities.Rain
   nameWithType: Rain
 - uid: CalendarBack.Entities.Rain.__invalid_name__3h
   name: __invalid_name__3h
-  href: Back/CalendarBack.Entities.Rain.html#CalendarBack_Entities_Rain___invalid_name__3h
+  href: api/CalendarBack.Entities.Rain.html#CalendarBack_Entities_Rain___invalid_name__3h
   commentId: P:CalendarBack.Entities.Rain.__invalid_name__3h
   fullName: CalendarBack.Entities.Rain.__invalid_name__3h
   nameWithType: Rain.__invalid_name__3h
 - uid: CalendarBack.Entities.Rain.__invalid_name__3h*
   name: __invalid_name__3h
-  href: Back/CalendarBack.Entities.Rain.html#CalendarBack_Entities_Rain___invalid_name__3h_
+  href: api/CalendarBack.Entities.Rain.html#CalendarBack_Entities_Rain___invalid_name__3h_
   commentId: Overload:CalendarBack.Entities.Rain.__invalid_name__3h
   isSpec: "True"
   fullName: CalendarBack.Entities.Rain.__invalid_name__3h
   nameWithType: Rain.__invalid_name__3h
 - uid: CalendarBack.Entities.Shedule
   name: Shedule
-  href: Back/CalendarBack.Entities.Shedule.html
+  href: api/CalendarBack.Entities.Shedule.html
   commentId: T:CalendarBack.Entities.Shedule
   fullName: CalendarBack.Entities.Shedule
   nameWithType: Shedule
 - uid: CalendarBack.Entities.Shedule.date
   name: date
-  href: Back/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_date
+  href: api/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_date
   commentId: P:CalendarBack.Entities.Shedule.date
   fullName: CalendarBack.Entities.Shedule.date
   nameWithType: Shedule.date
 - uid: CalendarBack.Entities.Shedule.date*
   name: date
-  href: Back/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_date_
+  href: api/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_date_
   commentId: Overload:CalendarBack.Entities.Shedule.date
   isSpec: "True"
   fullName: CalendarBack.Entities.Shedule.date
   nameWithType: Shedule.date
 - uid: CalendarBack.Entities.Shedule.tasksList
   name: tasksList
-  href: Back/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_tasksList
+  href: api/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_tasksList
   commentId: P:CalendarBack.Entities.Shedule.tasksList
   fullName: CalendarBack.Entities.Shedule.tasksList
   nameWithType: Shedule.tasksList
 - uid: CalendarBack.Entities.Shedule.tasksList*
   name: tasksList
-  href: Back/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_tasksList_
+  href: api/CalendarBack.Entities.Shedule.html#CalendarBack_Entities_Shedule_tasksList_
   commentId: Overload:CalendarBack.Entities.Shedule.tasksList
   isSpec: "True"
   fullName: CalendarBack.Entities.Shedule.tasksList
   nameWithType: Shedule.tasksList
+- uid: CalendarBack.Entities.SingleCity
+  name: SingleCity
+  href: api/CalendarBack.Entities.SingleCity.html
+  commentId: T:CalendarBack.Entities.SingleCity
+  fullName: CalendarBack.Entities.SingleCity
+  nameWithType: SingleCity
+- uid: CalendarBack.Entities.SingleCity.coord
+  name: coord
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_coord
+  commentId: P:CalendarBack.Entities.SingleCity.coord
+  fullName: CalendarBack.Entities.SingleCity.coord
+  nameWithType: SingleCity.coord
+- uid: CalendarBack.Entities.SingleCity.coord*
+  name: coord
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_coord_
+  commentId: Overload:CalendarBack.Entities.SingleCity.coord
+  isSpec: "True"
+  fullName: CalendarBack.Entities.SingleCity.coord
+  nameWithType: SingleCity.coord
+- uid: CalendarBack.Entities.SingleCity.country
+  name: country
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_country
+  commentId: P:CalendarBack.Entities.SingleCity.country
+  fullName: CalendarBack.Entities.SingleCity.country
+  nameWithType: SingleCity.country
+- uid: CalendarBack.Entities.SingleCity.country*
+  name: country
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_country_
+  commentId: Overload:CalendarBack.Entities.SingleCity.country
+  isSpec: "True"
+  fullName: CalendarBack.Entities.SingleCity.country
+  nameWithType: SingleCity.country
+- uid: CalendarBack.Entities.SingleCity.id
+  name: id
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_id
+  commentId: P:CalendarBack.Entities.SingleCity.id
+  fullName: CalendarBack.Entities.SingleCity.id
+  nameWithType: SingleCity.id
+- uid: CalendarBack.Entities.SingleCity.id*
+  name: id
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_id_
+  commentId: Overload:CalendarBack.Entities.SingleCity.id
+  isSpec: "True"
+  fullName: CalendarBack.Entities.SingleCity.id
+  nameWithType: SingleCity.id
+- uid: CalendarBack.Entities.SingleCity.name
+  name: name
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_name
+  commentId: P:CalendarBack.Entities.SingleCity.name
+  fullName: CalendarBack.Entities.SingleCity.name
+  nameWithType: SingleCity.name
+- uid: CalendarBack.Entities.SingleCity.name*
+  name: name
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_name_
+  commentId: Overload:CalendarBack.Entities.SingleCity.name
+  isSpec: "True"
+  fullName: CalendarBack.Entities.SingleCity.name
+  nameWithType: SingleCity.name
+- uid: CalendarBack.Entities.SingleCity.state
+  name: state
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_state
+  commentId: P:CalendarBack.Entities.SingleCity.state
+  fullName: CalendarBack.Entities.SingleCity.state
+  nameWithType: SingleCity.state
+- uid: CalendarBack.Entities.SingleCity.state*
+  name: state
+  href: api/CalendarBack.Entities.SingleCity.html#CalendarBack_Entities_SingleCity_state_
+  commentId: Overload:CalendarBack.Entities.SingleCity.state
+  isSpec: "True"
+  fullName: CalendarBack.Entities.SingleCity.state
+  nameWithType: SingleCity.state
 - uid: CalendarBack.Entities.Sys
   name: Sys
-  href: Back/CalendarBack.Entities.Sys.html
+  href: api/CalendarBack.Entities.Sys.html
   commentId: T:CalendarBack.Entities.Sys
   fullName: CalendarBack.Entities.Sys
   nameWithType: Sys
 - uid: CalendarBack.Entities.Sys.pod
   name: pod
-  href: Back/CalendarBack.Entities.Sys.html#CalendarBack_Entities_Sys_pod
+  href: api/CalendarBack.Entities.Sys.html#CalendarBack_Entities_Sys_pod
   commentId: P:CalendarBack.Entities.Sys.pod
   fullName: CalendarBack.Entities.Sys.pod
   nameWithType: Sys.pod
 - uid: CalendarBack.Entities.Sys.pod*
   name: pod
-  href: Back/CalendarBack.Entities.Sys.html#CalendarBack_Entities_Sys_pod_
+  href: api/CalendarBack.Entities.Sys.html#CalendarBack_Entities_Sys_pod_
   commentId: Overload:CalendarBack.Entities.Sys.pod
   isSpec: "True"
   fullName: CalendarBack.Entities.Sys.pod
   nameWithType: Sys.pod
 - uid: CalendarBack.Entities.Task
   name: Task
-  href: Back/CalendarBack.Entities.Task.html
+  href: api/CalendarBack.Entities.Task.html
   commentId: T:CalendarBack.Entities.Task
   fullName: CalendarBack.Entities.Task
   nameWithType: Task
 - uid: CalendarBack.Entities.Task.content
   name: content
-  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_content
+  href: api/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_content
   commentId: P:CalendarBack.Entities.Task.content
   fullName: CalendarBack.Entities.Task.content
   nameWithType: Task.content
 - uid: CalendarBack.Entities.Task.content*
   name: content
-  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_content_
+  href: api/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_content_
   commentId: Overload:CalendarBack.Entities.Task.content
   isSpec: "True"
   fullName: CalendarBack.Entities.Task.content
   nameWithType: Task.content
 - uid: CalendarBack.Entities.Task.time
   name: time
-  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_time
+  href: api/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_time
   commentId: P:CalendarBack.Entities.Task.time
   fullName: CalendarBack.Entities.Task.time
   nameWithType: Task.time
 - uid: CalendarBack.Entities.Task.time*
   name: time
-  href: Back/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_time_
+  href: api/CalendarBack.Entities.Task.html#CalendarBack_Entities_Task_time_
   commentId: Overload:CalendarBack.Entities.Task.time
   isSpec: "True"
   fullName: CalendarBack.Entities.Task.time
   nameWithType: Task.time
 - uid: CalendarBack.Entities.Weather
   name: Weather
-  href: Back/CalendarBack.Entities.Weather.html
+  href: api/CalendarBack.Entities.Weather.html
   commentId: T:CalendarBack.Entities.Weather
   fullName: CalendarBack.Entities.Weather
   nameWithType: Weather
 - uid: CalendarBack.Entities.Weather.description
   name: description
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_description
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_description
   commentId: P:CalendarBack.Entities.Weather.description
   fullName: CalendarBack.Entities.Weather.description
   nameWithType: Weather.description
 - uid: CalendarBack.Entities.Weather.description*
   name: description
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_description_
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_description_
   commentId: Overload:CalendarBack.Entities.Weather.description
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.description
   nameWithType: Weather.description
 - uid: CalendarBack.Entities.Weather.icon
   name: icon
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_icon
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_icon
   commentId: P:CalendarBack.Entities.Weather.icon
   fullName: CalendarBack.Entities.Weather.icon
   nameWithType: Weather.icon
 - uid: CalendarBack.Entities.Weather.icon*
   name: icon
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_icon_
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_icon_
   commentId: Overload:CalendarBack.Entities.Weather.icon
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.icon
   nameWithType: Weather.icon
 - uid: CalendarBack.Entities.Weather.id
   name: id
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_id
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_id
   commentId: P:CalendarBack.Entities.Weather.id
   fullName: CalendarBack.Entities.Weather.id
   nameWithType: Weather.id
 - uid: CalendarBack.Entities.Weather.id*
   name: id
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_id_
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_id_
   commentId: Overload:CalendarBack.Entities.Weather.id
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.id
   nameWithType: Weather.id
 - uid: CalendarBack.Entities.Weather.main
   name: main
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_main
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_main
   commentId: P:CalendarBack.Entities.Weather.main
   fullName: CalendarBack.Entities.Weather.main
   nameWithType: Weather.main
 - uid: CalendarBack.Entities.Weather.main*
   name: main
-  href: Back/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_main_
+  href: api/CalendarBack.Entities.Weather.html#CalendarBack_Entities_Weather_main_
   commentId: Overload:CalendarBack.Entities.Weather.main
   isSpec: "True"
   fullName: CalendarBack.Entities.Weather.main
   nameWithType: Weather.main
 - uid: CalendarBack.Entities.Wind
   name: Wind
-  href: Back/CalendarBack.Entities.Wind.html
+  href: api/CalendarBack.Entities.Wind.html
   commentId: T:CalendarBack.Entities.Wind
   fullName: CalendarBack.Entities.Wind
   nameWithType: Wind
 - uid: CalendarBack.Entities.Wind.deg
   name: deg
-  href: Back/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_deg
+  href: api/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_deg
   commentId: P:CalendarBack.Entities.Wind.deg
   fullName: CalendarBack.Entities.Wind.deg
   nameWithType: Wind.deg
 - uid: CalendarBack.Entities.Wind.deg*
   name: deg
-  href: Back/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_deg_
+  href: api/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_deg_
   commentId: Overload:CalendarBack.Entities.Wind.deg
   isSpec: "True"
   fullName: CalendarBack.Entities.Wind.deg
   nameWithType: Wind.deg
 - uid: CalendarBack.Entities.Wind.speed
   name: speed
-  href: Back/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_speed
+  href: api/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_speed
   commentId: P:CalendarBack.Entities.Wind.speed
   fullName: CalendarBack.Entities.Wind.speed
   nameWithType: Wind.speed
 - uid: CalendarBack.Entities.Wind.speed*
   name: speed
-  href: Back/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_speed_
+  href: api/CalendarBack.Entities.Wind.html#CalendarBack_Entities_Wind_speed_
   commentId: Overload:CalendarBack.Entities.Wind.speed
   isSpec: "True"
   fullName: CalendarBack.Entities.Wind.speed
   nameWithType: Wind.speed
 - uid: CalendarBack.Logic
   name: CalendarBack.Logic
-  href: Back/CalendarBack.Logic.html
+  href: api/CalendarBack.Logic.html
   commentId: N:CalendarBack.Logic
   fullName: CalendarBack.Logic
   nameWithType: CalendarBack.Logic
 - uid: CalendarBack.Logic.DBEntity2EntityParser
   name: DBEntity2EntityParser
-  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html
+  href: api/CalendarBack.Logic.DBEntity2EntityParser.html
   commentId: T:CalendarBack.Logic.DBEntity2EntityParser
   fullName: CalendarBack.Logic.DBEntity2EntityParser
   nameWithType: DBEntity2EntityParser
 - uid: CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
   name: parseShedule(Shedule)
-  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseShedule_CalendarBack_Database_Entities_Shedule_
+  href: api/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseShedule_CalendarBack_Database_Entities_Shedule_
   commentId: M:CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
   nameWithType: DBEntity2EntityParser.parseShedule(Shedule)
 - uid: CalendarBack.Logic.DBEntity2EntityParser.parseShedule*
   name: parseShedule
-  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseShedule_
+  href: api/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseShedule_
   commentId: Overload:CalendarBack.Logic.DBEntity2EntityParser.parseShedule
   isSpec: "True"
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseShedule
   nameWithType: DBEntity2EntityParser.parseShedule
 - uid: CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
   name: parseTask(Task)
-  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseTask_CalendarBack_Database_Entities_Task_
+  href: api/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseTask_CalendarBack_Database_Entities_Task_
   commentId: M:CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
   nameWithType: DBEntity2EntityParser.parseTask(Task)
 - uid: CalendarBack.Logic.DBEntity2EntityParser.parseTask*
   name: parseTask
-  href: Back/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseTask_
+  href: api/CalendarBack.Logic.DBEntity2EntityParser.html#CalendarBack_Logic_DBEntity2EntityParser_parseTask_
   commentId: Overload:CalendarBack.Logic.DBEntity2EntityParser.parseTask
   isSpec: "True"
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseTask
   nameWithType: DBEntity2EntityParser.parseTask
 - uid: CalendarBack.Logic.Entity2DBEntityParser
   name: Entity2DBEntityParser
-  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html
+  href: api/CalendarBack.Logic.Entity2DBEntityParser.html
   commentId: T:CalendarBack.Logic.Entity2DBEntityParser
   fullName: CalendarBack.Logic.Entity2DBEntityParser
   nameWithType: Entity2DBEntityParser
 - uid: CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
   name: parseShedule(Shedule)
-  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseShedule_CalendarBack_Entities_Shedule_
+  href: api/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseShedule_CalendarBack_Entities_Shedule_
   commentId: M:CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
   fullName: CalendarBack.Logic.Entity2DBEntityParser.parseShedule(CalendarBack.Entities.Shedule)
   nameWithType: Entity2DBEntityParser.parseShedule(Shedule)
 - uid: CalendarBack.Logic.Entity2DBEntityParser.parseShedule*
   name: parseShedule
-  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseShedule_
+  href: api/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseShedule_
   commentId: Overload:CalendarBack.Logic.Entity2DBEntityParser.parseShedule
   isSpec: "True"
   fullName: CalendarBack.Logic.Entity2DBEntityParser.parseShedule
   nameWithType: Entity2DBEntityParser.parseShedule
 - uid: CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
   name: parseTask(Task)
-  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseTask_CalendarBack_Entities_Task_
+  href: api/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseTask_CalendarBack_Entities_Task_
   commentId: M:CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
   fullName: CalendarBack.Logic.Entity2DBEntityParser.parseTask(CalendarBack.Entities.Task)
   nameWithType: Entity2DBEntityParser.parseTask(Task)
 - uid: CalendarBack.Logic.Entity2DBEntityParser.parseTask*
   name: parseTask
-  href: Back/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseTask_
+  href: api/CalendarBack.Logic.Entity2DBEntityParser.html#CalendarBack_Logic_Entity2DBEntityParser_parseTask_
   commentId: Overload:CalendarBack.Logic.Entity2DBEntityParser.parseTask
   isSpec: "True"
   fullName: CalendarBack.Logic.Entity2DBEntityParser.parseTask
   nameWithType: Entity2DBEntityParser.parseTask
+- uid: CalendarBack.Logic.ListOfCitiesLoader
+  name: ListOfCitiesLoader
+  href: api/CalendarBack.Logic.ListOfCitiesLoader.html
+  commentId: T:CalendarBack.Logic.ListOfCitiesLoader
+  fullName: CalendarBack.Logic.ListOfCitiesLoader
+  nameWithType: ListOfCitiesLoader
+- uid: CalendarBack.Logic.ListOfCitiesLoader.dataLocation
+  name: dataLocation
+  href: api/CalendarBack.Logic.ListOfCitiesLoader.html#CalendarBack_Logic_ListOfCitiesLoader_dataLocation
+  commentId: P:CalendarBack.Logic.ListOfCitiesLoader.dataLocation
+  fullName: CalendarBack.Logic.ListOfCitiesLoader.dataLocation
+  nameWithType: ListOfCitiesLoader.dataLocation
+- uid: CalendarBack.Logic.ListOfCitiesLoader.dataLocation*
+  name: dataLocation
+  href: api/CalendarBack.Logic.ListOfCitiesLoader.html#CalendarBack_Logic_ListOfCitiesLoader_dataLocation_
+  commentId: Overload:CalendarBack.Logic.ListOfCitiesLoader.dataLocation
+  isSpec: "True"
+  fullName: CalendarBack.Logic.ListOfCitiesLoader.dataLocation
+  nameWithType: ListOfCitiesLoader.dataLocation
+- uid: CalendarBack.Logic.ListOfCitiesLoader.getCities
+  name: getCities()
+  href: api/CalendarBack.Logic.ListOfCitiesLoader.html#CalendarBack_Logic_ListOfCitiesLoader_getCities
+  commentId: M:CalendarBack.Logic.ListOfCitiesLoader.getCities
+  fullName: CalendarBack.Logic.ListOfCitiesLoader.getCities()
+  nameWithType: ListOfCitiesLoader.getCities()
+- uid: CalendarBack.Logic.ListOfCitiesLoader.getCities*
+  name: getCities
+  href: api/CalendarBack.Logic.ListOfCitiesLoader.html#CalendarBack_Logic_ListOfCitiesLoader_getCities_
+  commentId: Overload:CalendarBack.Logic.ListOfCitiesLoader.getCities
+  isSpec: "True"
+  fullName: CalendarBack.Logic.ListOfCitiesLoader.getCities
+  nameWithType: ListOfCitiesLoader.getCities
 - uid: CalendarBack.Logic.WeatherParser
   name: WeatherParser
-  href: Back/CalendarBack.Logic.WeatherParser.html
+  href: api/CalendarBack.Logic.WeatherParser.html
   commentId: T:CalendarBack.Logic.WeatherParser
   fullName: CalendarBack.Logic.WeatherParser
   nameWithType: WeatherParser
 - uid: CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
   name: parseWeather(Forecast)
-  href: Back/CalendarBack.Logic.WeatherParser.html#CalendarBack_Logic_WeatherParser_parseWeather_CalendarBack_Entities_Forecast_
+  href: api/CalendarBack.Logic.WeatherParser.html#CalendarBack_Logic_WeatherParser_parseWeather_CalendarBack_Entities_Forecast_
   commentId: M:CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
   fullName: CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
   nameWithType: WeatherParser.parseWeather(Forecast)
 - uid: CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   name: parseWeather(String)
-  href: Back/CalendarBack.Logic.WeatherParser.html#CalendarBack_Logic_WeatherParser_parseWeather_System_String_
+  href: api/CalendarBack.Logic.WeatherParser.html#CalendarBack_Logic_WeatherParser_parseWeather_System_String_
   commentId: M:CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   fullName: CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   nameWithType: WeatherParser.parseWeather(String)
 - uid: CalendarBack.Logic.WeatherParser.parseWeather*
   name: parseWeather
-  href: Back/CalendarBack.Logic.WeatherParser.html#CalendarBack_Logic_WeatherParser_parseWeather_
+  href: api/CalendarBack.Logic.WeatherParser.html#CalendarBack_Logic_WeatherParser_parseWeather_
   commentId: Overload:CalendarBack.Logic.WeatherParser.parseWeather
   isSpec: "True"
   fullName: CalendarBack.Logic.WeatherParser.parseWeather
   nameWithType: WeatherParser.parseWeather
 - uid: CalendarBack.Program
   name: Program
-  href: Back/CalendarBack.Program.html
+  href: api/CalendarBack.Program.html
   commentId: T:CalendarBack.Program
   fullName: CalendarBack.Program
   nameWithType: Program
 - uid: CalendarBack.Program.CreateHostBuilder(System.String[])
   name: CreateHostBuilder(String[])
-  href: Back/CalendarBack.Program.html#CalendarBack_Program_CreateHostBuilder_System_String___
+  href: api/CalendarBack.Program.html#CalendarBack_Program_CreateHostBuilder_System_String___
   commentId: M:CalendarBack.Program.CreateHostBuilder(System.String[])
   name.vb: CreateHostBuilder(String())
   fullName: CalendarBack.Program.CreateHostBuilder(System.String[])
@@ -1419,14 +1588,14 @@ references:
   nameWithType.vb: Program.CreateHostBuilder(String())
 - uid: CalendarBack.Program.CreateHostBuilder*
   name: CreateHostBuilder
-  href: Back/CalendarBack.Program.html#CalendarBack_Program_CreateHostBuilder_
+  href: api/CalendarBack.Program.html#CalendarBack_Program_CreateHostBuilder_
   commentId: Overload:CalendarBack.Program.CreateHostBuilder
   isSpec: "True"
   fullName: CalendarBack.Program.CreateHostBuilder
   nameWithType: Program.CreateHostBuilder
 - uid: CalendarBack.Program.Main(System.String[])
   name: Main(String[])
-  href: Back/CalendarBack.Program.html#CalendarBack_Program_Main_System_String___
+  href: api/CalendarBack.Program.html#CalendarBack_Program_Main_System_String___
   commentId: M:CalendarBack.Program.Main(System.String[])
   name.vb: Main(String())
   fullName: CalendarBack.Program.Main(System.String[])
@@ -1435,84 +1604,136 @@ references:
   nameWithType.vb: Program.Main(String())
 - uid: CalendarBack.Program.Main*
   name: Main
-  href: Back/CalendarBack.Program.html#CalendarBack_Program_Main_
+  href: api/CalendarBack.Program.html#CalendarBack_Program_Main_
   commentId: Overload:CalendarBack.Program.Main
   isSpec: "True"
   fullName: CalendarBack.Program.Main
   nameWithType: Program.Main
 - uid: CalendarBack.Startup
   name: Startup
-  href: Back/CalendarBack.Startup.html
+  href: api/CalendarBack.Startup.html
   commentId: T:CalendarBack.Startup
   fullName: CalendarBack.Startup
   nameWithType: Startup
 - uid: CalendarBack.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
   name: Startup(IConfiguration)
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup__ctor_Microsoft_Extensions_Configuration_IConfiguration_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup__ctor_Microsoft_Extensions_Configuration_IConfiguration_
   commentId: M:CalendarBack.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)
   fullName: CalendarBack.Startup.Startup(Microsoft.Extensions.Configuration.IConfiguration)
   nameWithType: Startup.Startup(IConfiguration)
 - uid: CalendarBack.Startup.#ctor*
   name: Startup
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup__ctor_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup__ctor_
   commentId: Overload:CalendarBack.Startup.#ctor
   isSpec: "True"
   fullName: CalendarBack.Startup.Startup
   nameWithType: Startup.Startup
 - uid: CalendarBack.Startup.Configuration
   name: Configuration
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup_Configuration
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup_Configuration
   commentId: P:CalendarBack.Startup.Configuration
   fullName: CalendarBack.Startup.Configuration
   nameWithType: Startup.Configuration
 - uid: CalendarBack.Startup.Configuration*
   name: Configuration
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup_Configuration_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup_Configuration_
   commentId: Overload:CalendarBack.Startup.Configuration
   isSpec: "True"
   fullName: CalendarBack.Startup.Configuration
   nameWithType: Startup.Configuration
 - uid: CalendarBack.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
   name: Configure(IApplicationBuilder, IWebHostEnvironment)
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup_Configure_Microsoft_AspNetCore_Builder_IApplicationBuilder_Microsoft_AspNetCore_Hosting_IWebHostEnvironment_
   commentId: M:CalendarBack.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
   fullName: CalendarBack.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)
   nameWithType: Startup.Configure(IApplicationBuilder, IWebHostEnvironment)
 - uid: CalendarBack.Startup.Configure*
   name: Configure
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup_Configure_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup_Configure_
   commentId: Overload:CalendarBack.Startup.Configure
   isSpec: "True"
   fullName: CalendarBack.Startup.Configure
   nameWithType: Startup.Configure
 - uid: CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name: ConfigureServices(IServiceCollection)
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup_ConfigureServices_Microsoft_Extensions_DependencyInjection_IServiceCollection_
   commentId: M:CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   fullName: CalendarBack.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   nameWithType: Startup.ConfigureServices(IServiceCollection)
 - uid: CalendarBack.Startup.ConfigureServices*
   name: ConfigureServices
-  href: Back/CalendarBack.Startup.html#CalendarBack_Startup_ConfigureServices_
+  href: api/CalendarBack.Startup.html#CalendarBack_Startup_ConfigureServices_
   commentId: Overload:CalendarBack.Startup.ConfigureServices
   isSpec: "True"
   fullName: CalendarBack.Startup.ConfigureServices
   nameWithType: Startup.ConfigureServices
 - uid: CalendarBack.Tests
   name: CalendarBack.Tests
-  href: Back/CalendarBack.Tests.html
+  href: api/CalendarBack.Tests.html
   commentId: N:CalendarBack.Tests
   fullName: CalendarBack.Tests
   nameWithType: CalendarBack.Tests
-- uid: CalendarBack.Tests.DatabaseTest
-  name: DatabaseTest
-  href: Back/CalendarBack.Tests.DatabaseTest.html
-  commentId: T:CalendarBack.Tests.DatabaseTest
-  fullName: CalendarBack.Tests.DatabaseTest
-  nameWithType: DatabaseTest
-- uid: CalendarBack.Tests.WeatherControllerTest
-  name: WeatherControllerTest
-  href: Back/CalendarBack.Tests.WeatherControllerTest.html
-  commentId: T:CalendarBack.Tests.WeatherControllerTest
-  fullName: CalendarBack.Tests.WeatherControllerTest
-  nameWithType: WeatherControllerTest
+- uid: CalendarBack.Tests.DBEntity2EntityParserTest
+  name: DBEntity2EntityParserTest
+  href: api/CalendarBack.Tests.DBEntity2EntityParserTest.html
+  commentId: T:CalendarBack.Tests.DBEntity2EntityParserTest
+  fullName: CalendarBack.Tests.DBEntity2EntityParserTest
+  nameWithType: DBEntity2EntityParserTest
+- uid: CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData
+  name: SheduleData
+  href: api/CalendarBack.Tests.DBEntity2EntityParserTest.html#CalendarBack_Tests_DBEntity2EntityParserTest_SheduleData
+  commentId: P:CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData
+  fullName: CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData
+  nameWithType: DBEntity2EntityParserTest.SheduleData
+- uid: CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData*
+  name: SheduleData
+  href: api/CalendarBack.Tests.DBEntity2EntityParserTest.html#CalendarBack_Tests_DBEntity2EntityParserTest_SheduleData_
+  commentId: Overload:CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData
+  isSpec: "True"
+  fullName: CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData
+  nameWithType: DBEntity2EntityParserTest.SheduleData
+- uid: CalendarBack.Tests.DBEntity2EntityParserTest.TaskData
+  name: TaskData
+  href: api/CalendarBack.Tests.DBEntity2EntityParserTest.html#CalendarBack_Tests_DBEntity2EntityParserTest_TaskData
+  commentId: P:CalendarBack.Tests.DBEntity2EntityParserTest.TaskData
+  fullName: CalendarBack.Tests.DBEntity2EntityParserTest.TaskData
+  nameWithType: DBEntity2EntityParserTest.TaskData
+- uid: CalendarBack.Tests.DBEntity2EntityParserTest.TaskData*
+  name: TaskData
+  href: api/CalendarBack.Tests.DBEntity2EntityParserTest.html#CalendarBack_Tests_DBEntity2EntityParserTest_TaskData_
+  commentId: Overload:CalendarBack.Tests.DBEntity2EntityParserTest.TaskData
+  isSpec: "True"
+  fullName: CalendarBack.Tests.DBEntity2EntityParserTest.TaskData
+  nameWithType: DBEntity2EntityParserTest.TaskData
+- uid: CalendarBack.Tests.Entity2DBEntityParserTest
+  name: Entity2DBEntityParserTest
+  href: api/CalendarBack.Tests.Entity2DBEntityParserTest.html
+  commentId: T:CalendarBack.Tests.Entity2DBEntityParserTest
+  fullName: CalendarBack.Tests.Entity2DBEntityParserTest
+  nameWithType: Entity2DBEntityParserTest
+- uid: CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData
+  name: SheduleData
+  href: api/CalendarBack.Tests.Entity2DBEntityParserTest.html#CalendarBack_Tests_Entity2DBEntityParserTest_SheduleData
+  commentId: P:CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData
+  fullName: CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData
+  nameWithType: Entity2DBEntityParserTest.SheduleData
+- uid: CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData*
+  name: SheduleData
+  href: api/CalendarBack.Tests.Entity2DBEntityParserTest.html#CalendarBack_Tests_Entity2DBEntityParserTest_SheduleData_
+  commentId: Overload:CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData
+  isSpec: "True"
+  fullName: CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData
+  nameWithType: Entity2DBEntityParserTest.SheduleData
+- uid: CalendarBack.Tests.Entity2DBEntityParserTest.TaskData
+  name: TaskData
+  href: api/CalendarBack.Tests.Entity2DBEntityParserTest.html#CalendarBack_Tests_Entity2DBEntityParserTest_TaskData
+  commentId: P:CalendarBack.Tests.Entity2DBEntityParserTest.TaskData
+  fullName: CalendarBack.Tests.Entity2DBEntityParserTest.TaskData
+  nameWithType: Entity2DBEntityParserTest.TaskData
+- uid: CalendarBack.Tests.Entity2DBEntityParserTest.TaskData*
+  name: TaskData
+  href: api/CalendarBack.Tests.Entity2DBEntityParserTest.html#CalendarBack_Tests_Entity2DBEntityParserTest_TaskData_
+  commentId: Overload:CalendarBack.Tests.Entity2DBEntityParserTest.TaskData
+  isSpec: "True"
+  fullName: CalendarBack.Tests.Entity2DBEntityParserTest.TaskData
+  nameWithType: Entity2DBEntityParserTest.TaskData
