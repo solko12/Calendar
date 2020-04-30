@@ -16,12 +16,8 @@ items:
   fullName: CalendarBack.Database.Entities.Shedule
   type: Class
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Shedule.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Shedule
-    path: Database/Entities/Shedule.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Shedule.cs
     startLine: 10
   assemblies:
   - CalendarBack
@@ -59,12 +55,8 @@ items:
   fullName: CalendarBack.Database.Entities.Shedule.Id
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Shedule.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Id
-    path: Database/Entities/Shedule.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Shedule.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -96,12 +88,8 @@ items:
   fullName: CalendarBack.Database.Entities.Shedule.Date
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Shedule.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Date
-    path: Database/Entities/Shedule.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Shedule.cs
     startLine: 19
   assemblies:
   - CalendarBack
@@ -133,12 +121,8 @@ items:
   fullName: CalendarBack.Database.Entities.Shedule.TasksList
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Shedule.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: TasksList
-    path: Database/Entities/Shedule.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Shedule.cs
     startLine: 23
   assemblies:
   - CalendarBack

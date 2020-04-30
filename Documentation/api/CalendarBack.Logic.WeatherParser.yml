@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Logic.WeatherParser
   type: Class
   source:
-    remote:
-      path: CalendarBack/Logic/WeatherParser.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: WeatherParser
-    path: Logic/WeatherParser.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -59,12 +55,8 @@ items:
   fullName: CalendarBack.Logic.WeatherParser.parseWeather(System.String)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Logic/WeatherParser.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: parseWeather
-    path: Logic/WeatherParser.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
     startLine: 22
   assemblies:
   - CalendarBack
@@ -100,12 +92,8 @@ items:
   fullName: CalendarBack.Logic.WeatherParser.parseWeather(CalendarBack.Entities.Forecast)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Logic/WeatherParser.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: parseWeather
-    path: Logic/WeatherParser.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\WeatherParser.cs
     startLine: 107
   assemblies:
   - CalendarBack

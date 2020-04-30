@@ -14,12 +14,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.DayPageTests
   type: Class
   source:
-    remote:
-      path: Calendar/CalendarAppTests/DayPageTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: DayPageTests
-    path: ../Calendar/CalendarAppTests/DayPageTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\DayPageTests.cs
     startLine: 7
   assemblies:
   - CalendarApp
@@ -55,12 +51,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.DayPageTests.ValidatingTaskTimeAssignment(System.Boolean, System.String, System.String, System.String)
   type: Method
   source:
-    remote:
-      path: Calendar/CalendarAppTests/DayPageTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: ValidatingTaskTimeAssignment
-    path: ../Calendar/CalendarAppTests/DayPageTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\DayPageTests.cs
     startLine: 10
   assemblies:
   - CalendarApp

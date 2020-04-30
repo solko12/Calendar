@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Entities.Wind
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Wind
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 85
   assemblies:
   - CalendarBack
@@ -58,12 +54,8 @@ items:
   fullName: CalendarBack.Entities.Wind.speed
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: speed
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 90
   assemblies:
   - CalendarBack
@@ -95,12 +87,8 @@ items:
   fullName: CalendarBack.Entities.Wind.deg
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: deg
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 94
   assemblies:
   - CalendarBack

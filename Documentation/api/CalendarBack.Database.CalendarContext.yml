@@ -17,12 +17,8 @@ items:
   fullName: CalendarBack.Database.CalendarContext
   type: Class
   source:
-    remote:
-      path: CalendarBack/Database/CalendarContext.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: CalendarContext
-    path: Database/CalendarContext.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\CalendarContext.cs
     startLine: 12
   assemblies:
   - CalendarBack
@@ -33,9 +29,7 @@ items:
     content: 'public class CalendarContext : DbContext, IDisposable, IAsyncDisposable, IInfrastructure<IServiceProvider>, IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService'
     content.vb: >-
       Public Class CalendarContext
-
           Inherits DbContext
-
           Implements IDisposable, IAsyncDisposable, IInfrastructure(Of IServiceProvider), IDbContextDependencies, IDbSetCache, IDbContextPoolable, IResettableService
   inheritance:
   - System.Object
@@ -130,12 +124,8 @@ items:
   fullName: CalendarBack.Database.CalendarContext.DbCatalog
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/CalendarContext.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: DbCatalog
-    path: Database/CalendarContext.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\CalendarContext.cs
     startLine: 17
   assemblies:
   - CalendarBack
@@ -167,12 +157,8 @@ items:
   fullName: CalendarBack.Database.CalendarContext.Shedules
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/CalendarContext.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Shedules
-    path: Database/CalendarContext.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\CalendarContext.cs
     startLine: 21
   assemblies:
   - CalendarBack
@@ -204,12 +190,8 @@ items:
   fullName: CalendarBack.Database.CalendarContext.Tasks
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/CalendarContext.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Tasks
-    path: Database/CalendarContext.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\CalendarContext.cs
     startLine: 25
   assemblies:
   - CalendarBack
@@ -241,12 +223,8 @@ items:
   fullName: CalendarBack.Database.CalendarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Database/CalendarContext.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: OnConfiguring
-    path: Database/CalendarContext.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\CalendarContext.cs
     startLine: 30
   assemblies:
   - CalendarBack

@@ -19,11 +19,12 @@ namespace CalendarApp.API
         /// <summary>
         /// This method download weather data as json and deserialize it into RootObject
         /// </summary>
-        /// <returns> List of Weather objects</returns>
-        public List<JSONmodels.JsonWeatherModel.Weather> GetWeather(string city)
+        /// <param name="cityID"> city ID</param>
+        /// <returns> Weather forecast </returns>
+        public List<JSONmodels.JsonWeatherModel.Weather> GetWeather(string cityID)
         {
             WebClient client = new WebClient();
-            string url = "https://localhost:5001/weather/byId/" + city;
+            string url = "https://localhost:5001/weather/byId/" + cityID;
             String rawJSON = client.DownloadString(url);
             RootObject weatherData = JsonConvert.DeserializeObject<RootObject>(rawJSON);
             List<JSONmodels.JsonWeatherModel.Weather> weathers = weatherData.Weather;
@@ -72,7 +73,7 @@ namespace CalendarApp.API
         /// This method converts json to Shedule object
         /// </summary>
         /// <param name="taskJson"></param>
-        /// <returns> Shedule object as a result of deserialization json</returns>
+        /// <returns> List of tasks</returns>
         public ObservableCollection<Task> DeJsonigTasks(string taskJson)
         {
             ObservableCollection<Task> shedule = JsonConvert.DeserializeObject<ObservableCollection<Task>>(taskJson);
@@ -129,11 +130,7 @@ namespace CalendarApp.API
                 streamWriter.Close();
                 
                 var httpResponse = (HttpWebResponse)request.GetResponse();
-                /*using(var streamReader = new StreamReader(request.GetRequestStream()))
-                {
-                    var result = streamReader.ReadToEnd();
-                }
-                */
+               
                 
             }
 

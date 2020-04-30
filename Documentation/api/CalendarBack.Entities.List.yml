@@ -21,12 +21,8 @@ items:
   fullName: CalendarBack.Entities.List
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: List
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 120
   assemblies:
   - CalendarBack
@@ -64,12 +60,8 @@ items:
   fullName: CalendarBack.Entities.List.dt
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: dt
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 125
   assemblies:
   - CalendarBack
@@ -101,12 +93,8 @@ items:
   fullName: CalendarBack.Entities.List.main
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: main
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 129
   assemblies:
   - CalendarBack
@@ -138,12 +126,8 @@ items:
   fullName: CalendarBack.Entities.List.weather
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: weather
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 133
   assemblies:
   - CalendarBack
@@ -175,12 +159,8 @@ items:
   fullName: CalendarBack.Entities.List.clouds
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: clouds
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 137
   assemblies:
   - CalendarBack
@@ -212,12 +192,8 @@ items:
   fullName: CalendarBack.Entities.List.wind
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: wind
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 141
   assemblies:
   - CalendarBack
@@ -249,12 +225,8 @@ items:
   fullName: CalendarBack.Entities.List.sys
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: sys
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 145
   assemblies:
   - CalendarBack
@@ -286,12 +258,8 @@ items:
   fullName: CalendarBack.Entities.List.dt_txt
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: dt_txt
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 149
   assemblies:
   - CalendarBack
@@ -323,12 +291,8 @@ items:
   fullName: CalendarBack.Entities.List.rain
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: rain
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 153
   assemblies:
   - CalendarBack

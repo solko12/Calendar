@@ -37,9 +37,8 @@ namespace CalendarApp
         /// </summary>
         public SingleCity selectedCity { get; set; }
         /// <summary>
-        /// 
+        /// default city ID (Kielce)
         /// </summary>
-        string cityName = "Kielce";
         int cityID = 769250;
         /// <summary>
         /// API that enables communication with server
@@ -206,7 +205,7 @@ namespace CalendarApp
         {
             if (selectedCity == null) return;
             cityID = selectedCity.id;
-            //cityName = selectedCity.name;
+            
             Refresh();
         }
     }

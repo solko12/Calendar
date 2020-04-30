@@ -14,12 +14,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests
   type: Class
   source:
-    remote:
-      path: Calendar/CalendarAppTests/TimeConverterTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: TimeConverterTests
-    path: ../Calendar/CalendarAppTests/TimeConverterTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\TimeConverterTests.cs
     startLine: 6
   assemblies:
   - CalendarApp
@@ -55,12 +51,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.TimeConverterTests.ConvertingMinutes(System.Int32, System.String)
   type: Method
   source:
-    remote:
-      path: Calendar/CalendarAppTests/TimeConverterTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: ConvertingMinutes
-    path: ../Calendar/CalendarAppTests/TimeConverterTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\TimeConverterTests.cs
     startLine: 8
   assemblies:
   - CalendarApp

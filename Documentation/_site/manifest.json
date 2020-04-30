@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/solko/source/repos/Calendar/CalendarBack",
+  "source_base_path": "C:/Users/Oskar/source/repos/Calendar/CalendarBack",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Calendar.App.html",
-          "hash": "mPor9Ke2Hys1U3CZvoXjgA=="
+          "hash": "JlQ3vL+of06r6n4os9SAjA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Calendar.MainWindow.html",
-          "hash": "j5x9Q0EA2lzLLpLzK30zHQ=="
+          "hash": "LF4p5C8E/RaPeO1q68+uSQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "VdPEuR2dZxlh0bOha8UHFQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.CalendarAppTests.CalendarPageTests.html",
-          "hash": "Z/kc6aYwTOsGYXuQABkq9w=="
+          "hash": "+8KYdOuQjEKg7Is/ln05mA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.CalendarAppTests.DayPageTests.html",
-          "hash": "Q2JvptFgVbb9Ju44ZiF/kg=="
+          "hash": "vOCmyIjb53zjxHLJL9L3+g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.CalendarAppTests.TimeConverterTests.html",
-          "hash": "d+y4i1NOd738foxtSTpo8Q=="
+          "hash": "eFzFq2lS3MfeAr5dk6DxDw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "IhK/9RlcpeQAAnjw9Jupzg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.CalendarPage.html",
-          "hash": "8hFHNm4U466Q4S3utRz/hg=="
+          "hash": "tWUGk6R//jUBYfWN0lDz2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.DayPage.html",
-          "hash": "XAj+AQR51xjlmGmgvk9vMg=="
+          "hash": "h+8Z8nNBaAiOYcwWTR1Juw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.JSONmodels.JsonSheduleModel.Shedule.html",
-          "hash": "Ijl2AEk1jNKiJTF6GlbPjw=="
+          "hash": "yYzMPZInbssWWOP6mtIU/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +132,7 @@
           "hash": "V8bFWwxkzDwycHkd1XC3qQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.Task.html",
-          "hash": "8TwTi2AR0p5NCsPRoWF4Xg=="
+          "hash": "6SkHaX/Tz7tYmXqfJ/K7dw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarApp.WeatherPage.html",
-          "hash": "a5aTlO6TAS9hwmuct8e81Q=="
+          "hash": "iAs7LvfaEmzNhb1Epr/LFQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +168,7 @@
           "hash": "z9OMElZYGZOyt8kLrIWUHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Controllers.TasksController.html",
-          "hash": "glsU3lx8jaJTgGYcawu2Lg=="
+          "hash": "M8nu9W2MTSA1OCGbWt3i7g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Controllers.WeatherController.html",
-          "hash": "B5qKMLhCp0eIqRBHnZ1yGw=="
+          "hash": "hMPspUvewDBf4SY+bhCdlQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "vLWB0lj+66NWStyFL8p/AQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Database.CalendarContext.html",
-          "hash": "fBPYzVDyPFcUAVqWxu4CRA=="
+          "hash": "SRbklalOpwLqstegegzRmQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Database.Entities.Shedule.html",
-          "hash": "UGJX0EGBu1Eq8+H9NoosIg=="
+          "hash": "z/5pgfP55f4MInJZnACepw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Database.Entities.Task.html",
-          "hash": "b5zxdUigYhxnDXRHKDvpNg=="
+          "hash": "uuIz03FVghaBkZ0kxnV7LQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +252,7 @@
           "hash": "yz1va4SbnvfX0gffTBf30g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "yajYrIbMYq9MSO5ru+rEsw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.City.html",
-          "hash": "fFxTUBuZrK23Y8BjJP/HRQ=="
+          "hash": "M+bC90dnvk6QP2OCJJyvgA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Clouds.html",
-          "hash": "BejdsFadbT+D1cLJfiR7Cg=="
+          "hash": "RCoD7OezmVqBcSWMkcGO/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Coord.html",
-          "hash": "lIHhxq3/AM+PGsZarAa1aA=="
+          "hash": "KNrnp+jytvKv94/3/PY2Jg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Forecast.html",
-          "hash": "6GHzV2P1Sln9BMFNUfuvIQ=="
+          "hash": "B1ox0zGdd4MRnWuEeITlWA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.List.html",
-          "hash": "VdwgD9tat5+vCYBvEvcKpg=="
+          "hash": "mkiNfjun5wops95y2oA6KQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Main.html",
-          "hash": "MZnKTDVXPVxn2SxtcQlvHg=="
+          "hash": "7LwXXmfhvKJzGSXcT7Vhsw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Rain.html",
-          "hash": "dsO3cgB7g1TVbPGQbwp2Hg=="
+          "hash": "S1xbRasrzUCihN2UjDFNQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Shedule.html",
-          "hash": "E4JqhANqvsCTy7l+OYWIbw=="
+          "hash": "DjUDdOMdQ+Ro0pXDEF3HnQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.SingleCity.html",
-          "hash": "6VqFPx3YkLdUu1rq6ddVaA=="
+          "hash": "3x2UnAUGckzL8c9lBgvzDw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Sys.html",
-          "hash": "q4Eh8spTM+NPw3cCvty0Ag=="
+          "hash": "XaaUi2XPO6netkIbh1D+Rg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Task.html",
-          "hash": "r9jY1uUs5Wt8GtxDQb/sJA=="
+          "hash": "jq4zxAJJIYMDoW3yk/6I0w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Weather.html",
-          "hash": "2E20SNcr4WpopiyvNc2TKQ=="
+          "hash": "V5srBhVm6rdGiGSLVCAOUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Entities.Wind.html",
-          "hash": "lm1ezrMCvUUKpX9z3Z81/Q=="
+          "hash": "aG5YFKmPvoyBDGcx9awz2Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +432,7 @@
           "hash": "qlHTvGbI2+r7z05vJHKndQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Logic.DBEntity2EntityParser.html",
-          "hash": "NghWFfrJCB1c4M4fvx7DPg=="
+          "hash": "qZePeLXHQpev+l6IiTtDCw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Logic.Entity2DBEntityParser.html",
-          "hash": "SGfvASpwRkbCLHPN3wMauA=="
+          "hash": "t3iyUPBC2XvCs+pCtR4qKA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Logic.ListOfCitiesLoader.html",
-          "hash": "7o6HcJS+tU92w9Hwkf1xDQ=="
+          "hash": "sRcpoNJJTsyzY5qG5gCetQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Logic.WeatherParser.html",
-          "hash": "yIo99iSuL9YFGpLYOjWvkA=="
+          "hash": "VpiLBoNmL4R3/i5Cx/SzcA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -492,7 +492,7 @@
           "hash": "gRe4ZzW+9RMTP0Mk7Pr9ig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Program.html",
-          "hash": "lv2UHjRms2ZEKUcZLL0qIw=="
+          "hash": "LlXmYGRWZPOH0NGelPOM6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Startup.html",
-          "hash": "QCcpE/GmCSCL/17PkQpNmg=="
+          "hash": "A/sU2nnIU/Fa3+BF7K5+uQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Tests.DBEntity2EntityParserTest.html",
-          "hash": "lEFJHo+ixsLbIN/oDs+4xQ=="
+          "hash": "b8Pswzg+NT3vubUd39T8AQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/CalendarBack.Tests.Entity2DBEntityParserTest.html",
-          "hash": "JoVYaatKDsLE/7ogpiSohw=="
+          "hash": "D4GVV+dLol5QfveiPDyRxA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -552,7 +552,7 @@
           "hash": "jr6qyGj9SSv6nBrIFCnsqQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -564,7 +564,7 @@
           "hash": "2ntS4Fu7B6qtkJ7rcQ6FTA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -583,17 +583,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.51.0.0 to 2.52.0.0.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "DocfxVersionChanged"
       },
       "processors": {
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 47,
-          "skipped_file_count": 47
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

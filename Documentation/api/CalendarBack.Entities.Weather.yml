@@ -17,12 +17,8 @@ items:
   fullName: CalendarBack.Entities.Weather
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Weather
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 53
   assemblies:
   - CalendarBack
@@ -60,12 +56,8 @@ items:
   fullName: CalendarBack.Entities.Weather.id
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: id
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 58
   assemblies:
   - CalendarBack
@@ -97,12 +89,8 @@ items:
   fullName: CalendarBack.Entities.Weather.main
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: main
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 62
   assemblies:
   - CalendarBack
@@ -134,12 +122,8 @@ items:
   fullName: CalendarBack.Entities.Weather.description
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: description
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 66
   assemblies:
   - CalendarBack
@@ -171,12 +155,8 @@ items:
   fullName: CalendarBack.Entities.Weather.icon
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: icon
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 70
   assemblies:
   - CalendarBack

@@ -16,12 +16,8 @@ items:
   fullName: CalendarBack.Controllers.TasksController
   type: Class
   source:
-    remote:
-      path: CalendarBack/Controllers/TasksController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: TasksController
-    path: Controllers/TasksController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\TasksController.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -41,7 +37,6 @@ items:
       <ApiController>
 
       Public Class TasksController
-
           Inherits ControllerBase
   inheritance:
   - System.Object
@@ -248,12 +243,8 @@ items:
   fullName: CalendarBack.Controllers.TasksController.AddRecord(CalendarBack.Entities.Shedule, System.String)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/TasksController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: AddRecord
-    path: Controllers/TasksController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\TasksController.cs
     startLine: 25
   assemblies:
   - CalendarBack
@@ -301,12 +292,8 @@ items:
   fullName: CalendarBack.Controllers.TasksController.GetTasksForDay(System.String)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/TasksController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetTasksForDay
-    path: Controllers/TasksController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\TasksController.cs
     startLine: 53
   assemblies:
   - CalendarBack
@@ -352,12 +339,8 @@ items:
   fullName: CalendarBack.Controllers.TasksController.GetDaysWithTasks()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/TasksController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetDaysWithTasks
-    path: Controllers/TasksController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\TasksController.cs
     startLine: 87
   assemblies:
   - CalendarBack

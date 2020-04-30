@@ -20,12 +20,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController
   type: Class
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: WeatherController
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -45,7 +41,6 @@ items:
       <ApiController>
 
       Public Class WeatherController
-
           Inherits ControllerBase
   inheritance:
   - System.Object
@@ -252,12 +247,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.GetWeatherByDefaultLocation()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetWeatherByDefaultLocation
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 35
   assemblies:
   - CalendarBack
@@ -299,12 +290,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.GetWeatherByPostCode(System.String, System.String)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetWeatherByPostCode
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 46
   assemblies:
   - CalendarBack
@@ -353,12 +340,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityName(System.String)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetForecastByCityName
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 56
   assemblies:
   - CalendarBack
@@ -408,12 +391,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.GetForecastByCityId(System.Int32)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetForecastByCityId
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 68
   assemblies:
   - CalendarBack
@@ -459,12 +438,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.GetReload()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetReload
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 79
   assemblies:
   - CalendarBack
@@ -506,12 +481,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.GetCities()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: GetCities
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 90
   assemblies:
   - CalendarBack
@@ -553,12 +524,8 @@ items:
   fullName: CalendarBack.Controllers.WeatherController.test()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Controllers/WeatherController.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: test
-    path: Controllers/WeatherController.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Controllers\WeatherController.cs
     startLine: 98
   assemblies:
   - CalendarBack

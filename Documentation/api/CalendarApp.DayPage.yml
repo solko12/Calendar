@@ -17,12 +17,8 @@ items:
   fullName: CalendarApp.DayPage
   type: Class
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: DayPage
-    path: ../Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
@@ -661,12 +657,8 @@ items:
   fullName: CalendarApp.DayPage.list
   type: Property
   source:
-    remote:
-      path: Calendar/DayPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: list
-    path: ../Calendar/DayPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
     startLine: 28
   assemblies:
   - CalendarApp
@@ -698,12 +690,8 @@ items:
   fullName: CalendarApp.DayPage.selectedTask
   type: Property
   source:
-    remote:
-      path: Calendar/DayPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: selectedTask
-    path: ../Calendar/DayPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
     startLine: 32
   assemblies:
   - CalendarApp
@@ -735,12 +723,8 @@ items:
   fullName: CalendarApp.DayPage.DayPage(System.DateTime)
   type: Constructor
   source:
-    remote:
-      path: Calendar/DayPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: .ctor
-    path: ../Calendar/DayPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\DayPage.xaml.cs
     startLine: 46
   assemblies:
   - CalendarApp
@@ -771,12 +755,8 @@ items:
   fullName: CalendarApp.DayPage.InitializeComponent()
   type: Method
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: InitializeComponent
-    path: ../Calendar/obj/Release/netcoreapp3.1/DayPage.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\DayPage.g.cs
     startLine: 144
   assemblies:
   - CalendarApp

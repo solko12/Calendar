@@ -14,12 +14,8 @@ items:
   fullName: CalendarBack.Entities.Sys
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Sys
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 99
   assemblies:
   - CalendarBack
@@ -57,12 +53,8 @@ items:
   fullName: CalendarBack.Entities.Sys.pod
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/Forecast.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: pod
-    path: Entities/Forecast.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\Forecast.cs
     startLine: 104
   assemblies:
   - CalendarBack

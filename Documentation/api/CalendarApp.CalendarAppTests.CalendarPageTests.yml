@@ -15,12 +15,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests
   type: Class
   source:
-    remote:
-      path: Calendar/CalendarAppTests/CalendarPageTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: CalendarPageTests
-    path: ../Calendar/CalendarAppTests/CalendarPageTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\CalendarPageTests.cs
     startLine: 9
   assemblies:
   - CalendarApp
@@ -58,12 +54,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests.DoesItReturnsOneSevenNumerationDayOfTheWeek(System.Int32, System.Int32, System.Int32, System.Int32)
   type: Method
   source:
-    remote:
-      path: Calendar/CalendarAppTests/CalendarPageTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: DoesItReturnsOneSevenNumerationDayOfTheWeek
-    path: ../Calendar/CalendarAppTests/CalendarPageTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\CalendarPageTests.cs
     startLine: 18
   assemblies:
   - CalendarApp
@@ -121,12 +113,8 @@ items:
   fullName: CalendarApp.CalendarAppTests.CalendarPageTests.TestingSetDayToBeginOfTheMonth(System.Int32, System.Int32, System.Int32)
   type: Method
   source:
-    remote:
-      path: Calendar/CalendarAppTests/CalendarPageTests.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: TestingSetDayToBeginOfTheMonth
-    path: ../Calendar/CalendarAppTests/CalendarPageTests.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarAppTests\CalendarPageTests.cs
     startLine: 33
   assemblies:
   - CalendarApp

@@ -18,12 +18,8 @@ items:
   fullName: CalendarBack.Entities.SingleCity
   type: Class
   source:
-    remote:
-      path: CalendarBack/Entities/SingleCity.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: SingleCity
-    path: Entities/SingleCity.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\SingleCity.cs
     startLine: 10
   assemblies:
   - CalendarBack
@@ -61,12 +57,8 @@ items:
   fullName: CalendarBack.Entities.SingleCity.id
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/SingleCity.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: id
-    path: Entities/SingleCity.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\SingleCity.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -98,12 +90,8 @@ items:
   fullName: CalendarBack.Entities.SingleCity.name
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/SingleCity.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: name
-    path: Entities/SingleCity.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\SingleCity.cs
     startLine: 19
   assemblies:
   - CalendarBack
@@ -135,12 +123,8 @@ items:
   fullName: CalendarBack.Entities.SingleCity.state
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/SingleCity.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: state
-    path: Entities/SingleCity.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\SingleCity.cs
     startLine: 23
   assemblies:
   - CalendarBack
@@ -172,12 +156,8 @@ items:
   fullName: CalendarBack.Entities.SingleCity.country
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/SingleCity.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: country
-    path: Entities/SingleCity.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\SingleCity.cs
     startLine: 27
   assemblies:
   - CalendarBack
@@ -209,12 +189,8 @@ items:
   fullName: CalendarBack.Entities.SingleCity.coord
   type: Property
   source:
-    remote:
-      path: CalendarBack/Entities/SingleCity.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: coord
-    path: Entities/SingleCity.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Entities\SingleCity.cs
     startLine: 31
   assemblies:
   - CalendarBack

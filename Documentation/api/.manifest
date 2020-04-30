@@ -34,7 +34,6 @@
   "CalendarApp.WeatherPage": "CalendarApp.WeatherPage.yml",
   "CalendarApp.WeatherPage.#ctor": "CalendarApp.WeatherPage.yml",
   "CalendarApp.WeatherPage.date": "CalendarApp.WeatherPage.yml",
-  "CalendarApp.WeatherPage.InitializeComponent": "CalendarApp.WeatherPage.yml",
   "CalendarApp.WeatherPage.listOfCities": "CalendarApp.WeatherPage.yml",
   "CalendarApp.WeatherPage.selectedCity": "CalendarApp.WeatherPage.yml",
   "CalendarBack": "CalendarBack.yml",

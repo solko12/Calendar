@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Program
   type: Class
   source:
-    remote:
-      path: CalendarBack/Program.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Program
-    path: Program.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Program.cs
     startLine: 14
   assemblies:
   - CalendarBack
@@ -58,12 +54,8 @@ items:
   fullName: CalendarBack.Program.Main(System.String[])
   type: Method
   source:
-    remote:
-      path: CalendarBack/Program.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Main
-    path: Program.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Program.cs
     startLine: 20
   assemblies:
   - CalendarBack
@@ -99,12 +91,8 @@ items:
   fullName: CalendarBack.Program.CreateHostBuilder(System.String[])
   type: Method
   source:
-    remote:
-      path: CalendarBack/Program.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: CreateHostBuilder
-    path: Program.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Program.cs
     startLine: 30
   assemblies:
   - CalendarBack

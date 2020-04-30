@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Logic.DBEntity2EntityParser
   type: Class
   source:
-    remote:
-      path: CalendarBack/Logic/DBEntity2EntityParser.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: DBEntity2EntityParser
-    path: Logic/DBEntity2EntityParser.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\DBEntity2EntityParser.cs
     startLine: 10
   assemblies:
   - CalendarBack
@@ -58,12 +54,8 @@ items:
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseShedule(CalendarBack.Database.Entities.Shedule)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Logic/DBEntity2EntityParser.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: parseShedule
-    path: Logic/DBEntity2EntityParser.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\DBEntity2EntityParser.cs
     startLine: 17
   assemblies:
   - CalendarBack
@@ -99,12 +91,8 @@ items:
   fullName: CalendarBack.Logic.DBEntity2EntityParser.parseTask(CalendarBack.Database.Entities.Task)
   type: Method
   source:
-    remote:
-      path: CalendarBack/Logic/DBEntity2EntityParser.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: parseTask
-    path: Logic/DBEntity2EntityParser.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\DBEntity2EntityParser.cs
     startLine: 33
   assemblies:
   - CalendarBack

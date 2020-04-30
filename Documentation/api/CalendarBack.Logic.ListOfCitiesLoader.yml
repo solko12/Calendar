@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Logic.ListOfCitiesLoader
   type: Class
   source:
-    remote:
-      path: CalendarBack/Logic/ListOfCitiesLoader.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: ListOfCitiesLoader
-    path: Logic/ListOfCitiesLoader.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\ListOfCitiesLoader.cs
     startLine: 12
   assemblies:
   - CalendarBack
@@ -59,12 +55,8 @@ items:
   fullName: CalendarBack.Logic.ListOfCitiesLoader.dataLocation
   type: Property
   source:
-    remote:
-      path: CalendarBack/Logic/ListOfCitiesLoader.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: dataLocation
-    path: Logic/ListOfCitiesLoader.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\ListOfCitiesLoader.cs
     startLine: 17
   assemblies:
   - CalendarBack
@@ -98,12 +90,8 @@ items:
   fullName: CalendarBack.Logic.ListOfCitiesLoader.getCities()
   type: Method
   source:
-    remote:
-      path: CalendarBack/Logic/ListOfCitiesLoader.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: getCities
-    path: Logic/ListOfCitiesLoader.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Logic\ListOfCitiesLoader.cs
     startLine: 22
   assemblies:
   - CalendarBack

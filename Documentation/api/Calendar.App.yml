@@ -15,12 +15,8 @@ items:
   fullName: Calendar.App
   type: Class
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/App.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: App
-    path: ../Calendar/obj/Release/netcoreapp3.1/App.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\App.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
@@ -113,12 +109,8 @@ items:
   fullName: Calendar.App.InitializeComponent()
   type: Method
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/App.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: InitializeComponent
-    path: ../Calendar/obj/Release/netcoreapp3.1/App.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\App.g.cs
     startLine: 48
   assemblies:
   - CalendarApp
@@ -145,12 +137,8 @@ items:
   fullName: Calendar.App.Main()
   type: Method
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/App.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Main
-    path: ../Calendar/obj/Release/netcoreapp3.1/App.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\App.g.cs
     startLine: 73
   assemblies:
   - CalendarApp

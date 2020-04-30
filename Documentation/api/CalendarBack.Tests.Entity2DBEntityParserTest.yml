@@ -15,12 +15,8 @@ items:
   fullName: CalendarBack.Tests.Entity2DBEntityParserTest
   type: Class
   source:
-    remote:
-      path: CalendarBack/Tests/Entity2DBEntityParserTest.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Entity2DBEntityParserTest
-    path: Tests/Entity2DBEntityParserTest.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Tests\Entity2DBEntityParserTest.cs
     startLine: 11
   assemblies:
   - CalendarBack
@@ -58,12 +54,8 @@ items:
   fullName: CalendarBack.Tests.Entity2DBEntityParserTest.TaskData
   type: Property
   source:
-    remote:
-      path: CalendarBack/Tests/Entity2DBEntityParserTest.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: TaskData
-    path: Tests/Entity2DBEntityParserTest.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Tests\Entity2DBEntityParserTest.cs
     startLine: 34
   assemblies:
   - CalendarBack
@@ -97,12 +89,8 @@ items:
   fullName: CalendarBack.Tests.Entity2DBEntityParserTest.SheduleData
   type: Property
   source:
-    remote:
-      path: CalendarBack/Tests/Entity2DBEntityParserTest.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: SheduleData
-    path: Tests/Entity2DBEntityParserTest.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Tests\Entity2DBEntityParserTest.cs
     startLine: 44
   assemblies:
   - CalendarBack

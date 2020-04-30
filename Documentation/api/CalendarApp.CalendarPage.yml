@@ -17,12 +17,8 @@ items:
   fullName: CalendarApp.CalendarPage
   type: Class
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: CalendarPage
-    path: ../Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\CalendarPage.g.cs
     startLine: 41
   assemblies:
   - CalendarApp
@@ -661,12 +657,8 @@ items:
   fullName: CalendarApp.CalendarPage.selectedDate
   type: Field
   source:
-    remote:
-      path: Calendar/CalendarPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: selectedDate
-    path: ../Calendar/CalendarPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
     startLine: 21
   assemblies:
   - CalendarApp
@@ -694,12 +686,8 @@ items:
   fullName: CalendarApp.CalendarPage.daysWithTasks
   type: Property
   source:
-    remote:
-      path: Calendar/CalendarPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: daysWithTasks
-    path: ../Calendar/CalendarPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
     startLine: 25
   assemblies:
   - CalendarApp
@@ -731,12 +719,8 @@ items:
   fullName: CalendarApp.CalendarPage.CalendarPage()
   type: Constructor
   source:
-    remote:
-      path: Calendar/CalendarPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: .ctor
-    path: ../Calendar/CalendarPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\CalendarPage.xaml.cs
     startLine: 34
   assemblies:
   - CalendarApp
@@ -763,12 +747,8 @@ items:
   fullName: CalendarApp.CalendarPage.InitializeComponent()
   type: Method
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: InitializeComponent
-    path: ../Calendar/obj/Release/netcoreapp3.1/CalendarPage.g.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\obj\Release\netcoreapp3.1\CalendarPage.g.cs
     startLine: 104
   assemblies:
   - CalendarApp

@@ -17,12 +17,8 @@ items:
   fullName: CalendarBack.Database.Entities.Task
   type: Class
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Task
-    path: Database/Entities/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Task.cs
     startLine: 10
   assemblies:
   - CalendarBack
@@ -60,12 +56,8 @@ items:
   fullName: CalendarBack.Database.Entities.Task.Id
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Id
-    path: Database/Entities/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Task.cs
     startLine: 15
   assemblies:
   - CalendarBack
@@ -97,12 +89,8 @@ items:
   fullName: CalendarBack.Database.Entities.Task.Content
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Content
-    path: Database/Entities/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Task.cs
     startLine: 19
   assemblies:
   - CalendarBack
@@ -134,12 +122,8 @@ items:
   fullName: CalendarBack.Database.Entities.Task.Time
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Time
-    path: Database/Entities/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Task.cs
     startLine: 23
   assemblies:
   - CalendarBack
@@ -171,12 +155,8 @@ items:
   fullName: CalendarBack.Database.Entities.Task.SheduleId
   type: Property
   source:
-    remote:
-      path: CalendarBack/Database/Entities/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: SheduleId
-    path: Database/Entities/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\CalendarBack\Database\Entities\Task.cs
     startLine: 27
   assemblies:
   - CalendarBack

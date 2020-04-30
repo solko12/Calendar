@@ -15,12 +15,8 @@ items:
   fullName: CalendarApp.Task
   type: Class
   source:
-    remote:
-      path: Calendar/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: Task
-    path: ../Calendar/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\Task.cs
     startLine: 6
   assemblies:
   - CalendarApp
@@ -56,12 +52,8 @@ items:
   fullName: CalendarApp.Task.content
   type: Property
   source:
-    remote:
-      path: Calendar/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: content
-    path: ../Calendar/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\Task.cs
     startLine: 8
   assemblies:
   - CalendarApp
@@ -91,12 +83,8 @@ items:
   fullName: CalendarApp.Task.time
   type: Property
   source:
-    remote:
-      path: Calendar/Task.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: time
-    path: ../Calendar/Task.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\Task.cs
     startLine: 9
   assemblies:
   - CalendarApp

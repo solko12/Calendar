@@ -7,7 +7,6 @@ items:
   children:
   - CalendarApp.WeatherPage.#ctor
   - CalendarApp.WeatherPage.date
-  - CalendarApp.WeatherPage.InitializeComponent
   - CalendarApp.WeatherPage.listOfCities
   - CalendarApp.WeatherPage.selectedCity
   langs:
@@ -18,24 +17,20 @@ items:
   fullName: CalendarApp.WeatherPage
   type: Class
   source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: WeatherPage
-    path: ../Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
-    startLine: 41
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
+    startLine: 24
   assemblies:
   - CalendarApp
   namespace: CalendarApp
   summary: "\nThis is a weather page class that enables program to show 5 days weather forecast\n"
   example: []
   syntax:
-    content: 'public class WeatherPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector'
+    content: 'public class WeatherPage : Page, IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild'
     content.vb: >-
       Public Class WeatherPage
           Inherits Page
-          Implements IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild, IComponentConnector
+          Implements IAnimatable, ISupportInitialize, IFrameworkInputElement, IInputElement, IQueryAmbient, IAddChild
   inheritance:
   - System.Object
   - System.Windows.Threading.DispatcherObject
@@ -51,7 +46,6 @@ items:
   - System.Windows.IInputElement
   - System.Windows.Markup.IQueryAmbient
   - System.Windows.Markup.IAddChild
-  - System.Windows.Markup.IComponentConnector
   inheritedMembers:
   - System.Windows.Controls.Page.BackgroundProperty
   - System.Windows.Controls.Page.ContentProperty
@@ -662,12 +656,8 @@ items:
   fullName: CalendarApp.WeatherPage.date
   type: Field
   source:
-    remote:
-      path: Calendar/WeatherPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: date
-    path: ../Calendar/WeatherPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
     startLine: 29
   assemblies:
   - CalendarApp
@@ -695,12 +685,8 @@ items:
   fullName: CalendarApp.WeatherPage.listOfCities
   type: Property
   source:
-    remote:
-      path: Calendar/WeatherPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: listOfCities
-    path: ../Calendar/WeatherPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
     startLine: 33
   assemblies:
   - CalendarApp
@@ -732,12 +718,8 @@ items:
   fullName: CalendarApp.WeatherPage.selectedCity
   type: Property
   source:
-    remote:
-      path: Calendar/WeatherPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: selectedCity
-    path: ../Calendar/WeatherPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
     startLine: 37
   assemblies:
   - CalendarApp
@@ -769,12 +751,8 @@ items:
   fullName: CalendarApp.WeatherPage.WeatherPage()
   type: Constructor
   source:
-    remote:
-      path: Calendar/WeatherPage.xaml.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
     id: .ctor
-    path: ../Calendar/WeatherPage.xaml.cs
+    path: C:\Users\Oskar\source\repos\Calendar\Calendar\WeatherPage.xaml.cs
     startLine: 50
   assemblies:
   - CalendarApp
@@ -785,40 +763,6 @@ items:
     content: public WeatherPage()
     content.vb: Public Sub New
   overload: CalendarApp.WeatherPage.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: CalendarApp.WeatherPage.InitializeComponent
-  commentId: M:CalendarApp.WeatherPage.InitializeComponent
-  id: InitializeComponent
-  parent: CalendarApp.WeatherPage
-  langs:
-  - csharp
-  - vb
-  name: InitializeComponent()
-  nameWithType: WeatherPage.InitializeComponent()
-  fullName: CalendarApp.WeatherPage.InitializeComponent()
-  type: Method
-  source:
-    remote:
-      path: Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
-      branch: master
-      repo: https://github.com/solko12/Calendar.git
-    id: InitializeComponent
-    path: ../Calendar/obj/Release/netcoreapp3.1/WeatherPage.g.cs
-    startLine: 80
-  assemblies:
-  - CalendarApp
-  namespace: CalendarApp
-  summary: "\nInitializeComponent\n"
-  example: []
-  syntax:
-    content: public void InitializeComponent()
-    content.vb: Public Sub InitializeComponent
-  overload: CalendarApp.WeatherPage.InitializeComponent*
-  implements:
-  - System.Windows.Markup.IComponentConnector.InitializeComponent
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -920,13 +864,6 @@ references:
   name: IAddChild
   nameWithType: IAddChild
   fullName: System.Windows.Markup.IAddChild
-- uid: System.Windows.Markup.IComponentConnector
-  commentId: T:System.Windows.Markup.IComponentConnector
-  parent: System.Windows.Markup
-  isExternal: true
-  name: IComponentConnector
-  nameWithType: IComponentConnector
-  fullName: System.Windows.Markup.IComponentConnector
 - uid: System.Windows.Controls.Page.BackgroundProperty
   commentId: F:System.Windows.Controls.Page.BackgroundProperty
   parent: System.Windows.Controls.Page
@@ -12306,39 +12243,3 @@ references:
   name: WeatherPage
   nameWithType: WeatherPage.WeatherPage
   fullName: CalendarApp.WeatherPage.WeatherPage
-- uid: CalendarApp.WeatherPage.InitializeComponent*
-  commentId: Overload:CalendarApp.WeatherPage.InitializeComponent
-  name: InitializeComponent
-  nameWithType: WeatherPage.InitializeComponent
-  fullName: CalendarApp.WeatherPage.InitializeComponent
-- uid: System.Windows.Markup.IComponentConnector.InitializeComponent
-  commentId: M:System.Windows.Markup.IComponentConnector.InitializeComponent
-  parent: System.Windows.Markup.IComponentConnector
-  isExternal: true
-  name: InitializeComponent()
-  nameWithType: IComponentConnector.InitializeComponent()
-  fullName: System.Windows.Markup.IComponentConnector.InitializeComponent()
-  spec.csharp:
-  - uid: System.Windows.Markup.IComponentConnector.InitializeComponent
-    name: InitializeComponent
-    nameWithType: IComponentConnector.InitializeComponent
-    fullName: System.Windows.Markup.IComponentConnector.InitializeComponent
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Windows.Markup.IComponentConnector.InitializeComponent
-    name: InitializeComponent
-    nameWithType: IComponentConnector.InitializeComponent
-    fullName: System.Windows.Markup.IComponentConnector.InitializeComponent
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )

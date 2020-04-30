@@ -344,19 +344,6 @@ references:
   commentId: F:CalendarApp.WeatherPage.date
   fullName: CalendarApp.WeatherPage.date
   nameWithType: WeatherPage.date
-- uid: CalendarApp.WeatherPage.InitializeComponent
-  name: InitializeComponent()
-  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent
-  commentId: M:CalendarApp.WeatherPage.InitializeComponent
-  fullName: CalendarApp.WeatherPage.InitializeComponent()
-  nameWithType: WeatherPage.InitializeComponent()
-- uid: CalendarApp.WeatherPage.InitializeComponent*
-  name: InitializeComponent
-  href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_InitializeComponent_
-  commentId: Overload:CalendarApp.WeatherPage.InitializeComponent
-  isSpec: "True"
-  fullName: CalendarApp.WeatherPage.InitializeComponent
-  nameWithType: WeatherPage.InitializeComponent
 - uid: CalendarApp.WeatherPage.listOfCities
   name: listOfCities
   href: api/CalendarApp.WeatherPage.html#CalendarApp_WeatherPage_listOfCities
