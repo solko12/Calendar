@@ -65,6 +65,13 @@
             <param name="city">Specified name of city</param>
             <returns>Forecast String in json format</returns>
         </member>
+        <member name="M:CalendarBack.Controllers.WeatherController.GetForecastByCityId(System.Int32)">
+            <summary>
+            Endpoint for forecast in specified city by id
+            </summary>
+            <param name="id">Id of the city</param>
+            <returns>Forecast String in json format</returns>
+        </member>
         <member name="M:CalendarBack.Controllers.WeatherController.GetReload">
             <summary>
             Endpoint for reloading forecast to actual location. Actual location means specified forecast for specified region when endpoint for forecast from specified vity was used
@@ -425,6 +432,36 @@
             List of tasks objects
             </summary>
         </member>
+        <member name="T:CalendarBack.Entities.SingleCity">
+            <summary>
+            Single City Entity
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.SingleCity.id">
+            <summary>
+            City id
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.SingleCity.name">
+            <summary>
+            City name
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.SingleCity.state">
+            <summary>
+            City state
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.SingleCity.country">
+            <summary>
+            Country of City
+            </summary>
+        </member>
+        <member name="P:CalendarBack.Entities.SingleCity.coord">
+            <summary>
+            City coordinates
+            </summary>
+        </member>
         <member name="T:CalendarBack.Entities.Task">
             <summary>
             Describes task json object
@@ -580,6 +617,11 @@
         <member name="P:CalendarBack.Tests.DBEntity2EntityParserTest.SheduleData">
             <summary>
             Test data for Shedule
+            </summary>
+        </member>
+        <member name="T:CalendarBack.Tests.Entity2DBEntityParserTest">
+            <summary>
+            Test class for Entity to database entity parser
             </summary>
         </member>
         <member name="P:CalendarBack.Tests.Entity2DBEntityParserTest.TaskData">

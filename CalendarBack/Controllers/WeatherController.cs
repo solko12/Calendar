@@ -17,16 +17,17 @@ namespace CalendarBack.Controllers
     [ApiController]
     public class WeatherController : ControllerBase
     {
-        
+
         /// <summary>
         /// List of avaliable cities starts there because of server flexibility at endpoint request
         /// </summary>
         private static List<Entities.SingleCity> cities = Logic.ListOfCitiesLoader.getCities();
+        private static String ApiKey = "2a0aa79c92d95fff84d4a19951ba6eaf";
         /// <summary>
         /// Variable weather store data about current weather
         /// </summary>
         private static string location = "Zwoleń";
-        private static Forecast forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
+        private static Forecast forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=" + ApiKey + "&units=metric&lang=pl").asJson<string>().Body.ToString());
 
         /// <summary>
         /// Endpoint for forecast in default location
@@ -44,8 +45,8 @@ namespace CalendarBack.Controllers
         /// <param name="countryCode">Country code from zipCode where it comes from</param>
         /// <returns>Forecast String in json format</returns>
         [HttpGet("{zipCode}/{countryCode}")]
-        public String GetWeatherByPostCode (string zipCode, string countryCode){
-            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?zip=" + zipCode + "," + countryCode + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
+        public String GetWeatherByPostCode(string zipCode, string countryCode) {
+            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?zip=" + zipCode + "," + countryCode + "&APPID="+ApiKey+"&units=metric&lang=pl").asJson<string>().Body.ToString());
             return WeatherParser.parseWeather(forecast);
         }
         /// <summary>
@@ -57,7 +58,17 @@ namespace CalendarBack.Controllers
         public string GetForecastByCityName(string city)
         {
             location = city;
-            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
+            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID="+ApiKey+"&units=metric&lang=pl").asJson<string>().Body.ToString());
+            return WeatherParser.parseWeather(forecast);
+        }
+        /// <summary>
+        /// Endpoint for forecast in specified city by id
+        /// </summary>
+        /// <param name="id">Id of the city</param>
+        /// <returns>Forecast String in json format</returns>
+        [HttpGet("byId/{id}")]
+        public String GetForecastByCityId(int id) {
+            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?id=" + id + "&APPID="+ApiKey+"&units=metric&lang=pl").asJson<string>().Body.ToString());
             return WeatherParser.parseWeather(forecast);
         }
         /// <summary>
@@ -70,7 +81,7 @@ namespace CalendarBack.Controllers
         public string GetReload()
         {
 
-            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID=2a0aa79c92d95fff84d4a19951ba6eaf&units=metric&lang=pl").asJson<string>().Body.ToString());
+            forecast = JsonConvert.DeserializeObject<Forecast>(Unirest.get("http://api.openweathermap.org/data/2.5/forecast?q=" + location + "&APPID="+ApiKey+"&units=metric&lang=pl").asJson<string>().Body.ToString());
             return "DONE";
         }
         /// <summary>

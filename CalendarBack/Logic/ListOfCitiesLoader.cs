@@ -30,7 +30,6 @@ namespace CalendarBack.Logic
             {
                 Console.WriteLine(e.Message);
             }
-            Console.WriteLine("XD");
             return JsonConvert.DeserializeObject<List<Entities.SingleCity>>(jsonStrList);
         }  
     }
