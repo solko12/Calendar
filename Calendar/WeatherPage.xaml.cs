@@ -40,6 +40,7 @@ namespace CalendarApp
         /// 
         /// </summary>
         string cityName = "Kielce";
+        int cityID = 769250;
         /// <summary>
         /// API that enables communication with server
         /// </summary>
@@ -186,13 +187,14 @@ namespace CalendarApp
         /// </summary>
         private void Refresh()
         {
+            string strID = cityID.ToString();
             DaysGrid.Children.Clear();
             PrintDays();
-            PrintTemp(api.GetWeather(cityName));
-            PrintPressure(api.GetWeather(cityName));
-            PrintWind(api.GetWeather(cityName));
-            PrintIcon(api.GetWeather(cityName));
-            PrintDescription(api.GetWeather(cityName));
+            PrintTemp(api.GetWeather(strID));
+            PrintPressure(api.GetWeather(strID));
+            PrintWind(api.GetWeather(strID));
+            PrintIcon(api.GetWeather(strID));
+            PrintDescription(api.GetWeather(strID));
             
         }
         /// <summary>
@@ -203,7 +205,8 @@ namespace CalendarApp
         private void CityBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (selectedCity == null) return;
-            cityName = selectedCity.name;
+            cityID = selectedCity.id;
+            //cityName = selectedCity.name;
             Refresh();
         }
     }
